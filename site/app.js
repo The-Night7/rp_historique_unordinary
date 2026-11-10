@@ -358,15 +358,17 @@ function bdCard(nd, idx) {
 }
 function bdHTML(id, B) {
   BDS[id] = { B, sel: B.nodes.find(n => n.focus && !B.free) ? B.nodes.find(n => n.focus).id : null };
-  return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px${B.w ? `;width:${B.w}px` : ""}">${B.deco || ""}${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg></div></div>
+  return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px${B.w ? `;width:${B.w}px` : ""}">${B.deco || ""}${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg><svg class="bd-svg bd-top" aria-hidden="true"></svg></div></div>
   <div class="card bd-info" id="${id}-info"></div>
   <div class="legend"><span><i style="background:var(--string)"></i>fil établi</span><span><i style="background:transparent;border:1.5px dashed #c8281e"></i>hypothèse / inconnu</span><span><i style="background:${BSTAT.perdue}"></i>capacité perdue</span><span><i style="background:${BSTAT.partielle}"></i>partielle</span><span><i style="background:${BSTAT.complète}"></i>retrouvée</span></div>`;
 }
 function bdDraw(id) {
   const S = BDS[id], bd = $("#" + id); if (!S || !bd || !bd.clientWidth) return;
-  const svg = bd.querySelector("svg"), B = S.B, W = bd.clientWidth, H = bd.clientHeight, sel = S.sel;
-  const pt = {};
-  bd.querySelectorAll(".bd-card").forEach(c => { const n = B.nodes.find(x => x.id === c.dataset.id); if (n) pt[n.id] = [n.x * W / 100, n.y * H / 100 - c.offsetHeight / 2 + 7]; });
+  const svg = bd.querySelector("svg"), svgTop = bd.querySelector(".bd-top"), B = S.B, W = bd.clientWidth, H = bd.clientHeight, sel = S.sel;
+  const pt = {}, boxes = [];
+  bd.querySelectorAll(".bd-card").forEach(c => { const n = B.nodes.find(x => x.id === c.dataset.id); if (n) { pt[n.id] = [n.x * W / 100, n.y * H / 100 - c.offsetHeight / 2 + 7]; boxes.push([n.x * W / 100 - c.offsetWidth / 2, n.y * H / 100 - c.offsetHeight / 2, n.x * W / 100 + c.offsetWidth / 2, n.y * H / 100 + c.offsetHeight / 2]); } });
+  const placed = [];
+  const hit = (r, list, m) => list.some(b => r[0] < b[2] + m && r[2] > b[0] - m && r[1] < b[3] + m && r[3] > b[1] - m);
   let paths = "", labels = "", pins = "";
   B.edges.forEach(([a, b, lab, hyp]) => {
     const p = pt[a], q = pt[b]; if (!p || !q) return;
@@ -377,12 +379,21 @@ function bdDraw(id) {
     const dash = hyp ? ' stroke-dasharray="8 6"' : "";
     paths += `<g class="bd-th${dim ? " dim" : ""}${on ? " on" : ""}"><path d="${d}" class="bd-sh" transform="translate(2,4)"${dash}/><path d="${d}" class="bd-str"${dash}/><path d="${d}" class="bd-hl"${dash}/></g>`;
     if (lab && on) {
-      const lx = 0.25 * p[0] + 0.5 * mx + 0.25 * q[0], ly = 0.25 * p[1] + 0.5 * cy + 0.25 * q[1], w = lab.length * 6 + 14;
-      labels += `<g class="bd-lab"><rect x="${(lx - w / 2).toFixed(1)}" y="${(ly - 9).toFixed(1)}" width="${w.toFixed(1)}" height="18" rx="3"/><text x="${lx.toFixed(1)}" y="${(ly + 4).toFixed(1)}" text-anchor="middle">${esc(lab)}</text></g>`;
+      const w = lab.length * 6 + 14, h = 18; let best = null;
+      for (const t of [.5, .42, .58, .34, .66, .26, .74, .18, .82, .12, .88]) {
+        const u = 1 - t, lx = u * u * p[0] + 2 * u * t * mx + t * t * q[0], ly = u * u * p[1] + 2 * u * t * cy + t * t * q[1];
+        const r = [lx - w / 2, ly - h / 2, lx + w / 2, ly + h / 2];
+        const bad = (hit(r, boxes, 2) ? 2 : 0) + (hit(r, placed, 3) ? 1 : 0) + (r[0] < 0 || r[2] > W || r[1] < 0 || r[3] > H ? 3 : 0);
+        if (!best || bad < best.bad) best = { bad, lx, ly, r };
+        if (!bad) break;
+      }
+      placed.push(best.r);
+      labels += `<g class="bd-lab"><rect x="${best.r[0].toFixed(1)}" y="${best.r[1].toFixed(1)}" width="${w}" height="${h}" rx="3"/><text x="${best.lx.toFixed(1)}" y="${(best.ly + 4).toFixed(1)}" text-anchor="middle">${esc(lab)}</text></g>`;
     }
   });
   svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
-  svg.innerHTML = paths + labels;
+  svg.innerHTML = paths;
+  svgTop.setAttribute("width", W); svgTop.setAttribute("height", H); svgTop.setAttribute("viewBox", `0 0 ${W} ${H}`); svgTop.innerHTML = labels;
   const conn = new Set(sel ? [sel] : []);
   if (sel) B.edges.forEach(([a, b]) => { if (a === sel) conn.add(b); if (b === sel) conn.add(a); });
   bd.querySelectorAll(".bd-card").forEach(c => { c.classList.toggle("sel", c.dataset.id === sel); c.classList.toggle("dim", S.hl ? !S.hl.has(c.dataset.id) : !!sel && !conn.has(c.dataset.id)); });

@@ -175,3 +175,4 @@ a.bd-open{background:#fff2c9;color:#8a2a22}
 .bd-photo.has{height:96px}
 .bd-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
 .bd-photo.has .bd-st{z-index:2}
+.bd-svg.bd-top{z-index:5}
