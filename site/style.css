@@ -161,3 +161,17 @@ a.bd-open{background:#fff2c9;color:#8a2a22}
 .bd-card.focus b,.bd-card.focus small{-webkit-line-clamp:unset;display:block;overflow:visible}
 .bd-stamp{right:2px;bottom:-7px;font-size:8px}
 .bd-card.k-inconnu b{font-size:12px}
+
+.bd-lane{position:absolute;left:0;right:0;background:color-mix(in srgb,var(--kc) 13%,transparent);border-top:1px dashed color-mix(in srgb,var(--kc) 45%,transparent);border-bottom:1px dashed color-mix(in srgb,var(--kc) 45%,transparent);pointer-events:none}
+.bd-lanelab{position:absolute;font:800 13px/1 ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;padding:3px 7px;background:rgba(255,246,220,.85);border-radius:3px;pointer-events:none;transform:translateY(-2px)}
+.bd-month{position:absolute;top:0;bottom:0;border-left:2px dashed rgba(70,40,10,.4);pointer-events:none}
+.bd-month span{position:absolute;top:34px;left:6px;font:800 15px/1 ui-monospace,monospace;color:#5a3b22;background:rgba(255,246,220,.85);padding:3px 8px;border-radius:3px}
+.bd-actlab{position:absolute;top:6px;height:22px;border-bottom:3px solid;pointer-events:none;padding-left:6px;overflow:hidden;white-space:nowrap}
+.bd-actlab b{font:800 12px/1.6 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,246,220,.85);padding:1px 6px;border-radius:3px}
+.bd-scroll:has(#bd-tout){max-height:84vh;overflow:auto}
+
+.av{position:relative;overflow:hidden}
+.av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;border-radius:inherit}
+.bd-photo.has{height:96px}
+.bd-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.bd-photo.has .bd-st{z-index:2}

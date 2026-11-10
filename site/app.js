@@ -22,7 +22,9 @@ const hue = n => { let h = 0; for (const c of n) h = (h * 31 + c.charCodeAt(0)) 
 const ccol = n => `hsl(${hue(n)} 52% 46%)`;
 const initial = n => n.trim()[0].toUpperCase();
 const slug = n => encodeURIComponent(n);
-const av = (n, lg) => `<span class="av${lg ? " lg" : ""}" style="background:${ccol(n)}" aria-hidden="true">${esc(initial(n))}</span>`;
+const imgOf = n => (CU.IMAGES || {})[n] || "";
+const avImg = n => imgOf(n) ? `<img src="${esc(imgOf(n))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+const av = (n, lg) => `<span class="av${lg ? " lg" : ""}" style="background:${ccol(n)}" aria-hidden="true">${esc(initial(n))}${avImg(n)}</span>`;
 const clink = n => CH[n] ? `<a class="cl" href="#/perso/${slug(n)}">${esc(n)}</a>` : `<span class="cl" style="background:var(--surface2);color:var(--muted)">${esc(n)}</span>`;
 const tierOf = l => l < 2 ? (l <= 1 ? "Cripple" : "Low Tier") : l < 3.5 ? "Mid Tier" : l < 5 ? "Elite Tier" : l < 6 ? "High Tier" : "God Tier";
 const actOf = d => ACTS.find(a => d >= a.from && d <= a.to) || ACTS[0];
@@ -347,7 +349,7 @@ function bdCard(nd, idx) {
   const st = nd.p ? bdStatus(nd.p) : null;
   const dot = st ? `<i class="bd-st" style="background:${BSTAT[st]}" title="capacité ${st}"></i>` : "";
   let body;
-  if (nd.k === "perso") body = `<div class="bd-photo">${av(nd.p || nd.n, true)}${dot}</div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
+  if (nd.k === "perso") body = `<div class="bd-photo${imgOf(nd.p || nd.n) ? " has" : ""}">${av(nd.p || nd.n, true)}${imgOf(nd.p || nd.n) ? `<img class="bd-img" src="${esc(imgOf(nd.p || nd.n))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}${dot}</div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
   else if (nd.k === "inconnu") body = `<div class="bd-photo dark"><span class="bd-q">?</span></div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>${nd.st ? `<span class="bd-stamp">${esc(nd.st)}</span>` : ""}`;
   else if (nd.k === "event") body = `<em style="color:${nd.col}">${esc(nd.lab || "")}</em><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
   else body = `${nd.k === "objet" ? `<em>PIÈCE</em>` : nd.k === "lieu" ? `<em>LIEU</em>` : nd.k === "evo" ? `<em style="color:var(--evo)">ÉVOLUTION</em>` : nd.k === "arc" ? `<em style="color:var(--arc)">ARC</em>` : ""}<b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
@@ -356,7 +358,7 @@ function bdCard(nd, idx) {
 }
 function bdHTML(id, B) {
   BDS[id] = { B, sel: B.nodes.find(n => n.focus && !B.free) ? B.nodes.find(n => n.focus).id : null };
-  return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px">${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg></div></div>
+  return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px${B.w ? `;width:${B.w}px` : ""}">${B.deco || ""}${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg></div></div>
   <div class="card bd-info" id="${id}-info"></div>
   <div class="legend"><span><i style="background:var(--string)"></i>fil établi</span><span><i style="background:transparent;border:1.5px dashed #c8281e"></i>hypothèse / inconnu</span><span><i style="background:${BSTAT.perdue}"></i>capacité perdue</span><span><i style="background:${BSTAT.partielle}"></i>partielle</span><span><i style="background:${BSTAT.complète}"></i>retrouvée</span></div>`;
 }
@@ -383,7 +385,7 @@ function bdDraw(id) {
   svg.innerHTML = paths + labels;
   const conn = new Set(sel ? [sel] : []);
   if (sel) B.edges.forEach(([a, b]) => { if (a === sel) conn.add(b); if (b === sel) conn.add(a); });
-  bd.querySelectorAll(".bd-card").forEach(c => { c.classList.toggle("sel", c.dataset.id === sel); c.classList.toggle("dim", !!sel && !conn.has(c.dataset.id)); });
+  bd.querySelectorAll(".bd-card").forEach(c => { c.classList.toggle("sel", c.dataset.id === sel); c.classList.toggle("dim", S.hl ? !S.hl.has(c.dataset.id) : !!sel && !conn.has(c.dataset.id)); });
 }
 function bdInfo(id) {
   const S = BDS[id], box = $("#" + id + "-info"); if (!S || !box) return;
@@ -511,6 +513,54 @@ function viewMystere(id) {
   return `<p class="sub"><a href="#/dossiers">← Fils rouges</a></p><h1>${esc(m.t)}</h1><p class="sub">Statut : <b>${esc(m.st)}</b></p><p class="lead" style="margin-top:10px">${esc(m.sum)}</p>
   <h2>Le tableau de la piste</h2>${bdHTML("bd-my", boardForMyst(m))}`;
 }
+// ---------- le grand tableau de tous les événements ----------
+function boardTout() {
+  // échelle « à colonnes » : une colonne par date, élargie quand le calendrier saute des jours ; les événements d'un même jour s'empilent
+  const ROW = 172, TOP = 70;
+  const dates = [...new Set(EV.map(e => e.d))].sort();
+  const X = {}; let cx = 110;
+  dates.forEach((d, i) => { if (i) cx += 150 + Math.min(10, Math.max(0, Math.round((+new Date(d) - +new Date(dates[i - 1])) / 864e5) - 1)) * 14; X[d] = cx; });
+  const W = cx + 150;
+  const tx = d => { const dd = dates.find(x => x >= d); return dd ? X[dd] - 78 : cx + 78; };
+  const cnt = {}, pos = {};
+  [...EV].sort((a, b) => a.d < b.d ? -1 : 1).forEach(e => { const r = cnt[e.d] = (cnt[e.d] || 0) + 1; pos[evId(e)] = { r: r - 1, x: X[e.d] }; });
+  const nr = Math.max(...Object.values(cnt)), H = TOP + nr * ROW + 60;
+  const nodes = EV.map(e => { const p = pos[evId(e)]; return eventNode(e, { x: +(p.x / W * 100).toFixed(3), y: +((TOP + p.r * ROW + ROW / 2 + (dates.indexOf(e.d) % 2 ? 24 : 0)) / H * 100).toFixed(3) }); });
+  let deco = "";
+  [["2026-08-12", "Août"], ["2026-09-01", "Septembre"], ["2026-10-01", "Octobre"], ["2026-11-01", "Novembre"]].forEach(([d, l]) => { deco += `<div class="bd-month" style="left:${tx(d)}px"><span>${l}</span></div>`; });
+  ACTS.forEach(a => { deco += `<div class="bd-actlab" style="left:${tx(a.from)}px;width:${tx(a.to) - tx(a.from)}px;border-color:${a.color}"><b style="color:${a.color}">${esc(a.name)}</b></div>`; });
+  const B = { nodes, edges: [], h: H, w: W, deco, free: true };
+  B.mystEdges = id => {
+    const out = [];
+    MYST.filter(m => !id || m.id === id).forEach(m => { const l = EV.filter(e => mystOf(e).includes(m)).sort((a, b) => a.d < b.d ? -1 : 1); l.forEach((e, i) => { if (i) out.push(["e" + evId(l[i - 1]), "e" + evId(e), m.short || m.t]); }); });
+    return out;
+  };
+  B.persEdges = n => { const l = EV.filter(e => (e.c || []).includes(n)).sort((a, b) => a.d < b.d ? -1 : 1); return l.slice(1).map((e, i) => ["e" + evId(l[i]), "e" + evId(e), n]); };
+  return B;
+}
+function viewTableau() {
+  const ppl = {}; EV.forEach(e => (e.c || []).forEach(c => ppl[c] = (ppl[c] || 0) + 1));
+  const names = Object.entries(ppl).filter(([n, v]) => v >= 3).sort((a, b) => b[1] - a[1]).map(x => x[0]);
+  return `<h1>Le tableau des événements</h1><p class="lead">Les ${EV.length} événements, du 12 août au 6 novembre, épinglés par date et classés par type. Les fils relient, dans l'ordre, les événements de chaque mystère ; choisissez un mystère ou un personnage pour ne suivre que son fil. Faites glisser la souris ou la barre de défilement pour parcourir le tableau.</p>
+  <div class="legend" style="margin:0 0 10px">${[...new Set(EV.map(e => e.k))].map(k => `<span><i style="background:${ccolK(k)}"></i>${esc(klab(k))}</span>`).join("")}</div>
+  <div class="filters"><label>Suivre le fil de&nbsp;<select id="tfil"><option value="">Tous les mystères</option>${MYST.map(m => `<option value="m:${m.id}">Mystère · ${esc(m.t)}</option>`).join("")}<optgroup label="Personnages">${names.map(n => `<option value="p:${esc(n)}">${esc(n)} (${ppl[n]})</option>`).join("")}</optgroup></select></label></div>
+  <div id="tboard">${bdHTML("bd-tout", boardTout())}</div>`;
+}
+function afterTableau() {
+  const S = BDS["bd-tout"]; if (!S) return;
+  S.B.edges = S.B.mystEdges();
+  const sel = $("#tfil");
+  if (sel) sel.onchange = () => {
+    const v = sel.value; S.sel = null; S.hl = null;
+    if (!v) S.B.edges = S.B.mystEdges();
+    else if (v.startsWith("m:")) { S.B.edges = S.B.mystEdges(v.slice(2)); S.hl = new Set(S.B.edges.flatMap(e => [e[0], e[1]])); }
+    else { S.B.edges = S.B.persEdges(v.slice(2)); S.hl = new Set(S.B.edges.flatMap(e => [e[0], e[1]])); }
+    bdDraw("bd-tout"); bdInfo("bd-tout");
+    const first = S.hl && [...S.hl][0], c = first && $("#bd-tout").querySelector(`[data-id="${first}"]`); if (c && c.scrollIntoView) c.scrollIntoView({ inline: "center", block: "nearest" });
+  };
+  bdMount("bd-tout");
+}
+
 let BDI = 0;
 function afterDossiers() {
   const tabs = $("#bdtabs"); if (!tabs) return;
@@ -543,6 +593,7 @@ function route() {
   else if (seg[0] === "personnages") { key = "persos"; html = viewPersos(q); }
   else if (seg[0] === "perso") { key = "persos"; const n = decodeURIComponent(seg[1] || ""); html = viewPerso(n); after = () => afterPerso(n); }
   else if (seg[0] === "evolutions") { key = "evo"; html = viewEvo(); }
+  else if (seg[0] === "tableau") { key = "tab"; html = viewTableau(); after = afterTableau; }
   else if (seg[0] === "evenement") { key = "chrono"; html = viewEvenement(seg[1]); after = () => bdMount("bd-ev"); }
   else if (seg[0] === "mystere") { key = "dos"; html = viewMystere(seg[1]); after = () => bdMount("bd-my"); }
   else if (seg[0] === "dossiers") { key = "dos"; { if (q.has("b") && +q.get("b") >= 0 && +q.get("b") < CU.BOARDS.length) BDI = +q.get("b"); html = viewDossiers(); after = afterDossiers; } }
