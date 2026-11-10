@@ -4,7 +4,7 @@
 (function () {
 const C = window.CURATED;
 C.BOARDS = [
-{ id: "ember", t: "Ember", intro: "Les fioles amplificatrices, ceux qui les fournissent et ceux qui les paient. Ember est distincte de Spectre : les pointillés marquent ce que personne n'a prouvé.",
+{ id: "ember", short: "Ember et l'attaque ?", t: "Ember", intro: "Les fioles amplificatrices, ceux qui les fournissent et ceux qui les paient. Ember est distincte de Spectre : les pointillés marquent ce que personne n'a prouvé.",
  nodes: [
   { id: "bleu", k: "inconnu", n: "L'homme aux cheveux bleus", s: "Fournisseur", dt: "28 août · 7 oct.", x: 9, y: 13, d: "Long manteau noir, chapeau et masque, cheveux bleus. Il fixe le jour et le lieu, donne les doses, prend l'argent et repart à pied (Vesna, 7 octobre). Les vendeurs de Fice étaient « masqués de noir ». Son identité n'est jamais donnée." },
   { id: "fioles", k: "objet", n: "Fioles amplificatrices", s: "250 $ · ~40 min", dt: "dès le 27 août", x: 31, y: 13, d: "Poussent un niveau vers le haut pendant environ 40 minutes, avec des tremblements. Les embeds du bot comptent les adversaires « boostés » (×1,10 à ×5,50) puis « amplifiés » avec un bonus « EMBER »." },
@@ -100,15 +100,15 @@ C.BOARDS = [
 // Mystères : chaque piste se relie automatiquement aux événements dont le texte correspond (rx) et aux personnages cités.
 (function () {
 window.CURATED.MYSTERIES = [
- { id: "bleu", t: "Qui est l'homme aux cheveux bleus ?", st: "Ouvert", rx: "cheveux bleus|fioles|amplificat|vendeurs masqu", pp: ["Arlequin", "Telemachus", "Vitalis", "Volcan", "Fury"],
+ { id: "bleu", short: "L'homme aux cheveux bleus", t: "Qui est l'homme aux cheveux bleus ?", st: "Ouvert", rx: "cheveux bleus|fioles|amplificat|vendeurs masqu", pp: ["Arlequin", "Telemachus", "Vitalis", "Volcan", "Fury"],
    sum: "Le fournisseur des fioles : long manteau noir, chapeau, masque, cheveux bleus. Il fixe le jour et le lieu, donne les doses, prend l'argent. Décrit par Vesna le 7 octobre, jamais identifié. Le lien avec Ember n'est pas prouvé." },
- { id: "casque", t: "Qui se cache sous le casque d'Arlequin ?", st: "Partiellement résolu", rx: "Arlequin", pp: ["Telemachus", "Isaure", "Arlequin"],
+ { id: "casque", short: "Sous le casque d'Arlequin", t: "Qui se cache sous le casque d'Arlequin ?", st: "Partiellement résolu", rx: "Arlequin", pp: ["Telemachus", "Isaure", "Arlequin"],
    sum: "Un masque partagé : Telemachus l'a voulu multiple (un faux Arlequin « féminin »), Isaure l'a rejoint le 24 octobre. Les logs ne disent pas qui le porte à Branish ni au quartier low-tier." },
  { id: "ember", t: "Ember est-elle derrière l'attaque de Westview ?", st: "Ouvert", rx: "Ember|EMBER", pp: ["Vitalis", "Volcan", "Fury", "Isaure", "Lighter"],
    sum: "Vitalis le soupçonne. Les logs montrent deux mécanismes distincts : fioles (Ember) et atténuateur / injection (Spectre). Aucune preuve d'un lien." },
- { id: "orrin", t: "Que veut Orrin ?", st: "En partie révélé", rx: "Orrin|Spectre|atténuateur", pp: ["Orrin", "Keito", "Liam", "Telemachus", "Lucina", "Kael", "Rein"],
+ { id: "orrin", short: "Que veut Orrin ?", t: "Que veut Orrin ?", st: "En partie révélé", rx: "Orrin|Spectre|atténuateur", pp: ["Orrin", "Keito", "Liam", "Telemachus", "Lucina", "Kael", "Rein"],
    sum: "Keito en donne le but le 25 octobre : ramener tous les High Tier au niveau des Low Tier par la technologie. Le lieu, l'organisation et le reste de ses plans restent verrouillés." },
- { id: "remede", t: "Peut-on rendre la capacité injectée ?", st: "Ouvert", rx: "injection|injecté|récupération partielle|bouchon|déblocage|remède", pp: ["Hizo Vertini", "John", "Rein", "Telemachus", "Lucina", "Kael", "Kaito Vance"],
+ { id: "remede", short: "Rendre la capacité ?", t: "Peut-on rendre la capacité injectée ?", st: "Ouvert", rx: "injection|injecté|récupération partielle|bouchon|déblocage|remède", pp: ["Hizo Vertini", "John", "Rein", "Telemachus", "Lucina", "Kael", "Kaito Vance"],
    sum: "Rein, John et Hizo n'ont rien retrouvé. Telemachus, Lucina et Kael récupèrent un quart, Telemachus tente de forcer son « bouchon ». Kaito Vance cherche un remède dans le sang d'Hizo." }
 ];
 })();

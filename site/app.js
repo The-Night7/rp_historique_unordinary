@@ -355,7 +355,7 @@ function bdCard(nd, idx) {
   return `<div class="bd-card k-${nd.k}${nd.focus ? " focus" : ""}" data-id="${nd.id}" style="left:${nd.x}%;top:${nd.y}%;--r:${r}deg;${nd.col ? `--kc:${nd.col}` : ""}" tabindex="0" role="button" aria-label="${esc(nd.n)}">${tape}${body}${nd.dt ? `<time>${esc(nd.dt)}</time>` : ""}</div>`;
 }
 function bdHTML(id, B) {
-  BDS[id] = { B, sel: B.nodes.find(n => n.focus) ? B.nodes.find(n => n.focus).id : null };
+  BDS[id] = { B, sel: B.nodes.find(n => n.focus && !B.free) ? B.nodes.find(n => n.focus).id : null };
   return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px">${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg></div></div>
   <div class="card bd-info" id="${id}-info"></div>
   <div class="legend"><span><i style="background:var(--string)"></i>fil établi</span><span><i style="background:transparent;border:1.5px dashed #c8281e"></i>hypothèse / inconnu</span><span><i style="background:${BSTAT.perdue}"></i>capacité perdue</span><span><i style="background:${BSTAT.partielle}"></i>partielle</span><span><i style="background:${BSTAT.complète}"></i>retrouvée</span></div>`;
@@ -430,7 +430,7 @@ function bdLayout(center, inner, outer) {
 const personNode = (n, extra = {}) => ({ id: "p:" + n, k: "perso", p: CH[n] ? n : null, n, s: CH[n] ? "" : "", d: CH[n] ? "" : "Personnage secondaire, sans page propre.", ...extra });
 function eventNode(e, extra = {}) { return { id: "e" + evId(e), k: "event", col: ccolK(e.k), lab: klab(e.k).toUpperCase(), n: e.t.replace("★ ", ""), s: e.p || "", dt: fdr(e.d, e.e), d: e.s, href: "#/evenement/" + evId(e), ...extra }; }
 function ccolK(k) { return ({ combat: "#d6453d", rencontre: "#3a74d8", plot: "#8b52d6", vigilante: "#c27a00", lien: "#1f9c7a", tournant: "#b58900", ecole: "#6a6675" })[k] || "#6a6675"; }
-const mystNode = (m, extra = {}) => ({ id: "m:" + m.id, k: "inconnu", n: m.t, s: "", st: m.st, d: m.sum, href: "#/mystere/" + m.id, ...extra });
+const mystNode = (m, extra = {}) => ({ id: "m:" + m.id, k: "inconnu", n: m.short || m.t, s: "", st: m.st, d: m.sum, href: "#/mystere/" + m.id, ...extra });
 
 function boardForEvent(e) {
   const i = evId(e), chars = (e.c || []).filter(c => c);
@@ -468,18 +468,38 @@ function boardForMyst(m) {
 }
 function boardForPerso(name) {
   const c = CH[name], A = ARCS[name];
-  const evs = EV.filter(e => (e.c || []).includes(name)).sort((a, b) => (b.t.startsWith("★") ? 1 : 0) - (a.t.startsWith("★") ? 1 : 0)).slice(0, 7).sort((a, b) => a.d < b.d ? -1 : 1);
-  const partners = c.partners.filter(x => CH[x[0]]).slice(0, 4).map(x => personNode(x[0], { s: x[1] + " messages échangés" }));
-  const beats = A ? A.beats.filter(b => b[1] === "evo" || b[1] === "arc").slice(0, 3).map((b, i) => ({ id: "b" + i, k: b[1], n: b[1] === "evo" ? "Évolution" : "Arc", s: b[2].length > 70 ? b[2].slice(0, 68) + "…" : b[2], dt: fd(b[0]), d: b[2] })) : [];
-  const ms = MYST.filter(m => (m.pp || []).includes(name));
-  const inner = [...partners, ...ms.map(m => mystNode(m))].slice(0, 7);
-  const outer = [...evs.map(e => eventNode(e)), ...beats];
-  const nodes = bdLayout({ id: "me", k: "perso", p: name, n: name, s: A ? A.title : "", d: A ? A.summary : "" }, inner, outer);
+  const evs = EV.filter(e => (e.c || []).includes(name)).sort((a, b) => (b.t.startsWith("★") ? 1 : 0) - (a.t.startsWith("★") ? 1 : 0) || (b.s.length - a.s.length)).slice(0, 7).sort((a, b) => a.d < b.d ? -1 : 1);
+  const partners = c.partners.filter(x => CH[x[0]] && x[0] !== name).slice(0, 4);
+  const ms = MYST.filter(m => (m.pp || []).includes(name)).slice(0, 2);
+  const beats = A ? A.beats.filter(b => b[1] === "evo" || b[1] === "arc").slice(0, 3) : [];
+  const nodes = [{ id: "me", k: "perso", p: name, n: name, s: A ? A.title : "", d: A ? A.summary : "", x: 11, y: 50, focus: true }];
   const edges = [];
-  inner.forEach(n => edges.push(["me", n.id, n.k === "inconnu" ? "mêlé à la piste" : "échanges en scène", n.k === "inconnu"]));
-  outer.forEach(n => edges.push(["me", n.id, n.k === "event" ? "vécu" : n.k === "evo" ? "évolution" : "arc"]));
-  evs.forEach(e => (e.c || []).filter(x => inner.some(p => p.n === x)).slice(0, 2).forEach(x => edges.push(["p:" + x, "e" + evId(e), ""])));
-  return { nodes, edges, h: 900 };
+  // frise des événements, en quinconce, de gauche à droite
+  const X0 = 31, X1 = 91, n = evs.length;
+  const evx = i => n < 2 ? 60 : X0 + i * (X1 - X0) / (n - 1);
+  evs.forEach((e, i) => { const nd = eventNode(e, { x: +evx(i).toFixed(1), y: i % 2 ? 62 : 38 }); nodes.push(nd); edges.push([i ? "e" + evId(evs[i - 1]) : "me", nd.id, i ? "puis" : "premier événement"]); });
+  // évolutions / arcs : accrochés à l'événement le plus proche dans le temps
+  beats.forEach((b, i) => {
+    let bi = 0; evs.forEach((e, k) => { if (Math.abs(+new Date(e.d) - +new Date(b[0])) < Math.abs(+new Date(evs[bi].d) - +new Date(b[0]))) bi = k; });
+    const id = "b" + i;
+    nodes.push({ id, k: b[1], n: b[1] === "evo" ? "Évolution" : "Arc", s: b[2].length > 90 ? b[2].slice(0, 88) + "…" : b[2], dt: fd(b[0]), d: b[2], x: +Math.min(92, Math.max(30, evx(bi) + (i - 1) * 4)).toFixed(1), y: 13 });
+    if (evs.length) edges.push([id, "e" + evId(evs[bi]), "à ce moment"]); edges.push(["me", id, b[1] === "evo" ? "évolution" : "arc"]);
+  });
+  // partenaires en bas, reliés aux événements qu'ils partagent
+  partners.forEach(([pn, v], i) => {
+    const nd = personNode(pn, { s: v + " messages échangés", x: +(46 + i * (46 / Math.max(1, partners.length - 1))).toFixed(1), y: 88 });
+    if (partners.length === 1) nd.x = 60;
+    nodes.push(nd);
+    const sh = evs.filter(e => (e.c || []).includes(pn)).slice(0, 3);
+    if (!sh.length) edges.push(["me", nd.id, "échanges en scène"]);
+    sh.forEach(e => edges.push([nd.id, "e" + evId(e), "présent"]));
+  });
+  // mystères en bas à gauche, reliés aux événements qui les alimentent
+  ms.forEach((m, i) => {
+    nodes.push(mystNode(m, { x: 9 + i * 15, y: 87 })); edges.push(["me", "m:" + m.id, "mêlé à la piste", true]);
+    evs.filter(e => mystOf(e).includes(m)).slice(0, 2).forEach(e => edges.push(["m:" + m.id, "e" + evId(e), "alimente", true]));
+  });
+  return { nodes, edges, h: 880, free: true };
 }
 function viewEvenement(i) {
   const e = EV[+i]; if (!e) return `<h1>Introuvable</h1>`;

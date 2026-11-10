@@ -156,3 +156,8 @@ svg .bd-lab text{fill:#2a2118;font-size:11px;font-weight:700;font-family:"Segoe 
 .bd-go{font:inherit;font-weight:600;color:var(--accent);background:none;border:0;padding:0;cursor:pointer}.bd-go:hover{text-decoration:underline}
 a.card.myst{display:block;color:var(--ink)}a.card.myst:hover{text-decoration:none;border-color:var(--accent)}
 a.bd-open{background:#fff2c9;color:#8a2a22}
+.bd-card b{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.bd-card small{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.bd-card.focus b,.bd-card.focus small{-webkit-line-clamp:unset;display:block;overflow:visible}
+.bd-stamp{right:2px;bottom:-7px;font-size:8px}
+.bd-card.k-inconnu b{font-size:12px}
