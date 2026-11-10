@@ -99,8 +99,9 @@ function palierChart(rows) {
   return s + "</svg>";
 }
 
-function radar(vals, color) {
-  const labels = ["Power", "Defense", "Recovery", "Trick", "Speed"], R = 90, cx = 130, cy = 120;
+function radar(v0, color) {
+  // ordre d'affichage du radar : Power, Speed, Trick, Recovery, Defense (valeurs de l'unodex : P, D, R, T, S)
+  const ORD = [0, 4, 3, 2, 1], labels = ORD.map(i => ["Power", "Defense", "Recovery", "Trick", "Speed"][i]), vals = ORD.map(i => v0[i]), R = 90, cx = 130, cy = 120;
   const max = Math.max(10, ...vals);
   const pt = (i, v) => { const a = -Math.PI / 2 + i * 2 * Math.PI / 5; return [cx + Math.cos(a) * R * v / max, cy + Math.sin(a) * R * v / max]; };
   let s = `<svg viewBox="0 0 260 245" role="img" aria-label="Radar des statistiques" style="max-width:300px;margin:auto">`;
@@ -136,6 +137,18 @@ function levelLines(list, h = 380) {
   return s + "</svg>";
 }
 
+function debChart(pts) {
+  const W = 700, h = 230, padL = 38, padR = 14, padT = 16, padB = 30;
+  const t0 = T(pts[0][0]), t1 = T(pts[pts.length - 1][0]) + 2 * DAY;
+  const X = d => padL + (T(d) - t0) / (t1 - t0) * (W - padL - padR), Y = v => h - padB - v / 100 * (h - padB - padT);
+  let s = `<svg viewBox="0 0 ${W} ${h}" role="img" aria-label="Récupération de la capacité">`;
+  for (let v = 0; v <= 100; v += 25) s += `<line x1="${padL}" x2="${W - padR}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${padL - 6}" y="${Y(v) + 4}" text-anchor="end">${v}%</text>`;
+  const line = []; pts.forEach((p, i) => { const mid = (p[1] + p[2]) / 2, x = X(p[0]); if (i) line.push([x, line[line.length - 1][1]]); line.push([x, Y(mid)]); });
+  s += `<polyline fill="none" stroke="var(--accent)" stroke-width="2.5" points="${line.map(p => p.join(",")).join(" ")}"/>`;
+  pts.forEach(p => { const x = X(p[0]); if (p[2] > p[1]) s += `<rect x="${x - 6}" y="${Y(p[2])}" width="12" height="${Y(p[1]) - Y(p[2])}" rx="3" fill="var(--accent)" opacity=".25"/>`;
+    s += `<circle cx="${x}" cy="${Y((p[1] + p[2]) / 2)}" r="5.5" fill="var(--accent)" stroke="var(--surface)" stroke-width="2" data-tip="${tp(fd(p[0]) + " — " + (p[1] === p[2] ? p[1] + " %" : p[1] + " à " + p[2] + " %"), "", p[3])}"/><text x="${x}" y="${h - 10}" text-anchor="middle">${fd(p[0])}</text>`; });
+  return s + "</svg>";
+}
 function bars(items, { max, href, color = "var(--accent)", fmt = v => v } = {}) {
   max = max || Math.max(1, ...items.map(i => i[1]));
   return items.map(([n, v]) => `<div class="bar"><${href && href(n) ? `a href="${href(n)}"` : "span"} title="${esc(n)}">${esc(n)}</${href && href(n) ? "a" : "span"}><div class="t"><i style="width:${Math.max(2, v / max * 100)}%;background:${color}"></i></div><span class="n">${fmt(v)}</span></div>`).join("");
@@ -148,7 +161,7 @@ function eventCard(e, { showChars = true } = {}) {
   return `<article class="ev${big ? " big" : ""}" style="--c:${c}" id="e-${e.d}-${esc(e.t.slice(0, 8))}">
     <time>${fdr(e.d, e.e)} · ${esc(e.p || "")}</time>
     <h3>${esc(e.t)}</h3><p>${esc(e.s)}</p>
-    <div class="meta"><span class="chip k-${e.k}"><i></i>${klab(e.k)}</span>${showChars ? (e.c || []).map(clink).join("") : ""}</div></article>`;
+    <div class="meta"><span class="chip k-${e.k}"><i></i>${klab(e.k)}</span>${showChars ? (e.c || []).map(clink).join("") : ""}<a class="cl bd-open" href="#/evenement/${evId(e)}">🧵 Tableau</a></div></article>`;
 }
 const bigEvents = EV.filter(e => e.t.startsWith("★"));
 const evMarkers = list => list.map(e => ({ d: e.d, e: e.e, t: e.t.replace("★ ", ""), s: e.p || "", k: e.k, big: e.t.startsWith("★") }));
@@ -263,21 +276,25 @@ function viewPerso(name) {
   <div class="grid g2">
    ${f ? `<div class="card fiche"><h3>Fiche (unodex)</h3><dl><dt>École</dt><dd>${esc(f.ecole)}</dd><dt>Taille</dt><dd>${esc(f.taille)}</dd><dt>Type</dt><dd>${esc(f.type)}</dd><dt>Capacité</dt><dd>${esc(f.ability)}</dd><dt>Nature</dt><dd>${esc(f.nature)}</dd>${rows.length ? `<dt>Niveau</dt><dd>${rows[0][0].toFixed(1)} → ${rows[rows.length - 1][0].toFixed(1)} · ${tierOf(rows[rows.length - 1][0])}</dd>` : ""}${peTot ? `<dt>Points d'évolution</dt><dd>${peTot} (${peParts.map(([k, l]) => l + " " + pe[k]).join(", ")})</dd>` : ""}</dl>${f.note ? `<div class="note">${esc(f.note)}</div>` : ""}</div>` :
    `<div class="card fiche"><h3>Fiche</h3><p class="sub">Pas de fiche dans l'unodex pour ce personnage (ou personnage secondaire).${peTot ? ` Points d'évolution : ${peTot}.` : ""}</p></div>`}
-   ${rows.length ? `<div class="card"><h3>Statistiques par palier</h3>${rows.length > 1 && rows.some(r => r[1].some((v, i) => v !== rows[0][1][i])) ? palierChart(rows) : ""}<div class="sel" id="rsel">${rows.map((r, i) => `<button data-i="${i}" class="${i === rows.length - 1 ? "on" : ""}">${r[0].toFixed(1)}</button>`).join("")}</div><div id="rad">${radar(rows[rows.length - 1][1], ccol(name))}</div></div>` : `<div class="card"><h3>Partenaires de scène</h3>${bars(c.partners.slice(0, 8), { href: n => CH[n] ? "#/perso/" + slug(n) : "" })}</div>`}
+   ${rows.length ? `<div class="card"><h3>Statistiques par palier</h3>${rows.length > 1 && rows.some(r => r[1].some((v, i) => v !== rows[0][1][i])) ? palierChart(rows) : ""}<div class="sel" id="rsel">${rows.map((r, i) => `<button data-i="${i}" class="${i === rows.length - 1 ? "on" : ""}">${r[0].toFixed(1)}</button>`).join("")}</div><div id="rad">${radar(rows[rows.length - 1][1], ccol(name))}</div></div>` : `<div class="card"><h3>Partenaires de scène <span class="sub">(messages échangés)</span></h3>${bars(c.partners.slice(0, 8), { href: n => CH[n] ? "#/perso/" + slug(n) : "" })}</div>`}
   </div>
   <h2>Activité & moments clés</h2>
   <div class="card">${activityChart({ series: full, markers, acts: true, h: 230, color: ccol(name) })}
   <div class="legend"><span><i style="background:var(--tournant)"></i>Tournant</span><span><i style="background:var(--fight)"></i>Combat</span><span><i style="background:var(--bond)"></i>Lien / rencontre</span><span><i style="background:var(--plot)"></i>Arc / intrigue</span><span><i style="background:var(--evo)"></i>Évolution</span></div></div>
   ${lv.length > 1 ? `<h2>Niveau dans le temps</h2><div class="card">${lvChart}<p class="sub">Niveaux relevés dans les pseudos Discord du personnage (les libellés « 1.0 », qui désignent le compte joueur, sont ignorés).</p></div>` : ""}
+  ${CU.DEBLOCAGE && CU.DEBLOCAGE[name] ? `<h2>Récupération de la capacité</h2><div class="card">${debChart(CU.DEBLOCAGE[name])}<p class="sub">Part de capacité disponible après l'attaque du 20 octobre ; estimation tirée des logs et de la fiche du personnage.</p></div>` : ""}
+  ${CU.FICHE_CHRONO && CU.FICHE_CHRONO[name] ? `<h2>Chronologie de sa fiche</h2><div class="card">${CU.FICHE_CHRONO[name].map(c => `<div class="beat"><time>${esc(c[1])}</time><div><b>${esc(c[0])}</b><br>${esc(c[2])}</div></div>`).join("")}</div>` : ""}
+  <h2>Son tableau d'enquête</h2><p class="sub" style="margin:0 0 10px">Ses partenaires, ses événements clés, les pistes où il est mêlé et les moments d'évolution ou d'arc de sa fiche.</p><div id="bdperso">${bdHTML("bd-pe", boardForPerso(name))}</div>
   <h2>Parcours</h2>
   <div class="card">${journey.length ? journey.map(j => `<div class="beat"><time>${fdr(j.d, j.e)}</time><div><span class="tag k-${j.k}">${j.src === "ev" ? "Événement · " : ""}${klab(j.k)}</span><br>${j.src === "ev" ? `<b>${esc(j.t)}</b> — ${esc(j.s)}` : esc(j.t)}</div></div>`).join("") : "<p class='sub'>Aucun événement documenté pour l'instant.</p>"}</div>
   <div class="grid g2" style="margin-top:14px">
-   <div class="card"><h3>Lieux les plus fréquentés</h3>${bars(c.places.slice(0, 8))}</div>
+   <div class="card"><h3>Lieux les plus fréquentés <span class="sub">(messages)</span></h3>${bars(c.places.slice(0, 8))}</div>
    <div class="card"><h3>Partenaires de scène</h3>${bars(c.partners.slice(0, 8), { href: n => CH[n] ? "#/perso/" + slug(n) : "", color: "var(--lien)" })}</div></div>
   <h2>Toutes les scènes (${sc.length})</h2>
   <div class="card scroll"><details><summary>Afficher la liste complète</summary><table><thead><tr><th>Date</th><th>Lieu</th><th>Ville</th><th>Msgs</th><th>Avec</th></tr></thead><tbody>${sc.map(s => `<tr><td>${fd(s[0])}</td><td>${esc(s[1])}</td><td>${esc(s[2])}</td><td>${s[3]}</td><td>${s[4].map(n => esc(n)).join(", ")}</td></tr>`).join("")}</tbody></table></details></div>`;
 }
 function afterPerso(name) {
+  bdMount("bd-pe");
   const f = FICHES[name]; if (!f || !f.rows.length) return;
   const sel = $("#rsel"); if (!sel) return;
   sel.querySelectorAll("button").forEach(b => b.onclick = () => {
@@ -317,11 +334,178 @@ function viewLieux(q) {
 }
 
 
+// ---------- tableaux d'enquête (liège, punaises, fils rouges) ----------
+const BSTAT = { perdue: "#d6453d", partielle: "#e0a21a", complète: "#2fb58c", inconnue: "#9c98ad" };
+const BDS = {};
+const MYST = CU.MYSTERIES || [];
+const evId = e => EV.indexOf(e);
+function bdStatus(n) { const t = (CU.TRACKER || []).find(x => x.n.trim() === n); return t ? t.st : null; }
+const mystOf = e => MYST.filter(m => (e.c || []).some(c => (m.pp || []).includes(c)) && new RegExp(m.rx).test(e.t + " " + e.s));
+const evsOfMyst = m => EV.filter(e => new RegExp(m.rx).test(e.t + " " + e.s) && (e.c || []).some(c => (m.pp || []).includes(c) || true));
+function bdCard(nd, idx) {
+  const r = (((idx * 37) % 9) - 4) * 0.8;
+  const st = nd.p ? bdStatus(nd.p) : null;
+  const dot = st ? `<i class="bd-st" style="background:${BSTAT[st]}" title="capacité ${st}"></i>` : "";
+  let body;
+  if (nd.k === "perso") body = `<div class="bd-photo">${av(nd.p || nd.n, true)}${dot}</div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
+  else if (nd.k === "inconnu") body = `<div class="bd-photo dark"><span class="bd-q">?</span></div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>${nd.st ? `<span class="bd-stamp">${esc(nd.st)}</span>` : ""}`;
+  else if (nd.k === "event") body = `<em style="color:${nd.col}">${esc(nd.lab || "")}</em><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
+  else body = `${nd.k === "objet" ? `<em>PIÈCE</em>` : nd.k === "lieu" ? `<em>LIEU</em>` : nd.k === "evo" ? `<em style="color:var(--evo)">ÉVOLUTION</em>` : nd.k === "arc" ? `<em style="color:var(--arc)">ARC</em>` : ""}<b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
+  const tape = nd.k === "note" || nd.k === "event" || nd.k === "evo" || nd.k === "arc" ? `<span class="bd-tape"></span>` : `<span class="bd-pin"></span>`;
+  return `<div class="bd-card k-${nd.k}${nd.focus ? " focus" : ""}" data-id="${nd.id}" style="left:${nd.x}%;top:${nd.y}%;--r:${r}deg;${nd.col ? `--kc:${nd.col}` : ""}" tabindex="0" role="button" aria-label="${esc(nd.n)}">${tape}${body}${nd.dt ? `<time>${esc(nd.dt)}</time>` : ""}</div>`;
+}
+function bdHTML(id, B) {
+  BDS[id] = { B, sel: B.nodes.find(n => n.focus) ? B.nodes.find(n => n.focus).id : null };
+  return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px">${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg></div></div>
+  <div class="card bd-info" id="${id}-info"></div>
+  <div class="legend"><span><i style="background:var(--string)"></i>fil établi</span><span><i style="background:transparent;border:1.5px dashed #c8281e"></i>hypothèse / inconnu</span><span><i style="background:${BSTAT.perdue}"></i>capacité perdue</span><span><i style="background:${BSTAT.partielle}"></i>partielle</span><span><i style="background:${BSTAT.complète}"></i>retrouvée</span></div>`;
+}
+function bdDraw(id) {
+  const S = BDS[id], bd = $("#" + id); if (!S || !bd || !bd.clientWidth) return;
+  const svg = bd.querySelector("svg"), B = S.B, W = bd.clientWidth, H = bd.clientHeight, sel = S.sel;
+  const pt = {};
+  bd.querySelectorAll(".bd-card").forEach(c => { const n = B.nodes.find(x => x.id === c.dataset.id); if (n) pt[n.id] = [n.x * W / 100, n.y * H / 100 - c.offsetHeight / 2 + 7]; });
+  let paths = "", labels = "", pins = "";
+  B.edges.forEach(([a, b, lab, hyp]) => {
+    const p = pt[a], q = pt[b]; if (!p || !q) return;
+    const on = sel && (a === sel || b === sel), dim = sel && !on;
+    const mx = (p[0] + q[0]) / 2, my = (p[1] + q[1]) / 2, len = Math.hypot(q[0] - p[0], q[1] - p[1]);
+    const cy = my + 10 + len * 0.07;
+    const d = `M${p[0].toFixed(1)},${p[1].toFixed(1)} Q${mx.toFixed(1)},${cy.toFixed(1)} ${q[0].toFixed(1)},${q[1].toFixed(1)}`;
+    const dash = hyp ? ' stroke-dasharray="8 6"' : "";
+    paths += `<g class="bd-th${dim ? " dim" : ""}${on ? " on" : ""}"><path d="${d}" class="bd-sh" transform="translate(2,4)"${dash}/><path d="${d}" class="bd-str"${dash}/><path d="${d}" class="bd-hl"${dash}/></g>`;
+    if (lab && on) {
+      const lx = 0.25 * p[0] + 0.5 * mx + 0.25 * q[0], ly = 0.25 * p[1] + 0.5 * cy + 0.25 * q[1], w = lab.length * 6 + 14;
+      labels += `<g class="bd-lab"><rect x="${(lx - w / 2).toFixed(1)}" y="${(ly - 9).toFixed(1)}" width="${w.toFixed(1)}" height="18" rx="3"/><text x="${lx.toFixed(1)}" y="${(ly + 4).toFixed(1)}" text-anchor="middle">${esc(lab)}</text></g>`;
+    }
+  });
+  svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = paths + labels;
+  const conn = new Set(sel ? [sel] : []);
+  if (sel) B.edges.forEach(([a, b]) => { if (a === sel) conn.add(b); if (b === sel) conn.add(a); });
+  bd.querySelectorAll(".bd-card").forEach(c => { c.classList.toggle("sel", c.dataset.id === sel); c.classList.toggle("dim", !!sel && !conn.has(c.dataset.id)); });
+}
+function bdInfo(id) {
+  const S = BDS[id], box = $("#" + id + "-info"); if (!S || !box) return;
+  const B = S.B, nd = B.nodes.find(x => x.id === S.sel);
+  if (!nd) { box.innerHTML = `<span class="sub">Cliquez une carte pour suivre ses fils.</span>`; return; }
+  const rel = [];
+  B.edges.forEach(([a, b, lab, hyp]) => { if (a === nd.id || b === nd.id) { const o = B.nodes.find(x => x.id === (a === nd.id ? b : a)); if (o) rel.push(`<li><button class="bd-go" data-id="${o.id}">${esc(o.n)}</button> <span class="sub">${lab ? "· " + esc(lab) : ""}${hyp ? " (hypothèse)" : ""}</span></li>`); } });
+  const st = nd.p ? bdStatus(nd.p) : null;
+  box.innerHTML = `<h3>${esc(nd.n)}${nd.dt ? ` <span class="sub">· ${esc(nd.dt)}</span>` : ""}</h3><p style="margin:4px 0 8px">${esc(nd.d || nd.s || "")}</p>
+  ${st ? `<p class="sub" style="margin:0 0 8px">Capacité : <b style="color:${BSTAT[st]}">${st}</b></p>` : ""}
+  <p style="margin:0 0 8px;display:flex;gap:14px;flex-wrap:wrap">${nd.p && CH[nd.p] ? `<a href="#/perso/${slug(nd.p)}">Sa page →</a>` : ""}${nd.href ? `<a href="${nd.href}">Ouvrir ce tableau →</a>` : ""}</p>
+  <ul class="bd-rel">${rel.join("")}</ul>`;
+  box.querySelectorAll(".bd-go").forEach(b => b.onclick = () => { S.sel = b.dataset.id; bdDraw(id); bdInfo(id); });
+}
+function bdMount(id) {
+  const S = BDS[id], bd = $("#" + id); if (!S || !bd) return;
+  const B = S.B;
+  bd.querySelectorAll(".bd-card").forEach(c => {
+    c.onpointerdown = e => {
+      const nd = B.nodes.find(x => x.id === c.dataset.id), r = bd.getBoundingClientRect();
+      const sx = e.clientX, sy = e.clientY, ox = nd.x, oy = nd.y; let moved = false;
+      try { c.setPointerCapture(e.pointerId); } catch (_) {}
+      c.onpointermove = ev => {
+        const dx = ev.clientX - sx, dy = ev.clientY - sy;
+        if (!moved && Math.hypot(dx, dy) < 5) return; moved = true; c.classList.add("drag");
+        nd.x = Math.max(5, Math.min(95, ox + dx / r.width * 100)); nd.y = Math.max(6, Math.min(94, oy + dy / r.height * 100));
+        c.style.left = nd.x + "%"; c.style.top = nd.y + "%"; bdDraw(id);
+      };
+      c.onpointerup = () => { c.onpointermove = c.onpointerup = null; c.classList.remove("drag"); if (!moved) { S.sel = S.sel === nd.id ? null : nd.id; bdDraw(id); bdInfo(id); } };
+    };
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); S.sel = c.dataset.id; bdDraw(id); bdInfo(id); } };
+  });
+  bd.onclick = e => { if (e.target === bd || e.target.tagName === "svg") { S.sel = null; bdDraw(id); bdInfo(id); } };
+  bdDraw(id); bdInfo(id);
+  if (!window.__bdResize) { window.__bdResize = true; addEventListener("resize", () => Object.keys(BDS).forEach(bdDraw)); }
+}
+// disposition en deux anneaux autour du centre
+function bdLayout(center, inner, outer) {
+  const out = [{ ...center, x: 50, y: 50, focus: true }];
+  const ring = (arr, rx, ry, off) => arr.forEach((n, i) => { const a = -Math.PI / 2 + off + i * 2 * Math.PI / arr.length; out.push({ ...n, x: +(50 + rx * Math.cos(a)).toFixed(1), y: +(50 + ry * Math.sin(a)).toFixed(1) }); });
+  ring(inner, 24, 25, Math.PI / (inner.length || 1)); ring(outer, 41, 41, 0);
+  return out;
+}
+const personNode = (n, extra = {}) => ({ id: "p:" + n, k: "perso", p: CH[n] ? n : null, n, s: CH[n] ? "" : "", d: CH[n] ? "" : "Personnage secondaire, sans page propre.", ...extra });
+function eventNode(e, extra = {}) { return { id: "e" + evId(e), k: "event", col: ccolK(e.k), lab: klab(e.k).toUpperCase(), n: e.t.replace("★ ", ""), s: e.p || "", dt: fdr(e.d, e.e), d: e.s, href: "#/evenement/" + evId(e), ...extra }; }
+function ccolK(k) { return ({ combat: "#d6453d", rencontre: "#3a74d8", plot: "#8b52d6", vigilante: "#c27a00", lien: "#1f9c7a", tournant: "#b58900", ecole: "#6a6675" })[k] || "#6a6675"; }
+const mystNode = (m, extra = {}) => ({ id: "m:" + m.id, k: "inconnu", n: m.t, s: "", st: m.st, d: m.sum, href: "#/mystere/" + m.id, ...extra });
+
+function boardForEvent(e) {
+  const i = evId(e), chars = (e.c || []).filter(c => c);
+  const peopleAll = chars.map(c => personNode(c));
+  const inner = peopleAll.slice(0, 6);
+  const outer = [...peopleAll.slice(6, 10)];
+  if (e.p) outer.push({ id: "pl", k: "lieu", n: e.p, s: "", d: "Lieu de l'événement." });
+  const ms = mystOf(e); ms.forEach(m => outer.push(mystNode(m)));
+  const sc = x => { const sh = (x.c || []).filter(c => chars.includes(c)).length; return sh * 2 + (x.p && x.p === e.p ? 1 : 0) - Math.min(3, Math.abs(+new Date(x.d) - +new Date(e.d)) / 864e5 / 20); };
+  const rel = EV.filter(x => x !== e && (x.c || []).some(c => chars.includes(c))).sort((a, b) => sc(b) - sc(a)).slice(0, 4);
+  if (rel.length < 3) EV.filter(x => x !== e && !rel.includes(x) && (x.p === e.p || Math.abs(+new Date(x.d) - +new Date(e.d)) < 864e5 * 9)).sort((a, b) => Math.abs(+new Date(a.d) - +new Date(e.d)) - Math.abs(+new Date(b.d) - +new Date(e.d))).slice(0, 3 - rel.length).forEach(x => rel.push(x));
+  rel.forEach(x => outer.push(eventNode(x)));
+  const nodes = bdLayout(eventNode(e, { href: null }), inner, outer);
+  const edges = [];
+  peopleAll.slice(0, 10).forEach(p => edges.push([nodes[0].id, p.id, "présent"]));
+  if (e.p) edges.push([nodes[0].id, "pl", "se passe à"]);
+  ms.forEach(m => { edges.push([nodes[0].id, "m:" + m.id, "alimente la piste", true]); (m.pp || []).filter(c => chars.includes(c)).slice(0, 2).forEach(c => edges.push(["m:" + m.id, "p:" + c, "impliqué"])); });
+  rel.forEach(x => {
+    const sh = (x.c || []).filter(c => chars.includes(c));
+    edges.push([nodes[0].id, "e" + evId(x), (x.d < e.d ? "avant · " : x.d > e.d ? "après · " : "") + sh.slice(0, 2).join(", ")]);
+    sh.slice(0, 2).forEach(c => { if (peopleAll.slice(0, 10).some(p => p.n === c)) edges.push(["p:" + c, "e" + evId(x), ""]); });
+  });
+  return { nodes, edges, h: nodes.length > 10 ? 880 : nodes.length > 6 ? 700 : 600 };
+}
+function boardForMyst(m) {
+  const evs = evsOfMyst(m).map(e => ({ e, n: (new RegExp(m.rx, "g").exec(e.t + " " + e.s) ? 1 : 0) + (e.t.startsWith("★") ? 2 : 0) + (e.c || []).filter(c => (m.pp || []).includes(c)).length })).sort((a, b) => b.n - a.n).slice(0, 8).map(x => x.e).sort((a, b) => a.d < b.d ? -1 : 1);
+  const inner = (m.pp || []).slice(0, 7).map(n => personNode(n));
+  const outer = evs.map(e => eventNode(e));
+  const nodes = bdLayout(mystNode(m, { href: null }), inner, outer);
+  const edges = [];
+  inner.forEach(p => edges.push([nodes[0].id, p.id, "impliqué"]));
+  outer.forEach((o, i) => { edges.push([nodes[0].id, o.id, "indice"]); if (i) edges.push([outer[i - 1].id, o.id, "puis"]); });
+  evs.forEach(e => (e.c || []).filter(c => inner.some(p => p.n === c)).slice(0, 2).forEach(c => edges.push(["p:" + c, "e" + evId(e), ""])));
+  return { nodes, edges, h: nodes.length > 10 ? 900 : 720 };
+}
+function boardForPerso(name) {
+  const c = CH[name], A = ARCS[name];
+  const evs = EV.filter(e => (e.c || []).includes(name)).sort((a, b) => (b.t.startsWith("★") ? 1 : 0) - (a.t.startsWith("★") ? 1 : 0)).slice(0, 7).sort((a, b) => a.d < b.d ? -1 : 1);
+  const partners = c.partners.filter(x => CH[x[0]]).slice(0, 4).map(x => personNode(x[0], { s: x[1] + " messages échangés" }));
+  const beats = A ? A.beats.filter(b => b[1] === "evo" || b[1] === "arc").slice(0, 3).map((b, i) => ({ id: "b" + i, k: b[1], n: b[1] === "evo" ? "Évolution" : "Arc", s: b[2].length > 70 ? b[2].slice(0, 68) + "…" : b[2], dt: fd(b[0]), d: b[2] })) : [];
+  const ms = MYST.filter(m => (m.pp || []).includes(name));
+  const inner = [...partners, ...ms.map(m => mystNode(m))].slice(0, 7);
+  const outer = [...evs.map(e => eventNode(e)), ...beats];
+  const nodes = bdLayout({ id: "me", k: "perso", p: name, n: name, s: A ? A.title : "", d: A ? A.summary : "" }, inner, outer);
+  const edges = [];
+  inner.forEach(n => edges.push(["me", n.id, n.k === "inconnu" ? "mêlé à la piste" : "échanges en scène", n.k === "inconnu"]));
+  outer.forEach(n => edges.push(["me", n.id, n.k === "event" ? "vécu" : n.k === "evo" ? "évolution" : "arc"]));
+  evs.forEach(e => (e.c || []).filter(x => inner.some(p => p.n === x)).slice(0, 2).forEach(x => edges.push(["p:" + x, "e" + evId(e), ""])));
+  return { nodes, edges, h: 900 };
+}
+function viewEvenement(i) {
+  const e = EV[+i]; if (!e) return `<h1>Introuvable</h1>`;
+  return `<p class="sub"><a href="#/chronologie">← Chronologie</a></p><h1>${esc(e.t)}</h1><p class="sub">${fdr(e.d, e.e)} · ${esc(e.p || "")} · ${klab(e.k)}</p><p class="lead" style="margin-top:10px">${esc(e.s)}</p>
+  <h2>Le tableau de l'événement</h2><p class="sub" style="margin:0 0 10px">Les fils relient l'événement à ses personnages, à son lieu, aux pistes qu'il alimente et aux événements proches.</p>${bdHTML("bd-ev", boardForEvent(e))}`;
+}
+function viewMystere(id) {
+  const m = MYST.find(x => x.id === id); if (!m) return `<h1>Introuvable</h1>`;
+  return `<p class="sub"><a href="#/dossiers">← Fils rouges</a></p><h1>${esc(m.t)}</h1><p class="sub">Statut : <b>${esc(m.st)}</b></p><p class="lead" style="margin-top:10px">${esc(m.sum)}</p>
+  <h2>Le tableau de la piste</h2>${bdHTML("bd-my", boardForMyst(m))}`;
+}
+let BDI = 0;
+function afterDossiers() {
+  const tabs = $("#bdtabs"); if (!tabs) return;
+  tabs.querySelectorAll("button").forEach(b => b.onclick = () => { BDI = +b.dataset.i; $("#bdwrap").innerHTML = bdHTML("bd-" + CU.BOARDS[BDI].id, CU.BOARDS[BDI]); tabs.querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b)); bdMount("bd-" + CU.BOARDS[BDI].id); });
+  bdMount("bd-" + CU.BOARDS[BDI].id);
+}
+
 function viewDossiers() {
   const stc = { perdue: "var(--combat)", partielle: "var(--vigilante)", complète: "var(--lien)", inconnue: "var(--muted)" };
   const TR = CU.TRACKER, TH = CU.THREADS;
   const cnt = k => TR.filter(t => t.st === k).length;
-  return `<h1>Fils rouges</h1><p class="lead">Deux histoires parcourent tout le RP : les amplificateurs d'Ember et l'attaque de Spectre avec ses injections. Voici leur trace, date par date, puis l'état de chaque victime.</p>
+  return `<h1>Fils rouges</h1><p class="lead">Trois pistes parcourent tout le RP : les amplificateurs d'Ember, l'attaque de Spectre avec ses injections, et le masque partagé d'Arlequin. Le tableau d'enquête relie les protagonistes ; en dessous, la trace de chaque piste date par date, puis l'état de chaque victime.</p>
+  <h2>Les mystères</h2><div class="grid g3">${MYST.map(m => `<a class="card myst" href="#/mystere/${m.id}"><span class="chip">${esc(m.st)}</span><h3 style="margin:8px 0 4px">${esc(m.t)}</h3><p class="sub" style="margin:0">${esc(m.sum.length > 140 ? m.sum.slice(0, 138) + "…" : m.sum)}</p><b style="display:block;margin-top:8px;color:var(--accent);font-size:14px">Ouvrir le tableau →</b></a>`).join("")}</div>
+  <h2>Les grandes affaires</h2><div class="sel" id="bdtabs">${CU.BOARDS.map((b, i) => `<button data-i="${i}" class="${i === BDI ? "on" : ""}">${esc(b.t)}</button>`).join("")}</div><p class="sub" style="margin:0 0 10px">${esc(CU.BOARDS[BDI].intro)}</p>
+  <div id="bdwrap">${bdHTML("bd-" + CU.BOARDS[BDI].id, CU.BOARDS[BDI])}</div><h2>Les pistes, date par date</h2>
   ${TH.map(t => `<section class="act" style="--c:${t.c}"><h2>${esc(t.t)}</h2><p>${esc(t.intro)}</p></section><div class="tl">${t.steps.map(([d, x]) => `<article class="ev" style="--c:${t.c}"><time>${fd(d)}</time><p style="margin:2px 0 0">${esc(x)}</p></article>`).join("")}</div>`).join("")}
   <h2>Suivi des capacités après l'attaque</h2>
   <div class="grid g4" style="margin-bottom:14px">${["perdue", "partielle", "complète", "inconnue"].map(k => `<div class="card stat"><b style="color:${stc[k]}">${cnt(k)}</b><span>capacité ${k}</span></div>`).join("")}</div>
@@ -339,7 +523,9 @@ function route() {
   else if (seg[0] === "personnages") { key = "persos"; html = viewPersos(q); }
   else if (seg[0] === "perso") { key = "persos"; const n = decodeURIComponent(seg[1] || ""); html = viewPerso(n); after = () => afterPerso(n); }
   else if (seg[0] === "evolutions") { key = "evo"; html = viewEvo(); }
-  else if (seg[0] === "dossiers") { key = "dos"; html = viewDossiers(); }
+  else if (seg[0] === "evenement") { key = "chrono"; html = viewEvenement(seg[1]); after = () => bdMount("bd-ev"); }
+  else if (seg[0] === "mystere") { key = "dos"; html = viewMystere(seg[1]); after = () => bdMount("bd-my"); }
+  else if (seg[0] === "dossiers") { key = "dos"; { if (q.has("b") && +q.get("b") >= 0 && +q.get("b") < CU.BOARDS.length) BDI = +q.get("b"); html = viewDossiers(); after = afterDossiers; } }
   else if (seg[0] === "lieux") { key = "lieux"; html = viewLieux(q); }
   else html = viewHome();
   $("#app").innerHTML = html;

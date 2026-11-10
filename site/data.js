@@ -1,1 +1,15146 @@
-window.STATS={"chars":{"Julia":{"msgs":126,"first":"2026-08-12","last":"2026-11-08","days":{"2026-08-12":3,"2026-08-13":1,"2026-08-14":1,"2026-08-15":1,"2026-08-16":4,"2026-08-17":24,"2026-08-18":21,"2026-08-20":4,"2026-08-22":10,"2026-08-29":2,"2026-09-05":2,"2026-09-12":2,"2026-09-13":2,"2026-09-19":1,"2026-09-22":1,"2026-10-20":6,"2026-10-21":4,"2026-10-24":6,"2026-10-25":1,"2026-10-26":2,"2026-10-27":1,"2026-10-28":5,"2026-10-29":1,"2026-10-30":3,"2026-11-02":3,"2026-11-03":1,"2026-11-05":7,"2026-11-06":4,"2026-11-08":3},"places":[["rue",41],["hopital-de-westview",33],["couloir-a",14],["entrée-du-lycée",12],["limite-de-la-ville",9],["hall",7],["plage",4],["gymnase",3]],"partners":[["Leonie",37],["Louis",34],["Soren",32],["Mitsu",24],["Lucina",17],["Hizo Vertini",15],["Beta",13],["Blyke",10],["Isen",10],["Arlo",9]],"levels":[["2026-10-28","4.5"]],"pe":{"total":2,"fight":2,"n":1},"scenes":[["2026-08-12","rue","Wellston",3,["Leonie"]],["2026-08-13","rue","Wellston",1,["Leonie"]],["2026-08-14","rue","Wellston",1,[]],["2026-08-15","rue","Wellston",1,[]],["2026-08-16","rue","Wellston",4,["Leonie"]],["2026-08-17","rue","Wellston",24,["Leonie"]],["2026-08-18","entrée-du-lycée","Wellston",12,["Soren"]],["2026-08-18","hall","Wellston",3,["Soren"]],["2026-08-18","rue","Wellston",6,["Leonie"]],["2026-08-20","hall","Wellston",4,["Soren"]],["2026-08-22","couloir-a","Wellston",10,["Soren","゛🌑 〢 𝐄𝗏𝗂 𝐌𝖺𝗌𝖾𝗐𝗈𝗈𝖽"]],["2026-08-29","couloir-a","Wellston",2,["Soren"]],["2026-09-05","couloir-a","Wellston",2,["Soren"]],["2026-09-12","gymnase","Westview",2,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-13","Côté Droit","Westview",1,["Telemachus","Lucina"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Mitsu"]],["2026-09-19","Côté Droit","Westview",1,["Telemachus","Issei"]],["2026-09-22","Côté Droit","Westview",1,["Telemachus","Lucina","Issei","Ice","Solar"]],["2026-10-20","limite-de-la-ville","Westview",5,["Blyke","Isen","Arlo","Beta","Lucina"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","limite-de-la-ville","Westview",4,["Blyke","Isen","Beta","Arlo","Liam"]],["2026-10-24","hopital-de-westview","Westview",6,["Louis","Kaito Vance","Mitsu","Hizo Vertini"]],["2026-10-25","hopital-de-westview","Westview",1,["Hizo Vertini","Louis","Kaito Vance","Mitsu"]],["2026-10-26","hopital-de-westview","Westview",2,["Louis","Mitsu","Hizo Vertini"]],["2026-10-27","hopital-de-westview","Westview",1,["Hizo Vertini","Mitsu","Louis","Kaito Vance"]],["2026-10-28","hopital-de-westview","Westview",4,["Louis","Kaito Vance","Hizo Vertini","Lucina","Mitsu"]],["2026-10-28","rue","Westview",1,["Kael","Laura"]],["2026-10-29","hopital-de-westview","Westview",1,["Louis"]],["2026-10-30","hopital-de-westview","Westview",3,["Louis","Hizo Vertini"]],["2026-11-02","hopital-de-westview","Westview",3,["Louis","Mitsu"]],["2026-11-03","plage","Westview",1,["Kael","Laura"]],["2026-11-05","hopital-de-westview","Westview",6,["Louis","Mitsu"]],["2026-11-05","plage","Westview",1,[]],["2026-11-06","hopital-de-westview","Westview",3,["Louis","Mitsu"]],["2026-11-06","plage","Westview",1,["Laura","Kael"]],["2026-11-08","hopital-de-westview","Westview",3,["Louis","Mitsu"]]]},"Leonie":{"msgs":98,"first":"2026-08-12","last":"2026-11-02","days":{"2026-08-12":4,"2026-08-13":1,"2026-08-16":3,"2026-08-17":24,"2026-08-18":10,"2026-08-19":6,"2026-08-20":3,"2026-08-21":6,"2026-08-22":9,"2026-08-23":4,"2026-08-24":1,"2026-08-29":1,"2026-08-30":1,"2026-09-06":6,"2026-09-12":1,"2026-09-13":1,"2026-09-17":1,"2026-09-22":3,"2026-09-26":1,"2026-10-20":4,"2026-10-21":2,"2026-10-25":1,"2026-10-28":1,"2026-11-02":4},"places":[["rue",48],["parc",25],["centre-commercial",6],["Côté Gauche",5],["station-de-metro-d-agwin",3],["station-de-metro-de-wellston",2],["station-de-metro-westview",2],["starbucks",2]],"partners":[["Julia",37],["Mitsu",32],["Kaïra",21],["Kael",7],["Hizo Vertini",6],["John",6],["Telemachus",5],["Terrence",5],["Laura",4],["Irene",2]],"levels":[["2026-08-12","2.2"],["2026-09-06","2.3"],["2026-10-20","2.4"]],"pe":{"total":14,"training":9,"n":9,"fight":5},"scenes":[["2026-08-12","rue","Wellston",2,["Julia"]],["2026-08-12","station-de-metro-d-agwin","Agwin",1,[]],["2026-08-12","station-de-metro-de-wellston","Wellston",1,[]],["2026-08-13","rue","Wellston",1,["Julia"]],["2026-08-16","rue","Wellston",3,["Julia"]],["2026-08-17","rue","Wellston",24,["Julia"]],["2026-08-18","parc","Westview",1,["Mitsu","Kaïra","Telemachus"]],["2026-08-18","rue","Wellston",6,["Julia"]],["2026-08-18","station-de-metro-d-agwin","Agwin",1,[]],["2026-08-18","station-de-metro-de-wellston","Wellston",1,[]],["2026-08-18","station-de-metro-westview","Westview",1,[]],["2026-08-19","parc","Westview",6,["Mitsu","Kaïra","Telemachus"]],["2026-08-20","hopital-de-westview","Westview",1,["Kaïra"]],["2026-08-20","parc","Westview",2,["Mitsu","Kaïra"]],["2026-08-21","parc","Westview",6,["Mitsu"]],["2026-08-22","parc","Westview",9,["Mitsu"]],["2026-08-23","parc","Westview",1,[]],["2026-08-23","starbucks","Agwin",1,[]],["2026-08-23","station-de-metro-d-agwin","Agwin",1,["Irene"]],["2026-08-23","station-de-metro-westview","Westview",1,["Telemachus","Mitsu","Marc"]],["2026-08-24","starbucks","Agwin",1,["Elizabeth Shaw"]],["2026-08-29","rue","Agwin",1,[]],["2026-08-30","rue","Agwin",1,[]],["2026-09-06","centre-commercial","Agwin",6,[]],["2026-09-12","entrée-du-lycée","Westview",1,["Hizo Vertini","Issei"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Mitsu"]],["2026-09-17","Côté Gauche","Westview",1,["Mitsu","Hizo Vertini","Kael","Kaïra","Lucian Hale"]],["2026-09-22","Côté Gauche","Westview",3,["Hizo Vertini"]],["2026-09-26","Côté Gauche","Westview",1,["Kael","Hizo Vertini","Mitsu"]],["2026-10-20","rue","Westview",4,["John","Kaïra","Terrence","Mitsu","Laura"]],["2026-10-21","rue","Westview",2,["Mitsu","John","Kael","Kaïra","Laura"]],["2026-10-25","cours","Agwin",1,[]],["2026-10-28","cours","Agwin",1,[]],["2026-11-02","rue","Westview",4,["Kaïra"]]]},"Kaïra":{"msgs":182,"first":"2026-08-15","last":"2026-11-07","days":{"2026-08-15":1,"2026-08-16":6,"2026-08-17":11,"2026-08-18":4,"2026-08-19":6,"2026-08-20":3,"2026-09-12":3,"2026-09-13":1,"2026-09-14":1,"2026-09-17":1,"2026-10-13":15,"2026-10-14":2,"2026-10-20":7,"2026-10-21":6,"2026-10-22":46,"2026-10-23":62,"2026-11-02":5,"2026-11-07":2},"places":[["Couloir hôpital",107],["parc",29],["centre-ville",18],["rue",18],["gymnase",4],["hopital-de-westview",3],["Côté Gauche",2],["plage",1]],"partners":[["Louis",108],["Mitsu",38],["Telemachus",25],["Leonie",21],["Kael",14],["John",13],["Laura",9],["Power",8],["Hizo Vertini",6],["Terrence",6]],"levels":[["2026-08-15","1.8"],["2026-09-12","1.9"],["2026-10-13","2.0"],["2026-10-22","2.1"]],"pe":{"total":6,"fight":6,"n":2},"scenes":[["2026-08-15","parc","Westview",1,[]],["2026-08-16","parc","Westview",6,["Power"]],["2026-08-17","parc","Westview",11,["Mitsu","Power"]],["2026-08-18","parc","Westview",4,["Mitsu","Telemachus","Leonie"]],["2026-08-19","parc","Westview",6,["Mitsu","Leonie","Telemachus"]],["2026-08-20","hopital-de-westview","Westview",2,["Leonie"]],["2026-08-20","parc","Westview",1,["Mitsu","Leonie"]],["2026-09-12","gymnase","Westview",3,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Beta","Mitsu","Kael"]],["2026-09-14","Côté Gauche","Westview",1,["Ramlethal Valentine","Lucian Hale","Mitsu","Kael","Telemachus"]],["2026-09-17","Côté Gauche","Westview",1,["Mitsu","Leonie","Hizo Vertini","Kael","Lucian Hale"]],["2026-10-13","centre-ville","Westview",15,["Telemachus"]],["2026-10-14","centre-ville","Westview",2,["Telemachus"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-20","rue","Westview",6,["John","Terrence","Leonie","Mitsu","Laura"]],["2026-10-21","rue","Westview",6,["Mitsu","John","Kael","Laura","Leonie"]],["2026-10-22","Couloir hôpital","Westview",45,["Louis"]],["2026-10-22","hopital-de-westview","Westview",1,["Hizo Vertini","Kaito Vance","Louis","John","Mitsu"]],["2026-10-23","Couloir hôpital","Westview",62,["Louis"]],["2026-11-02","rue","Westview",5,["Leonie"]],["2026-11-07","centre-ville","Westview",1,[]],["2026-11-07","rue","Westview",1,[]]]},"Power":{"msgs":54,"first":"2026-08-16","last":"2026-09-24","days":{"2026-08-16":7,"2026-08-17":1,"2026-08-20":1,"2026-08-24":2,"2026-08-25":11,"2026-08-26":1,"2026-08-27":5,"2026-08-28":5,"2026-08-29":7,"2026-08-30":1,"2026-08-31":2,"2026-09-01":1,"2026-09-03":1,"2026-09-06":1,"2026-09-08":1,"2026-09-11":1,"2026-09-12":1,"2026-09-14":1,"2026-09-17":2,"2026-09-21":1,"2026-09-24":1},"places":[["salle-de-classe",17],["cour",12],["parc",9],["toit",7],["Milieu",5],["gymnase",2],["hall",1],["hopital-de-westview",1]],"partners":[["Beta",33],["Telemachus",14],["Mitsu",10],["Kaïra",8],["Irene",3],["Lucian Hale",1],["Ramlethal Valentine",1],["Ice",1],["Hizo Vertini",1],["Marc",1]],"levels":[["2026-08-16","4.8"]],"pe":{"total":16,"fight":12,"n":6,"training":4},"scenes":[["2026-08-16","parc","Westview",7,["Kaïra"]],["2026-08-17","parc","Westview",1,["Kaïra","Mitsu"]],["2026-08-20","hall","Westview",1,[]],["2026-08-24","cour","Westview",2,["Beta"]],["2026-08-25","cour","Westview",10,["Beta"]],["2026-08-25","hopital-de-westview","Westview",1,[]],["2026-08-26","salle-de-classe","Westview",1,[]],["2026-08-27","salle-de-classe","Westview",5,["Beta","Mitsu"]],["2026-08-28","salle-de-classe","Westview",5,["Beta","Mitsu"]],["2026-08-29","salle-de-classe","Westview",6,["Telemachus","Beta","Mitsu"]],["2026-08-29","toit","Westview",1,["Telemachus","Beta","Mitsu"]],["2026-08-30","toit","Westview",1,["Telemachus","Beta"]],["2026-08-31","toit","Westview",2,["Telemachus"]],["2026-09-01","toit","Westview",1,["Telemachus"]],["2026-09-03","toit","Westview",1,["Telemachus"]],["2026-09-06","toit","Westview",1,[]],["2026-09-08","parc","Westview",1,[]],["2026-09-11","gymnase","Westview",1,["Telemachus","Mitsu","Lucian Hale","Beta","Ramlethal Valentine"]],["2026-09-12","gymnase","Westview",1,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-14","Milieu","Westview",1,["Irene"]],["2026-09-17","Milieu","Westview",2,["Irene"]],["2026-09-21","Milieu","Westview",1,[]],["2026-09-24","Milieu","Westview",1,["Beta"]]]},"Mitsu":{"msgs":163,"first":"2026-08-17","last":"2026-11-08","days":{"2026-08-17":10,"2026-08-18":5,"2026-08-19":7,"2026-08-20":4,"2026-08-21":5,"2026-08-22":24,"2026-08-23":13,"2026-08-24":9,"2026-08-25":5,"2026-08-26":14,"2026-08-27":3,"2026-08-28":3,"2026-08-29":5,"2026-09-01":1,"2026-09-07":6,"2026-09-11":1,"2026-09-12":4,"2026-09-13":1,"2026-09-14":1,"2026-09-17":2,"2026-09-18":1,"2026-09-25":1,"2026-09-26":1,"2026-10-20":4,"2026-10-21":8,"2026-10-22":2,"2026-10-24":3,"2026-10-25":1,"2026-10-26":1,"2026-10-27":1,"2026-10-28":2,"2026-10-31":1,"2026-11-02":5,"2026-11-05":6,"2026-11-06":1,"2026-11-08":2},"places":[["parc",42],["zone-turf-wars",33],["hopital-de-westview",25],["plage",23],["rue",11],["salle-de-classe",6],["gymnase",6],["Côté Gauche",6]],"partners":[["Ice",46],["Kaïra",38],["Telemachus",38],["Leonie",32],["Hizo Vertini",31],["Beta",27],["Louis",26],["Julia",24],["Irene",22],["Kael",16]],"levels":[["2026-08-17","5.3"],["2026-10-20","5.4"],["2026-11-05","5.5"]],"pe":{"total":8,"fight":7,"n":4,"training":1},"scenes":[["2026-08-17","parc","Westview",10,["Kaïra","Power"]],["2026-08-18","parc","Westview",5,["Kaïra","Telemachus","Leonie"]],["2026-08-19","parc","Westview",7,["Leonie","Kaïra","Telemachus"]],["2026-08-20","parc","Westview",4,["Leonie","Kaïra"]],["2026-08-21","parc","Westview",5,["Leonie"]],["2026-08-22","parc","Westview",9,["Leonie"]],["2026-08-22","plage","Westview",15,["Ice","Marc","Telemachus"]],["2026-08-23","station-de-metro-westview","Westview",1,["Telemachus","Marc","Leonie"]],["2026-08-23","zone-turf-wars","Quartiers & zones",12,["Telemachus","Irene","Rein","Ice","Hizo Vertini"]],["2026-08-24","zone-turf-wars","Quartiers & zones",9,["Hizo Vertini","Irene","Ice","Telemachus"]],["2026-08-25","zone-turf-wars","Quartiers & zones",5,["Telemachus","Irene","Beta","Ice","Hizo Vertini"]],["2026-08-26","plage","Westview",7,["Ice"]],["2026-08-26","zone-turf-wars","Quartiers & zones",7,["Beta","Ice","Telemachus"]],["2026-08-27","cour","Westview",2,[]],["2026-08-27","salle-de-classe","Westview",1,["Power","Beta"]],["2026-08-28","Beta _-_ Mitsu","Autres",1,["Beta"]],["2026-08-28","salle-de-classe","Westview",2,["Beta","Power"]],["2026-08-29","Beta _-_ Mitsu","Autres",1,[]],["2026-08-29","salle-de-classe","Westview",3,["Telemachus","Beta","Power"]],["2026-08-29","toit","Westview",1,["Telemachus","Beta","Power"]],["2026-09-01","parc","Westview",1,[]],["2026-09-07","gare","Westview",5,["Marie"]],["2026-09-07","parc","Westview",1,[]],["2026-09-11","gymnase","Westview",1,["Telemachus","Lucian Hale","Power","Beta","Ramlethal Valentine"]],["2026-09-12","gymnase","Westview",4,["Beta","Hizo Vertini","Telemachus","Ice","Kaïra"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Kael"]],["2026-09-14","Côté Gauche","Westview",1,["Ramlethal Valentine","Lucian Hale","Kael","Telemachus","Kaïra"]],["2026-09-17","Côté Gauche","Westview",2,["Leonie","Hizo Vertini","Kael","Kaïra","Lucian Hale"]],["2026-09-18","Côté Gauche","Westview",1,["Ramlethal Valentine"]],["2026-09-25","Côté Gauche","Westview",1,["Kael","Hizo Vertini"]],["2026-09-26","Côté Gauche","Westview",1,["Kael","Hizo Vertini","Leonie"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-20","rue","Westview",3,["John","Kaïra","Terrence","Leonie","Laura"]],["2026-10-21","rue","Westview",8,["John","Kael","Kaïra","Laura","Leonie"]],["2026-10-22","hopital-de-westview","Westview",2,["Hizo Vertini","Kaito Vance","Louis","John","Kaïra"]],["2026-10-24","hopital-de-westview","Westview",3,["Julia","Louis","Kaito Vance","Hizo Vertini"]],["2026-10-25","hopital-de-westview","Westview",1,["Hizo Vertini","Louis","Julia","Kaito Vance"]],["2026-10-26","hopital-de-westview","Westview",1,["Louis","Julia","Hizo Vertini"]],["2026-10-27","hopital-de-westview","Westview",1,["Hizo Vertini","Julia","Louis","Kaito Vance"]],["2026-10-28","hopital-de-westview","Westview",2,["Louis","Julia","Kaito Vance","Hizo Vertini","Lucina"]],["2026-10-31","hopital-de-westview","Westview",1,["Louis"]],["2026-11-02","hopital-de-westview","Westview",5,["Louis","Julia"]],["2026-11-05","hopital-de-westview","Westview",6,["Louis","Julia"]],["2026-11-06","hopital-de-westview","Westview",1,["Julia","Louis"]],["2026-11-08","hopital-de-westview","Westview",2,["Julia","Louis"]]]},"Marc":{"msgs":39,"first":"2026-08-17","last":"2026-10-20","days":{"2026-08-17":3,"2026-08-22":5,"2026-08-23":4,"2026-09-08":17,"2026-09-09":2,"2026-09-10":1,"2026-09-11":1,"2026-09-12":3,"2026-09-23":1,"2026-09-24":1,"2026-10-20":1},"places":[["vieille-maison",14],["plage",6],["mer",5],["rue",5],["zone-turf-wars",3],["Côté Droit",2],["station-de-metro-westview",1],["gare",1]],"partners":[["Kael",18],["Telemachus",11],["Mitsu",11],["Ice",10],["Hizo Vertini",5],["Irene",4],["Rein",4],["Lucina",3],["Beta",2],["Kaïra",2]],"levels":[],"pe":{"total":20,"training":8,"n":4,"fight":12},"scenes":[["2026-08-17","mer","Westview",3,[]],["2026-08-22","plage","Westview",5,["Mitsu","Ice","Telemachus"]],["2026-08-23","station-de-metro-westview","Westview",1,["Telemachus","Mitsu","Leonie"]],["2026-08-23","zone-turf-wars","Quartiers & zones",3,["Mitsu","Telemachus","Irene","Rein","Ice"]],["2026-09-08","gare","Westview",1,[]],["2026-09-08","mer","Westview",2,[]],["2026-09-08","rue","Wellston",5,["Kael"]],["2026-09-08","vieille-maison","Wellston",9,["Kael"]],["2026-09-09","vieille-maison","Wellston",2,["Kael"]],["2026-09-10","vieille-maison","Wellston",1,["Kael"]],["2026-09-11","vieille-maison","Wellston",1,[]],["2026-09-12","gare-wellston","Wellston",1,[]],["2026-09-12","gymnase","Westview",1,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-12","vieille-maison","Wellston",1,[]],["2026-09-23","Côté Droit","Westview",1,["Lucina"]],["2026-09-24","Côté Droit","Westview",1,["Ice"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]]]},"Telemachus":{"msgs":356,"first":"2026-08-17","last":"2026-11-06","days":{"2026-08-17":2,"2026-08-18":1,"2026-08-19":2,"2026-08-20":4,"2026-08-21":1,"2026-08-22":7,"2026-08-23":10,"2026-08-24":2,"2026-08-25":18,"2026-08-26":1,"2026-08-27":12,"2026-08-28":2,"2026-08-29":22,"2026-08-30":3,"2026-08-31":2,"2026-09-01":3,"2026-09-02":5,"2026-09-03":14,"2026-09-05":4,"2026-09-06":3,"2026-09-07":13,"2026-09-08":4,"2026-09-09":3,"2026-09-10":1,"2026-09-11":5,"2026-09-12":5,"2026-09-13":4,"2026-09-14":2,"2026-09-19":1,"2026-09-20":2,"2026-09-21":1,"2026-09-22":4,"2026-09-26":1,"2026-10-07":3,"2026-10-09":2,"2026-10-13":14,"2026-10-14":3,"2026-10-16":1,"2026-10-17":1,"2026-10-18":11,"2026-10-20":15,"2026-10-21":11,"2026-10-22":21,"2026-10-23":27,"2026-10-24":26,"2026-10-25":10,"2026-10-26":2,"2026-10-28":12,"2026-10-29":19,"2026-10-30":4,"2026-10-31":2,"2026-11-01":4,"2026-11-03":1,"2026-11-06":3},"places":[["toit",51],["plage",30],["zone-turf-wars",30],["chez-telemachus",30],["rue",27],["salle-de-recharge",26],["bureau-wellston",26],["centre-ville",17]],"partners":[["Lucina",81],["Beta",69],["Isaure",50],["Keito",43],["Ice",40],["Mitsu",38],["Kael",28],["Kaïra",25],["Irene",25],["Rein",24]],"levels":[],"pe":{"total":92,"training":38,"n":21,"fight":54},"scenes":[["2026-08-17","salle-de-sport","Westview",2,[]],["2026-08-18","parc","Westview",1,["Mitsu","Kaïra","Leonie"]],["2026-08-19","parc","Westview",2,["Mitsu","Leonie","Kaïra"]],["2026-08-20","plage","Westview",4,[]],["2026-08-21","plage","Westview",1,[]],["2026-08-22","centre-commercial","Westview",2,[]],["2026-08-22","plage","Westview",5,["Mitsu","Ice","Marc"]],["2026-08-23","station-de-metro-westview","Westview",1,["Mitsu","Marc","Leonie"]],["2026-08-23","zone-turf-wars","Quartiers & zones",9,["Mitsu","Irene","Rein","Ice","Hizo Vertini"]],["2026-08-24","zone-turf-wars","Quartiers & zones",2,["Hizo Vertini","Mitsu","Irene","Ice"]],["2026-08-25","zone-turf-wars","Quartiers & zones",18,["Irene","Beta","Mitsu","Ice","Hizo Vertini"]],["2026-08-26","zone-turf-wars","Quartiers & zones",1,["Beta","Ice","Mitsu"]],["2026-08-27","Lighter _-_ Vulcain","Autres",3,["Lighter","Volcan"]],["2026-08-27","Telemachus _-_ Beta","Autres",2,["Beta"]],["2026-08-27","rue","Westview",1,[]],["2026-08-27","toit","Westview",6,["Beta","Ice"]],["2026-08-28","chez-telemachus","Autres",2,[]],["2026-08-29","chez-telemachus","Autres",1,[]],["2026-08-29","couloir","Westview",1,[]],["2026-08-29","entrée-du-lycée","Westview",1,[]],["2026-08-29","réseaux-sociaux","Autres",2,["Hizo Vertini"]],["2026-08-29","salle-de-classe","Westview",9,["Beta","Power","Mitsu"]],["2026-08-29","toit","Westview",8,["Beta","Mitsu","Power"]],["2026-08-30","toit","Westview",3,["Power","Beta"]],["2026-08-31","toit","Westview",2,["Power"]],["2026-09-01","chez-telemachus","Autres",2,[]],["2026-09-01","toit","Westview",1,["Power"]],["2026-09-02","rue","Wellston",5,["Kael","Marie"]],["2026-09-03","chez-telemachus","Autres",5,[]],["2026-09-03","rue","Wellston",7,["Kael"]],["2026-09-03","rue","Westview",1,[]],["2026-09-03","toit","Westview",1,["Power"]],["2026-09-05","café-tranquille","Rowden",4,["Keito"]],["2026-09-06","café-tranquille","Rowden",3,["Keito"]],["2026-09-07","café-tranquille","Rowden",2,["Keito"]],["2026-09-07","rue","Rowden",1,[]],["2026-09-07","toit","Westview",10,["Lucina","Koya"]],["2026-09-08","toit","Westview",4,["Lucina"]],["2026-09-09","toit","Westview",3,["Lucina"]],["2026-09-10","plage","Westview",1,[]],["2026-09-11","entrée-du-lycée","Westview",1,["Ramlethal Valentine"]],["2026-09-11","gymnase","Westview",2,["Mitsu","Lucian Hale","Power","Beta","Ramlethal Valentine"]],["2026-09-11","parc","Westview",2,[]],["2026-09-12","gymnase","Westview",5,["Beta","Hizo Vertini","Mitsu","Ice","Kaïra"]],["2026-09-13","Côté Droit","Westview",1,["Julia","Lucina"]],["2026-09-13","Milieu","Westview",1,["Beta"]],["2026-09-13","gymnase","Westview",2,["Ice","Kaïra","Beta","Mitsu","Kael"]],["2026-09-14","Côté Droit","Westview",1,["Ice"]],["2026-09-14","Côté Gauche","Westview",1,["Ramlethal Valentine","Lucian Hale","Mitsu","Kael","Kaïra"]],["2026-09-19","Côté Droit","Westview",1,["Issei","Julia"]],["2026-09-20","Côté Droit","Westview",2,["Issei","Lucina"]],["2026-09-21","Côté Droit","Westview",1,["Issei","Lucina"]],["2026-09-22","Côté Droit","Westview",4,["Lucina","Issei","Julia","Ice","Solar"]],["2026-09-26","Côté Droit","Westview",1,["Lucina"]],["2026-10-07","chez-telemachus","Autres",3,[]],["2026-10-09","toit","Westview",2,[]],["2026-10-13","centre-ville","Westview",14,["Kaïra"]],["2026-10-14","centre-ville","Westview",3,["Kaïra"]],["2026-10-16","chez-telemachus","Autres",1,[]],["2026-10-17","chez-telemachus","Autres",1,[]],["2026-10-18","toit","Westview",11,["Ice"]],["2026-10-20","plage","Westview",15,["Louis","Isaure","Keito","Remi","Rein"]],["2026-10-21","plage","Westview",4,["Louis","Isaure","Keito","Rein"]],["2026-10-21","salle-de-recharge","Wellston",7,["Keito","Orrin","Rein"]],["2026-10-22","rue","Wellston",2,["Lucina"]],["2026-10-22","salle-de-recharge","Wellston",19,["Orrin","Lucina","Kael","Keito","Rein"]],["2026-10-23","café-woaba-boba","Wellston",13,["Lucina"]],["2026-10-23","centre-commercial","Westview",4,["Isaure","Beta","Lucina"]],["2026-10-23","rue","Wellston",4,["Lucina"]],["2026-10-23","rue","Westview",6,["Isaure","Beta","Lucina"]],["2026-10-24","Isaure _-_ Beta","Autres",2,["Beta","Isaure"]],["2026-10-24","Isaure _-_ Telemachus","Autres",6,["Isaure"]],["2026-10-24","Machus _3 _-_ Ma Circe _3","Autres",2,["Lucina"]],["2026-10-24","Telemachus _-_ Beta","Autres",1,[]],["2026-10-24","centre-commercial","Westview",10,["Lucina","Beta","Isaure"]],["2026-10-24","chez-telemachus","Autres",5,[]],["2026-10-25","chez-telemachus","Autres",4,[]],["2026-10-25","parc","Westview",6,["Keito"]],["2026-10-26","parc","Westview",2,["Keito"]],["2026-10-28","bureau-wellston","Wellston",2,[]],["2026-10-28","chez-telemachus","Autres",5,[]],["2026-10-28","colline-de-rowden","Rowden",5,["Beta","Isaure","Lucina"]],["2026-10-29","bureau-wellston","Wellston",18,["Byron"]],["2026-10-29","chez-telemachus","Autres",1,[]],["2026-10-30","bureau-wellston","Wellston",4,["Byron"]],["2026-10-31","bureau-wellston","Wellston",2,["Byron"]],["2026-11-01","chez-hizo","Autres",4,["Hizo Vertini"]],["2026-11-03","quartier-low-tier","Quartiers & zones",1,["Volcan","Vitalis","Arlequin","Sibyl"]],["2026-11-06","parc","Rowden",3,["Beta","Isaure"]]]},"Soren":{"msgs":74,"first":"2026-08-18","last":"2026-09-23","days":{"2026-08-18":14,"2026-08-20":4,"2026-08-22":10,"2026-08-29":2,"2026-09-05":10,"2026-09-06":2,"2026-09-07":4,"2026-09-08":1,"2026-09-09":6,"2026-09-11":5,"2026-09-13":1,"2026-09-15":1,"2026-09-17":1,"2026-09-18":1,"2026-09-20":1,"2026-09-21":1,"2026-09-22":9,"2026-09-23":1},"places":[["colline-de-rowden",32],["couloir-a",14],["entrée-du-lycée",11],["hall",7],["centre-ville",7],["gare-wellston",2],["gare-rowden",1]],"partners":[["Julia",32],["Louis",30],["Silas",28],["Laura",6],["Keito",5]],"levels":[["2026-08-18","4.8"],["2026-09-07","4.9"]],"pe":{},"scenes":[["2026-08-18","entrée-du-lycée","Wellston",11,["Julia"]],["2026-08-18","hall","Wellston",3,["Julia"]],["2026-08-20","hall","Wellston",4,["Julia"]],["2026-08-22","couloir-a","Wellston",10,["Julia","゛🌑 〢 𝐄𝗏𝗂 𝐌𝖺𝗌𝖾𝗐𝗈𝗈𝖽"]],["2026-08-29","couloir-a","Wellston",2,["Julia"]],["2026-09-05","colline-de-rowden","Rowden",7,["Silas","Louis","Keito"]],["2026-09-05","couloir-a","Wellston",2,["Julia"]],["2026-09-05","gare-wellston","Wellston",1,[]],["2026-09-06","colline-de-rowden","Rowden",2,["Silas","Louis"]],["2026-09-07","colline-de-rowden","Rowden",4,["Silas","Louis"]],["2026-09-08","colline-de-rowden","Rowden",1,["Silas","Louis"]],["2026-09-09","colline-de-rowden","Rowden",6,["Silas","Louis"]],["2026-09-11","colline-de-rowden","Rowden",5,["Silas","Louis"]],["2026-09-13","colline-de-rowden","Rowden",1,["Silas","Louis"]],["2026-09-15","colline-de-rowden","Rowden",1,["Silas","Louis"]],["2026-09-17","colline-de-rowden","Rowden",1,["Silas","Louis"]],["2026-09-18","colline-de-rowden","Rowden",1,["Silas","Louis"]],["2026-09-20","colline-de-rowden","Rowden",1,["Louis"]],["2026-09-21","colline-de-rowden","Rowden",1,[]],["2026-09-22","centre-ville","Agwin",6,["Laura"]],["2026-09-22","colline-de-rowden","Rowden",1,["Louis"]],["2026-09-22","gare-rowden","Rowden",1,[]],["2026-09-22","gare-wellston","Wellston",1,[]],["2026-09-23","centre-ville","Agwin",1,["Laura"]]]},"Elizabeth Shaw":{"msgs":25,"first":"2026-08-22","last":"2026-08-24","days":{"2026-08-22":9,"2026-08-23":14,"2026-08-24":2},"places":[["centre-commercial",22],["starbucks",2],["station-de-metro-westview",1]],"partners":[["Irene",21],["Kaito Vance",2],["Leonie",1]],"levels":[["2026-08-22","4.4"]],"pe":{},"scenes":[["2026-08-22","centre-commercial","Agwin",8,["Irene","Kaito Vance"]],["2026-08-22","station-de-metro-westview","Westview",1,[]],["2026-08-23","centre-commercial","Agwin",14,["Irene","Kaito Vance"]],["2026-08-24","starbucks","Agwin",2,["Leonie"]]]},"Kaito Vance":{"msgs":41,"first":"2026-08-22","last":"2026-10-28","days":{"2026-08-22":3,"2026-08-23":1,"2026-08-25":3,"2026-08-26":1,"2026-08-27":10,"2026-08-28":7,"2026-10-18":1,"2026-10-22":5,"2026-10-23":2,"2026-10-24":3,"2026-10-25":1,"2026-10-27":1,"2026-10-28":3},"places":[["starbucks",20],["hopital-de-westview",15],["parc",2],["centre-commercial",2],["rue",2]],"partners":[["Hizo Vertini",33],["Louis",11],["Mitsu",9],["Julia",8],["John",3],["Lucina",3],["Elizabeth Shaw",2],["Irene",2],["Laura",2],["Kaïra",1]],"levels":[],"pe":{},"scenes":[["2026-08-22","centre-commercial","Agwin",1,["Elizabeth Shaw","Irene"]],["2026-08-22","parc","Agwin",2,[]],["2026-08-23","centre-commercial","Agwin",1,["Elizabeth Shaw","Irene"]],["2026-08-25","starbucks","Agwin",3,["Hizo Vertini"]],["2026-08-26","starbucks","Agwin",1,["Hizo Vertini"]],["2026-08-27","rue","Agwin",1,[]],["2026-08-27","starbucks","Agwin",9,["Hizo Vertini"]],["2026-08-28","starbucks","Agwin",7,["Hizo Vertini"]],["2026-10-18","rue","Agwin",1,[]],["2026-10-22","hopital-de-westview","Westview",5,["Hizo Vertini","Louis","John","Mitsu","Kaïra"]],["2026-10-23","hopital-de-westview","Westview",2,["Hizo Vertini","Laura"]],["2026-10-24","hopital-de-westview","Westview",3,["Julia","Louis","Mitsu","Hizo Vertini"]],["2026-10-25","hopital-de-westview","Westview",1,["Hizo Vertini","Louis","Julia","Mitsu"]],["2026-10-27","hopital-de-westview","Westview",1,["Hizo Vertini","Julia","Mitsu","Louis"]],["2026-10-28","hopital-de-westview","Westview",3,["Louis","Julia","Hizo Vertini","Lucina","Mitsu"]]]},"Irene":{"msgs":105,"first":"2026-08-22","last":"2026-11-05","days":{"2026-08-22":8,"2026-08-23":23,"2026-08-24":6,"2026-08-25":12,"2026-09-01":4,"2026-09-02":4,"2026-09-07":4,"2026-09-12":1,"2026-09-13":1,"2026-09-14":1,"2026-09-17":1,"2026-10-09":1,"2026-10-10":1,"2026-10-12":10,"2026-10-13":4,"2026-10-25":1,"2026-10-28":1,"2026-11-02":10,"2026-11-03":9,"2026-11-04":2,"2026-11-05":1},"places":[["centre-commercial",37],["zone-turf-wars",27],["entrée-du-lycée",22],["centre-ville",9],["couloir",3],["gymnase",2],["Milieu",2],["toit",2]],"partners":[["Telemachus",25],["Mitsu",22],["Marou",22],["Elizabeth Shaw",21],["Hizo Vertini",18],["Ice",16],["Marie",14],["Rein",9],["Beta",8],["Marc",4]],"levels":[["2026-08-22","7.4"]],"pe":{"total":10,"fight":6,"n":4,"training":4},"scenes":[["2026-08-22","centre-commercial","Agwin",8,["Elizabeth Shaw","Kaito Vance"]],["2026-08-23","centre-commercial","Agwin",13,["Elizabeth Shaw","Kaito Vance"]],["2026-08-23","station-de-metro-d-agwin","Agwin",1,["Leonie"]],["2026-08-23","zone-turf-wars","Quartiers & zones",9,["Mitsu","Telemachus","Rein","Ice","Hizo Vertini"]],["2026-08-24","zone-turf-wars","Quartiers & zones",6,["Hizo Vertini","Mitsu","Ice","Telemachus"]],["2026-08-25","zone-turf-wars","Quartiers & zones",12,["Telemachus","Beta","Mitsu","Ice","Hizo Vertini"]],["2026-09-01","centre-ville","Agwin",4,["Hizo Vertini"]],["2026-09-02","centre-ville","Agwin",4,["Hizo Vertini"]],["2026-09-07","centre-ville","Agwin",1,[]],["2026-09-07","couloir","Agwin",3,["Ramlethal Valentine"]],["2026-09-12","gymnase","Westview",1,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Mitsu"]],["2026-09-14","Milieu","Westview",1,["Power"]],["2026-09-17","Milieu","Westview",1,["Power"]],["2026-10-09","centre-commercial","Agwin",1,["Marie"]],["2026-10-10","centre-commercial","Agwin",1,[]],["2026-10-12","centre-commercial","Agwin",10,["Marie"]],["2026-10-13","centre-commercial","Agwin",4,["Marie"]],["2026-10-25","toit","Agwin",1,[]],["2026-10-28","toit","Agwin",1,[]],["2026-11-02","entrée-du-lycée","Agwin",10,["Marou"]],["2026-11-03","entrée-du-lycée","Agwin",9,["Marou"]],["2026-11-04","entrée-du-lycée","Agwin",2,["Marou"]],["2026-11-05","entrée-du-lycée","Agwin",1,["Marou"]]]},"Ice":{"msgs":256,"first":"2026-08-22","last":"2026-10-30","days":{"2026-08-22":14,"2026-08-23":5,"2026-08-24":5,"2026-08-25":4,"2026-08-26":18,"2026-08-27":14,"2026-09-07":1,"2026-09-08":2,"2026-09-12":3,"2026-09-13":1,"2026-09-14":1,"2026-09-22":1,"2026-09-24":1,"2026-09-27":1,"2026-10-18":11,"2026-10-25":58,"2026-10-26":55,"2026-10-27":27,"2026-10-28":22,"2026-10-29":2,"2026-10-30":10},"places":[["limite-de-la-ville",78],["bibliotèque",48],["centre-ville",48],["toit",25],["zone-turf-wars",24],["plage",22],["gymnase",4],["Côté Droit",4]],"partners":[["Lucina",176],["Mitsu",46],["Telemachus",40],["Beta",32],["Irene",16],["Hizo Vertini",13],["Marc",10],["Rein",5],["Kaïra",4],["Julia",4]],"levels":[["2026-08-22","5.5"],["2026-10-18","5.6"]],"pe":{"total":9,"fight":9,"n":3},"scenes":[["2026-08-22","plage","Westview",14,["Mitsu","Marc","Telemachus"]],["2026-08-23","zone-turf-wars","Quartiers & zones",5,["Mitsu","Telemachus","Irene","Rein","Hizo Vertini"]],["2026-08-24","zone-turf-wars","Quartiers & zones",5,["Hizo Vertini","Mitsu","Irene","Telemachus"]],["2026-08-25","zone-turf-wars","Quartiers & zones",4,["Telemachus","Irene","Beta","Mitsu","Hizo Vertini"]],["2026-08-26","plage","Westview",8,["Mitsu"]],["2026-08-26","zone-turf-wars","Quartiers & zones",10,["Beta","Mitsu","Telemachus"]],["2026-08-27","toit","Westview",14,["Beta","Telemachus"]],["2026-09-07","branish","Quartiers & zones",1,[]],["2026-09-08","branish","Quartiers & zones",2,["Keesh","Rex","Thomas","Cynthia"]],["2026-09-12","gymnase","Westview",3,["Beta","Hizo Vertini","Telemachus","Mitsu","Kaïra"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Kaïra","Beta","Mitsu","Kael"]],["2026-09-14","Côté Droit","Westview",1,["Telemachus"]],["2026-09-22","Côté Droit","Westview",1,["Telemachus","Lucina","Issei","Julia","Solar"]],["2026-09-24","Côté Droit","Westview",1,["Marc"]],["2026-09-27","Côté Droit","Westview",1,["Lucina"]],["2026-10-18","toit","Westview",11,["Telemachus"]],["2026-10-25","bibliotèque","Westview",48,["Lucina"]],["2026-10-25","limite-de-la-ville","Westview",10,["Lucina"]],["2026-10-26","limite-de-la-ville","Westview",55,["Lucina"]],["2026-10-27","centre-ville","Westview",14,["Lucina"]],["2026-10-27","limite-de-la-ville","Westview",13,["Lucina"]],["2026-10-28","centre-ville","Westview",22,["Lucina"]],["2026-10-29","centre-ville","Westview",2,["Lucina"]],["2026-10-30","centre-ville","Westview",10,["Lucina"]]]},"Hizo Vertini":{"msgs":113,"first":"2026-08-23","last":"2026-11-07","days":{"2026-08-23":4,"2026-08-24":14,"2026-08-25":5,"2026-08-26":1,"2026-08-27":8,"2026-08-28":7,"2026-08-29":4,"2026-08-31":1,"2026-09-01":3,"2026-09-02":5,"2026-09-04":1,"2026-09-08":5,"2026-09-09":1,"2026-09-11":1,"2026-09-12":8,"2026-09-17":1,"2026-09-22":3,"2026-09-25":2,"2026-09-26":2,"2026-09-30":1,"2026-10-20":1,"2026-10-21":3,"2026-10-22":7,"2026-10-23":3,"2026-10-24":2,"2026-10-25":2,"2026-10-26":1,"2026-10-27":2,"2026-10-28":3,"2026-10-30":1,"2026-11-01":9,"2026-11-02":1,"2026-11-07":1},"places":[["hopital-de-westview",21],["zone-turf-wars",19],["starbucks",19],["chez-hizo",16],["Côté Gauche",9],["centre-ville",8],["gymnase",6],["toit",4]],"partners":[["Kaito Vance",33],["Mitsu",31],["Telemachus",19],["Irene",18],["Julia",15],["Louis",14],["Ice",13],["Beta",11],["Lucina",9],["Kael",8]],"levels":[["2026-08-23","4.8"],["2026-08-28","4.9"]],"pe":{"total":11,"fight":9,"n":7,"training":2},"scenes":[["2026-08-23","zone-turf-wars","Quartiers & zones",4,["Mitsu","Telemachus","Irene","Rein","Ice"]],["2026-08-24","zone-turf-wars","Quartiers & zones",14,["Mitsu","Irene","Ice","Telemachus"]],["2026-08-25","starbucks","Agwin",3,["Kaito Vance"]],["2026-08-25","station-de-metro-d-agwin","Agwin",1,[]],["2026-08-25","zone-turf-wars","Quartiers & zones",1,["Telemachus","Irene","Beta","Mitsu","Ice"]],["2026-08-26","starbucks","Agwin",1,["Kaito Vance"]],["2026-08-27","starbucks","Agwin",8,["Kaito Vance"]],["2026-08-28","starbucks","Agwin",7,["Kaito Vance"]],["2026-08-29","chez-hizo","Autres",2,[]],["2026-08-29","réseaux-sociaux","Autres",2,["Telemachus"]],["2026-08-31","centre-ville","Agwin",1,[]],["2026-09-01","centre-ville","Agwin",3,["Irene"]],["2026-09-02","centre-ville","Agwin",3,["Irene"]],["2026-09-02","chez-hizo","Autres",2,[]],["2026-09-04","centre-ville","Agwin",1,[]],["2026-09-08","bureau-de-la-direction","Agwin",1,[]],["2026-09-08","toit","Agwin",4,["Ramlethal Valentine"]],["2026-09-09","chez-hizo","Autres",1,[]],["2026-09-11","chez-hizo","Autres",1,[]],["2026-09-12","entrée-du-lycée","Westview",1,["Leonie","Issei"]],["2026-09-12","gare","Westview",1,[]],["2026-09-12","gymnase","Westview",6,["Beta","Telemachus","Mitsu","Ice","Kaïra"]],["2026-09-17","Côté Gauche","Westview",1,["Mitsu","Leonie","Kael","Kaïra","Lucian Hale"]],["2026-09-22","Côté Gauche","Westview",3,["Leonie"]],["2026-09-25","Côté Gauche","Westview",2,["Kael","Mitsu"]],["2026-09-26","Côté Gauche","Westview",2,["Kael","Leonie","Mitsu"]],["2026-09-30","Côté Gauche","Westview",1,[]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","limite-de-la-ville","Westview",3,["Blyke","Isen","Beta","Arlo","Liam"]],["2026-10-22","hopital-de-westview","Westview",7,["Kaito Vance","Louis","John","Mitsu","Kaïra"]],["2026-10-23","hopital-de-westview","Westview",3,["Kaito Vance","Laura"]],["2026-10-24","hopital-de-westview","Westview",2,["Julia","Louis","Kaito Vance","Mitsu"]],["2026-10-25","hopital-de-westview","Westview",2,["Louis","Julia","Kaito Vance","Mitsu"]],["2026-10-26","hopital-de-westview","Westview",1,["Louis","Julia","Mitsu"]],["2026-10-27","hopital-de-westview","Westview",2,["Julia","Mitsu","Louis","Kaito Vance"]],["2026-10-28","hopital-de-westview","Westview",3,["Louis","Julia","Kaito Vance","Lucina","Mitsu"]],["2026-10-30","hopital-de-westview","Westview",1,["Louis","Julia"]],["2026-11-01","chez-hizo","Autres",9,["Telemachus"]],["2026-11-02","chez-hizo","Autres",1,[]],["2026-11-07","entrée-du-lycée","Agwin",1,[]]]},"Rein":{"msgs":24,"first":"2026-08-23","last":"2026-10-22","days":{"2026-08-23":9,"2026-10-20":5,"2026-10-21":3,"2026-10-22":7},"places":[["zone-turf-wars",9],["salle-de-recharge",9],["plage",6]],"partners":[["Telemachus",24],["Keito",15],["Mitsu",10],["Irene",9],["Orrin",9],["Lucina",8],["Kael",8],["Isaure",6],["Louis",6],["Hizo Vertini",5]],"levels":[["2026-08-23","4.9"]],"pe":{"total":4,"fight":4,"n":2},"scenes":[["2026-08-23","zone-turf-wars","Quartiers & zones",9,["Mitsu","Telemachus","Irene","Ice","Hizo Vertini"]],["2026-10-20","plage","Westview",5,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","plage","Westview",1,["Louis","Isaure","Keito","Telemachus"]],["2026-10-21","salle-de-recharge","Wellston",2,["Telemachus","Keito","Orrin"]],["2026-10-22","salle-de-recharge","Wellston",7,["Telemachus","Orrin","Lucina","Kael","Keito"]]]},"Beta":{"msgs":358,"first":"2026-08-24","last":"2026-11-08","days":{"2026-08-24":2,"2026-08-25":17,"2026-08-26":13,"2026-08-27":25,"2026-08-28":8,"2026-08-29":15,"2026-08-30":1,"2026-09-01":3,"2026-09-02":20,"2026-09-03":3,"2026-09-04":7,"2026-09-05":2,"2026-09-06":5,"2026-09-07":7,"2026-09-08":2,"2026-09-11":2,"2026-09-12":8,"2026-09-13":2,"2026-09-24":1,"2026-10-20":7,"2026-10-21":8,"2026-10-22":4,"2026-10-23":23,"2026-10-24":27,"2026-10-26":7,"2026-10-27":18,"2026-10-28":14,"2026-10-29":7,"2026-10-30":12,"2026-10-31":13,"2026-11-01":28,"2026-11-02":5,"2026-11-03":5,"2026-11-04":3,"2026-11-05":17,"2026-11-06":4,"2026-11-07":7,"2026-11-08":6},"places":[["appart-de-isaure",70],["parc",47],["colline-de-rowden",41],["centre-commercial",28],["toit",27],["zone-turf-wars",19],["salle-de-classe",19],["entrée-du-lycée",17]],"partners":[["Isaure",179],["Telemachus",69],["Lucina",38],["Power",33],["Ice",32],["Mitsu",27],["Elias",23],["Kael",17],["Blyke",15],["Isen",15]],"levels":[["2026-08-28","3.4"],["2026-10-20","3.3"],["2026-10-22","3.4"]],"pe":{"total":14,"fight":13,"n":4,"training":1},"scenes":[["2026-08-24","cour","Westview",2,["Power"]],["2026-08-25","cour","Westview",11,["Power"]],["2026-08-25","zone-turf-wars","Quartiers & zones",6,["Telemachus","Irene","Mitsu","Ice","Hizo Vertini"]],["2026-08-26","zone-turf-wars","Quartiers & zones",13,["Ice","Mitsu","Telemachus"]],["2026-08-27","Telemachus _-_ Beta","Autres",1,["Telemachus"]],["2026-08-27","salle-de-classe","Westview",5,["Power","Mitsu"]],["2026-08-27","toit","Westview",19,["Ice","Telemachus"]],["2026-08-28","Beta _-_ Mitsu","Autres",2,["Mitsu"]],["2026-08-28","salle-de-classe","Westview",6,["Power","Mitsu"]],["2026-08-29","salle-de-classe","Westview",8,["Telemachus","Power","Mitsu"]],["2026-08-29","toit","Westview",7,["Telemachus","Mitsu","Power"]],["2026-08-30","toit","Westview",1,["Telemachus","Power"]],["2026-09-01","Beta _-_ Elias","Autres",2,["Elias"]],["2026-09-01","messagerie-générale","Autres",1,[]],["2026-09-02","Beta _-_ Elias","Autres",4,["Elias"]],["2026-09-02","couloir-b","Wellston",3,["Elias"]],["2026-09-02","cours-2eme-année","Wellston",7,["Elias"]],["2026-09-02","entrée-du-lycée","Wellston",3,["Elias"]],["2026-09-02","gare","Agwin",1,["Lucian Hale"]],["2026-09-02","gare","Westview",1,[]],["2026-09-02","station-de-metro-de-wellston","Wellston",1,["Lucian Hale"]],["2026-09-03","cours-2eme-année","Wellston",3,["Elias"]],["2026-09-04","couloir-b","Wellston",7,["Marie","Elias"]],["2026-09-05","couloir-b","Wellston",1,[]],["2026-09-05","entrée-du-lycée","Wellston",1,[]],["2026-09-06","entrée-du-lycée","Wellston",5,["Kael"]],["2026-09-07","entrée-du-lycée","Wellston",7,["Kael"]],["2026-09-08","entrée-du-lycée","Wellston",1,["Kael"]],["2026-09-08","parc","Wellston",1,[]],["2026-09-11","gymnase","Westview",1,["Telemachus","Mitsu","Lucian Hale","Power","Ramlethal Valentine"]],["2026-09-11","parc","Wellston",1,[]],["2026-09-12","gymnase","Westview",8,["Hizo Vertini","Telemachus","Mitsu","Ice","Kaïra"]],["2026-09-13","Milieu","Westview",1,["Telemachus"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Mitsu","Kael"]],["2026-09-24","Milieu","Westview",1,["Power"]],["2026-10-20","limite-de-la-ville","Westview",6,["Blyke","Isen","Arlo","Lucina","Julia"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","limite-de-la-ville","Westview",8,["Blyke","Isen","Arlo","Liam","Julia"]],["2026-10-22","rue","Westview",4,["Isaure"]],["2026-10-23","centre-commercial","Westview",16,["Isaure","Telemachus","Lucina"]],["2026-10-23","rue","Westview",7,["Isaure","Telemachus","Lucina"]],["2026-10-24","Isaure _-_ Beta","Autres",2,["Telemachus","Isaure"]],["2026-10-24","centre-commercial","Westview",12,["Lucina","Telemachus","Isaure"]],["2026-10-24","parc","Westview",13,["Isaure"]],["2026-10-26","Isaure _-_ Beta","Autres",3,["Isaure"]],["2026-10-26","appart-de-isaure","Autres",4,["Isaure"]],["2026-10-27","appart-de-isaure","Autres",10,["Isaure"]],["2026-10-27","colline-de-rowden","Rowden",8,["Isaure"]],["2026-10-28","colline-de-rowden","Rowden",14,["Isaure","Telemachus","Lucina"]],["2026-10-29","colline-de-rowden","Rowden",7,["Isaure"]],["2026-10-30","colline-de-rowden","Rowden",12,["Isaure"]],["2026-10-31","appart-de-isaure","Autres",13,["Isaure"]],["2026-11-01","appart-de-isaure","Autres",28,["Isaure"]],["2026-11-02","appart-de-isaure","Autres",5,["Isaure"]],["2026-11-03","appart-de-isaure","Autres",5,["Isaure"]],["2026-11-04","appart-de-isaure","Autres",3,["Isaure"]],["2026-11-05","appart-de-isaure","Autres",2,["Isaure"]],["2026-11-05","parc","Rowden",15,["Isaure"]],["2026-11-06","parc","Rowden",4,["Telemachus","Isaure"]],["2026-11-07","parc","Rowden",7,["Isaure"]],["2026-11-08","parc","Rowden",6,["Isaure"]]]},"Kael":{"msgs":131,"first":"2026-08-25","last":"2026-11-07","days":{"2026-08-25":3,"2026-08-26":7,"2026-08-27":7,"2026-08-29":1,"2026-08-30":2,"2026-08-31":7,"2026-09-01":3,"2026-09-02":4,"2026-09-03":8,"2026-09-06":5,"2026-09-07":7,"2026-09-08":14,"2026-09-09":2,"2026-09-10":1,"2026-09-12":2,"2026-09-13":2,"2026-09-14":1,"2026-09-17":1,"2026-09-25":2,"2026-09-26":2,"2026-10-05":1,"2026-10-17":1,"2026-10-18":1,"2026-10-20":3,"2026-10-21":6,"2026-10-22":12,"2026-10-24":11,"2026-10-26":1,"2026-10-27":1,"2026-10-28":2,"2026-11-03":1,"2026-11-04":1,"2026-11-06":7,"2026-11-07":2},"places":[["rue",46],["entrée-du-lycée",14],["vieille-maison",12],["plage",12],["salle-de-recharge",12],["cantine",11],["centre-ville",11],["Côté Gauche",7]],"partners":[["Telemachus",28],["Laura",21],["Marie",18],["Marc",18],["Beta",17],["Mitsu",16],["Lucina",16],["Kaïra",14],["Orrin",12],["Blyke",10]],"levels":[["2026-08-25","5.2"]],"pe":{"total":7,"fight":7,"n":2},"scenes":[["2026-08-25","cantine","Wellston",3,["Issei"]],["2026-08-26","cantine","Wellston",7,["Issei"]],["2026-08-27","cantine","Wellston",1,[]],["2026-08-27","entrée-du-lycée","Wellston",1,[]],["2026-08-27","rue","Wellston",5,["Marie","Hécate Häyhä"]],["2026-08-29","rue","Wellston",1,["Marie"]],["2026-08-30","rue","Wellston",2,["Marie"]],["2026-08-31","rue","Wellston",7,["Marie"]],["2026-09-01","rue","Wellston",3,["Marie"]],["2026-09-02","rue","Wellston",4,["Telemachus","Marie"]],["2026-09-03","rue","Wellston",8,["Telemachus"]],["2026-09-06","entrée-du-lycée","Wellston",5,["Beta"]],["2026-09-07","entrée-du-lycée","Wellston",7,["Beta"]],["2026-09-08","entrée-du-lycée","Wellston",1,["Beta"]],["2026-09-08","rue","Wellston",4,["Marc"]],["2026-09-08","vieille-maison","Wellston",9,["Marc"]],["2026-09-09","vieille-maison","Wellston",2,["Marc"]],["2026-09-10","vieille-maison","Wellston",1,["Marc"]],["2026-09-12","gymnase","Westview",2,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-13","Côté Gauche","Westview",1,[]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Mitsu"]],["2026-09-14","Côté Gauche","Westview",1,["Ramlethal Valentine","Lucian Hale","Mitsu","Telemachus","Kaïra"]],["2026-09-17","Côté Gauche","Westview",1,["Mitsu","Leonie","Hizo Vertini","Kaïra","Lucian Hale"]],["2026-09-25","Côté Gauche","Westview",2,["Hizo Vertini","Mitsu"]],["2026-09-26","Côté Gauche","Westview",2,["Hizo Vertini","Leonie","Mitsu"]],["2026-10-05","toit","Wellston",1,[]],["2026-10-17","toit","Wellston",1,[]],["2026-10-18","toit","Wellston",1,[]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-20","rue","Westview",2,["John","Kaïra","Terrence","Leonie","Mitsu"]],["2026-10-21","rue","Westview",6,["Mitsu","John","Kaïra","Laura","Leonie"]],["2026-10-22","salle-de-recharge","Wellston",12,["Telemachus","Orrin","Lucina","Keito","Rein"]],["2026-10-24","centre-ville","Westview",11,["Blyke"]],["2026-10-26","rue","Westview",1,["Laura"]],["2026-10-27","rue","Westview",1,["Laura"]],["2026-10-28","rue","Westview",2,["Laura","Julia"]],["2026-11-03","plage","Westview",1,["Julia","Laura"]],["2026-11-04","plage","Westview",1,[]],["2026-11-06","plage","Westview",7,["Laura","Julia"]],["2026-11-07","plage","Westview",2,["Laura"]]]},"Issei":{"msgs":26,"first":"2026-08-25","last":"2026-10-28","days":{"2026-08-25":2,"2026-08-26":7,"2026-08-29":1,"2026-08-30":1,"2026-09-03":5,"2026-09-12":1,"2026-09-17":1,"2026-09-19":1,"2026-09-20":1,"2026-09-21":2,"2026-09-22":2,"2026-10-25":1,"2026-10-28":1},"places":[["cantine",9],["cours-arriere",9],["Côté Droit",6],["entrée-du-lycée",1],["infirmerie",1]],"partners":[["Kael",9],["Marie",5],["Telemachus",4],["Lucina",3],["Julia",2],["Hizo Vertini",1],["Leonie",1],["Ice",1]],"levels":[["2026-08-25","1.4"],["2026-09-03","1.5"],["2026-10-25","1.6"]],"pe":{"total":18,"fight":5,"n":7,"training":13},"scenes":[["2026-08-25","cantine","Wellston",2,["Kael"]],["2026-08-26","cantine","Wellston",7,["Kael"]],["2026-08-29","cours-arriere","Wellston",1,[]],["2026-08-30","cours-arriere","Wellston",1,[]],["2026-09-03","cours-arriere","Wellston",5,["Marie"]],["2026-09-12","entrée-du-lycée","Westview",1,["Hizo Vertini","Leonie"]],["2026-09-17","Côté Droit","Westview",1,[]],["2026-09-19","Côté Droit","Westview",1,["Telemachus","Julia"]],["2026-09-20","Côté Droit","Westview",1,["Telemachus","Lucina"]],["2026-09-21","Côté Droit","Westview",2,["Telemachus","Lucina"]],["2026-09-22","Côté Droit","Westview",1,["Telemachus","Lucina","Julia","Ice","Solar"]],["2026-09-22","infirmerie","Westview",1,[]],["2026-10-25","cours-arriere","Wellston",1,[]],["2026-10-28","cours-arriere","Wellston",1,[]]]},"Marie":{"msgs":59,"first":"2026-08-27","last":"2026-10-17","days":{"2026-08-27":5,"2026-08-29":1,"2026-08-30":3,"2026-08-31":7,"2026-09-01":3,"2026-09-02":1,"2026-09-03":8,"2026-09-04":7,"2026-09-07":5,"2026-10-09":2,"2026-10-11":1,"2026-10-12":9,"2026-10-13":5,"2026-10-17":2},"places":[["rue",19],["centre-commercial",17],["couloir-b",8],["cours-arriere",7],["gare",5],["gymnase",2],["Marie fait des choses sur son tel",1]],"partners":[["Kael",18],["Irene",14],["Beta",7],["Issei",5],["Mitsu",5],["Elias",4],["Telemachus",1]],"levels":[],"pe":{"total":13,"fight":7,"n":3,"training":6},"scenes":[["2026-08-27","rue","Wellston",5,["Kael","Hécate Häyhä"]],["2026-08-29","rue","Wellston",1,["Kael"]],["2026-08-30","rue","Wellston",3,["Kael"]],["2026-08-31","Marie fait des choses sur son tel","Wellston",1,[]],["2026-08-31","rue","Wellston",6,["Kael"]],["2026-09-01","rue","Wellston",3,["Kael"]],["2026-09-02","rue","Wellston",1,["Telemachus","Kael"]],["2026-09-03","couloir-b","Wellston",1,["Elias"]],["2026-09-03","cours-arriere","Wellston",7,["Issei"]],["2026-09-04","couloir-b","Wellston",7,["Beta","Elias"]],["2026-09-07","gare","Westview",5,["Mitsu"]],["2026-10-09","centre-commercial","Agwin",2,["Irene"]],["2026-10-11","centre-commercial","Agwin",1,[]],["2026-10-12","centre-commercial","Agwin",9,["Irene"]],["2026-10-13","centre-commercial","Agwin",5,["Irene"]],["2026-10-17","gymnase","Wellston",2,[]]]},"Void":{"msgs":37,"first":"2026-08-27","last":"2026-10-20","days":{"2026-08-27":18,"2026-08-28":8,"2026-08-29":1,"2026-10-12":2,"2026-10-13":3,"2026-10-15":4,"2026-10-20":1},"places":[["lovun",37]],"partners":[["Le Pinceau",20],["Kuyo",13],["Silvio",10],["Mara",10],["Parish",8],["Rocco",8],["Arin",6],["Cynthia",4],["Thomas",3]],"levels":[],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",18,["Le Pinceau","Parish","Arin","Kuyo","Cynthia"]],["2026-08-28","lovun","Quartiers & zones",8,["Le Pinceau","Kuyo"]],["2026-08-29","lovun","Quartiers & zones",1,[]],["2026-10-12","lovun","Quartiers & zones",2,["Silvio","Rocco","Mara"]],["2026-10-13","lovun","Quartiers & zones",3,["Silvio","Rocco","Mara"]],["2026-10-15","lovun","Quartiers & zones",4,["Silvio","Mara","Rocco"]],["2026-10-20","lovun","Quartiers & zones",1,["Silvio","Rocco","Mara"]]]},"Volcan":{"msgs":59,"first":"2026-08-27","last":"2026-11-03","days":{"2026-08-27":5,"2026-10-10":5,"2026-10-12":16,"2026-10-13":5,"2026-11-02":20,"2026-11-03":8},"places":[["quartier-low-tier",28],["grasshill",26],["Lighter _-_ Vulcain",5]],"partners":[["Ilya",24],["Vitalis",20],["Garance",19],["Tobias",15],["Sibyl",8],["Arlequin",8],["Telemachus",4],["Tiago",4],["Marek",2]],"levels":[],"pe":{},"scenes":[["2026-08-27","Lighter _-_ Vulcain","Autres",5,["Lighter","Telemachus"]],["2026-10-10","grasshill","Quartiers & zones",5,["Tobias","Ilya","Garance"]],["2026-10-12","grasshill","Quartiers & zones",16,["Ilya","Garance","Tobias","Vitalis"]],["2026-10-13","grasshill","Quartiers & zones",5,["Ilya","Vitalis","Garance"]],["2026-11-02","quartier-low-tier","Quartiers & zones",20,["Sibyl","Arlequin","Vitalis","Tiago","Marek"]],["2026-11-03","quartier-low-tier","Quartiers & zones",8,["Vitalis","Arlequin","Telemachus","Sibyl"]]]},"Silas":{"msgs":36,"first":"2026-08-27","last":"2026-10-24","days":{"2026-08-27":2,"2026-09-05":7,"2026-09-06":2,"2026-09-07":4,"2026-09-08":1,"2026-09-09":5,"2026-09-10":1,"2026-09-11":5,"2026-09-13":1,"2026-09-15":1,"2026-09-17":1,"2026-09-18":1,"2026-10-23":1,"2026-10-24":4},"places":[["colline-de-rowden",29],["branish",5],["lovun",2]],"partners":[["Louis",29],["Soren",28],["Thomas",7],["Cynthia",7],["Arin",6],["Keito",5],["Vitalis",5],["Magalie",5],["Fury",4],["Harris",3]],"levels":[["2026-08-27","3.3"]],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",2,["Void","Le Pinceau","Parish","Arin","Kuyo"]],["2026-09-05","colline-de-rowden","Rowden",7,["Soren","Louis","Keito"]],["2026-09-06","colline-de-rowden","Rowden",2,["Soren","Louis"]],["2026-09-07","colline-de-rowden","Rowden",4,["Soren","Louis"]],["2026-09-08","colline-de-rowden","Rowden",1,["Soren","Louis"]],["2026-09-09","colline-de-rowden","Rowden",5,["Soren","Louis"]],["2026-09-10","colline-de-rowden","Rowden",1,["Louis"]],["2026-09-11","colline-de-rowden","Rowden",5,["Soren","Louis"]],["2026-09-13","colline-de-rowden","Rowden",1,["Soren","Louis"]],["2026-09-15","colline-de-rowden","Rowden",1,["Soren","Louis"]],["2026-09-17","colline-de-rowden","Rowden",1,["Soren","Louis"]],["2026-09-18","colline-de-rowden","Rowden",1,["Soren","Louis"]],["2026-10-23","branish","Quartiers & zones",1,["Vitalis","Cynthia","Thomas","Arin","Harris"]],["2026-10-24","branish","Quartiers & zones",4,["Vitalis","Thomas","Fury","Magalie","Cynthia"]]]},"Thomas":{"msgs":11,"first":"2026-08-27","last":"2026-10-24","days":{"2026-08-27":3,"2026-09-08":1,"2026-10-23":1,"2026-10-24":6},"places":[["branish",8],["lovun",3]],"partners":[["Cynthia",9],["Silas",7],["Arin",7],["Vitalis",7],["Magalie",6],["Fury",6],["Void",3],["Parish",3],["Kuyo",3]],"levels":[["2026-08-27","3.0"]],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",3,["Void","Le Pinceau","Parish","Arin","Kuyo"]],["2026-09-08","branish","Quartiers & zones",1,["Ice","Keesh","Rex","Cynthia"]],["2026-10-23","branish","Quartiers & zones",1,["Vitalis","Cynthia","Arin","Harris","Silas"]],["2026-10-24","branish","Quartiers & zones",6,["Vitalis","Fury","Magalie","Silas","Cynthia"]]]},"Cynthia":{"msgs":10,"first":"2026-08-27","last":"2026-10-24","days":{"2026-08-27":4,"2026-09-08":1,"2026-10-23":1,"2026-10-24":4},"places":[["branish",6],["lovun",4]],"partners":[["Thomas",9],["Arin",8],["Silas",7],["Vitalis",5],["Magalie",5],["Void",4],["Parish",4],["Kuyo",4],["Le Pinceau",4],["Fury",4]],"levels":[["2026-08-27","2.8"]],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",4,["Void","Le Pinceau","Parish","Arin","Kuyo"]],["2026-09-08","branish","Quartiers & zones",1,["Ice","Keesh","Rex","Thomas"]],["2026-10-23","branish","Quartiers & zones",1,["Vitalis","Thomas","Arin","Harris","Silas"]],["2026-10-24","branish","Quartiers & zones",4,["Vitalis","Thomas","Fury","Magalie","Silas"]]]},"Parish":{"msgs":8,"first":"2026-08-27","last":"2026-08-27","days":{"2026-08-27":8},"places":[["lovun",8]],"partners":[["Void",8],["Le Pinceau",8],["Arin",6],["Kuyo",6],["Cynthia",4],["Thomas",3],["Silas",2]],"levels":[["2026-08-27","3.9"]],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",8,["Void","Le Pinceau","Arin","Kuyo","Cynthia"]]]},"Arin":{"msgs":10,"first":"2026-08-27","last":"2026-10-24","days":{"2026-08-27":6,"2026-10-23":1,"2026-10-24":3},"places":[["lovun",6],["branish",4]],"partners":[["Cynthia",8],["Thomas",7],["Void",6],["Silas",6],["Parish",6],["Kuyo",6],["Le Pinceau",6],["Vitalis",4],["Magalie",4]],"levels":[["2026-08-27","4.3"]],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",6,["Void","Le Pinceau","Parish","Kuyo","Cynthia"]],["2026-10-23","branish","Quartiers & zones",1,["Vitalis","Cynthia","Thomas","Harris","Silas"]],["2026-10-24","branish","Quartiers & zones",3,["Vitalis","Thomas","Fury","Magalie","Silas"]]]},"Kuyo":{"msgs":13,"first":"2026-08-27","last":"2026-08-28","days":{"2026-08-27":6,"2026-08-28":7},"places":[["lovun",13]],"partners":[["Void",13],["Le Pinceau",13],["Parish",6],["Arin",6],["Cynthia",4],["Thomas",3],["Silas",2]],"levels":[["2026-08-27","6.3"]],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",6,["Void","Le Pinceau","Parish","Arin","Cynthia"]],["2026-08-28","lovun","Quartiers & zones",7,["Le Pinceau","Void"]]]},"Le Pinceau":{"msgs":26,"first":"2026-08-27","last":"2026-09-02","days":{"2026-08-27":12,"2026-08-28":10,"2026-09-01":3,"2026-09-02":1},"places":[["lovun",22],["quartier-low-tier",4]],"partners":[["Void",20],["Kuyo",13],["Parish",8],["Arin",6],["Cynthia",4],["Thomas",3],["Silas",2]],"levels":[],"pe":{},"scenes":[["2026-08-27","lovun","Quartiers & zones",12,["Void","Parish","Arin","Kuyo","Cynthia"]],["2026-08-28","lovun","Quartiers & zones",10,["Void","Kuyo"]],["2026-09-01","quartier-low-tier","Quartiers & zones",3,["Ablaze"]],["2026-09-02","quartier-low-tier","Quartiers & zones",1,[]]]},"Arlequin":{"msgs":93,"first":"2026-08-27","last":"2026-11-03","days":{"2026-08-27":9,"2026-08-28":12,"2026-08-29":1,"2026-09-01":17,"2026-09-03":3,"2026-09-04":11,"2026-09-05":3,"2026-10-06":3,"2026-10-07":11,"2026-10-24":1,"2026-10-25":10,"2026-10-31":1,"2026-11-01":3,"2026-11-02":6,"2026-11-03":2},"places":[["zone-sans-surveillance",40],["lovun",17],["grasshill",13],["quartier-low-tier",12],["branish",11]],"partners":[["Vitalis",20],["Sibyl",11],["Narta",10],["Virginia",9],["Tiago",8],["Volcan",8],["Magalie",7],["Fury",7]],"levels":[],"pe":{},"scenes":[["2026-08-27","zone-sans-surveillance","Quartiers & zones",9,["Fice"]],["2026-08-28","grasshill","Quartiers & zones",12,["Rex","Lance","Harris","Keesh","Bryce"]],["2026-08-29","grasshill","Quartiers & zones",1,[]],["2026-09-01","zone-sans-surveillance","Quartiers & zones",17,["Narta","Isen tu dis ?"]],["2026-09-03","lovun","Quartiers & zones",3,["Mei","Raddix","Lennon","Magalie"]],["2026-09-04","lovun","Quartiers & zones",11,["Virginia","Magalie","Raddix","Hugo","Lennon"]],["2026-09-05","lovun","Quartiers & zones",3,["Virginia","Raddix"]],["2026-10-06","zone-sans-surveillance","Quartiers & zones",3,[]],["2026-10-07","zone-sans-surveillance","Quartiers & zones",11,[]],["2026-10-24","branish","Quartiers & zones",1,["Vitalis","Thomas","Fury","Magalie","Silas"]],["2026-10-25","branish","Quartiers & zones",10,["Vitalis","Fury"]],["2026-10-31","quartier-low-tier","Quartiers & zones",1,["Marek","Odile","Sibyl","Tiago"]],["2026-11-01","quartier-low-tier","Quartiers & zones",3,["Odile","Tiago","Vitalis","Marek","Sibyl"]],["2026-11-02","quartier-low-tier","Quartiers & zones",6,["Volcan","Sibyl","Vitalis","Tiago","Marek"]],["2026-11-03","quartier-low-tier","Quartiers & zones",2,["Volcan","Vitalis","Telemachus","Sibyl"]]]},"Harris":{"msgs":8,"first":"2026-08-28","last":"2026-10-24","days":{"2026-08-28":5,"2026-10-23":1,"2026-10-24":2},"places":[["grasshill",5],["branish",3]],"partners":[["Arlequin",6],["Vitalis",3],["Cynthia",3],["Thomas",3],["Arin",3],["Silas",3],["Magalie",3]],"levels":[["2026-08-28","3.5"]],"pe":{},"scenes":[["2026-08-28","grasshill","Quartiers & zones",5,["Arlequin","Rex","Lance","Keesh","Bryce"]],["2026-10-23","branish","Quartiers & zones",1,["Vitalis","Cynthia","Thomas","Arin","Silas"]],["2026-10-24","branish","Quartiers & zones",2,["Vitalis","Thomas","Fury","Magalie","Silas"]]]},"Narta":{"msgs":10,"first":"2026-09-01","last":"2026-09-01","days":{"2026-09-01":10},"places":[["zone-sans-surveillance",10]],"partners":[["Arlequin",10]],"levels":[],"pe":{},"scenes":[["2026-09-01","zone-sans-surveillance","Quartiers & zones",10,["Arlequin","Isen tu dis ?"]]]},"Lucian Hale":{"msgs":9,"first":"2026-09-01","last":"2026-09-17","days":{"2026-09-01":1,"2026-09-02":2,"2026-09-06":2,"2026-09-11":1,"2026-09-13":1,"2026-09-14":1,"2026-09-17":1},"places":[["gare",3],["gymnase",2],["Côté Gauche",2],["station-de-metro-de-wellston",1],["gare-wellston",1]],"partners":[["Beta",4],["Mitsu",4],["Telemachus",3],["Kaïra",3],["Kael",3],["Ramlethal Valentine",2],["Leonie",2],["Power",1],["Ice",1],["Julia",1]],"levels":[["2026-09-01","4.6"],["2026-09-11","4.7"]],"pe":{},"scenes":[["2026-09-01","gare","Westview",1,[]],["2026-09-02","gare","Agwin",1,["Beta"]],["2026-09-02","station-de-metro-de-wellston","Wellston",1,["Beta"]],["2026-09-06","gare","Agwin",1,[]],["2026-09-06","gare-wellston","Wellston",1,[]],["2026-09-11","gymnase","Westview",1,["Telemachus","Mitsu","Power","Beta","Ramlethal Valentine"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Mitsu"]],["2026-09-14","Côté Gauche","Westview",1,["Ramlethal Valentine","Mitsu","Kael","Telemachus","Kaïra"]],["2026-09-17","Côté Gauche","Westview",1,["Mitsu","Leonie","Hizo Vertini","Kael","Kaïra"]]]},"Elias":{"msgs":24,"first":"2026-09-01","last":"2026-09-04","days":{"2026-09-01":1,"2026-09-02":16,"2026-09-03":4,"2026-09-04":3},"places":[["cours-2eme-année",10],["couloir-b",6],["Beta _-_ Elias",5],["entrée-du-lycée",3]],"partners":[["Beta",23],["Marie",4]],"levels":[["2026-09-02","2.9"]],"pe":{},"scenes":[["2026-09-01","Beta _-_ Elias","Autres",1,["Beta"]],["2026-09-02","Beta _-_ Elias","Autres",4,["Beta"]],["2026-09-02","couloir-b","Wellston",2,["Beta"]],["2026-09-02","cours-2eme-année","Wellston",7,["Beta"]],["2026-09-02","entrée-du-lycée","Wellston",3,["Beta"]],["2026-09-03","couloir-b","Wellston",1,["Marie"]],["2026-09-03","cours-2eme-année","Wellston",3,["Beta"]],["2026-09-04","couloir-b","Wellston",3,["Marie","Beta"]]]},"Adrien":{"msgs":11,"first":"2026-09-03","last":"2026-09-05","days":{"2026-09-03":1,"2026-09-04":2,"2026-09-05":8},"places":[["bureau-wellston",10],["villa-de-adrian",1]],"partners":[["Valerie",9],["Byron",1],["Arlo",1]],"levels":[["2026-09-03","5.5"]],"pe":{},"scenes":[["2026-09-03","villa-de-adrian","Autres",1,[]],["2026-09-04","bureau-wellston","Wellston",2,["Valerie","Kassandra","Byron","Arlo"]],["2026-09-05","bureau-wellston","Wellston",8,["Valerie"]]]},"Magalie":{"msgs":12,"first":"2026-09-03","last":"2026-10-24","days":{"2026-09-03":1,"2026-09-04":5,"2026-10-23":1,"2026-10-24":5},"places":[["lovun",6],["branish",6]],"partners":[["Arlequin",7],["Vitalis",6],["Thomas",6],["Virginia",5],["Cynthia",5],["Silas",5],["Fury",5]],"levels":[["2026-09-03","3.3"]],"pe":{},"scenes":[["2026-09-03","lovun","Quartiers & zones",1,["Arlequin","Mei","Raddix","Lennon"]],["2026-09-04","lovun","Quartiers & zones",5,["Arlequin","Virginia","Raddix","Hugo","Lennon"]],["2026-10-23","branish","Quartiers & zones",1,["Vitalis","Cynthia","Thomas","Arin","Harris"]],["2026-10-24","branish","Quartiers & zones",5,["Vitalis","Thomas","Fury","Silas","Cynthia"]]]},"Virginia":{"msgs":9,"first":"2026-09-04","last":"2026-09-05","days":{"2026-09-04":6,"2026-09-05":3},"places":[["lovun",9]],"partners":[["Arlequin",9],["Magalie",5]],"levels":[["2026-09-04","2.6"]],"pe":{},"scenes":[["2026-09-04","lovun","Quartiers & zones",6,["Arlequin","Magalie","Raddix","Hugo","Lennon"]],["2026-09-05","lovun","Quartiers & zones",3,["Arlequin","Raddix"]]]},"Valerie":{"msgs":9,"first":"2026-09-04","last":"2026-09-05","days":{"2026-09-04":1,"2026-09-05":8},"places":[["bureau-wellston",9]],"partners":[["Adrien",9],["Byron",1],["Arlo",1]],"levels":[],"pe":{},"scenes":[["2026-09-04","bureau-wellston","Wellston",1,["Adrien","Kassandra","Byron","Arlo"]],["2026-09-05","bureau-wellston","Wellston",8,["Adrien"]]]},"Byron":{"msgs":71,"first":"2026-09-04","last":"2026-10-31","days":{"2026-09-04":1,"2026-10-29":52,"2026-10-30":12,"2026-10-31":6},"places":[["bureau-wellston",71]],"partners":[["Telemachus",24],["Adrien",1],["Valerie",1],["Arlo",1]],"levels":[],"pe":{},"scenes":[["2026-09-04","bureau-wellston","Wellston",1,["Adrien","Valerie","Kassandra","Arlo"]],["2026-10-29","bureau-wellston","Wellston",52,["Telemachus"]],["2026-10-30","bureau-wellston","Wellston",12,["Telemachus"]],["2026-10-31","bureau-wellston","Wellston",6,["Telemachus"]]]},"Arlo":{"msgs":15,"first":"2026-09-04","last":"2026-10-21","days":{"2026-09-04":1,"2026-10-20":7,"2026-10-21":7},"places":[["limite-de-la-ville",14],["bureau-wellston",1]],"partners":[["Blyke",14],["Isen",14],["Beta",13],["Liam",11],["Julia",9],["Lucina",8],["Hizo Vertini",3],["Adrien",1],["Valerie",1]],"levels":[["2026-10-20","6.3"]],"pe":{"total":4,"fight":4,"n":1},"scenes":[["2026-09-04","bureau-wellston","Wellston",1,["Adrien","Valerie","Kassandra","Byron"]],["2026-10-20","limite-de-la-ville","Westview",7,["Blyke","Isen","Beta","Lucina","Julia"]],["2026-10-21","limite-de-la-ville","Westview",7,["Blyke","Isen","Beta","Liam","Julia"]]]},"Keito":{"msgs":56,"first":"2026-09-05","last":"2026-10-26","days":{"2026-09-05":10,"2026-09-06":3,"2026-09-07":1,"2026-10-01":4,"2026-10-04":1,"2026-10-12":1,"2026-10-20":14,"2026-10-21":8,"2026-10-22":8,"2026-10-25":4,"2026-10-26":2},"places":[["plage",19],["salle-de-recharge",11],["café-tranquille",9],["centre-ville",6],["parc",6],["colline-de-rowden",5]],"partners":[["Telemachus",43],["Louis",26],["Isaure",19],["Rein",15],["Orrin",11],["Lucina",9],["Kael",9],["Remi",7],["Soren",5],["Silas",5]],"levels":[["2026-09-05","8.8"]],"pe":{},"scenes":[["2026-09-05","café-tranquille","Rowden",5,["Telemachus"]],["2026-09-05","colline-de-rowden","Rowden",5,["Soren","Silas","Louis"]],["2026-09-06","café-tranquille","Rowden",3,["Telemachus"]],["2026-09-07","café-tranquille","Rowden",1,["Telemachus"]],["2026-10-01","centre-ville","Rowden",4,["Laura","Louis"]],["2026-10-04","centre-ville","Rowden",1,[]],["2026-10-12","centre-ville","Rowden",1,[]],["2026-10-20","plage","Westview",14,["Louis","Telemachus","Isaure","Remi","Rein"]],["2026-10-21","plage","Westview",5,["Louis","Isaure","Telemachus","Rein"]],["2026-10-21","salle-de-recharge","Wellston",3,["Telemachus","Orrin","Rein"]],["2026-10-22","salle-de-recharge","Wellston",8,["Telemachus","Orrin","Lucina","Kael","Rein"]],["2026-10-25","parc","Westview",4,["Telemachus"]],["2026-10-26","parc","Westview",2,["Telemachus"]]]},"Louis":{"msgs":224,"first":"2026-09-05","last":"2026-11-08","days":{"2026-09-05":7,"2026-09-06":2,"2026-09-07":4,"2026-09-08":1,"2026-09-09":5,"2026-09-10":1,"2026-09-11":5,"2026-09-13":1,"2026-09-15":1,"2026-09-17":1,"2026-09-18":1,"2026-09-20":1,"2026-09-22":2,"2026-09-29":8,"2026-10-01":2,"2026-10-05":1,"2026-10-13":2,"2026-10-20":17,"2026-10-21":7,"2026-10-22":50,"2026-10-23":61,"2026-10-24":6,"2026-10-25":2,"2026-10-26":3,"2026-10-27":1,"2026-10-28":5,"2026-10-29":1,"2026-10-30":4,"2026-10-31":1,"2026-11-02":8,"2026-11-05":7,"2026-11-06":3,"2026-11-08":3},"places":[["Couloir hôpital",108],["hopital-de-westview",47],["colline-de-rowden",32],["plage",24],["centre-ville",8],["gare-rowden",5]],"partners":[["Kaïra",108],["Julia",34],["Soren",30],["Silas",29],["Keito",26],["Mitsu",26],["Isaure",20],["Telemachus",19],["Laura",14],["Hizo Vertini",14]],"levels":[["2026-10-22","1.7"]],"pe":{},"scenes":[["2026-09-05","colline-de-rowden","Rowden",7,["Soren","Silas","Keito"]],["2026-09-06","colline-de-rowden","Rowden",2,["Soren","Silas"]],["2026-09-07","colline-de-rowden","Rowden",4,["Soren","Silas"]],["2026-09-08","colline-de-rowden","Rowden",1,["Soren","Silas"]],["2026-09-09","colline-de-rowden","Rowden",5,["Soren","Silas"]],["2026-09-10","colline-de-rowden","Rowden",1,["Silas"]],["2026-09-11","colline-de-rowden","Rowden",5,["Soren","Silas"]],["2026-09-13","colline-de-rowden","Rowden",1,["Soren","Silas"]],["2026-09-15","colline-de-rowden","Rowden",1,["Soren","Silas"]],["2026-09-17","colline-de-rowden","Rowden",1,["Soren","Silas"]],["2026-09-18","colline-de-rowden","Rowden",1,["Soren","Silas"]],["2026-09-20","colline-de-rowden","Rowden",1,["Soren"]],["2026-09-22","colline-de-rowden","Rowden",2,["Soren"]],["2026-09-29","centre-ville","Rowden",3,["Laura"]],["2026-09-29","gare-rowden","Rowden",5,["Laura"]],["2026-10-01","centre-ville","Rowden",2,["Keito","Laura"]],["2026-10-05","centre-ville","Rowden",1,["Laura"]],["2026-10-13","centre-ville","Rowden",2,["Laura"]],["2026-10-20","plage","Westview",17,["Telemachus","Isaure","Keito","Remi","Rein"]],["2026-10-21","plage","Westview",7,["Isaure","Keito","Telemachus","Rein"]],["2026-10-22","Couloir hôpital","Westview",47,["Kaïra"]],["2026-10-22","hopital-de-westview","Westview",3,["Hizo Vertini","Kaito Vance","John","Mitsu","Kaïra"]],["2026-10-23","Couloir hôpital","Westview",61,["Kaïra"]],["2026-10-24","hopital-de-westview","Westview",6,["Julia","Kaito Vance","Mitsu","Hizo Vertini"]],["2026-10-25","hopital-de-westview","Westview",2,["Hizo Vertini","Julia","Kaito Vance","Mitsu"]],["2026-10-26","hopital-de-westview","Westview",3,["Julia","Mitsu","Hizo Vertini"]],["2026-10-27","hopital-de-westview","Westview",1,["Hizo Vertini","Julia","Mitsu","Kaito Vance"]],["2026-10-28","hopital-de-westview","Westview",5,["Julia","Kaito Vance","Hizo Vertini","Lucina","Mitsu"]],["2026-10-29","hopital-de-westview","Westview",1,["Julia"]],["2026-10-30","hopital-de-westview","Westview",4,["Julia","Hizo Vertini"]],["2026-10-31","hopital-de-westview","Westview",1,["Mitsu"]],["2026-11-02","hopital-de-westview","Westview",8,["Mitsu","Julia"]],["2026-11-05","hopital-de-westview","Westview",7,["Mitsu","Julia"]],["2026-11-06","hopital-de-westview","Westview",3,["Julia","Mitsu"]],["2026-11-08","hopital-de-westview","Westview",3,["Julia","Mitsu"]]]},"Ramlethal Valentine":{"msgs":16,"first":"2026-09-07","last":"2026-10-02","days":{"2026-09-07":3,"2026-09-08":7,"2026-09-11":3,"2026-09-14":1,"2026-09-18":1,"2026-10-02":1},"places":[["toit",4],["couloir",3],["cours",3],["Côté Gauche",2],["gare",1],["entrée-du-lycée",1],["gymnase",1],["station-de-metro-d-agwin",1]],"partners":[["Hizo Vertini",4],["Irene",3],["Telemachus",3],["Mitsu",3],["Lucian Hale",2],["Power",1],["Beta",1],["Kael",1],["Kaïra",1]],"levels":[],"pe":{},"scenes":[["2026-09-07","couloir","Agwin",3,["Irene"]],["2026-09-08","cours","Agwin",3,["Joahness"]],["2026-09-08","toit","Agwin",4,["Hizo Vertini"]],["2026-09-11","entrée-du-lycée","Westview",1,["Telemachus"]],["2026-09-11","gare","Westview",1,[]],["2026-09-11","gymnase","Westview",1,["Telemachus","Mitsu","Lucian Hale","Power","Beta"]],["2026-09-14","Côté Gauche","Westview",1,["Lucian Hale","Mitsu","Kael","Telemachus","Kaïra"]],["2026-09-18","Côté Gauche","Westview",1,["Mitsu"]],["2026-10-02","station-de-metro-d-agwin","Agwin",1,[]]]},"Lucina":{"msgs":271,"first":"2026-09-07","last":"2026-10-30","days":{"2026-09-07":9,"2026-09-08":3,"2026-09-09":2,"2026-09-12":2,"2026-09-13":2,"2026-09-20":1,"2026-09-21":1,"2026-09-22":2,"2026-09-23":1,"2026-09-26":1,"2026-09-27":1,"2026-10-20":6,"2026-10-21":3,"2026-10-22":16,"2026-10-23":27,"2026-10-24":15,"2026-10-25":59,"2026-10-26":55,"2026-10-27":26,"2026-10-28":28,"2026-10-29":1,"2026-10-30":10},"places":[["limite-de-la-ville",86],["bibliotèque",48],["centre-ville",46],["centre-commercial",18],["toit",14],["salle-de-recharge",14],["café-woaba-boba",14],["rue",11]],"partners":[["Ice",176],["Telemachus",81],["Beta",38],["Isaure",24],["Julia",17],["Kael",16],["Orrin",14],["Hizo Vertini",9],["Keito",9],["Blyke",9]],"levels":[["2026-09-07","5.2"]],"pe":{"total":7,"fight":7,"n":2},"scenes":[["2026-09-07","toit","Westview",9,["Telemachus","Koya"]],["2026-09-08","toit","Westview",3,["Telemachus"]],["2026-09-09","toit","Westview",2,["Telemachus"]],["2026-09-12","gymnase","Westview",2,["Beta","Hizo Vertini","Telemachus","Mitsu","Ice"]],["2026-09-13","Côté Droit","Westview",1,["Telemachus","Julia"]],["2026-09-13","gymnase","Westview",1,["Telemachus","Ice","Kaïra","Beta","Mitsu"]],["2026-09-20","Côté Droit","Westview",1,["Telemachus","Issei"]],["2026-09-21","Côté Droit","Westview",1,["Issei","Telemachus"]],["2026-09-22","Côté Droit","Westview",2,["Telemachus","Issei","Julia","Ice","Solar"]],["2026-09-23","Côté Droit","Westview",1,["Marc"]],["2026-09-26","Côté Droit","Westview",1,["Telemachus"]],["2026-09-27","Côté Droit","Westview",1,["Ice"]],["2026-10-20","limite-de-la-ville","Westview",5,["Blyke","Isen","Arlo","Beta","Julia"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","limite-de-la-ville","Westview",3,["Blyke","Isen","Beta","Arlo","Liam"]],["2026-10-22","rue","Wellston",2,["Telemachus"]],["2026-10-22","salle-de-recharge","Wellston",14,["Telemachus","Orrin","Kael","Keito","Rein"]],["2026-10-23","café-woaba-boba","Wellston",14,["Telemachus"]],["2026-10-23","centre-commercial","Westview",4,["Isaure","Beta","Telemachus"]],["2026-10-23","rue","Wellston",3,["Telemachus"]],["2026-10-23","rue","Westview",6,["Isaure","Beta","Telemachus"]],["2026-10-24","Machus _3 _-_ Ma Circe _3","Autres",1,["Telemachus"]],["2026-10-24","centre-commercial","Westview",14,["Beta","Telemachus","Isaure"]],["2026-10-25","bibliotèque","Westview",48,["Ice"]],["2026-10-25","limite-de-la-ville","Westview",11,["Ice"]],["2026-10-26","limite-de-la-ville","Westview",55,["Ice"]],["2026-10-27","centre-ville","Westview",14,["Ice"]],["2026-10-27","limite-de-la-ville","Westview",12,["Ice"]],["2026-10-28","centre-ville","Westview",21,["Ice"]],["2026-10-28","colline-de-rowden","Rowden",4,["Beta","Isaure","Telemachus"]],["2026-10-28","hopital-de-westview","Westview",3,["Louis","Julia","Kaito Vance","Hizo Vertini","Mitsu"]],["2026-10-29","centre-ville","Westview",1,["Ice"]],["2026-10-30","centre-ville","Westview",10,["Ice"]]]},"Laura":{"msgs":52,"first":"2026-09-22","last":"2026-11-08","days":{"2026-09-22":5,"2026-09-23":2,"2026-09-28":2,"2026-09-29":11,"2026-10-01":4,"2026-10-05":1,"2026-10-13":2,"2026-10-20":3,"2026-10-21":5,"2026-10-22":1,"2026-10-23":1,"2026-10-26":1,"2026-10-27":2,"2026-10-28":1,"2026-11-03":1,"2026-11-06":7,"2026-11-07":2,"2026-11-08":1},"places":[["centre-ville",15],["plage",12],["rue",11],["gare-rowden",5],["bibliothèque",2],["gare",2],["hopital-de-westview",2],["station-de-metro-d-agwin",1]],"partners":[["Kael",21],["Louis",14],["Kaïra",9],["Mitsu",9],["John",8],["Soren",6],["Keito",5],["Julia",4],["Leonie",4],["Hizo Vertini",3]],"levels":[["2026-09-22","3.5"],["2026-10-23","3.6"]],"pe":{"total":2,"fight":2,"n":1},"scenes":[["2026-09-22","centre-ville","Agwin",5,["Soren"]],["2026-09-23","bibliothèque","Agwin",1,[]],["2026-09-23","centre-ville","Agwin",1,["Soren"]],["2026-09-28","bibliothèque","Agwin",1,[]],["2026-09-28","gare","Agwin",1,[]],["2026-09-29","centre-ville","Rowden",2,["Louis"]],["2026-09-29","gare","Agwin",1,[]],["2026-09-29","gare-rowden","Rowden",5,["Louis"]],["2026-09-29","gare-wellston","Wellston",1,[]],["2026-09-29","station-de-metro-d-agwin","Agwin",1,[]],["2026-09-29","station-de-metro-de-wellston","Wellston",1,[]],["2026-10-01","centre-ville","Rowden",4,["Keito","Louis"]],["2026-10-05","centre-ville","Rowden",1,["Louis"]],["2026-10-13","centre-ville","Rowden",2,["Louis"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-20","rue","Westview",2,["John","Kaïra","Terrence","Leonie","Mitsu"]],["2026-10-21","rue","Westview",5,["Mitsu","John","Kael","Kaïra","Leonie"]],["2026-10-22","hopital-de-westview","Westview",1,["Hizo Vertini","Kaito Vance","Louis","John","Mitsu"]],["2026-10-23","hopital-de-westview","Westview",1,["Hizo Vertini","Kaito Vance"]],["2026-10-26","rue","Westview",1,["Kael"]],["2026-10-27","rue","Westview",2,["Kael"]],["2026-10-28","rue","Westview",1,["Kael","Julia"]],["2026-11-03","plage","Westview",1,["Kael","Julia"]],["2026-11-06","plage","Westview",7,["Kael","Julia"]],["2026-11-07","plage","Westview",2,["Kael"]],["2026-11-08","plage","Westview",1,[]]]},"Tobias":{"msgs":15,"first":"2026-10-10","last":"2026-10-12","days":{"2026-10-10":4,"2026-10-12":11},"places":[["grasshill",15]],"partners":[["Volcan",15],["Ilya",15],["Garance",15],["Vitalis",9]],"levels":[],"pe":{},"scenes":[["2026-10-10","grasshill","Quartiers & zones",4,["Volcan","Ilya","Garance"]],["2026-10-12","grasshill","Quartiers & zones",11,["Ilya","Volcan","Garance","Vitalis"]]]},"Ilya":{"msgs":25,"first":"2026-10-10","last":"2026-10-13","days":{"2026-10-10":4,"2026-10-12":17,"2026-10-13":4},"places":[["grasshill",25]],"partners":[["Volcan",24],["Garance",19],["Tobias",15],["Vitalis",12]],"levels":[],"pe":{},"scenes":[["2026-10-10","grasshill","Quartiers & zones",4,["Volcan","Tobias","Garance"]],["2026-10-12","grasshill","Quartiers & zones",17,["Volcan","Garance","Tobias","Vitalis"]],["2026-10-13","grasshill","Quartiers & zones",4,["Volcan","Vitalis","Garance"]]]},"Garance":{"msgs":19,"first":"2026-10-10","last":"2026-10-13","days":{"2026-10-10":4,"2026-10-12":12,"2026-10-13":3},"places":[["grasshill",19]],"partners":[["Volcan",19],["Ilya",19],["Tobias",15],["Vitalis",12]],"levels":[],"pe":{},"scenes":[["2026-10-10","grasshill","Quartiers & zones",4,["Volcan","Tobias","Ilya"]],["2026-10-12","grasshill","Quartiers & zones",12,["Ilya","Volcan","Tobias","Vitalis"]],["2026-10-13","grasshill","Quartiers & zones",3,["Volcan","Ilya","Vitalis"]]]},"Vitalis":{"msgs":59,"first":"2026-10-12","last":"2026-11-03","days":{"2026-10-12":9,"2026-10-13":3,"2026-10-23":3,"2026-10-24":22,"2026-10-25":8,"2026-11-01":6,"2026-11-02":6,"2026-11-03":2},"places":[["branish",33],["quartier-low-tier",14],["grasshill",12]],"partners":[["Volcan",20],["Arlequin",20],["Garance",12],["Ilya",12],["Fury",12],["Sibyl",12],["Tiago",10],["Tobias",9],["Thomas",7],["Odile",7]],"levels":[],"pe":{"total":5,"fight":5,"n":3},"scenes":[["2026-10-12","grasshill","Quartiers & zones",9,["Ilya","Volcan","Garance","Tobias"]],["2026-10-13","grasshill","Quartiers & zones",3,["Volcan","Ilya","Garance"]],["2026-10-23","branish","Quartiers & zones",3,["Cynthia","Thomas","Arin","Harris","Silas"]],["2026-10-24","branish","Quartiers & zones",22,["Thomas","Fury","Magalie","Silas","Cynthia"]],["2026-10-25","branish","Quartiers & zones",8,["Arlequin","Fury"]],["2026-11-01","quartier-low-tier","Quartiers & zones",6,["Odile","Tiago","Marek","Sibyl","Arlequin"]],["2026-11-02","quartier-low-tier","Quartiers & zones",6,["Volcan","Sibyl","Arlequin","Tiago","Marek"]],["2026-11-03","quartier-low-tier","Quartiers & zones",2,["Volcan","Arlequin","Telemachus","Sibyl"]]]},"Silvio":{"msgs":37,"first":"2026-10-12","last":"2026-10-20","days":{"2026-10-12":8,"2026-10-13":19,"2026-10-15":5,"2026-10-16":2,"2026-10-20":3},"places":[["lovun",37]],"partners":[["Rocco",26],["Mara",25],["Void",10]],"levels":[],"pe":{},"scenes":[["2026-10-12","lovun","Quartiers & zones",8,["Rocco","Mara","Void"]],["2026-10-13","lovun","Quartiers & zones",19,["Rocco","Mara","Void"]],["2026-10-15","lovun","Quartiers & zones",5,["Void","Mara","Rocco"]],["2026-10-16","lovun","Quartiers & zones",2,["Rocco","Mara"]],["2026-10-20","lovun","Quartiers & zones",3,["Rocco","Mara","Void"]]]},"Rocco":{"msgs":27,"first":"2026-10-12","last":"2026-10-20","days":{"2026-10-12":3,"2026-10-13":17,"2026-10-15":2,"2026-10-16":3,"2026-10-20":2},"places":[["lovun",27]],"partners":[["Silvio",26],["Mara",23],["Void",8]],"levels":[],"pe":{},"scenes":[["2026-10-12","lovun","Quartiers & zones",3,["Silvio","Mara","Void"]],["2026-10-13","lovun","Quartiers & zones",17,["Silvio","Mara","Void"]],["2026-10-15","lovun","Quartiers & zones",2,["Silvio","Void","Mara"]],["2026-10-16","lovun","Quartiers & zones",3,["Mara","Silvio"]],["2026-10-20","lovun","Quartiers & zones",2,["Silvio","Mara","Void"]]]},"Mara":{"msgs":25,"first":"2026-10-12","last":"2026-10-20","days":{"2026-10-12":3,"2026-10-13":14,"2026-10-15":4,"2026-10-16":2,"2026-10-20":2},"places":[["lovun",25]],"partners":[["Silvio",25],["Rocco",23],["Void",10]],"levels":[],"pe":{},"scenes":[["2026-10-12","lovun","Quartiers & zones",3,["Silvio","Rocco","Void"]],["2026-10-13","lovun","Quartiers & zones",14,["Silvio","Rocco","Void"]],["2026-10-15","lovun","Quartiers & zones",4,["Silvio","Void","Rocco"]],["2026-10-16","lovun","Quartiers & zones",2,["Rocco","Silvio"]],["2026-10-20","lovun","Quartiers & zones",2,["Silvio","Rocco","Void"]]]},"Isaure":{"msgs":217,"first":"2026-10-20","last":"2026-11-08","days":{"2026-10-20":14,"2026-10-21":6,"2026-10-22":4,"2026-10-23":30,"2026-10-24":28,"2026-10-25":2,"2026-10-26":7,"2026-10-27":18,"2026-10-28":11,"2026-10-29":7,"2026-10-30":13,"2026-10-31":14,"2026-11-01":27,"2026-11-02":5,"2026-11-03":3,"2026-11-04":3,"2026-11-05":12,"2026-11-06":2,"2026-11-07":6,"2026-11-08":5},"places":[["appart-de-isaure",71],["colline-de-rowden",39],["parc",35],["centre-commercial",27],["plage",20],["rue",16],["Isaure _-_ Telemachus",5],["Isaure _-_ Beta",3]],"partners":[["Beta",179],["Telemachus",50],["Lucina",24],["Louis",20],["Keito",19],["Remi",7],["Rein",6],["Blyke",2],["Kaïra",1],["Isen",1]],"levels":[],"pe":{"total":22,"fight":16,"n":5,"training":6},"scenes":[["2026-10-20","plage","Westview",14,["Louis","Telemachus","Keito","Remi","Rein"]],["2026-10-21","plage","Westview",6,["Louis","Keito","Telemachus","Rein"]],["2026-10-22","rue","Westview",4,["Beta"]],["2026-10-23","centre-commercial","Westview",18,["Beta","Telemachus","Lucina"]],["2026-10-23","rue","Westview",12,["Beta","Telemachus","Lucina"]],["2026-10-24","Isaure _-_ Beta","Autres",1,["Telemachus","Beta"]],["2026-10-24","Isaure _-_ Telemachus","Autres",5,["Telemachus"]],["2026-10-24","appart-de-isaure","Autres",1,[]],["2026-10-24","centre-commercial","Westview",9,["Lucina","Beta","Telemachus"]],["2026-10-24","gare","Westview",1,[]],["2026-10-24","parc","Westview",11,["Beta"]],["2026-10-25","appart-de-isaure","Autres",2,[]],["2026-10-26","Isaure _-_ Beta","Autres",2,["Beta"]],["2026-10-26","appart-de-isaure","Autres",5,["Beta"]],["2026-10-27","appart-de-isaure","Autres",10,["Beta"]],["2026-10-27","colline-de-rowden","Rowden",8,["Beta"]],["2026-10-28","colline-de-rowden","Rowden",11,["Beta","Telemachus","Lucina"]],["2026-10-29","colline-de-rowden","Rowden",7,["Beta"]],["2026-10-30","colline-de-rowden","Rowden",13,["Beta"]],["2026-10-31","appart-de-isaure","Autres",14,["Beta"]],["2026-11-01","appart-de-isaure","Autres",27,["Beta"]],["2026-11-02","appart-de-isaure","Autres",5,["Beta"]],["2026-11-03","appart-de-isaure","Autres",3,["Beta"]],["2026-11-04","appart-de-isaure","Autres",3,["Beta"]],["2026-11-05","appart-de-isaure","Autres",1,["Beta"]],["2026-11-05","parc","Rowden",11,["Beta"]],["2026-11-06","parc","Rowden",2,["Beta","Telemachus"]],["2026-11-07","parc","Rowden",6,["Beta"]],["2026-11-08","parc","Rowden",5,["Beta"]]]},"Blyke":{"msgs":40,"first":"2026-10-20","last":"2026-10-25","days":{"2026-10-20":17,"2026-10-21":13,"2026-10-24":9,"2026-10-25":1},"places":[["limite-de-la-ville",28],["centre-ville",9],["plage",2],["chambre-isen-blyke",1]],"partners":[["Isen",26],["Beta",15],["Arlo",14],["Liam",11],["Kael",10],["Julia",10],["Lucina",9],["Hizo Vertini",4],["Telemachus",2],["Isaure",2]],"levels":[],"pe":{"total":10,"fight":6,"n":2,"training":4},"scenes":[["2026-10-20","limite-de-la-ville","Westview",15,["Isen","Arlo","Beta","Lucina","Julia"]],["2026-10-20","plage","Westview",2,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","limite-de-la-ville","Westview",13,["Isen","Beta","Arlo","Liam","Julia"]],["2026-10-24","centre-ville","Westview",9,["Kael"]],["2026-10-25","chambre-isen-blyke","Wellston",1,[]]]},"Isen":{"msgs":26,"first":"2026-10-20","last":"2026-10-21","days":{"2026-10-20":14,"2026-10-21":12},"places":[["limite-de-la-ville",25],["plage",1]],"partners":[["Blyke",26],["Beta",15],["Arlo",14],["Liam",11],["Julia",10],["Lucina",9],["Hizo Vertini",4],["Telemachus",1],["Isaure",1],["Kaïra",1]],"levels":[],"pe":{"total":7,"fight":7,"n":1},"scenes":[["2026-10-20","limite-de-la-ville","Westview",13,["Blyke","Arlo","Beta","Lucina","Julia"]],["2026-10-20","plage","Westview",1,["Louis","Telemachus","Isaure","Keito","Remi"]],["2026-10-21","limite-de-la-ville","Westview",12,["Blyke","Beta","Arlo","Liam","Julia"]]]},"John":{"msgs":20,"first":"2026-10-20","last":"2026-10-22","days":{"2026-10-20":9,"2026-10-21":8,"2026-10-22":3},"places":[["rue",17],["hopital-de-westview",3]],"partners":[["Mitsu",13],["Kaïra",13],["Laura",8],["Kael",8],["Terrence",6],["Leonie",6],["Louis",3],["Hizo Vertini",3],["Kaito Vance",3],["Remi",1]],"levels":[["2026-10-20","7.5"]],"pe":{"total":1,"fight":1,"n":1},"scenes":[["2026-10-20","rue","Westview",9,["Kaïra","Terrence","Leonie","Mitsu","Laura"]],["2026-10-21","rue","Westview",8,["Mitsu","Kael","Kaïra","Laura","Leonie"]],["2026-10-22","hopital-de-westview","Westview",3,["Hizo Vertini","Kaito Vance","Louis","Mitsu","Kaïra"]]]},"Orrin":{"msgs":20,"first":"2026-10-20","last":"2026-10-22","days":{"2026-10-20":2,"2026-10-21":3,"2026-10-22":15},"places":[["salle-de-recharge",18],["messagerie-spectre",2]],"partners":[["Telemachus",18],["Lucina",14],["Kael",12],["Keito",11],["Rein",9]],"levels":[],"pe":{},"scenes":[["2026-10-20","messagerie-spectre","Autres",2,["Messagerie"]],["2026-10-21","salle-de-recharge","Wellston",3,["Telemachus","Keito","Rein"]],["2026-10-22","salle-de-recharge","Wellston",15,["Telemachus","Lucina","Kael","Keito","Rein"]]]},"Remi":{"msgs":8,"first":"2026-10-20","last":"2026-10-22","days":{"2026-10-20":7,"2026-10-22":1},"places":[["plage",7],["hopital-de-westview",1]],"partners":[["Louis",8],["Telemachus",7],["Isaure",7],["Keito",7],["Rein",5],["Kaïra",2],["Blyke",2],["Laura",2],["Hizo Vertini",2],["Mitsu",2]],"levels":[["2026-10-20","5.4"]],"pe":{"total":8,"fight":8,"n":2},"scenes":[["2026-10-20","plage","Westview",7,["Louis","Telemachus","Isaure","Keito","Rein"]],["2026-10-22","hopital-de-westview","Westview",1,["Hizo Vertini","Kaito Vance","Louis","John","Mitsu"]]]},"Liam":{"msgs":11,"first":"2026-10-20","last":"2026-10-21","days":{"2026-10-20":4,"2026-10-21":7},"places":[["limite-de-la-ville",11]],"partners":[["Blyke",11],["Isen",11],["Beta",11],["Arlo",11],["Julia",8],["Lucina",7],["Hizo Vertini",3]],"levels":[["2026-10-20","6.2"]],"pe":{"total":2,"fight":2,"n":1},"scenes":[["2026-10-20","limite-de-la-ville","Westview",4,["Blyke","Isen","Arlo","Beta","Lucina"]],["2026-10-21","limite-de-la-ville","Westview",7,["Blyke","Isen","Beta","Arlo","Julia"]]]},"Fury":{"msgs":12,"first":"2026-10-24","last":"2026-10-25","days":{"2026-10-24":6,"2026-10-25":6},"places":[["branish",12]],"partners":[["Vitalis",12],["Arlequin",7],["Thomas",6],["Magalie",5],["Silas",4],["Cynthia",4],["Arin",3],["Harris",2]],"levels":[],"pe":{},"scenes":[["2026-10-24","branish","Quartiers & zones",6,["Vitalis","Thomas","Magalie","Silas","Cynthia"]],["2026-10-25","branish","Quartiers & zones",6,["Arlequin","Vitalis"]]]},"Marek":{"msgs":9,"first":"2026-10-31","last":"2026-11-02","days":{"2026-10-31":2,"2026-11-01":5,"2026-11-02":2},"places":[["quartier-low-tier",9]],"partners":[["Sibyl",9],["Tiago",9],["Odile",8],["Vitalis",7],["Arlequin",6],["Volcan",2]],"levels":[],"pe":{},"scenes":[["2026-10-31","quartier-low-tier","Quartiers & zones",2,["Odile","Sibyl","Tiago","Arlequin"]],["2026-11-01","quartier-low-tier","Quartiers & zones",5,["Odile","Tiago","Vitalis","Sibyl","Arlequin"]],["2026-11-02","quartier-low-tier","Quartiers & zones",2,["Volcan","Sibyl","Arlequin","Vitalis","Tiago"]]]},"Odile":{"msgs":10,"first":"2026-10-31","last":"2026-11-02","days":{"2026-10-31":2,"2026-11-01":7,"2026-11-02":1},"places":[["quartier-low-tier",10]],"partners":[["Tiago",10],["Marek",8],["Sibyl",8],["Vitalis",7],["Arlequin",5],["Volcan",1]],"levels":[],"pe":{},"scenes":[["2026-10-31","quartier-low-tier","Quartiers & zones",2,["Marek","Sibyl","Tiago","Arlequin"]],["2026-11-01","quartier-low-tier","Quartiers & zones",7,["Tiago","Vitalis","Marek","Sibyl","Arlequin"]],["2026-11-02","quartier-low-tier","Quartiers & zones",1,["Volcan","Sibyl","Arlequin","Vitalis","Tiago"]]]},"Sibyl":{"msgs":15,"first":"2026-10-31","last":"2026-11-03","days":{"2026-10-31":2,"2026-11-01":5,"2026-11-02":7,"2026-11-03":1},"places":[["quartier-low-tier",15]],"partners":[["Vitalis",12],["Tiago",11],["Arlequin",11],["Marek",9],["Odile",8],["Volcan",8],["Telemachus",1]],"levels":[],"pe":{},"scenes":[["2026-10-31","quartier-low-tier","Quartiers & zones",2,["Marek","Odile","Tiago","Arlequin"]],["2026-11-01","quartier-low-tier","Quartiers & zones",5,["Odile","Tiago","Vitalis","Marek","Arlequin"]],["2026-11-02","quartier-low-tier","Quartiers & zones",7,["Volcan","Arlequin","Vitalis","Tiago","Marek"]],["2026-11-03","quartier-low-tier","Quartiers & zones",1,["Volcan","Vitalis","Arlequin","Telemachus"]]]},"Tiago":{"msgs":13,"first":"2026-10-31","last":"2026-11-02","days":{"2026-10-31":2,"2026-11-01":7,"2026-11-02":4},"places":[["quartier-low-tier",13]],"partners":[["Sibyl",11],["Odile",10],["Vitalis",10],["Marek",9],["Arlequin",8],["Volcan",4]],"levels":[],"pe":{},"scenes":[["2026-10-31","quartier-low-tier","Quartiers & zones",2,["Marek","Odile","Sibyl","Arlequin"]],["2026-11-01","quartier-low-tier","Quartiers & zones",7,["Odile","Vitalis","Marek","Sibyl","Arlequin"]],["2026-11-02","quartier-low-tier","Quartiers & zones",4,["Volcan","Sibyl","Arlequin","Vitalis","Marek"]]]},"Marou":{"msgs":46,"first":"2026-11-02","last":"2026-11-08","days":{"2026-11-02":22,"2026-11-03":19,"2026-11-04":2,"2026-11-05":2,"2026-11-08":1},"places":[["entrée-du-lycée",46]],"partners":[["Irene",22]],"levels":[["2026-11-02","6.6"]],"pe":{},"scenes":[["2026-11-02","entrée-du-lycée","Agwin",22,["Irene"]],["2026-11-03","entrée-du-lycée","Agwin",19,["Irene"]],["2026-11-04","entrée-du-lycée","Agwin",2,["Irene"]],["2026-11-05","entrée-du-lycée","Agwin",2,["Irene"]],["2026-11-08","entrée-du-lycée","Agwin",1,[]]]}},"places":[{"name":"rue","town":"Westview","msgs":291,"first":"2026-08-12","last":"2026-11-07","chars":[["Leonie",48],["Kael",46],["Julia",41],["Telemachus",27],["Marie",19],["Kaïra",18]]},{"name":"limite-de-la-ville","town":"Westview","msgs":268,"first":"2026-10-20","last":"2026-10-27","chars":[["Lucina",86],["Ice",78],["Blyke",28],["Isen",25],["Beta",14],["Arlo",14]]},{"name":"lovun","town":"Quartiers & zones","msgs":238,"first":"2026-08-27","last":"2026-10-20","chars":[["Void",37],["Silvio",37],["Rocco",27],["Mara",25],["Le Pinceau",22],["Arlequin",17]]},{"name":"Couloir hôpital","town":"Westview","msgs":215,"first":"2026-10-22","last":"2026-10-23","chars":[["Louis",108],["Kaïra",107]]},{"name":"parc","town":"Rowden","msgs":211,"first":"2026-08-15","last":"2026-11-08","chars":[["Beta",47],["Mitsu",42],["Isaure",35],["Kaïra",29],["Leonie",25],["Telemachus",16]]},{"name":"centre-ville","town":"Westview","msgs":202,"first":"2026-08-31","last":"2026-11-07","chars":[["Ice",48],["Lucina",46],["Kaïra",18],["Telemachus",17],["Laura",15],["Kael",11]]},{"name":"plage","town":"Westview","msgs":192,"first":"2026-08-20","last":"2026-11-08","chars":[["Telemachus",30],["Louis",24],["Mitsu",23],["Ice",22],["Isaure",20],["Keito",19]]},{"name":"colline-de-rowden","town":"Rowden","msgs":187,"first":"2026-09-05","last":"2026-10-30","chars":[["Beta",41],["Isaure",39],["Soren",32],["Louis",32],["Silas",29],["Keito",5]]},{"name":"centre-commercial","town":"Westview","msgs":173,"first":"2026-08-22","last":"2026-10-24","chars":[["Irene",37],["Beta",28],["Isaure",27],["Elizabeth Shaw",22],["Lucina",18],["Marie",17]]},{"name":"zone-turf-wars","town":"Quartiers & zones","msgs":164,"first":"2026-08-23","last":"2026-08-26","chars":[["Mitsu",33],["Telemachus",30],["Irene",27],["Ice",24],["Hizo Vertini",19],["Beta",19]]},{"name":"hopital-de-westview","town":"Westview","msgs":155,"first":"2026-08-20","last":"2026-11-08","chars":[["Louis",47],["Julia",33],["Mitsu",25],["Hizo Vertini",21],["Kaito Vance",15],["Kaïra",3]]},{"name":"appart-de-isaure","town":"Autres","msgs":141,"first":"2026-10-24","last":"2026-11-05","chars":[["Isaure",71],["Beta",70]]},{"name":"toit","town":"Agwin","msgs":139,"first":"2026-08-27","last":"2026-10-28","chars":[["Telemachus",51],["Beta",27],["Ice",25],["Lucina",14],["Power",7],["Hizo Vertini",4]]},{"name":"entrée-du-lycée","town":"Agwin","msgs":132,"first":"2026-08-18","last":"2026-11-08","chars":[["Marou",46],["Irene",22],["Beta",17],["Kael",14],["Julia",12],["Soren",11]]},{"name":"grasshill","town":"Quartiers & zones","msgs":131,"first":"2026-08-28","last":"2026-10-13","chars":[["Volcan",26],["Ilya",25],["Garance",19],["Tobias",15],["Arlequin",13],["Vitalis",12]]},{"name":"bureau-wellston","town":"Wellston","msgs":118,"first":"2026-09-04","last":"2026-10-31","chars":[["Byron",71],["Telemachus",26],["Adrien",10],["Valerie",9],["Kassandra",1],["Arlo",1]]},{"name":"quartier-low-tier","town":"Quartiers & zones","msgs":109,"first":"2026-09-01","last":"2026-11-03","chars":[["Volcan",28],["Sibyl",15],["Vitalis",14],["Tiago",13],["Arlequin",12],["Odile",10]]},{"name":"bibliotèque","town":"Westview","msgs":96,"first":"2026-10-25","last":"2026-10-25","chars":[["Lucina",48],["Ice",48]]},{"name":"branish","town":"Quartiers & zones","msgs":94,"first":"2026-09-07","last":"2026-10-25","chars":[["Vitalis",33],["Fury",12],["Arlequin",11],["Thomas",8],["Cynthia",6],["Magalie",6]]},{"name":"salle-de-recharge","town":"Wellston","msgs":90,"first":"2026-10-21","last":"2026-10-22","chars":[["Telemachus",26],["Orrin",18],["Lucina",14],["Kael",12],["Keito",11],["Rein",9]]},{"name":"zone-sans-surveillance","town":"Quartiers & zones","msgs":60,"first":"2026-08-27","last":"2026-10-07","chars":[["Arlequin",40],["Narta",10],["Fice",5],["Isen tu dis ?",4],["Arlequin឵",1]]},{"name":"gymnase","town":"Wellston","msgs":59,"first":"2026-09-11","last":"2026-10-17","chars":[["Beta",10],["Telemachus",9],["Mitsu",6],["Hizo Vertini",6],["Ice",4],["Kaïra",4]]},{"name":"salle-de-classe","town":"Westview","msgs":51,"first":"2026-08-26","last":"2026-08-29","chars":[["Beta",19],["Power",17],["Telemachus",9],["Mitsu",6]]},{"name":"starbucks","town":"Agwin","msgs":43,"first":"2026-08-23","last":"2026-08-28","chars":[["Kaito Vance",20],["Hizo Vertini",19],["Leonie",2],["Elizabeth Shaw",2]]},{"name":"Côté Droit","town":"Westview","msgs":35,"first":"2026-09-13","last":"2026-09-27","chars":[["Telemachus",11],["Lucina",8],["Issei",6],["Ice",4],["Julia",3],["Marc",2]]},{"name":"Côté Gauche","town":"Westview","msgs":34,"first":"2026-09-13","last":"2026-09-30","chars":[["Hizo Vertini",9],["Kael",7],["Mitsu",6],["Leonie",5],["Ramlethal Valentine",2],["Lucian Hale",2]]},{"name":"couloir-a","town":"Wellston","msgs":33,"first":"2026-08-22","last":"2026-09-05","chars":[["Soren",14],["Julia",14],["゛🌑 〢 𝐄𝗏𝗂 𝐌𝖺𝗌𝖾𝗐𝗈𝗈𝖽",5]]},{"name":"chez-telemachus","town":"Autres","msgs":30,"first":"2026-08-28","last":"2026-10-29","chars":[["Telemachus",30]]},{"name":"cour","town":"Westview","msgs":27,"first":"2026-08-24","last":"2026-08-27","chars":[["Beta",13],["Power",12],["Mitsu",2]]},{"name":"café-woaba-boba","town":"Wellston","msgs":27,"first":"2026-10-23","last":"2026-10-23","chars":[["Lucina",14],["Telemachus",13]]},{"name":"vieille-maison","town":"Wellston","msgs":26,"first":"2026-09-08","last":"2026-09-12","chars":[["Marc",14],["Kael",12]]},{"name":"couloir-b","town":"Wellston","msgs":25,"first":"2026-09-02","last":"2026-09-05","chars":[["Beta",11],["Marie",8],["Elias",6]]},{"name":"chez-hizo","town":"Autres","msgs":21,"first":"2026-08-29","last":"2026-11-02","chars":[["Hizo Vertini",16],["Telemachus",4],["Narrateur឵",1]]},{"name":"gare","town":"Westview","msgs":21,"first":"2026-09-01","last":"2026-10-24","chars":[["Marie",5],["Mitsu",5],["Lucian Hale",3],["Beta",2],["Laura",2],["Marc",1]]},{"name":"cantine","town":"Wellston","msgs":20,"first":"2026-08-25","last":"2026-08-27","chars":[["Kael",11],["Issei",9]]},{"name":"cours-2eme-année","town":"Wellston","msgs":20,"first":"2026-09-02","last":"2026-09-03","chars":[["Beta",10],["Elias",10]]},{"name":"café-tranquille","town":"Rowden","msgs":18,"first":"2026-09-05","last":"2026-09-07","chars":[["Telemachus",9],["Keito",9]]},{"name":"cours-arriere","town":"Wellston","msgs":16,"first":"2026-08-29","last":"2026-10-28","chars":[["Issei",9],["Marie",7]]},{"name":"hall","town":"Westview","msgs":15,"first":"2026-08-18","last":"2026-08-20","chars":[["Soren",7],["Julia",7],["Power",1]]},{"name":"Lighter _-_ Vulcain","town":"Autres","msgs":15,"first":"2026-08-27","last":"2026-10-28","chars":[["Lighter",7],["Volcan",5],["Telemachus",3]]},{"name":"Beta _-_ Elias","town":"Autres","msgs":11,"first":"2026-09-01","last":"2026-09-02","chars":[["Beta",6],["Elias",5]]},{"name":"gare-rowden","town":"Rowden","msgs":11,"first":"2026-09-22","last":"2026-09-29","chars":[["Laura",5],["Louis",5],["Soren",1]]},{"name":"Isaure _-_ Telemachus","town":"Autres","msgs":11,"first":"2026-10-24","last":"2026-10-24","chars":[["Telemachus",6],["Isaure",5]]},{"name":"Milieu","town":"Westview","msgs":10,"first":"2026-09-13","last":"2026-09-24","chars":[["Power",5],["Beta",2],["Irene",2],["Telemachus",1]]},{"name":"Isaure _-_ Beta","town":"Autres","msgs":10,"first":"2026-10-24","last":"2026-10-26","chars":[["Beta",5],["Isaure",3],["Telemachus",2]]},{"name":"station-de-metro-d-agwin","town":"Agwin","msgs":7,"first":"2026-08-12","last":"2026-10-02","chars":[["Leonie",3],["Irene",1],["Hizo Vertini",1],["Laura",1],["Ramlethal Valentine",1]]},{"name":"couloir","town":"Agwin","msgs":7,"first":"2026-08-29","last":"2026-09-07","chars":[["Irene",3],["Ramlethal Valentine",3],["Telemachus",1]]},{"name":"cours","town":"Agwin","msgs":7,"first":"2026-09-08","last":"2026-10-28","chars":[["Ramlethal Valentine",3],["Joahness",2],["Leonie",2]]},{"name":"station-de-metro-westview","town":"Westview","msgs":6,"first":"2026-08-18","last":"2026-08-23","chars":[["Leonie",2],["Elizabeth Shaw",1],["Telemachus",1],["Mitsu",1],["Marc",1]]},{"name":"station-de-metro-de-wellston","town":"Wellston","msgs":5,"first":"2026-08-12","last":"2026-09-29","chars":[["Leonie",2],["Beta",1],["Lucian Hale",1],["Laura",1]]},{"name":"mer","town":"Westview","msgs":5,"first":"2026-08-17","last":"2026-09-08","chars":[["Marc",5]]},{"name":"gare-wellston","town":"Wellston","msgs":5,"first":"2026-09-05","last":"2026-09-29","chars":[["Soren",2],["Lucian Hale",1],["Marc",1],["Laura",1]]},{"name":"Telemachus _-_ Beta","town":"Autres","msgs":4,"first":"2026-08-27","last":"2026-10-24","chars":[["Telemachus",3],["Beta",1]]},{"name":"Beta _-_ Mitsu","town":"Autres","msgs":4,"first":"2026-08-28","last":"2026-08-29","chars":[["Beta",2],["Mitsu",2]]},{"name":"réseaux-sociaux","town":"Autres","msgs":4,"first":"2026-08-29","last":"2026-08-29","chars":[["Telemachus",2],["Hizo Vertini",2]]},{"name":"messagerie-spectre","town":"Autres","msgs":3,"first":"2026-10-20","last":"2026-10-20","chars":[["Orrin",2],["Messagerie",1]]},{"name":"Machus _3 _-_ Ma Circe _3","town":"Autres","msgs":3,"first":"2026-10-24","last":"2026-10-24","chars":[["Telemachus",2],["Lucina",1]]},{"name":"salle-de-sport","town":"Westview","msgs":2,"first":"2026-08-17","last":"2026-08-17","chars":[["Telemachus",2]]},{"name":"bibliothèque","town":"Agwin","msgs":2,"first":"2026-09-23","last":"2026-09-28","chars":[["Laura",2]]},{"name":"Marie fait des choses sur son tel","town":"Wellston","msgs":1,"first":"2026-08-31","last":"2026-08-31","chars":[["Marie",1]]},{"name":"messagerie-générale","town":"Autres","msgs":1,"first":"2026-09-01","last":"2026-09-01","chars":[["Beta",1]]},{"name":"villa-de-adrian","town":"Autres","msgs":1,"first":"2026-09-03","last":"2026-09-03","chars":[["Adrien",1]]},{"name":"bureau-de-la-direction","town":"Agwin","msgs":1,"first":"2026-09-08","last":"2026-09-08","chars":[["Hizo Vertini",1]]},{"name":"infirmerie","town":"Westview","msgs":1,"first":"2026-09-22","last":"2026-09-22","chars":[["Issei",1]]},{"name":"chambre-isen-blyke","town":"Wellston","msgs":1,"first":"2026-10-25","last":"2026-10-25","chars":[["Blyke",1]]}],"daily":[["2026-08-12",7],["2026-08-13",2],["2026-08-14",1],["2026-08-15",2],["2026-08-16",20],["2026-08-17",75],["2026-08-18",55],["2026-08-19",21],["2026-08-20",23],["2026-08-21",12],["2026-08-22",104],["2026-08-23",87],["2026-08-24",43],["2026-08-25",80],["2026-08-26",63],["2026-08-27",177],["2026-08-28",91],["2026-08-29",63],["2026-08-30",12],["2026-08-31",19],["2026-09-01",60],["2026-09-02",58],["2026-09-03",51],["2026-09-04",62],["2026-09-05",65],["2026-09-06",31],["2026-09-07",69],["2026-09-08",64],["2026-09-09",26],["2026-09-10",6],["2026-09-11",30],["2026-09-12",44],["2026-09-13",21],["2026-09-14",10],["2026-09-15",3],["2026-09-17",14],["2026-09-18",5],["2026-09-19",3],["2026-09-20",6],["2026-09-21",6],["2026-09-22",33],["2026-09-23",5],["2026-09-24",4],["2026-09-25",5],["2026-09-26",8],["2026-09-27",2],["2026-09-28",2],["2026-09-29",19],["2026-09-30",1],["2026-10-01",10],["2026-10-02",2],["2026-10-04",1],["2026-10-05",3],["2026-10-06",3],["2026-10-07",14],["2026-10-09",5],["2026-10-10",18],["2026-10-11",1],["2026-10-12",101],["2026-10-13",110],["2026-10-14",5],["2026-10-15",15],["2026-10-16",8],["2026-10-17",4],["2026-10-18",24],["2026-10-20",181],["2026-10-21",131],["2026-10-22",202],["2026-10-23",245],["2026-10-24",189],["2026-10-25",168],["2026-10-26",137],["2026-10-27",98],["2026-10-28",112],["2026-10-29",90],["2026-10-30",69],["2026-10-31",46],["2026-11-01",101],["2026-11-02",114],["2026-11-03",53],["2026-11-04",11],["2026-11-05",52],["2026-11-06",31],["2026-11-07",20],["2026-11-08",21]],"total":4065};
+window.STATS = {
+  "chars": {
+    "Julia": {
+      "msgs": 126,
+      "first": "2026-08-12",
+      "last": "2026-11-08",
+      "days": {
+        "2026-08-12": 3,
+        "2026-08-13": 1,
+        "2026-08-14": 1,
+        "2026-08-15": 1,
+        "2026-08-16": 4,
+        "2026-08-17": 24,
+        "2026-08-18": 21,
+        "2026-08-20": 4,
+        "2026-08-22": 10,
+        "2026-08-29": 2,
+        "2026-09-05": 2,
+        "2026-09-12": 2,
+        "2026-09-13": 2,
+        "2026-09-19": 1,
+        "2026-09-22": 1,
+        "2026-10-20": 6,
+        "2026-10-21": 4,
+        "2026-10-24": 6,
+        "2026-10-25": 1,
+        "2026-10-26": 2,
+        "2026-10-27": 1,
+        "2026-10-28": 5,
+        "2026-10-29": 1,
+        "2026-10-30": 3,
+        "2026-11-02": 3,
+        "2026-11-03": 1,
+        "2026-11-05": 7,
+        "2026-11-06": 4,
+        "2026-11-08": 3
+      },
+      "places": [
+        [
+          "rue",
+          41
+        ],
+        [
+          "hopital-de-westview",
+          33
+        ],
+        [
+          "couloir-a",
+          14
+        ],
+        [
+          "entrée-du-lycée",
+          12
+        ],
+        [
+          "limite-de-la-ville",
+          9
+        ],
+        [
+          "hall",
+          7
+        ],
+        [
+          "plage",
+          4
+        ],
+        [
+          "gymnase",
+          3
+        ]
+      ],
+      "partners": [
+        [
+          "Leonie",
+          37
+        ],
+        [
+          "Louis",
+          34
+        ],
+        [
+          "Soren",
+          32
+        ],
+        [
+          "Mitsu",
+          24
+        ],
+        [
+          "Lucina",
+          17
+        ],
+        [
+          "Hizo Vertini",
+          15
+        ],
+        [
+          "Beta",
+          13
+        ],
+        [
+          "Blyke",
+          10
+        ],
+        [
+          "Isen",
+          10
+        ],
+        [
+          "Arlo",
+          9
+        ]
+      ],
+      "levels": [
+        [
+          "2026-10-28",
+          "4.5"
+        ]
+      ],
+      "pe": {
+        "total": 2,
+        "fight": 2,
+        "n": 1
+      },
+      "scenes": [
+        [
+          "2026-08-12",
+          "rue",
+          "Wellston",
+          3,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-13",
+          "rue",
+          "Wellston",
+          1,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-14",
+          "rue",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-15",
+          "rue",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-16",
+          "rue",
+          "Wellston",
+          4,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-17",
+          "rue",
+          "Wellston",
+          24,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "entrée-du-lycée",
+          "Wellston",
+          12,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "hall",
+          "Wellston",
+          3,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "rue",
+          "Wellston",
+          6,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "hall",
+          "Wellston",
+          4,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "couloir-a",
+          "Wellston",
+          10,
+          [
+            "Soren",
+            "゛🌑 〢 𝐄𝗏𝗂 𝐌𝖺𝗌𝖾𝗐𝗈𝗈𝖽"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "couloir-a",
+          "Wellston",
+          2,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "couloir-a",
+          "Wellston",
+          2,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          2,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-19",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Issei"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Lucina",
+            "Issei",
+            "Ice",
+            "Solar"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          5,
+          [
+            "Blyke",
+            "Isen",
+            "Arlo",
+            "Beta",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          4,
+          [
+            "Blyke",
+            "Isen",
+            "Beta",
+            "Arlo",
+            "Liam"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "hopital-de-westview",
+          "Westview",
+          6,
+          [
+            "Louis",
+            "Kaito Vance",
+            "Mitsu",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Louis",
+            "Kaito Vance",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Louis",
+            "Mitsu",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Mitsu",
+            "Louis",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "hopital-de-westview",
+          "Westview",
+          4,
+          [
+            "Louis",
+            "Kaito Vance",
+            "Hizo Vertini",
+            "Lucina",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "rue",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "hopital-de-westview",
+          "Westview",
+          6,
+          [
+            "Louis",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "plage",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-11-06",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Laura",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Mitsu"
+          ]
+        ]
+      ]
+    },
+    "Leonie": {
+      "msgs": 98,
+      "first": "2026-08-12",
+      "last": "2026-11-02",
+      "days": {
+        "2026-08-12": 4,
+        "2026-08-13": 1,
+        "2026-08-16": 3,
+        "2026-08-17": 24,
+        "2026-08-18": 10,
+        "2026-08-19": 6,
+        "2026-08-20": 3,
+        "2026-08-21": 6,
+        "2026-08-22": 9,
+        "2026-08-23": 4,
+        "2026-08-24": 1,
+        "2026-08-29": 1,
+        "2026-08-30": 1,
+        "2026-09-06": 6,
+        "2026-09-12": 1,
+        "2026-09-13": 1,
+        "2026-09-17": 1,
+        "2026-09-22": 3,
+        "2026-09-26": 1,
+        "2026-10-20": 4,
+        "2026-10-21": 2,
+        "2026-10-25": 1,
+        "2026-10-28": 1,
+        "2026-11-02": 4
+      },
+      "places": [
+        [
+          "rue",
+          48
+        ],
+        [
+          "parc",
+          25
+        ],
+        [
+          "centre-commercial",
+          6
+        ],
+        [
+          "Côté Gauche",
+          5
+        ],
+        [
+          "station-de-metro-d-agwin",
+          3
+        ],
+        [
+          "station-de-metro-de-wellston",
+          2
+        ],
+        [
+          "station-de-metro-westview",
+          2
+        ],
+        [
+          "starbucks",
+          2
+        ]
+      ],
+      "partners": [
+        [
+          "Julia",
+          37
+        ],
+        [
+          "Mitsu",
+          32
+        ],
+        [
+          "Kaïra",
+          21
+        ],
+        [
+          "Kael",
+          7
+        ],
+        [
+          "Hizo Vertini",
+          6
+        ],
+        [
+          "John",
+          6
+        ],
+        [
+          "Telemachus",
+          5
+        ],
+        [
+          "Terrence",
+          5
+        ],
+        [
+          "Laura",
+          4
+        ],
+        [
+          "Irene",
+          2
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-12",
+          "2.2"
+        ],
+        [
+          "2026-09-06",
+          "2.3"
+        ],
+        [
+          "2026-10-20",
+          "2.4"
+        ]
+      ],
+      "pe": {
+        "total": 14,
+        "training": 9,
+        "n": 9,
+        "fight": 5
+      },
+      "scenes": [
+        [
+          "2026-08-12",
+          "rue",
+          "Wellston",
+          2,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-12",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-08-12",
+          "station-de-metro-de-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-13",
+          "rue",
+          "Wellston",
+          1,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-16",
+          "rue",
+          "Wellston",
+          3,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-17",
+          "rue",
+          "Wellston",
+          24,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "parc",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Kaïra",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "rue",
+          "Wellston",
+          6,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-08-18",
+          "station-de-metro-de-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-18",
+          "station-de-metro-westview",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-19",
+          "parc",
+          "Westview",
+          6,
+          [
+            "Mitsu",
+            "Kaïra",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "parc",
+          "Westview",
+          2,
+          [
+            "Mitsu",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-08-21",
+          "parc",
+          "Westview",
+          6,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "parc",
+          "Westview",
+          9,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "parc",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-23",
+          "starbucks",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-08-23",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "station-de-metro-westview",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Marc"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "starbucks",
+          "Agwin",
+          1,
+          [
+            "Elizabeth Shaw"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "rue",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-08-30",
+          "rue",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-06",
+          "centre-commercial",
+          "Agwin",
+          6,
+          []
+        ],
+        [
+          "2026-09-12",
+          "entrée-du-lycée",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Issei"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Hizo Vertini",
+            "Kael",
+            "Kaïra",
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Gauche",
+          "Westview",
+          3,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-09-26",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Hizo Vertini",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "rue",
+          "Westview",
+          4,
+          [
+            "John",
+            "Kaïra",
+            "Terrence",
+            "Mitsu",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "rue",
+          "Westview",
+          2,
+          [
+            "Mitsu",
+            "John",
+            "Kael",
+            "Kaïra",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "cours",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-10-28",
+          "cours",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-11-02",
+          "rue",
+          "Westview",
+          4,
+          [
+            "Kaïra"
+          ]
+        ]
+      ]
+    },
+    "Kaïra": {
+      "msgs": 182,
+      "first": "2026-08-15",
+      "last": "2026-11-07",
+      "days": {
+        "2026-08-15": 1,
+        "2026-08-16": 6,
+        "2026-08-17": 11,
+        "2026-08-18": 4,
+        "2026-08-19": 6,
+        "2026-08-20": 3,
+        "2026-09-12": 3,
+        "2026-09-13": 1,
+        "2026-09-14": 1,
+        "2026-09-17": 1,
+        "2026-10-13": 15,
+        "2026-10-14": 2,
+        "2026-10-20": 7,
+        "2026-10-21": 6,
+        "2026-10-22": 46,
+        "2026-10-23": 62,
+        "2026-11-02": 5,
+        "2026-11-07": 2
+      },
+      "places": [
+        [
+          "Couloir hôpital",
+          107
+        ],
+        [
+          "parc",
+          29
+        ],
+        [
+          "centre-ville",
+          18
+        ],
+        [
+          "rue",
+          18
+        ],
+        [
+          "gymnase",
+          4
+        ],
+        [
+          "hopital-de-westview",
+          3
+        ],
+        [
+          "Côté Gauche",
+          2
+        ],
+        [
+          "plage",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Louis",
+          108
+        ],
+        [
+          "Mitsu",
+          38
+        ],
+        [
+          "Telemachus",
+          25
+        ],
+        [
+          "Leonie",
+          21
+        ],
+        [
+          "Kael",
+          14
+        ],
+        [
+          "John",
+          13
+        ],
+        [
+          "Laura",
+          9
+        ],
+        [
+          "Power",
+          8
+        ],
+        [
+          "Hizo Vertini",
+          6
+        ],
+        [
+          "Terrence",
+          6
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-15",
+          "1.8"
+        ],
+        [
+          "2026-09-12",
+          "1.9"
+        ],
+        [
+          "2026-10-13",
+          "2.0"
+        ],
+        [
+          "2026-10-22",
+          "2.1"
+        ]
+      ],
+      "pe": {
+        "total": 6,
+        "fight": 6,
+        "n": 2
+      },
+      "scenes": [
+        [
+          "2026-08-15",
+          "parc",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-16",
+          "parc",
+          "Westview",
+          6,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-17",
+          "parc",
+          "Westview",
+          11,
+          [
+            "Mitsu",
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "parc",
+          "Westview",
+          4,
+          [
+            "Mitsu",
+            "Telemachus",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-19",
+          "parc",
+          "Westview",
+          6,
+          [
+            "Mitsu",
+            "Leonie",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "parc",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          3,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Beta",
+            "Mitsu",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine",
+            "Lucian Hale",
+            "Mitsu",
+            "Kael",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Leonie",
+            "Hizo Vertini",
+            "Kael",
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "centre-ville",
+          "Westview",
+          15,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-14",
+          "centre-ville",
+          "Westview",
+          2,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "rue",
+          "Westview",
+          6,
+          [
+            "John",
+            "Terrence",
+            "Leonie",
+            "Mitsu",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "rue",
+          "Westview",
+          6,
+          [
+            "Mitsu",
+            "John",
+            "Kael",
+            "Laura",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "Couloir hôpital",
+          "Westview",
+          45,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Kaito Vance",
+            "Louis",
+            "John",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "Couloir hôpital",
+          "Westview",
+          62,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "rue",
+          "Westview",
+          5,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-11-07",
+          "centre-ville",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-11-07",
+          "rue",
+          "Westview",
+          1,
+          []
+        ]
+      ]
+    },
+    "Power": {
+      "msgs": 54,
+      "first": "2026-08-16",
+      "last": "2026-09-24",
+      "days": {
+        "2026-08-16": 7,
+        "2026-08-17": 1,
+        "2026-08-20": 1,
+        "2026-08-24": 2,
+        "2026-08-25": 11,
+        "2026-08-26": 1,
+        "2026-08-27": 5,
+        "2026-08-28": 5,
+        "2026-08-29": 7,
+        "2026-08-30": 1,
+        "2026-08-31": 2,
+        "2026-09-01": 1,
+        "2026-09-03": 1,
+        "2026-09-06": 1,
+        "2026-09-08": 1,
+        "2026-09-11": 1,
+        "2026-09-12": 1,
+        "2026-09-14": 1,
+        "2026-09-17": 2,
+        "2026-09-21": 1,
+        "2026-09-24": 1
+      },
+      "places": [
+        [
+          "salle-de-classe",
+          17
+        ],
+        [
+          "cour",
+          12
+        ],
+        [
+          "parc",
+          9
+        ],
+        [
+          "toit",
+          7
+        ],
+        [
+          "Milieu",
+          5
+        ],
+        [
+          "gymnase",
+          2
+        ],
+        [
+          "hall",
+          1
+        ],
+        [
+          "hopital-de-westview",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Beta",
+          33
+        ],
+        [
+          "Telemachus",
+          14
+        ],
+        [
+          "Mitsu",
+          10
+        ],
+        [
+          "Kaïra",
+          8
+        ],
+        [
+          "Irene",
+          3
+        ],
+        [
+          "Lucian Hale",
+          1
+        ],
+        [
+          "Ramlethal Valentine",
+          1
+        ],
+        [
+          "Ice",
+          1
+        ],
+        [
+          "Hizo Vertini",
+          1
+        ],
+        [
+          "Marc",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-16",
+          "4.8"
+        ]
+      ],
+      "pe": {
+        "total": 16,
+        "fight": 12,
+        "n": 6,
+        "training": 4
+      },
+      "scenes": [
+        [
+          "2026-08-16",
+          "parc",
+          "Westview",
+          7,
+          [
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-08-17",
+          "parc",
+          "Westview",
+          1,
+          [
+            "Kaïra",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "hall",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-24",
+          "cour",
+          "Westview",
+          2,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "cour",
+          "Westview",
+          10,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-26",
+          "salle-de-classe",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-27",
+          "salle-de-classe",
+          "Westview",
+          5,
+          [
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "salle-de-classe",
+          "Westview",
+          5,
+          [
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "salle-de-classe",
+          "Westview",
+          6,
+          [
+            "Telemachus",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-30",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-31",
+          "toit",
+          "Westview",
+          2,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "toit",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-08",
+          "parc",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Lucian Hale",
+            "Beta",
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Milieu",
+          "Westview",
+          2,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-09-21",
+          "Milieu",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-24",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Beta"
+          ]
+        ]
+      ]
+    },
+    "Mitsu": {
+      "msgs": 163,
+      "first": "2026-08-17",
+      "last": "2026-11-08",
+      "days": {
+        "2026-08-17": 10,
+        "2026-08-18": 5,
+        "2026-08-19": 7,
+        "2026-08-20": 4,
+        "2026-08-21": 5,
+        "2026-08-22": 24,
+        "2026-08-23": 13,
+        "2026-08-24": 9,
+        "2026-08-25": 5,
+        "2026-08-26": 14,
+        "2026-08-27": 3,
+        "2026-08-28": 3,
+        "2026-08-29": 5,
+        "2026-09-01": 1,
+        "2026-09-07": 6,
+        "2026-09-11": 1,
+        "2026-09-12": 4,
+        "2026-09-13": 1,
+        "2026-09-14": 1,
+        "2026-09-17": 2,
+        "2026-09-18": 1,
+        "2026-09-25": 1,
+        "2026-09-26": 1,
+        "2026-10-20": 4,
+        "2026-10-21": 8,
+        "2026-10-22": 2,
+        "2026-10-24": 3,
+        "2026-10-25": 1,
+        "2026-10-26": 1,
+        "2026-10-27": 1,
+        "2026-10-28": 2,
+        "2026-10-31": 1,
+        "2026-11-02": 5,
+        "2026-11-05": 6,
+        "2026-11-06": 1,
+        "2026-11-08": 2
+      },
+      "places": [
+        [
+          "parc",
+          42
+        ],
+        [
+          "zone-turf-wars",
+          33
+        ],
+        [
+          "hopital-de-westview",
+          25
+        ],
+        [
+          "plage",
+          23
+        ],
+        [
+          "rue",
+          11
+        ],
+        [
+          "salle-de-classe",
+          6
+        ],
+        [
+          "gymnase",
+          6
+        ],
+        [
+          "Côté Gauche",
+          6
+        ]
+      ],
+      "partners": [
+        [
+          "Ice",
+          46
+        ],
+        [
+          "Kaïra",
+          38
+        ],
+        [
+          "Telemachus",
+          38
+        ],
+        [
+          "Leonie",
+          32
+        ],
+        [
+          "Hizo Vertini",
+          31
+        ],
+        [
+          "Beta",
+          27
+        ],
+        [
+          "Louis",
+          26
+        ],
+        [
+          "Julia",
+          24
+        ],
+        [
+          "Irene",
+          22
+        ],
+        [
+          "Kael",
+          16
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-17",
+          "5.3"
+        ],
+        [
+          "2026-10-20",
+          "5.4"
+        ],
+        [
+          "2026-11-05",
+          "5.5"
+        ]
+      ],
+      "pe": {
+        "total": 8,
+        "fight": 7,
+        "n": 4,
+        "training": 1
+      },
+      "scenes": [
+        [
+          "2026-08-17",
+          "parc",
+          "Westview",
+          10,
+          [
+            "Kaïra",
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "parc",
+          "Westview",
+          5,
+          [
+            "Kaïra",
+            "Telemachus",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-19",
+          "parc",
+          "Westview",
+          7,
+          [
+            "Leonie",
+            "Kaïra",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "parc",
+          "Westview",
+          4,
+          [
+            "Leonie",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-08-21",
+          "parc",
+          "Westview",
+          5,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "parc",
+          "Westview",
+          9,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "plage",
+          "Westview",
+          15,
+          [
+            "Ice",
+            "Marc",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "station-de-metro-westview",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Marc",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          12,
+          [
+            "Telemachus",
+            "Irene",
+            "Rein",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          9,
+          [
+            "Hizo Vertini",
+            "Irene",
+            "Ice",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          5,
+          [
+            "Telemachus",
+            "Irene",
+            "Beta",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "plage",
+          "Westview",
+          7,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          7,
+          [
+            "Beta",
+            "Ice",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "cour",
+          "Westview",
+          2,
+          []
+        ],
+        [
+          "2026-08-27",
+          "salle-de-classe",
+          "Westview",
+          1,
+          [
+            "Power",
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "Beta _-_ Mitsu",
+          "Autres",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "salle-de-classe",
+          "Westview",
+          2,
+          [
+            "Beta",
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "Beta _-_ Mitsu",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-08-29",
+          "salle-de-classe",
+          "Westview",
+          3,
+          [
+            "Telemachus",
+            "Beta",
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Beta",
+            "Power"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "parc",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-07",
+          "gare",
+          "Westview",
+          5,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "parc",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Lucian Hale",
+            "Power",
+            "Beta",
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          4,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Ice",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine",
+            "Lucian Hale",
+            "Kael",
+            "Telemachus",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Gauche",
+          "Westview",
+          2,
+          [
+            "Leonie",
+            "Hizo Vertini",
+            "Kael",
+            "Kaïra",
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-09-18",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-25",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-09-26",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Hizo Vertini",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "rue",
+          "Westview",
+          3,
+          [
+            "John",
+            "Kaïra",
+            "Terrence",
+            "Leonie",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "rue",
+          "Westview",
+          8,
+          [
+            "John",
+            "Kael",
+            "Kaïra",
+            "Laura",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Hizo Vertini",
+            "Kaito Vance",
+            "Louis",
+            "John",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Julia",
+            "Louis",
+            "Kaito Vance",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Louis",
+            "Julia",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Julia",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Julia",
+            "Louis",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Louis",
+            "Julia",
+            "Kaito Vance",
+            "Hizo Vertini",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "hopital-de-westview",
+          "Westview",
+          5,
+          [
+            "Louis",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "hopital-de-westview",
+          "Westview",
+          6,
+          [
+            "Louis",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Julia",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Julia",
+            "Louis"
+          ]
+        ]
+      ]
+    },
+    "Marc": {
+      "msgs": 39,
+      "first": "2026-08-17",
+      "last": "2026-10-20",
+      "days": {
+        "2026-08-17": 3,
+        "2026-08-22": 5,
+        "2026-08-23": 4,
+        "2026-09-08": 17,
+        "2026-09-09": 2,
+        "2026-09-10": 1,
+        "2026-09-11": 1,
+        "2026-09-12": 3,
+        "2026-09-23": 1,
+        "2026-09-24": 1,
+        "2026-10-20": 1
+      },
+      "places": [
+        [
+          "vieille-maison",
+          14
+        ],
+        [
+          "plage",
+          6
+        ],
+        [
+          "mer",
+          5
+        ],
+        [
+          "rue",
+          5
+        ],
+        [
+          "zone-turf-wars",
+          3
+        ],
+        [
+          "Côté Droit",
+          2
+        ],
+        [
+          "station-de-metro-westview",
+          1
+        ],
+        [
+          "gare",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Kael",
+          18
+        ],
+        [
+          "Telemachus",
+          11
+        ],
+        [
+          "Mitsu",
+          11
+        ],
+        [
+          "Ice",
+          10
+        ],
+        [
+          "Hizo Vertini",
+          5
+        ],
+        [
+          "Irene",
+          4
+        ],
+        [
+          "Rein",
+          4
+        ],
+        [
+          "Lucina",
+          3
+        ],
+        [
+          "Beta",
+          2
+        ],
+        [
+          "Kaïra",
+          2
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 20,
+        "training": 8,
+        "n": 4,
+        "fight": 12
+      },
+      "scenes": [
+        [
+          "2026-08-17",
+          "mer",
+          "Westview",
+          3,
+          []
+        ],
+        [
+          "2026-08-22",
+          "plage",
+          "Westview",
+          5,
+          [
+            "Mitsu",
+            "Ice",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "station-de-metro-westview",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          3,
+          [
+            "Mitsu",
+            "Telemachus",
+            "Irene",
+            "Rein",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "gare",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-08",
+          "mer",
+          "Westview",
+          2,
+          []
+        ],
+        [
+          "2026-09-08",
+          "rue",
+          "Wellston",
+          5,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "vieille-maison",
+          "Wellston",
+          9,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "vieille-maison",
+          "Wellston",
+          2,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-10",
+          "vieille-maison",
+          "Wellston",
+          1,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "vieille-maison",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-12",
+          "gare-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "vieille-maison",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-23",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-24",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ]
+      ]
+    },
+    "Telemachus": {
+      "msgs": 356,
+      "first": "2026-08-17",
+      "last": "2026-11-06",
+      "days": {
+        "2026-08-17": 2,
+        "2026-08-18": 1,
+        "2026-08-19": 2,
+        "2026-08-20": 4,
+        "2026-08-21": 1,
+        "2026-08-22": 7,
+        "2026-08-23": 10,
+        "2026-08-24": 2,
+        "2026-08-25": 18,
+        "2026-08-26": 1,
+        "2026-08-27": 12,
+        "2026-08-28": 2,
+        "2026-08-29": 22,
+        "2026-08-30": 3,
+        "2026-08-31": 2,
+        "2026-09-01": 3,
+        "2026-09-02": 5,
+        "2026-09-03": 14,
+        "2026-09-05": 4,
+        "2026-09-06": 3,
+        "2026-09-07": 13,
+        "2026-09-08": 4,
+        "2026-09-09": 3,
+        "2026-09-10": 1,
+        "2026-09-11": 5,
+        "2026-09-12": 5,
+        "2026-09-13": 4,
+        "2026-09-14": 2,
+        "2026-09-19": 1,
+        "2026-09-20": 2,
+        "2026-09-21": 1,
+        "2026-09-22": 4,
+        "2026-09-26": 1,
+        "2026-10-07": 3,
+        "2026-10-09": 2,
+        "2026-10-13": 14,
+        "2026-10-14": 3,
+        "2026-10-16": 1,
+        "2026-10-17": 1,
+        "2026-10-18": 11,
+        "2026-10-20": 15,
+        "2026-10-21": 11,
+        "2026-10-22": 21,
+        "2026-10-23": 27,
+        "2026-10-24": 26,
+        "2026-10-25": 10,
+        "2026-10-26": 2,
+        "2026-10-28": 12,
+        "2026-10-29": 19,
+        "2026-10-30": 4,
+        "2026-10-31": 2,
+        "2026-11-01": 4,
+        "2026-11-03": 1,
+        "2026-11-06": 3
+      },
+      "places": [
+        [
+          "toit",
+          51
+        ],
+        [
+          "plage",
+          30
+        ],
+        [
+          "zone-turf-wars",
+          30
+        ],
+        [
+          "chez-telemachus",
+          30
+        ],
+        [
+          "rue",
+          27
+        ],
+        [
+          "salle-de-recharge",
+          26
+        ],
+        [
+          "bureau-wellston",
+          26
+        ],
+        [
+          "centre-ville",
+          17
+        ]
+      ],
+      "partners": [
+        [
+          "Lucina",
+          81
+        ],
+        [
+          "Beta",
+          69
+        ],
+        [
+          "Isaure",
+          50
+        ],
+        [
+          "Keito",
+          43
+        ],
+        [
+          "Ice",
+          40
+        ],
+        [
+          "Mitsu",
+          38
+        ],
+        [
+          "Kael",
+          28
+        ],
+        [
+          "Kaïra",
+          25
+        ],
+        [
+          "Irene",
+          25
+        ],
+        [
+          "Rein",
+          24
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 92,
+        "training": 38,
+        "n": 21,
+        "fight": 54
+      },
+      "scenes": [
+        [
+          "2026-08-17",
+          "salle-de-sport",
+          "Westview",
+          2,
+          []
+        ],
+        [
+          "2026-08-18",
+          "parc",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Kaïra",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-19",
+          "parc",
+          "Westview",
+          2,
+          [
+            "Mitsu",
+            "Leonie",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "plage",
+          "Westview",
+          4,
+          []
+        ],
+        [
+          "2026-08-21",
+          "plage",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-22",
+          "centre-commercial",
+          "Westview",
+          2,
+          []
+        ],
+        [
+          "2026-08-22",
+          "plage",
+          "Westview",
+          5,
+          [
+            "Mitsu",
+            "Ice",
+            "Marc"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "station-de-metro-westview",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Marc",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          9,
+          [
+            "Mitsu",
+            "Irene",
+            "Rein",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          2,
+          [
+            "Hizo Vertini",
+            "Mitsu",
+            "Irene",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          18,
+          [
+            "Irene",
+            "Beta",
+            "Mitsu",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          1,
+          [
+            "Beta",
+            "Ice",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "Lighter _-_ Vulcain",
+          "Autres",
+          3,
+          [
+            "Lighter",
+            "Volcan"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "Telemachus _-_ Beta",
+          "Autres",
+          2,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "rue",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-27",
+          "toit",
+          "Westview",
+          6,
+          [
+            "Beta",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "chez-telemachus",
+          "Autres",
+          2,
+          []
+        ],
+        [
+          "2026-08-29",
+          "chez-telemachus",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-08-29",
+          "couloir",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-29",
+          "entrée-du-lycée",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-29",
+          "réseaux-sociaux",
+          "Autres",
+          2,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "salle-de-classe",
+          "Westview",
+          9,
+          [
+            "Beta",
+            "Power",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "toit",
+          "Westview",
+          8,
+          [
+            "Beta",
+            "Mitsu",
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-30",
+          "toit",
+          "Westview",
+          3,
+          [
+            "Power",
+            "Beta"
+          ]
+        ],
+        [
+          "2026-08-31",
+          "toit",
+          "Westview",
+          2,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "chez-telemachus",
+          "Autres",
+          2,
+          []
+        ],
+        [
+          "2026-09-01",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "rue",
+          "Wellston",
+          5,
+          [
+            "Kael",
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "chez-telemachus",
+          "Autres",
+          5,
+          []
+        ],
+        [
+          "2026-09-03",
+          "rue",
+          "Wellston",
+          7,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "rue",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-03",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "café-tranquille",
+          "Rowden",
+          4,
+          [
+            "Keito"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "café-tranquille",
+          "Rowden",
+          3,
+          [
+            "Keito"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "café-tranquille",
+          "Rowden",
+          2,
+          [
+            "Keito"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "rue",
+          "Rowden",
+          1,
+          []
+        ],
+        [
+          "2026-09-07",
+          "toit",
+          "Westview",
+          10,
+          [
+            "Lucina",
+            "Koya"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "toit",
+          "Westview",
+          4,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "toit",
+          "Westview",
+          3,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-10",
+          "plage",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "entrée-du-lycée",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "gymnase",
+          "Westview",
+          2,
+          [
+            "Mitsu",
+            "Lucian Hale",
+            "Power",
+            "Beta",
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "parc",
+          "Westview",
+          2,
+          []
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          5,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Mitsu",
+            "Ice",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Julia",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          2,
+          [
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine",
+            "Lucian Hale",
+            "Mitsu",
+            "Kael",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-19",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Issei",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-09-20",
+          "Côté Droit",
+          "Westview",
+          2,
+          [
+            "Issei",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-21",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Issei",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Droit",
+          "Westview",
+          4,
+          [
+            "Lucina",
+            "Issei",
+            "Julia",
+            "Ice",
+            "Solar"
+          ]
+        ],
+        [
+          "2026-09-26",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-07",
+          "chez-telemachus",
+          "Autres",
+          3,
+          []
+        ],
+        [
+          "2026-10-09",
+          "toit",
+          "Westview",
+          2,
+          []
+        ],
+        [
+          "2026-10-13",
+          "centre-ville",
+          "Westview",
+          14,
+          [
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-14",
+          "centre-ville",
+          "Westview",
+          3,
+          [
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-16",
+          "chez-telemachus",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-10-17",
+          "chez-telemachus",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-10-18",
+          "toit",
+          "Westview",
+          11,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          15,
+          [
+            "Louis",
+            "Isaure",
+            "Keito",
+            "Remi",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "plage",
+          "Westview",
+          4,
+          [
+            "Louis",
+            "Isaure",
+            "Keito",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "salle-de-recharge",
+          "Wellston",
+          7,
+          [
+            "Keito",
+            "Orrin",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "rue",
+          "Wellston",
+          2,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "salle-de-recharge",
+          "Wellston",
+          19,
+          [
+            "Orrin",
+            "Lucina",
+            "Kael",
+            "Keito",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "café-woaba-boba",
+          "Wellston",
+          13,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "centre-commercial",
+          "Westview",
+          4,
+          [
+            "Isaure",
+            "Beta",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "rue",
+          "Wellston",
+          4,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "rue",
+          "Westview",
+          6,
+          [
+            "Isaure",
+            "Beta",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Isaure _-_ Beta",
+          "Autres",
+          2,
+          [
+            "Beta",
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Isaure _-_ Telemachus",
+          "Autres",
+          6,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Machus _3 _-_ Ma Circe _3",
+          "Autres",
+          2,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Telemachus _-_ Beta",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-10-24",
+          "centre-commercial",
+          "Westview",
+          10,
+          [
+            "Lucina",
+            "Beta",
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "chez-telemachus",
+          "Autres",
+          5,
+          []
+        ],
+        [
+          "2026-10-25",
+          "chez-telemachus",
+          "Autres",
+          4,
+          []
+        ],
+        [
+          "2026-10-25",
+          "parc",
+          "Westview",
+          6,
+          [
+            "Keito"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "parc",
+          "Westview",
+          2,
+          [
+            "Keito"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "bureau-wellston",
+          "Wellston",
+          2,
+          []
+        ],
+        [
+          "2026-10-28",
+          "chez-telemachus",
+          "Autres",
+          5,
+          []
+        ],
+        [
+          "2026-10-28",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Beta",
+            "Isaure",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "bureau-wellston",
+          "Wellston",
+          18,
+          [
+            "Byron"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "chez-telemachus",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-10-30",
+          "bureau-wellston",
+          "Wellston",
+          4,
+          [
+            "Byron"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "bureau-wellston",
+          "Wellston",
+          2,
+          [
+            "Byron"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "chez-hizo",
+          "Autres",
+          4,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          1,
+          [
+            "Volcan",
+            "Vitalis",
+            "Arlequin",
+            "Sibyl"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "parc",
+          "Rowden",
+          3,
+          [
+            "Beta",
+            "Isaure"
+          ]
+        ]
+      ]
+    },
+    "Soren": {
+      "msgs": 74,
+      "first": "2026-08-18",
+      "last": "2026-09-23",
+      "days": {
+        "2026-08-18": 14,
+        "2026-08-20": 4,
+        "2026-08-22": 10,
+        "2026-08-29": 2,
+        "2026-09-05": 10,
+        "2026-09-06": 2,
+        "2026-09-07": 4,
+        "2026-09-08": 1,
+        "2026-09-09": 6,
+        "2026-09-11": 5,
+        "2026-09-13": 1,
+        "2026-09-15": 1,
+        "2026-09-17": 1,
+        "2026-09-18": 1,
+        "2026-09-20": 1,
+        "2026-09-21": 1,
+        "2026-09-22": 9,
+        "2026-09-23": 1
+      },
+      "places": [
+        [
+          "colline-de-rowden",
+          32
+        ],
+        [
+          "couloir-a",
+          14
+        ],
+        [
+          "entrée-du-lycée",
+          11
+        ],
+        [
+          "hall",
+          7
+        ],
+        [
+          "centre-ville",
+          7
+        ],
+        [
+          "gare-wellston",
+          2
+        ],
+        [
+          "gare-rowden",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Julia",
+          32
+        ],
+        [
+          "Louis",
+          30
+        ],
+        [
+          "Silas",
+          28
+        ],
+        [
+          "Laura",
+          6
+        ],
+        [
+          "Keito",
+          5
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-18",
+          "4.8"
+        ],
+        [
+          "2026-09-07",
+          "4.9"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-18",
+          "entrée-du-lycée",
+          "Wellston",
+          11,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-18",
+          "hall",
+          "Wellston",
+          3,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-20",
+          "hall",
+          "Wellston",
+          4,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "couloir-a",
+          "Wellston",
+          10,
+          [
+            "Julia",
+            "゛🌑 〢 𝐄𝗏𝗂 𝐌𝖺𝗌𝖾𝗐𝗈𝗈𝖽"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "couloir-a",
+          "Wellston",
+          2,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "colline-de-rowden",
+          "Rowden",
+          7,
+          [
+            "Silas",
+            "Louis",
+            "Keito"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "couloir-a",
+          "Wellston",
+          2,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "gare-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-06",
+          "colline-de-rowden",
+          "Rowden",
+          2,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "colline-de-rowden",
+          "Rowden",
+          4,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "colline-de-rowden",
+          "Rowden",
+          6,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-15",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-18",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-20",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-21",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          []
+        ],
+        [
+          "2026-09-22",
+          "centre-ville",
+          "Agwin",
+          6,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "gare-rowden",
+          "Rowden",
+          1,
+          []
+        ],
+        [
+          "2026-09-22",
+          "gare-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-23",
+          "centre-ville",
+          "Agwin",
+          1,
+          [
+            "Laura"
+          ]
+        ]
+      ]
+    },
+    "Elizabeth Shaw": {
+      "msgs": 25,
+      "first": "2026-08-22",
+      "last": "2026-08-24",
+      "days": {
+        "2026-08-22": 9,
+        "2026-08-23": 14,
+        "2026-08-24": 2
+      },
+      "places": [
+        [
+          "centre-commercial",
+          22
+        ],
+        [
+          "starbucks",
+          2
+        ],
+        [
+          "station-de-metro-westview",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Irene",
+          21
+        ],
+        [
+          "Kaito Vance",
+          2
+        ],
+        [
+          "Leonie",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-22",
+          "4.4"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-22",
+          "centre-commercial",
+          "Agwin",
+          8,
+          [
+            "Irene",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "station-de-metro-westview",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-08-23",
+          "centre-commercial",
+          "Agwin",
+          14,
+          [
+            "Irene",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "starbucks",
+          "Agwin",
+          2,
+          [
+            "Leonie"
+          ]
+        ]
+      ]
+    },
+    "Kaito Vance": {
+      "msgs": 41,
+      "first": "2026-08-22",
+      "last": "2026-10-28",
+      "days": {
+        "2026-08-22": 3,
+        "2026-08-23": 1,
+        "2026-08-25": 3,
+        "2026-08-26": 1,
+        "2026-08-27": 10,
+        "2026-08-28": 7,
+        "2026-10-18": 1,
+        "2026-10-22": 5,
+        "2026-10-23": 2,
+        "2026-10-24": 3,
+        "2026-10-25": 1,
+        "2026-10-27": 1,
+        "2026-10-28": 3
+      },
+      "places": [
+        [
+          "starbucks",
+          20
+        ],
+        [
+          "hopital-de-westview",
+          15
+        ],
+        [
+          "parc",
+          2
+        ],
+        [
+          "centre-commercial",
+          2
+        ],
+        [
+          "rue",
+          2
+        ]
+      ],
+      "partners": [
+        [
+          "Hizo Vertini",
+          33
+        ],
+        [
+          "Louis",
+          11
+        ],
+        [
+          "Mitsu",
+          9
+        ],
+        [
+          "Julia",
+          8
+        ],
+        [
+          "John",
+          3
+        ],
+        [
+          "Lucina",
+          3
+        ],
+        [
+          "Elizabeth Shaw",
+          2
+        ],
+        [
+          "Irene",
+          2
+        ],
+        [
+          "Laura",
+          2
+        ],
+        [
+          "Kaïra",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-22",
+          "centre-commercial",
+          "Agwin",
+          1,
+          [
+            "Elizabeth Shaw",
+            "Irene"
+          ]
+        ],
+        [
+          "2026-08-22",
+          "parc",
+          "Agwin",
+          2,
+          []
+        ],
+        [
+          "2026-08-23",
+          "centre-commercial",
+          "Agwin",
+          1,
+          [
+            "Elizabeth Shaw",
+            "Irene"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "starbucks",
+          "Agwin",
+          3,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "starbucks",
+          "Agwin",
+          1,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "rue",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-08-27",
+          "starbucks",
+          "Agwin",
+          9,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "starbucks",
+          "Agwin",
+          7,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-18",
+          "rue",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          5,
+          [
+            "Hizo Vertini",
+            "Louis",
+            "John",
+            "Mitsu",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Hizo Vertini",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Julia",
+            "Louis",
+            "Mitsu",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Louis",
+            "Julia",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Julia",
+            "Mitsu",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Julia",
+            "Hizo Vertini",
+            "Lucina",
+            "Mitsu"
+          ]
+        ]
+      ]
+    },
+    "Irene": {
+      "msgs": 105,
+      "first": "2026-08-22",
+      "last": "2026-11-05",
+      "days": {
+        "2026-08-22": 8,
+        "2026-08-23": 23,
+        "2026-08-24": 6,
+        "2026-08-25": 12,
+        "2026-09-01": 4,
+        "2026-09-02": 4,
+        "2026-09-07": 4,
+        "2026-09-12": 1,
+        "2026-09-13": 1,
+        "2026-09-14": 1,
+        "2026-09-17": 1,
+        "2026-10-09": 1,
+        "2026-10-10": 1,
+        "2026-10-12": 10,
+        "2026-10-13": 4,
+        "2026-10-25": 1,
+        "2026-10-28": 1,
+        "2026-11-02": 10,
+        "2026-11-03": 9,
+        "2026-11-04": 2,
+        "2026-11-05": 1
+      },
+      "places": [
+        [
+          "centre-commercial",
+          37
+        ],
+        [
+          "zone-turf-wars",
+          27
+        ],
+        [
+          "entrée-du-lycée",
+          22
+        ],
+        [
+          "centre-ville",
+          9
+        ],
+        [
+          "couloir",
+          3
+        ],
+        [
+          "gymnase",
+          2
+        ],
+        [
+          "Milieu",
+          2
+        ],
+        [
+          "toit",
+          2
+        ]
+      ],
+      "partners": [
+        [
+          "Telemachus",
+          25
+        ],
+        [
+          "Mitsu",
+          22
+        ],
+        [
+          "Marou",
+          22
+        ],
+        [
+          "Elizabeth Shaw",
+          21
+        ],
+        [
+          "Hizo Vertini",
+          18
+        ],
+        [
+          "Ice",
+          16
+        ],
+        [
+          "Marie",
+          14
+        ],
+        [
+          "Rein",
+          9
+        ],
+        [
+          "Beta",
+          8
+        ],
+        [
+          "Marc",
+          4
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-22",
+          "7.4"
+        ]
+      ],
+      "pe": {
+        "total": 10,
+        "fight": 6,
+        "n": 4,
+        "training": 4
+      },
+      "scenes": [
+        [
+          "2026-08-22",
+          "centre-commercial",
+          "Agwin",
+          8,
+          [
+            "Elizabeth Shaw",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "centre-commercial",
+          "Agwin",
+          13,
+          [
+            "Elizabeth Shaw",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          9,
+          [
+            "Mitsu",
+            "Telemachus",
+            "Rein",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          6,
+          [
+            "Hizo Vertini",
+            "Mitsu",
+            "Ice",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          12,
+          [
+            "Telemachus",
+            "Beta",
+            "Mitsu",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "centre-ville",
+          "Agwin",
+          4,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "centre-ville",
+          "Agwin",
+          4,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "centre-ville",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-07",
+          "couloir",
+          "Agwin",
+          3,
+          [
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-10-09",
+          "centre-commercial",
+          "Agwin",
+          1,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-10-10",
+          "centre-commercial",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-10-12",
+          "centre-commercial",
+          "Agwin",
+          10,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "centre-commercial",
+          "Agwin",
+          4,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "toit",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-10-28",
+          "toit",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-11-02",
+          "entrée-du-lycée",
+          "Agwin",
+          10,
+          [
+            "Marou"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "entrée-du-lycée",
+          "Agwin",
+          9,
+          [
+            "Marou"
+          ]
+        ],
+        [
+          "2026-11-04",
+          "entrée-du-lycée",
+          "Agwin",
+          2,
+          [
+            "Marou"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "entrée-du-lycée",
+          "Agwin",
+          1,
+          [
+            "Marou"
+          ]
+        ]
+      ]
+    },
+    "Ice": {
+      "msgs": 256,
+      "first": "2026-08-22",
+      "last": "2026-10-30",
+      "days": {
+        "2026-08-22": 14,
+        "2026-08-23": 5,
+        "2026-08-24": 5,
+        "2026-08-25": 4,
+        "2026-08-26": 18,
+        "2026-08-27": 14,
+        "2026-09-07": 1,
+        "2026-09-08": 2,
+        "2026-09-12": 3,
+        "2026-09-13": 1,
+        "2026-09-14": 1,
+        "2026-09-22": 1,
+        "2026-09-24": 1,
+        "2026-09-27": 1,
+        "2026-10-18": 11,
+        "2026-10-25": 58,
+        "2026-10-26": 55,
+        "2026-10-27": 27,
+        "2026-10-28": 22,
+        "2026-10-29": 2,
+        "2026-10-30": 10
+      },
+      "places": [
+        [
+          "limite-de-la-ville",
+          78
+        ],
+        [
+          "bibliotèque",
+          48
+        ],
+        [
+          "centre-ville",
+          48
+        ],
+        [
+          "toit",
+          25
+        ],
+        [
+          "zone-turf-wars",
+          24
+        ],
+        [
+          "plage",
+          22
+        ],
+        [
+          "gymnase",
+          4
+        ],
+        [
+          "Côté Droit",
+          4
+        ]
+      ],
+      "partners": [
+        [
+          "Lucina",
+          176
+        ],
+        [
+          "Mitsu",
+          46
+        ],
+        [
+          "Telemachus",
+          40
+        ],
+        [
+          "Beta",
+          32
+        ],
+        [
+          "Irene",
+          16
+        ],
+        [
+          "Hizo Vertini",
+          13
+        ],
+        [
+          "Marc",
+          10
+        ],
+        [
+          "Rein",
+          5
+        ],
+        [
+          "Kaïra",
+          4
+        ],
+        [
+          "Julia",
+          4
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-22",
+          "5.5"
+        ],
+        [
+          "2026-10-18",
+          "5.6"
+        ]
+      ],
+      "pe": {
+        "total": 9,
+        "fight": 9,
+        "n": 3
+      },
+      "scenes": [
+        [
+          "2026-08-22",
+          "plage",
+          "Westview",
+          14,
+          [
+            "Mitsu",
+            "Marc",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          5,
+          [
+            "Mitsu",
+            "Telemachus",
+            "Irene",
+            "Rein",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          5,
+          [
+            "Hizo Vertini",
+            "Mitsu",
+            "Irene",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          4,
+          [
+            "Telemachus",
+            "Irene",
+            "Beta",
+            "Mitsu",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "plage",
+          "Westview",
+          8,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          10,
+          [
+            "Beta",
+            "Mitsu",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "toit",
+          "Westview",
+          14,
+          [
+            "Beta",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "branish",
+          "Quartiers & zones",
+          1,
+          []
+        ],
+        [
+          "2026-09-08",
+          "branish",
+          "Quartiers & zones",
+          2,
+          [
+            "Keesh",
+            "Rex",
+            "Thomas",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          3,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Kaïra",
+            "Beta",
+            "Mitsu",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Lucina",
+            "Issei",
+            "Julia",
+            "Solar"
+          ]
+        ],
+        [
+          "2026-09-24",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Marc"
+          ]
+        ],
+        [
+          "2026-09-27",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-18",
+          "toit",
+          "Westview",
+          11,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "bibliotèque",
+          "Westview",
+          48,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "limite-de-la-ville",
+          "Westview",
+          10,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "limite-de-la-ville",
+          "Westview",
+          55,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "centre-ville",
+          "Westview",
+          14,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "limite-de-la-ville",
+          "Westview",
+          13,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "centre-ville",
+          "Westview",
+          22,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "centre-ville",
+          "Westview",
+          2,
+          [
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "centre-ville",
+          "Westview",
+          10,
+          [
+            "Lucina"
+          ]
+        ]
+      ]
+    },
+    "Hizo Vertini": {
+      "msgs": 113,
+      "first": "2026-08-23",
+      "last": "2026-11-07",
+      "days": {
+        "2026-08-23": 4,
+        "2026-08-24": 14,
+        "2026-08-25": 5,
+        "2026-08-26": 1,
+        "2026-08-27": 8,
+        "2026-08-28": 7,
+        "2026-08-29": 4,
+        "2026-08-31": 1,
+        "2026-09-01": 3,
+        "2026-09-02": 5,
+        "2026-09-04": 1,
+        "2026-09-08": 5,
+        "2026-09-09": 1,
+        "2026-09-11": 1,
+        "2026-09-12": 8,
+        "2026-09-17": 1,
+        "2026-09-22": 3,
+        "2026-09-25": 2,
+        "2026-09-26": 2,
+        "2026-09-30": 1,
+        "2026-10-20": 1,
+        "2026-10-21": 3,
+        "2026-10-22": 7,
+        "2026-10-23": 3,
+        "2026-10-24": 2,
+        "2026-10-25": 2,
+        "2026-10-26": 1,
+        "2026-10-27": 2,
+        "2026-10-28": 3,
+        "2026-10-30": 1,
+        "2026-11-01": 9,
+        "2026-11-02": 1,
+        "2026-11-07": 1
+      },
+      "places": [
+        [
+          "hopital-de-westview",
+          21
+        ],
+        [
+          "zone-turf-wars",
+          19
+        ],
+        [
+          "starbucks",
+          19
+        ],
+        [
+          "chez-hizo",
+          16
+        ],
+        [
+          "Côté Gauche",
+          9
+        ],
+        [
+          "centre-ville",
+          8
+        ],
+        [
+          "gymnase",
+          6
+        ],
+        [
+          "toit",
+          4
+        ]
+      ],
+      "partners": [
+        [
+          "Kaito Vance",
+          33
+        ],
+        [
+          "Mitsu",
+          31
+        ],
+        [
+          "Telemachus",
+          19
+        ],
+        [
+          "Irene",
+          18
+        ],
+        [
+          "Julia",
+          15
+        ],
+        [
+          "Louis",
+          14
+        ],
+        [
+          "Ice",
+          13
+        ],
+        [
+          "Beta",
+          11
+        ],
+        [
+          "Lucina",
+          9
+        ],
+        [
+          "Kael",
+          8
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-23",
+          "4.8"
+        ],
+        [
+          "2026-08-28",
+          "4.9"
+        ]
+      ],
+      "pe": {
+        "total": 11,
+        "fight": 9,
+        "n": 7,
+        "training": 2
+      },
+      "scenes": [
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          4,
+          [
+            "Mitsu",
+            "Telemachus",
+            "Irene",
+            "Rein",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-08-24",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          14,
+          [
+            "Mitsu",
+            "Irene",
+            "Ice",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "starbucks",
+          "Agwin",
+          3,
+          [
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-08-25",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          1,
+          [
+            "Telemachus",
+            "Irene",
+            "Beta",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "starbucks",
+          "Agwin",
+          1,
+          [
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "starbucks",
+          "Agwin",
+          8,
+          [
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "starbucks",
+          "Agwin",
+          7,
+          [
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "chez-hizo",
+          "Autres",
+          2,
+          []
+        ],
+        [
+          "2026-08-29",
+          "réseaux-sociaux",
+          "Autres",
+          2,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-31",
+          "centre-ville",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-01",
+          "centre-ville",
+          "Agwin",
+          3,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "centre-ville",
+          "Agwin",
+          3,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "chez-hizo",
+          "Autres",
+          2,
+          []
+        ],
+        [
+          "2026-09-04",
+          "centre-ville",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-08",
+          "bureau-de-la-direction",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-08",
+          "toit",
+          "Agwin",
+          4,
+          [
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "chez-hizo",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "chez-hizo",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-09-12",
+          "entrée-du-lycée",
+          "Westview",
+          1,
+          [
+            "Leonie",
+            "Issei"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gare",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          6,
+          [
+            "Beta",
+            "Telemachus",
+            "Mitsu",
+            "Ice",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Leonie",
+            "Kael",
+            "Kaïra",
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Gauche",
+          "Westview",
+          3,
+          [
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-09-25",
+          "Côté Gauche",
+          "Westview",
+          2,
+          [
+            "Kael",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-26",
+          "Côté Gauche",
+          "Westview",
+          2,
+          [
+            "Kael",
+            "Leonie",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-30",
+          "Côté Gauche",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          3,
+          [
+            "Blyke",
+            "Isen",
+            "Beta",
+            "Arlo",
+            "Liam"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          7,
+          [
+            "Kaito Vance",
+            "Louis",
+            "John",
+            "Mitsu",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Kaito Vance",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Julia",
+            "Louis",
+            "Kaito Vance",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Louis",
+            "Julia",
+            "Kaito Vance",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Julia",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Julia",
+            "Mitsu",
+            "Louis",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Julia",
+            "Kaito Vance",
+            "Lucina",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "chez-hizo",
+          "Autres",
+          9,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "chez-hizo",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-11-07",
+          "entrée-du-lycée",
+          "Agwin",
+          1,
+          []
+        ]
+      ]
+    },
+    "Rein": {
+      "msgs": 24,
+      "first": "2026-08-23",
+      "last": "2026-10-22",
+      "days": {
+        "2026-08-23": 9,
+        "2026-10-20": 5,
+        "2026-10-21": 3,
+        "2026-10-22": 7
+      },
+      "places": [
+        [
+          "zone-turf-wars",
+          9
+        ],
+        [
+          "salle-de-recharge",
+          9
+        ],
+        [
+          "plage",
+          6
+        ]
+      ],
+      "partners": [
+        [
+          "Telemachus",
+          24
+        ],
+        [
+          "Keito",
+          15
+        ],
+        [
+          "Mitsu",
+          10
+        ],
+        [
+          "Irene",
+          9
+        ],
+        [
+          "Orrin",
+          9
+        ],
+        [
+          "Lucina",
+          8
+        ],
+        [
+          "Kael",
+          8
+        ],
+        [
+          "Isaure",
+          6
+        ],
+        [
+          "Louis",
+          6
+        ],
+        [
+          "Hizo Vertini",
+          5
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-23",
+          "4.9"
+        ]
+      ],
+      "pe": {
+        "total": 4,
+        "fight": 4,
+        "n": 2
+      },
+      "scenes": [
+        [
+          "2026-08-23",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          9,
+          [
+            "Mitsu",
+            "Telemachus",
+            "Irene",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          5,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Isaure",
+            "Keito",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "salle-de-recharge",
+          "Wellston",
+          2,
+          [
+            "Telemachus",
+            "Keito",
+            "Orrin"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "salle-de-recharge",
+          "Wellston",
+          7,
+          [
+            "Telemachus",
+            "Orrin",
+            "Lucina",
+            "Kael",
+            "Keito"
+          ]
+        ]
+      ]
+    },
+    "Beta": {
+      "msgs": 358,
+      "first": "2026-08-24",
+      "last": "2026-11-08",
+      "days": {
+        "2026-08-24": 2,
+        "2026-08-25": 17,
+        "2026-08-26": 13,
+        "2026-08-27": 25,
+        "2026-08-28": 8,
+        "2026-08-29": 15,
+        "2026-08-30": 1,
+        "2026-09-01": 3,
+        "2026-09-02": 20,
+        "2026-09-03": 3,
+        "2026-09-04": 7,
+        "2026-09-05": 2,
+        "2026-09-06": 5,
+        "2026-09-07": 7,
+        "2026-09-08": 2,
+        "2026-09-11": 2,
+        "2026-09-12": 8,
+        "2026-09-13": 2,
+        "2026-09-24": 1,
+        "2026-10-20": 7,
+        "2026-10-21": 8,
+        "2026-10-22": 4,
+        "2026-10-23": 23,
+        "2026-10-24": 27,
+        "2026-10-26": 7,
+        "2026-10-27": 18,
+        "2026-10-28": 14,
+        "2026-10-29": 7,
+        "2026-10-30": 12,
+        "2026-10-31": 13,
+        "2026-11-01": 28,
+        "2026-11-02": 5,
+        "2026-11-03": 5,
+        "2026-11-04": 3,
+        "2026-11-05": 17,
+        "2026-11-06": 4,
+        "2026-11-07": 7,
+        "2026-11-08": 6
+      },
+      "places": [
+        [
+          "appart-de-isaure",
+          70
+        ],
+        [
+          "parc",
+          47
+        ],
+        [
+          "colline-de-rowden",
+          41
+        ],
+        [
+          "centre-commercial",
+          28
+        ],
+        [
+          "toit",
+          27
+        ],
+        [
+          "zone-turf-wars",
+          19
+        ],
+        [
+          "salle-de-classe",
+          19
+        ],
+        [
+          "entrée-du-lycée",
+          17
+        ]
+      ],
+      "partners": [
+        [
+          "Isaure",
+          179
+        ],
+        [
+          "Telemachus",
+          69
+        ],
+        [
+          "Lucina",
+          38
+        ],
+        [
+          "Power",
+          33
+        ],
+        [
+          "Ice",
+          32
+        ],
+        [
+          "Mitsu",
+          27
+        ],
+        [
+          "Elias",
+          23
+        ],
+        [
+          "Kael",
+          17
+        ],
+        [
+          "Blyke",
+          15
+        ],
+        [
+          "Isen",
+          15
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-28",
+          "3.4"
+        ],
+        [
+          "2026-10-20",
+          "3.3"
+        ],
+        [
+          "2026-10-22",
+          "3.4"
+        ]
+      ],
+      "pe": {
+        "total": 14,
+        "fight": 13,
+        "n": 4,
+        "training": 1
+      },
+      "scenes": [
+        [
+          "2026-08-24",
+          "cour",
+          "Westview",
+          2,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "cour",
+          "Westview",
+          11,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-25",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          6,
+          [
+            "Telemachus",
+            "Irene",
+            "Mitsu",
+            "Ice",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "zone-turf-wars",
+          "Quartiers & zones",
+          13,
+          [
+            "Ice",
+            "Mitsu",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "Telemachus _-_ Beta",
+          "Autres",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "salle-de-classe",
+          "Westview",
+          5,
+          [
+            "Power",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "toit",
+          "Westview",
+          19,
+          [
+            "Ice",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "Beta _-_ Mitsu",
+          "Autres",
+          2,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "salle-de-classe",
+          "Westview",
+          6,
+          [
+            "Power",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "salle-de-classe",
+          "Westview",
+          8,
+          [
+            "Telemachus",
+            "Power",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "toit",
+          "Westview",
+          7,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Power"
+          ]
+        ],
+        [
+          "2026-08-30",
+          "toit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Power"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "Beta _-_ Elias",
+          "Autres",
+          2,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "messagerie-générale",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-09-02",
+          "Beta _-_ Elias",
+          "Autres",
+          4,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "couloir-b",
+          "Wellston",
+          3,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "cours-2eme-année",
+          "Wellston",
+          7,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "entrée-du-lycée",
+          "Wellston",
+          3,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "gare",
+          "Agwin",
+          1,
+          [
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "gare",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-02",
+          "station-de-metro-de-wellston",
+          "Wellston",
+          1,
+          [
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "cours-2eme-année",
+          "Wellston",
+          3,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-04",
+          "couloir-b",
+          "Wellston",
+          7,
+          [
+            "Marie",
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "couloir-b",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-05",
+          "entrée-du-lycée",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-06",
+          "entrée-du-lycée",
+          "Wellston",
+          5,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "entrée-du-lycée",
+          "Wellston",
+          7,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "entrée-du-lycée",
+          "Wellston",
+          1,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "parc",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Lucian Hale",
+            "Power",
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "parc",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          8,
+          [
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Mitsu",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-24",
+          "Milieu",
+          "Westview",
+          1,
+          [
+            "Power"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          6,
+          [
+            "Blyke",
+            "Isen",
+            "Arlo",
+            "Lucina",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          8,
+          [
+            "Blyke",
+            "Isen",
+            "Arlo",
+            "Liam",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "rue",
+          "Westview",
+          4,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "centre-commercial",
+          "Westview",
+          16,
+          [
+            "Isaure",
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "rue",
+          "Westview",
+          7,
+          [
+            "Isaure",
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Isaure _-_ Beta",
+          "Autres",
+          2,
+          [
+            "Telemachus",
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "centre-commercial",
+          "Westview",
+          12,
+          [
+            "Lucina",
+            "Telemachus",
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "parc",
+          "Westview",
+          13,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "Isaure _-_ Beta",
+          "Autres",
+          3,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "appart-de-isaure",
+          "Autres",
+          4,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "appart-de-isaure",
+          "Autres",
+          10,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "colline-de-rowden",
+          "Rowden",
+          8,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "colline-de-rowden",
+          "Rowden",
+          14,
+          [
+            "Isaure",
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "colline-de-rowden",
+          "Rowden",
+          7,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "colline-de-rowden",
+          "Rowden",
+          12,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "appart-de-isaure",
+          "Autres",
+          13,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "appart-de-isaure",
+          "Autres",
+          28,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "appart-de-isaure",
+          "Autres",
+          5,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "appart-de-isaure",
+          "Autres",
+          5,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-04",
+          "appart-de-isaure",
+          "Autres",
+          3,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "appart-de-isaure",
+          "Autres",
+          2,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "parc",
+          "Rowden",
+          15,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "parc",
+          "Rowden",
+          4,
+          [
+            "Telemachus",
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-07",
+          "parc",
+          "Rowden",
+          7,
+          [
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "parc",
+          "Rowden",
+          6,
+          [
+            "Isaure"
+          ]
+        ]
+      ]
+    },
+    "Kael": {
+      "msgs": 131,
+      "first": "2026-08-25",
+      "last": "2026-11-07",
+      "days": {
+        "2026-08-25": 3,
+        "2026-08-26": 7,
+        "2026-08-27": 7,
+        "2026-08-29": 1,
+        "2026-08-30": 2,
+        "2026-08-31": 7,
+        "2026-09-01": 3,
+        "2026-09-02": 4,
+        "2026-09-03": 8,
+        "2026-09-06": 5,
+        "2026-09-07": 7,
+        "2026-09-08": 14,
+        "2026-09-09": 2,
+        "2026-09-10": 1,
+        "2026-09-12": 2,
+        "2026-09-13": 2,
+        "2026-09-14": 1,
+        "2026-09-17": 1,
+        "2026-09-25": 2,
+        "2026-09-26": 2,
+        "2026-10-05": 1,
+        "2026-10-17": 1,
+        "2026-10-18": 1,
+        "2026-10-20": 3,
+        "2026-10-21": 6,
+        "2026-10-22": 12,
+        "2026-10-24": 11,
+        "2026-10-26": 1,
+        "2026-10-27": 1,
+        "2026-10-28": 2,
+        "2026-11-03": 1,
+        "2026-11-04": 1,
+        "2026-11-06": 7,
+        "2026-11-07": 2
+      },
+      "places": [
+        [
+          "rue",
+          46
+        ],
+        [
+          "entrée-du-lycée",
+          14
+        ],
+        [
+          "vieille-maison",
+          12
+        ],
+        [
+          "plage",
+          12
+        ],
+        [
+          "salle-de-recharge",
+          12
+        ],
+        [
+          "cantine",
+          11
+        ],
+        [
+          "centre-ville",
+          11
+        ],
+        [
+          "Côté Gauche",
+          7
+        ]
+      ],
+      "partners": [
+        [
+          "Telemachus",
+          28
+        ],
+        [
+          "Laura",
+          21
+        ],
+        [
+          "Marie",
+          18
+        ],
+        [
+          "Marc",
+          18
+        ],
+        [
+          "Beta",
+          17
+        ],
+        [
+          "Mitsu",
+          16
+        ],
+        [
+          "Lucina",
+          16
+        ],
+        [
+          "Kaïra",
+          14
+        ],
+        [
+          "Orrin",
+          12
+        ],
+        [
+          "Blyke",
+          10
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-25",
+          "5.2"
+        ]
+      ],
+      "pe": {
+        "total": 7,
+        "fight": 7,
+        "n": 2
+      },
+      "scenes": [
+        [
+          "2026-08-25",
+          "cantine",
+          "Wellston",
+          3,
+          [
+            "Issei"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "cantine",
+          "Wellston",
+          7,
+          [
+            "Issei"
+          ]
+        ],
+        [
+          "2026-08-27",
+          "cantine",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-27",
+          "entrée-du-lycée",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-27",
+          "rue",
+          "Wellston",
+          5,
+          [
+            "Marie",
+            "Hécate Häyhä"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "rue",
+          "Wellston",
+          1,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-08-30",
+          "rue",
+          "Wellston",
+          2,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-08-31",
+          "rue",
+          "Wellston",
+          7,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "rue",
+          "Wellston",
+          3,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "rue",
+          "Wellston",
+          4,
+          [
+            "Telemachus",
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "rue",
+          "Wellston",
+          8,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "entrée-du-lycée",
+          "Wellston",
+          5,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "entrée-du-lycée",
+          "Wellston",
+          7,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "entrée-du-lycée",
+          "Wellston",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "rue",
+          "Wellston",
+          4,
+          [
+            "Marc"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "vieille-maison",
+          "Wellston",
+          9,
+          [
+            "Marc"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "vieille-maison",
+          "Wellston",
+          2,
+          [
+            "Marc"
+          ]
+        ],
+        [
+          "2026-09-10",
+          "vieille-maison",
+          "Wellston",
+          1,
+          [
+            "Marc"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          2,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "Côté Gauche",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine",
+            "Lucian Hale",
+            "Mitsu",
+            "Telemachus",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Leonie",
+            "Hizo Vertini",
+            "Kaïra",
+            "Lucian Hale"
+          ]
+        ],
+        [
+          "2026-09-25",
+          "Côté Gauche",
+          "Westview",
+          2,
+          [
+            "Hizo Vertini",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-26",
+          "Côté Gauche",
+          "Westview",
+          2,
+          [
+            "Hizo Vertini",
+            "Leonie",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-05",
+          "toit",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-10-17",
+          "toit",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-10-18",
+          "toit",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "rue",
+          "Westview",
+          2,
+          [
+            "John",
+            "Kaïra",
+            "Terrence",
+            "Leonie",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "rue",
+          "Westview",
+          6,
+          [
+            "Mitsu",
+            "John",
+            "Kaïra",
+            "Laura",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "salle-de-recharge",
+          "Wellston",
+          12,
+          [
+            "Telemachus",
+            "Orrin",
+            "Lucina",
+            "Keito",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "centre-ville",
+          "Westview",
+          11,
+          [
+            "Blyke"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "rue",
+          "Westview",
+          1,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "rue",
+          "Westview",
+          1,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "rue",
+          "Westview",
+          2,
+          [
+            "Laura",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Julia",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-11-04",
+          "plage",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-11-06",
+          "plage",
+          "Westview",
+          7,
+          [
+            "Laura",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-07",
+          "plage",
+          "Westview",
+          2,
+          [
+            "Laura"
+          ]
+        ]
+      ]
+    },
+    "Issei": {
+      "msgs": 26,
+      "first": "2026-08-25",
+      "last": "2026-10-28",
+      "days": {
+        "2026-08-25": 2,
+        "2026-08-26": 7,
+        "2026-08-29": 1,
+        "2026-08-30": 1,
+        "2026-09-03": 5,
+        "2026-09-12": 1,
+        "2026-09-17": 1,
+        "2026-09-19": 1,
+        "2026-09-20": 1,
+        "2026-09-21": 2,
+        "2026-09-22": 2,
+        "2026-10-25": 1,
+        "2026-10-28": 1
+      },
+      "places": [
+        [
+          "cantine",
+          9
+        ],
+        [
+          "cours-arriere",
+          9
+        ],
+        [
+          "Côté Droit",
+          6
+        ],
+        [
+          "entrée-du-lycée",
+          1
+        ],
+        [
+          "infirmerie",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Kael",
+          9
+        ],
+        [
+          "Marie",
+          5
+        ],
+        [
+          "Telemachus",
+          4
+        ],
+        [
+          "Lucina",
+          3
+        ],
+        [
+          "Julia",
+          2
+        ],
+        [
+          "Hizo Vertini",
+          1
+        ],
+        [
+          "Leonie",
+          1
+        ],
+        [
+          "Ice",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-25",
+          "1.4"
+        ],
+        [
+          "2026-09-03",
+          "1.5"
+        ],
+        [
+          "2026-10-25",
+          "1.6"
+        ]
+      ],
+      "pe": {
+        "total": 18,
+        "fight": 5,
+        "n": 7,
+        "training": 13
+      },
+      "scenes": [
+        [
+          "2026-08-25",
+          "cantine",
+          "Wellston",
+          2,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-08-26",
+          "cantine",
+          "Wellston",
+          7,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "cours-arriere",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-30",
+          "cours-arriere",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-03",
+          "cours-arriere",
+          "Wellston",
+          5,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "entrée-du-lycée",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Droit",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-19",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-09-20",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-21",
+          "Côté Droit",
+          "Westview",
+          2,
+          [
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Lucina",
+            "Julia",
+            "Ice",
+            "Solar"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "infirmerie",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-10-25",
+          "cours-arriere",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-10-28",
+          "cours-arriere",
+          "Wellston",
+          1,
+          []
+        ]
+      ]
+    },
+    "Marie": {
+      "msgs": 59,
+      "first": "2026-08-27",
+      "last": "2026-10-17",
+      "days": {
+        "2026-08-27": 5,
+        "2026-08-29": 1,
+        "2026-08-30": 3,
+        "2026-08-31": 7,
+        "2026-09-01": 3,
+        "2026-09-02": 1,
+        "2026-09-03": 8,
+        "2026-09-04": 7,
+        "2026-09-07": 5,
+        "2026-10-09": 2,
+        "2026-10-11": 1,
+        "2026-10-12": 9,
+        "2026-10-13": 5,
+        "2026-10-17": 2
+      },
+      "places": [
+        [
+          "rue",
+          19
+        ],
+        [
+          "centre-commercial",
+          17
+        ],
+        [
+          "couloir-b",
+          8
+        ],
+        [
+          "cours-arriere",
+          7
+        ],
+        [
+          "gare",
+          5
+        ],
+        [
+          "gymnase",
+          2
+        ],
+        [
+          "Marie fait des choses sur son tel",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Kael",
+          18
+        ],
+        [
+          "Irene",
+          14
+        ],
+        [
+          "Beta",
+          7
+        ],
+        [
+          "Issei",
+          5
+        ],
+        [
+          "Mitsu",
+          5
+        ],
+        [
+          "Elias",
+          4
+        ],
+        [
+          "Telemachus",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 13,
+        "fight": 7,
+        "n": 3,
+        "training": 6
+      },
+      "scenes": [
+        [
+          "2026-08-27",
+          "rue",
+          "Wellston",
+          5,
+          [
+            "Kael",
+            "Hécate Häyhä"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "rue",
+          "Wellston",
+          1,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-08-30",
+          "rue",
+          "Wellston",
+          3,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-08-31",
+          "Marie fait des choses sur son tel",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-08-31",
+          "rue",
+          "Wellston",
+          6,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "rue",
+          "Wellston",
+          3,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "rue",
+          "Wellston",
+          1,
+          [
+            "Telemachus",
+            "Kael"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "couloir-b",
+          "Wellston",
+          1,
+          [
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "cours-arriere",
+          "Wellston",
+          7,
+          [
+            "Issei"
+          ]
+        ],
+        [
+          "2026-09-04",
+          "couloir-b",
+          "Wellston",
+          7,
+          [
+            "Beta",
+            "Elias"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "gare",
+          "Westview",
+          5,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-09",
+          "centre-commercial",
+          "Agwin",
+          2,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-10-11",
+          "centre-commercial",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-10-12",
+          "centre-commercial",
+          "Agwin",
+          9,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "centre-commercial",
+          "Agwin",
+          5,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-10-17",
+          "gymnase",
+          "Wellston",
+          2,
+          []
+        ]
+      ]
+    },
+    "Void": {
+      "msgs": 37,
+      "first": "2026-08-27",
+      "last": "2026-10-20",
+      "days": {
+        "2026-08-27": 18,
+        "2026-08-28": 8,
+        "2026-08-29": 1,
+        "2026-10-12": 2,
+        "2026-10-13": 3,
+        "2026-10-15": 4,
+        "2026-10-20": 1
+      },
+      "places": [
+        [
+          "lovun",
+          37
+        ]
+      ],
+      "partners": [
+        [
+          "Le Pinceau",
+          20
+        ],
+        [
+          "Kuyo",
+          13
+        ],
+        [
+          "Silvio",
+          10
+        ],
+        [
+          "Mara",
+          10
+        ],
+        [
+          "Parish",
+          8
+        ],
+        [
+          "Rocco",
+          8
+        ],
+        [
+          "Arin",
+          6
+        ],
+        [
+          "Cynthia",
+          4
+        ],
+        [
+          "Thomas",
+          3
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          18,
+          [
+            "Le Pinceau",
+            "Parish",
+            "Arin",
+            "Kuyo",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "lovun",
+          "Quartiers & zones",
+          8,
+          [
+            "Le Pinceau",
+            "Kuyo"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "lovun",
+          "Quartiers & zones",
+          1,
+          []
+        ],
+        [
+          "2026-10-12",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Silvio",
+            "Rocco",
+            "Mara"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Silvio",
+            "Rocco",
+            "Mara"
+          ]
+        ],
+        [
+          "2026-10-15",
+          "lovun",
+          "Quartiers & zones",
+          4,
+          [
+            "Silvio",
+            "Mara",
+            "Rocco"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "lovun",
+          "Quartiers & zones",
+          1,
+          [
+            "Silvio",
+            "Rocco",
+            "Mara"
+          ]
+        ]
+      ]
+    },
+    "Volcan": {
+      "msgs": 59,
+      "first": "2026-08-27",
+      "last": "2026-11-03",
+      "days": {
+        "2026-08-27": 5,
+        "2026-10-10": 5,
+        "2026-10-12": 16,
+        "2026-10-13": 5,
+        "2026-11-02": 20,
+        "2026-11-03": 8
+      },
+      "places": [
+        [
+          "quartier-low-tier",
+          28
+        ],
+        [
+          "grasshill",
+          26
+        ],
+        [
+          "Lighter _-_ Vulcain",
+          5
+        ]
+      ],
+      "partners": [
+        [
+          "Ilya",
+          24
+        ],
+        [
+          "Vitalis",
+          20
+        ],
+        [
+          "Garance",
+          19
+        ],
+        [
+          "Tobias",
+          15
+        ],
+        [
+          "Sibyl",
+          8
+        ],
+        [
+          "Arlequin",
+          8
+        ],
+        [
+          "Telemachus",
+          4
+        ],
+        [
+          "Tiago",
+          4
+        ],
+        [
+          "Marek",
+          2
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "Lighter _-_ Vulcain",
+          "Autres",
+          5,
+          [
+            "Lighter",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-10",
+          "grasshill",
+          "Quartiers & zones",
+          5,
+          [
+            "Tobias",
+            "Ilya",
+            "Garance"
+          ]
+        ],
+        [
+          "2026-10-12",
+          "grasshill",
+          "Quartiers & zones",
+          16,
+          [
+            "Ilya",
+            "Garance",
+            "Tobias",
+            "Vitalis"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "grasshill",
+          "Quartiers & zones",
+          5,
+          [
+            "Ilya",
+            "Vitalis",
+            "Garance"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          20,
+          [
+            "Sibyl",
+            "Arlequin",
+            "Vitalis",
+            "Tiago",
+            "Marek"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          8,
+          [
+            "Vitalis",
+            "Arlequin",
+            "Telemachus",
+            "Sibyl"
+          ]
+        ]
+      ]
+    },
+    "Silas": {
+      "msgs": 36,
+      "first": "2026-08-27",
+      "last": "2026-10-24",
+      "days": {
+        "2026-08-27": 2,
+        "2026-09-05": 7,
+        "2026-09-06": 2,
+        "2026-09-07": 4,
+        "2026-09-08": 1,
+        "2026-09-09": 5,
+        "2026-09-10": 1,
+        "2026-09-11": 5,
+        "2026-09-13": 1,
+        "2026-09-15": 1,
+        "2026-09-17": 1,
+        "2026-09-18": 1,
+        "2026-10-23": 1,
+        "2026-10-24": 4
+      },
+      "places": [
+        [
+          "colline-de-rowden",
+          29
+        ],
+        [
+          "branish",
+          5
+        ],
+        [
+          "lovun",
+          2
+        ]
+      ],
+      "partners": [
+        [
+          "Louis",
+          29
+        ],
+        [
+          "Soren",
+          28
+        ],
+        [
+          "Thomas",
+          7
+        ],
+        [
+          "Cynthia",
+          7
+        ],
+        [
+          "Arin",
+          6
+        ],
+        [
+          "Keito",
+          5
+        ],
+        [
+          "Vitalis",
+          5
+        ],
+        [
+          "Magalie",
+          5
+        ],
+        [
+          "Fury",
+          4
+        ],
+        [
+          "Harris",
+          3
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-27",
+          "3.3"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Void",
+            "Le Pinceau",
+            "Parish",
+            "Arin",
+            "Kuyo"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "colline-de-rowden",
+          "Rowden",
+          7,
+          [
+            "Soren",
+            "Louis",
+            "Keito"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "colline-de-rowden",
+          "Rowden",
+          2,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "colline-de-rowden",
+          "Rowden",
+          4,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-10",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-15",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-18",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Cynthia",
+            "Thomas",
+            "Arin",
+            "Harris"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          4,
+          [
+            "Vitalis",
+            "Thomas",
+            "Fury",
+            "Magalie",
+            "Cynthia"
+          ]
+        ]
+      ]
+    },
+    "Thomas": {
+      "msgs": 11,
+      "first": "2026-08-27",
+      "last": "2026-10-24",
+      "days": {
+        "2026-08-27": 3,
+        "2026-09-08": 1,
+        "2026-10-23": 1,
+        "2026-10-24": 6
+      },
+      "places": [
+        [
+          "branish",
+          8
+        ],
+        [
+          "lovun",
+          3
+        ]
+      ],
+      "partners": [
+        [
+          "Cynthia",
+          9
+        ],
+        [
+          "Silas",
+          7
+        ],
+        [
+          "Arin",
+          7
+        ],
+        [
+          "Vitalis",
+          7
+        ],
+        [
+          "Magalie",
+          6
+        ],
+        [
+          "Fury",
+          6
+        ],
+        [
+          "Void",
+          3
+        ],
+        [
+          "Parish",
+          3
+        ],
+        [
+          "Kuyo",
+          3
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-27",
+          "3.0"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Void",
+            "Le Pinceau",
+            "Parish",
+            "Arin",
+            "Kuyo"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Ice",
+            "Keesh",
+            "Rex",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Cynthia",
+            "Arin",
+            "Harris",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          6,
+          [
+            "Vitalis",
+            "Fury",
+            "Magalie",
+            "Silas",
+            "Cynthia"
+          ]
+        ]
+      ]
+    },
+    "Cynthia": {
+      "msgs": 10,
+      "first": "2026-08-27",
+      "last": "2026-10-24",
+      "days": {
+        "2026-08-27": 4,
+        "2026-09-08": 1,
+        "2026-10-23": 1,
+        "2026-10-24": 4
+      },
+      "places": [
+        [
+          "branish",
+          6
+        ],
+        [
+          "lovun",
+          4
+        ]
+      ],
+      "partners": [
+        [
+          "Thomas",
+          9
+        ],
+        [
+          "Arin",
+          8
+        ],
+        [
+          "Silas",
+          7
+        ],
+        [
+          "Vitalis",
+          5
+        ],
+        [
+          "Magalie",
+          5
+        ],
+        [
+          "Void",
+          4
+        ],
+        [
+          "Parish",
+          4
+        ],
+        [
+          "Kuyo",
+          4
+        ],
+        [
+          "Le Pinceau",
+          4
+        ],
+        [
+          "Fury",
+          4
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-27",
+          "2.8"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          4,
+          [
+            "Void",
+            "Le Pinceau",
+            "Parish",
+            "Arin",
+            "Kuyo"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Ice",
+            "Keesh",
+            "Rex",
+            "Thomas"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Thomas",
+            "Arin",
+            "Harris",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          4,
+          [
+            "Vitalis",
+            "Thomas",
+            "Fury",
+            "Magalie",
+            "Silas"
+          ]
+        ]
+      ]
+    },
+    "Parish": {
+      "msgs": 8,
+      "first": "2026-08-27",
+      "last": "2026-08-27",
+      "days": {
+        "2026-08-27": 8
+      },
+      "places": [
+        [
+          "lovun",
+          8
+        ]
+      ],
+      "partners": [
+        [
+          "Void",
+          8
+        ],
+        [
+          "Le Pinceau",
+          8
+        ],
+        [
+          "Arin",
+          6
+        ],
+        [
+          "Kuyo",
+          6
+        ],
+        [
+          "Cynthia",
+          4
+        ],
+        [
+          "Thomas",
+          3
+        ],
+        [
+          "Silas",
+          2
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-27",
+          "3.9"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          8,
+          [
+            "Void",
+            "Le Pinceau",
+            "Arin",
+            "Kuyo",
+            "Cynthia"
+          ]
+        ]
+      ]
+    },
+    "Arin": {
+      "msgs": 10,
+      "first": "2026-08-27",
+      "last": "2026-10-24",
+      "days": {
+        "2026-08-27": 6,
+        "2026-10-23": 1,
+        "2026-10-24": 3
+      },
+      "places": [
+        [
+          "lovun",
+          6
+        ],
+        [
+          "branish",
+          4
+        ]
+      ],
+      "partners": [
+        [
+          "Cynthia",
+          8
+        ],
+        [
+          "Thomas",
+          7
+        ],
+        [
+          "Void",
+          6
+        ],
+        [
+          "Silas",
+          6
+        ],
+        [
+          "Parish",
+          6
+        ],
+        [
+          "Kuyo",
+          6
+        ],
+        [
+          "Le Pinceau",
+          6
+        ],
+        [
+          "Vitalis",
+          4
+        ],
+        [
+          "Magalie",
+          4
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-27",
+          "4.3"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          6,
+          [
+            "Void",
+            "Le Pinceau",
+            "Parish",
+            "Kuyo",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Cynthia",
+            "Thomas",
+            "Harris",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          3,
+          [
+            "Vitalis",
+            "Thomas",
+            "Fury",
+            "Magalie",
+            "Silas"
+          ]
+        ]
+      ]
+    },
+    "Kuyo": {
+      "msgs": 13,
+      "first": "2026-08-27",
+      "last": "2026-08-28",
+      "days": {
+        "2026-08-27": 6,
+        "2026-08-28": 7
+      },
+      "places": [
+        [
+          "lovun",
+          13
+        ]
+      ],
+      "partners": [
+        [
+          "Void",
+          13
+        ],
+        [
+          "Le Pinceau",
+          13
+        ],
+        [
+          "Parish",
+          6
+        ],
+        [
+          "Arin",
+          6
+        ],
+        [
+          "Cynthia",
+          4
+        ],
+        [
+          "Thomas",
+          3
+        ],
+        [
+          "Silas",
+          2
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-27",
+          "6.3"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          6,
+          [
+            "Void",
+            "Le Pinceau",
+            "Parish",
+            "Arin",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "lovun",
+          "Quartiers & zones",
+          7,
+          [
+            "Le Pinceau",
+            "Void"
+          ]
+        ]
+      ]
+    },
+    "Le Pinceau": {
+      "msgs": 26,
+      "first": "2026-08-27",
+      "last": "2026-09-02",
+      "days": {
+        "2026-08-27": 12,
+        "2026-08-28": 10,
+        "2026-09-01": 3,
+        "2026-09-02": 1
+      },
+      "places": [
+        [
+          "lovun",
+          22
+        ],
+        [
+          "quartier-low-tier",
+          4
+        ]
+      ],
+      "partners": [
+        [
+          "Void",
+          20
+        ],
+        [
+          "Kuyo",
+          13
+        ],
+        [
+          "Parish",
+          8
+        ],
+        [
+          "Arin",
+          6
+        ],
+        [
+          "Cynthia",
+          4
+        ],
+        [
+          "Thomas",
+          3
+        ],
+        [
+          "Silas",
+          2
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "lovun",
+          "Quartiers & zones",
+          12,
+          [
+            "Void",
+            "Parish",
+            "Arin",
+            "Kuyo",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "lovun",
+          "Quartiers & zones",
+          10,
+          [
+            "Void",
+            "Kuyo"
+          ]
+        ],
+        [
+          "2026-09-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          3,
+          [
+            "Ablaze"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          1,
+          []
+        ]
+      ]
+    },
+    "Arlequin": {
+      "msgs": 93,
+      "first": "2026-08-27",
+      "last": "2026-11-03",
+      "days": {
+        "2026-08-27": 9,
+        "2026-08-28": 12,
+        "2026-08-29": 1,
+        "2026-09-01": 17,
+        "2026-09-03": 3,
+        "2026-09-04": 11,
+        "2026-09-05": 3,
+        "2026-10-06": 3,
+        "2026-10-07": 11,
+        "2026-10-24": 1,
+        "2026-10-25": 10,
+        "2026-10-31": 1,
+        "2026-11-01": 3,
+        "2026-11-02": 6,
+        "2026-11-03": 2
+      },
+      "places": [
+        [
+          "zone-sans-surveillance",
+          40
+        ],
+        [
+          "lovun",
+          17
+        ],
+        [
+          "grasshill",
+          13
+        ],
+        [
+          "quartier-low-tier",
+          12
+        ],
+        [
+          "branish",
+          11
+        ]
+      ],
+      "partners": [
+        [
+          "Vitalis",
+          20
+        ],
+        [
+          "Sibyl",
+          11
+        ],
+        [
+          "Narta",
+          10
+        ],
+        [
+          "Virginia",
+          9
+        ],
+        [
+          "Tiago",
+          8
+        ],
+        [
+          "Volcan",
+          8
+        ],
+        [
+          "Magalie",
+          7
+        ],
+        [
+          "Fury",
+          7
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-27",
+          "zone-sans-surveillance",
+          "Quartiers & zones",
+          9,
+          [
+            "Fice"
+          ]
+        ],
+        [
+          "2026-08-28",
+          "grasshill",
+          "Quartiers & zones",
+          12,
+          [
+            "Rex",
+            "Lance",
+            "Harris",
+            "Keesh",
+            "Bryce"
+          ]
+        ],
+        [
+          "2026-08-29",
+          "grasshill",
+          "Quartiers & zones",
+          1,
+          []
+        ],
+        [
+          "2026-09-01",
+          "zone-sans-surveillance",
+          "Quartiers & zones",
+          17,
+          [
+            "Narta",
+            "Isen tu dis ?"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Mei",
+            "Raddix",
+            "Lennon",
+            "Magalie"
+          ]
+        ],
+        [
+          "2026-09-04",
+          "lovun",
+          "Quartiers & zones",
+          11,
+          [
+            "Virginia",
+            "Magalie",
+            "Raddix",
+            "Hugo",
+            "Lennon"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Virginia",
+            "Raddix"
+          ]
+        ],
+        [
+          "2026-10-06",
+          "zone-sans-surveillance",
+          "Quartiers & zones",
+          3,
+          []
+        ],
+        [
+          "2026-10-07",
+          "zone-sans-surveillance",
+          "Quartiers & zones",
+          11,
+          []
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Thomas",
+            "Fury",
+            "Magalie",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "branish",
+          "Quartiers & zones",
+          10,
+          [
+            "Vitalis",
+            "Fury"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          1,
+          [
+            "Marek",
+            "Odile",
+            "Sibyl",
+            "Tiago"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          3,
+          [
+            "Odile",
+            "Tiago",
+            "Vitalis",
+            "Marek",
+            "Sibyl"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          6,
+          [
+            "Volcan",
+            "Sibyl",
+            "Vitalis",
+            "Tiago",
+            "Marek"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Volcan",
+            "Vitalis",
+            "Telemachus",
+            "Sibyl"
+          ]
+        ]
+      ]
+    },
+    "Harris": {
+      "msgs": 8,
+      "first": "2026-08-28",
+      "last": "2026-10-24",
+      "days": {
+        "2026-08-28": 5,
+        "2026-10-23": 1,
+        "2026-10-24": 2
+      },
+      "places": [
+        [
+          "grasshill",
+          5
+        ],
+        [
+          "branish",
+          3
+        ]
+      ],
+      "partners": [
+        [
+          "Arlequin",
+          6
+        ],
+        [
+          "Vitalis",
+          3
+        ],
+        [
+          "Cynthia",
+          3
+        ],
+        [
+          "Thomas",
+          3
+        ],
+        [
+          "Arin",
+          3
+        ],
+        [
+          "Silas",
+          3
+        ],
+        [
+          "Magalie",
+          3
+        ]
+      ],
+      "levels": [
+        [
+          "2026-08-28",
+          "3.5"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-08-28",
+          "grasshill",
+          "Quartiers & zones",
+          5,
+          [
+            "Arlequin",
+            "Rex",
+            "Lance",
+            "Keesh",
+            "Bryce"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Cynthia",
+            "Thomas",
+            "Arin",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          2,
+          [
+            "Vitalis",
+            "Thomas",
+            "Fury",
+            "Magalie",
+            "Silas"
+          ]
+        ]
+      ]
+    },
+    "Narta": {
+      "msgs": 10,
+      "first": "2026-09-01",
+      "last": "2026-09-01",
+      "days": {
+        "2026-09-01": 10
+      },
+      "places": [
+        [
+          "zone-sans-surveillance",
+          10
+        ]
+      ],
+      "partners": [
+        [
+          "Arlequin",
+          10
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-01",
+          "zone-sans-surveillance",
+          "Quartiers & zones",
+          10,
+          [
+            "Arlequin",
+            "Isen tu dis ?"
+          ]
+        ]
+      ]
+    },
+    "Lucian Hale": {
+      "msgs": 9,
+      "first": "2026-09-01",
+      "last": "2026-09-17",
+      "days": {
+        "2026-09-01": 1,
+        "2026-09-02": 2,
+        "2026-09-06": 2,
+        "2026-09-11": 1,
+        "2026-09-13": 1,
+        "2026-09-14": 1,
+        "2026-09-17": 1
+      },
+      "places": [
+        [
+          "gare",
+          3
+        ],
+        [
+          "gymnase",
+          2
+        ],
+        [
+          "Côté Gauche",
+          2
+        ],
+        [
+          "station-de-metro-de-wellston",
+          1
+        ],
+        [
+          "gare-wellston",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Beta",
+          4
+        ],
+        [
+          "Mitsu",
+          4
+        ],
+        [
+          "Telemachus",
+          3
+        ],
+        [
+          "Kaïra",
+          3
+        ],
+        [
+          "Kael",
+          3
+        ],
+        [
+          "Ramlethal Valentine",
+          2
+        ],
+        [
+          "Leonie",
+          2
+        ],
+        [
+          "Power",
+          1
+        ],
+        [
+          "Ice",
+          1
+        ],
+        [
+          "Julia",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-01",
+          "4.6"
+        ],
+        [
+          "2026-09-11",
+          "4.7"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-01",
+          "gare",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-02",
+          "gare",
+          "Agwin",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "station-de-metro-de-wellston",
+          "Wellston",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "gare",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-06",
+          "gare-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Power",
+            "Beta",
+            "Ramlethal Valentine"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Ramlethal Valentine",
+            "Mitsu",
+            "Kael",
+            "Telemachus",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Mitsu",
+            "Leonie",
+            "Hizo Vertini",
+            "Kael",
+            "Kaïra"
+          ]
+        ]
+      ]
+    },
+    "Elias": {
+      "msgs": 24,
+      "first": "2026-09-01",
+      "last": "2026-09-04",
+      "days": {
+        "2026-09-01": 1,
+        "2026-09-02": 16,
+        "2026-09-03": 4,
+        "2026-09-04": 3
+      },
+      "places": [
+        [
+          "cours-2eme-année",
+          10
+        ],
+        [
+          "couloir-b",
+          6
+        ],
+        [
+          "Beta _-_ Elias",
+          5
+        ],
+        [
+          "entrée-du-lycée",
+          3
+        ]
+      ],
+      "partners": [
+        [
+          "Beta",
+          23
+        ],
+        [
+          "Marie",
+          4
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-02",
+          "2.9"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-01",
+          "Beta _-_ Elias",
+          "Autres",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "Beta _-_ Elias",
+          "Autres",
+          4,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "couloir-b",
+          "Wellston",
+          2,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "cours-2eme-année",
+          "Wellston",
+          7,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-02",
+          "entrée-du-lycée",
+          "Wellston",
+          3,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "couloir-b",
+          "Wellston",
+          1,
+          [
+            "Marie"
+          ]
+        ],
+        [
+          "2026-09-03",
+          "cours-2eme-année",
+          "Wellston",
+          3,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-04",
+          "couloir-b",
+          "Wellston",
+          3,
+          [
+            "Marie",
+            "Beta"
+          ]
+        ]
+      ]
+    },
+    "Adrien": {
+      "msgs": 11,
+      "first": "2026-09-03",
+      "last": "2026-09-05",
+      "days": {
+        "2026-09-03": 1,
+        "2026-09-04": 2,
+        "2026-09-05": 8
+      },
+      "places": [
+        [
+          "bureau-wellston",
+          10
+        ],
+        [
+          "villa-de-adrian",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Valerie",
+          9
+        ],
+        [
+          "Byron",
+          1
+        ],
+        [
+          "Arlo",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-03",
+          "5.5"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-03",
+          "villa-de-adrian",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-09-04",
+          "bureau-wellston",
+          "Wellston",
+          2,
+          [
+            "Valerie",
+            "Kassandra",
+            "Byron",
+            "Arlo"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "bureau-wellston",
+          "Wellston",
+          8,
+          [
+            "Valerie"
+          ]
+        ]
+      ]
+    },
+    "Magalie": {
+      "msgs": 12,
+      "first": "2026-09-03",
+      "last": "2026-10-24",
+      "days": {
+        "2026-09-03": 1,
+        "2026-09-04": 5,
+        "2026-10-23": 1,
+        "2026-10-24": 5
+      },
+      "places": [
+        [
+          "lovun",
+          6
+        ],
+        [
+          "branish",
+          6
+        ]
+      ],
+      "partners": [
+        [
+          "Arlequin",
+          7
+        ],
+        [
+          "Vitalis",
+          6
+        ],
+        [
+          "Thomas",
+          6
+        ],
+        [
+          "Virginia",
+          5
+        ],
+        [
+          "Cynthia",
+          5
+        ],
+        [
+          "Silas",
+          5
+        ],
+        [
+          "Fury",
+          5
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-03",
+          "3.3"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-03",
+          "lovun",
+          "Quartiers & zones",
+          1,
+          [
+            "Arlequin",
+            "Mei",
+            "Raddix",
+            "Lennon"
+          ]
+        ],
+        [
+          "2026-09-04",
+          "lovun",
+          "Quartiers & zones",
+          5,
+          [
+            "Arlequin",
+            "Virginia",
+            "Raddix",
+            "Hugo",
+            "Lennon"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          1,
+          [
+            "Vitalis",
+            "Cynthia",
+            "Thomas",
+            "Arin",
+            "Harris"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          5,
+          [
+            "Vitalis",
+            "Thomas",
+            "Fury",
+            "Silas",
+            "Cynthia"
+          ]
+        ]
+      ]
+    },
+    "Virginia": {
+      "msgs": 9,
+      "first": "2026-09-04",
+      "last": "2026-09-05",
+      "days": {
+        "2026-09-04": 6,
+        "2026-09-05": 3
+      },
+      "places": [
+        [
+          "lovun",
+          9
+        ]
+      ],
+      "partners": [
+        [
+          "Arlequin",
+          9
+        ],
+        [
+          "Magalie",
+          5
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-04",
+          "2.6"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-04",
+          "lovun",
+          "Quartiers & zones",
+          6,
+          [
+            "Arlequin",
+            "Magalie",
+            "Raddix",
+            "Hugo",
+            "Lennon"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Arlequin",
+            "Raddix"
+          ]
+        ]
+      ]
+    },
+    "Valerie": {
+      "msgs": 9,
+      "first": "2026-09-04",
+      "last": "2026-09-05",
+      "days": {
+        "2026-09-04": 1,
+        "2026-09-05": 8
+      },
+      "places": [
+        [
+          "bureau-wellston",
+          9
+        ]
+      ],
+      "partners": [
+        [
+          "Adrien",
+          9
+        ],
+        [
+          "Byron",
+          1
+        ],
+        [
+          "Arlo",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-04",
+          "bureau-wellston",
+          "Wellston",
+          1,
+          [
+            "Adrien",
+            "Kassandra",
+            "Byron",
+            "Arlo"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "bureau-wellston",
+          "Wellston",
+          8,
+          [
+            "Adrien"
+          ]
+        ]
+      ]
+    },
+    "Byron": {
+      "msgs": 71,
+      "first": "2026-09-04",
+      "last": "2026-10-31",
+      "days": {
+        "2026-09-04": 1,
+        "2026-10-29": 52,
+        "2026-10-30": 12,
+        "2026-10-31": 6
+      },
+      "places": [
+        [
+          "bureau-wellston",
+          71
+        ]
+      ],
+      "partners": [
+        [
+          "Telemachus",
+          24
+        ],
+        [
+          "Adrien",
+          1
+        ],
+        [
+          "Valerie",
+          1
+        ],
+        [
+          "Arlo",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-04",
+          "bureau-wellston",
+          "Wellston",
+          1,
+          [
+            "Adrien",
+            "Valerie",
+            "Kassandra",
+            "Arlo"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "bureau-wellston",
+          "Wellston",
+          52,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "bureau-wellston",
+          "Wellston",
+          12,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "bureau-wellston",
+          "Wellston",
+          6,
+          [
+            "Telemachus"
+          ]
+        ]
+      ]
+    },
+    "Arlo": {
+      "msgs": 15,
+      "first": "2026-09-04",
+      "last": "2026-10-21",
+      "days": {
+        "2026-09-04": 1,
+        "2026-10-20": 7,
+        "2026-10-21": 7
+      },
+      "places": [
+        [
+          "limite-de-la-ville",
+          14
+        ],
+        [
+          "bureau-wellston",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Blyke",
+          14
+        ],
+        [
+          "Isen",
+          14
+        ],
+        [
+          "Beta",
+          13
+        ],
+        [
+          "Liam",
+          11
+        ],
+        [
+          "Julia",
+          9
+        ],
+        [
+          "Lucina",
+          8
+        ],
+        [
+          "Hizo Vertini",
+          3
+        ],
+        [
+          "Adrien",
+          1
+        ],
+        [
+          "Valerie",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-10-20",
+          "6.3"
+        ]
+      ],
+      "pe": {
+        "total": 4,
+        "fight": 4,
+        "n": 1
+      },
+      "scenes": [
+        [
+          "2026-09-04",
+          "bureau-wellston",
+          "Wellston",
+          1,
+          [
+            "Adrien",
+            "Valerie",
+            "Kassandra",
+            "Byron"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          7,
+          [
+            "Blyke",
+            "Isen",
+            "Beta",
+            "Lucina",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          7,
+          [
+            "Blyke",
+            "Isen",
+            "Beta",
+            "Liam",
+            "Julia"
+          ]
+        ]
+      ]
+    },
+    "Keito": {
+      "msgs": 56,
+      "first": "2026-09-05",
+      "last": "2026-10-26",
+      "days": {
+        "2026-09-05": 10,
+        "2026-09-06": 3,
+        "2026-09-07": 1,
+        "2026-10-01": 4,
+        "2026-10-04": 1,
+        "2026-10-12": 1,
+        "2026-10-20": 14,
+        "2026-10-21": 8,
+        "2026-10-22": 8,
+        "2026-10-25": 4,
+        "2026-10-26": 2
+      },
+      "places": [
+        [
+          "plage",
+          19
+        ],
+        [
+          "salle-de-recharge",
+          11
+        ],
+        [
+          "café-tranquille",
+          9
+        ],
+        [
+          "centre-ville",
+          6
+        ],
+        [
+          "parc",
+          6
+        ],
+        [
+          "colline-de-rowden",
+          5
+        ]
+      ],
+      "partners": [
+        [
+          "Telemachus",
+          43
+        ],
+        [
+          "Louis",
+          26
+        ],
+        [
+          "Isaure",
+          19
+        ],
+        [
+          "Rein",
+          15
+        ],
+        [
+          "Orrin",
+          11
+        ],
+        [
+          "Lucina",
+          9
+        ],
+        [
+          "Kael",
+          9
+        ],
+        [
+          "Remi",
+          7
+        ],
+        [
+          "Soren",
+          5
+        ],
+        [
+          "Silas",
+          5
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-05",
+          "8.8"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-05",
+          "café-tranquille",
+          "Rowden",
+          5,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-05",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Soren",
+            "Silas",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "café-tranquille",
+          "Rowden",
+          3,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "café-tranquille",
+          "Rowden",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-01",
+          "centre-ville",
+          "Rowden",
+          4,
+          [
+            "Laura",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-04",
+          "centre-ville",
+          "Rowden",
+          1,
+          []
+        ],
+        [
+          "2026-10-12",
+          "centre-ville",
+          "Rowden",
+          1,
+          []
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          14,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Remi",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "plage",
+          "Westview",
+          5,
+          [
+            "Louis",
+            "Isaure",
+            "Telemachus",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "salle-de-recharge",
+          "Wellston",
+          3,
+          [
+            "Telemachus",
+            "Orrin",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "salle-de-recharge",
+          "Wellston",
+          8,
+          [
+            "Telemachus",
+            "Orrin",
+            "Lucina",
+            "Kael",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "parc",
+          "Westview",
+          4,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "parc",
+          "Westview",
+          2,
+          [
+            "Telemachus"
+          ]
+        ]
+      ]
+    },
+    "Louis": {
+      "msgs": 224,
+      "first": "2026-09-05",
+      "last": "2026-11-08",
+      "days": {
+        "2026-09-05": 7,
+        "2026-09-06": 2,
+        "2026-09-07": 4,
+        "2026-09-08": 1,
+        "2026-09-09": 5,
+        "2026-09-10": 1,
+        "2026-09-11": 5,
+        "2026-09-13": 1,
+        "2026-09-15": 1,
+        "2026-09-17": 1,
+        "2026-09-18": 1,
+        "2026-09-20": 1,
+        "2026-09-22": 2,
+        "2026-09-29": 8,
+        "2026-10-01": 2,
+        "2026-10-05": 1,
+        "2026-10-13": 2,
+        "2026-10-20": 17,
+        "2026-10-21": 7,
+        "2026-10-22": 50,
+        "2026-10-23": 61,
+        "2026-10-24": 6,
+        "2026-10-25": 2,
+        "2026-10-26": 3,
+        "2026-10-27": 1,
+        "2026-10-28": 5,
+        "2026-10-29": 1,
+        "2026-10-30": 4,
+        "2026-10-31": 1,
+        "2026-11-02": 8,
+        "2026-11-05": 7,
+        "2026-11-06": 3,
+        "2026-11-08": 3
+      },
+      "places": [
+        [
+          "Couloir hôpital",
+          108
+        ],
+        [
+          "hopital-de-westview",
+          47
+        ],
+        [
+          "colline-de-rowden",
+          32
+        ],
+        [
+          "plage",
+          24
+        ],
+        [
+          "centre-ville",
+          8
+        ],
+        [
+          "gare-rowden",
+          5
+        ]
+      ],
+      "partners": [
+        [
+          "Kaïra",
+          108
+        ],
+        [
+          "Julia",
+          34
+        ],
+        [
+          "Soren",
+          30
+        ],
+        [
+          "Silas",
+          29
+        ],
+        [
+          "Keito",
+          26
+        ],
+        [
+          "Mitsu",
+          26
+        ],
+        [
+          "Isaure",
+          20
+        ],
+        [
+          "Telemachus",
+          19
+        ],
+        [
+          "Laura",
+          14
+        ],
+        [
+          "Hizo Vertini",
+          14
+        ]
+      ],
+      "levels": [
+        [
+          "2026-10-22",
+          "1.7"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-05",
+          "colline-de-rowden",
+          "Rowden",
+          7,
+          [
+            "Soren",
+            "Silas",
+            "Keito"
+          ]
+        ],
+        [
+          "2026-09-06",
+          "colline-de-rowden",
+          "Rowden",
+          2,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-07",
+          "colline-de-rowden",
+          "Rowden",
+          4,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-10",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "colline-de-rowden",
+          "Rowden",
+          5,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-15",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-17",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-18",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-09-20",
+          "colline-de-rowden",
+          "Rowden",
+          1,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "colline-de-rowden",
+          "Rowden",
+          2,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-09-29",
+          "centre-ville",
+          "Rowden",
+          3,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-09-29",
+          "gare-rowden",
+          "Rowden",
+          5,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-01",
+          "centre-ville",
+          "Rowden",
+          2,
+          [
+            "Keito",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-05",
+          "centre-ville",
+          "Rowden",
+          1,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "centre-ville",
+          "Rowden",
+          2,
+          [
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          17,
+          [
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "plage",
+          "Westview",
+          7,
+          [
+            "Isaure",
+            "Keito",
+            "Telemachus",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "Couloir hôpital",
+          "Westview",
+          47,
+          [
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Hizo Vertini",
+            "Kaito Vance",
+            "John",
+            "Mitsu",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "Couloir hôpital",
+          "Westview",
+          61,
+          [
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "hopital-de-westview",
+          "Westview",
+          6,
+          [
+            "Julia",
+            "Kaito Vance",
+            "Mitsu",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "hopital-de-westview",
+          "Westview",
+          2,
+          [
+            "Hizo Vertini",
+            "Julia",
+            "Kaito Vance",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Julia",
+            "Mitsu",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Julia",
+            "Mitsu",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "hopital-de-westview",
+          "Westview",
+          5,
+          [
+            "Julia",
+            "Kaito Vance",
+            "Hizo Vertini",
+            "Lucina",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "hopital-de-westview",
+          "Westview",
+          4,
+          [
+            "Julia",
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "hopital-de-westview",
+          "Westview",
+          8,
+          [
+            "Mitsu",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "hopital-de-westview",
+          "Westview",
+          7,
+          [
+            "Mitsu",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Julia",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Julia",
+            "Mitsu"
+          ]
+        ]
+      ]
+    },
+    "Ramlethal Valentine": {
+      "msgs": 16,
+      "first": "2026-09-07",
+      "last": "2026-10-02",
+      "days": {
+        "2026-09-07": 3,
+        "2026-09-08": 7,
+        "2026-09-11": 3,
+        "2026-09-14": 1,
+        "2026-09-18": 1,
+        "2026-10-02": 1
+      },
+      "places": [
+        [
+          "toit",
+          4
+        ],
+        [
+          "couloir",
+          3
+        ],
+        [
+          "cours",
+          3
+        ],
+        [
+          "Côté Gauche",
+          2
+        ],
+        [
+          "gare",
+          1
+        ],
+        [
+          "entrée-du-lycée",
+          1
+        ],
+        [
+          "gymnase",
+          1
+        ],
+        [
+          "station-de-metro-d-agwin",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Hizo Vertini",
+          4
+        ],
+        [
+          "Irene",
+          3
+        ],
+        [
+          "Telemachus",
+          3
+        ],
+        [
+          "Mitsu",
+          3
+        ],
+        [
+          "Lucian Hale",
+          2
+        ],
+        [
+          "Power",
+          1
+        ],
+        [
+          "Beta",
+          1
+        ],
+        [
+          "Kael",
+          1
+        ],
+        [
+          "Kaïra",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-09-07",
+          "couloir",
+          "Agwin",
+          3,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "cours",
+          "Agwin",
+          3,
+          [
+            "Joahness"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "toit",
+          "Agwin",
+          4,
+          [
+            "Hizo Vertini"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "entrée-du-lycée",
+          "Westview",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-11",
+          "gare",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-09-11",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Mitsu",
+            "Lucian Hale",
+            "Power",
+            "Beta"
+          ]
+        ],
+        [
+          "2026-09-14",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Lucian Hale",
+            "Mitsu",
+            "Kael",
+            "Telemachus",
+            "Kaïra"
+          ]
+        ],
+        [
+          "2026-09-18",
+          "Côté Gauche",
+          "Westview",
+          1,
+          [
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-02",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          []
+        ]
+      ]
+    },
+    "Lucina": {
+      "msgs": 271,
+      "first": "2026-09-07",
+      "last": "2026-10-30",
+      "days": {
+        "2026-09-07": 9,
+        "2026-09-08": 3,
+        "2026-09-09": 2,
+        "2026-09-12": 2,
+        "2026-09-13": 2,
+        "2026-09-20": 1,
+        "2026-09-21": 1,
+        "2026-09-22": 2,
+        "2026-09-23": 1,
+        "2026-09-26": 1,
+        "2026-09-27": 1,
+        "2026-10-20": 6,
+        "2026-10-21": 3,
+        "2026-10-22": 16,
+        "2026-10-23": 27,
+        "2026-10-24": 15,
+        "2026-10-25": 59,
+        "2026-10-26": 55,
+        "2026-10-27": 26,
+        "2026-10-28": 28,
+        "2026-10-29": 1,
+        "2026-10-30": 10
+      },
+      "places": [
+        [
+          "limite-de-la-ville",
+          86
+        ],
+        [
+          "bibliotèque",
+          48
+        ],
+        [
+          "centre-ville",
+          46
+        ],
+        [
+          "centre-commercial",
+          18
+        ],
+        [
+          "toit",
+          14
+        ],
+        [
+          "salle-de-recharge",
+          14
+        ],
+        [
+          "café-woaba-boba",
+          14
+        ],
+        [
+          "rue",
+          11
+        ]
+      ],
+      "partners": [
+        [
+          "Ice",
+          176
+        ],
+        [
+          "Telemachus",
+          81
+        ],
+        [
+          "Beta",
+          38
+        ],
+        [
+          "Isaure",
+          24
+        ],
+        [
+          "Julia",
+          17
+        ],
+        [
+          "Kael",
+          16
+        ],
+        [
+          "Orrin",
+          14
+        ],
+        [
+          "Hizo Vertini",
+          9
+        ],
+        [
+          "Keito",
+          9
+        ],
+        [
+          "Blyke",
+          9
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-07",
+          "5.2"
+        ]
+      ],
+      "pe": {
+        "total": 7,
+        "fight": 7,
+        "n": 2
+      },
+      "scenes": [
+        [
+          "2026-09-07",
+          "toit",
+          "Westview",
+          9,
+          [
+            "Telemachus",
+            "Koya"
+          ]
+        ],
+        [
+          "2026-09-08",
+          "toit",
+          "Westview",
+          3,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-09",
+          "toit",
+          "Westview",
+          2,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-12",
+          "gymnase",
+          "Westview",
+          2,
+          [
+            "Beta",
+            "Hizo Vertini",
+            "Telemachus",
+            "Mitsu",
+            "Ice"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-09-13",
+          "gymnase",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Ice",
+            "Kaïra",
+            "Beta",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-09-20",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus",
+            "Issei"
+          ]
+        ],
+        [
+          "2026-09-21",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Issei",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-22",
+          "Côté Droit",
+          "Westview",
+          2,
+          [
+            "Telemachus",
+            "Issei",
+            "Julia",
+            "Ice",
+            "Solar"
+          ]
+        ],
+        [
+          "2026-09-23",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Marc"
+          ]
+        ],
+        [
+          "2026-09-26",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-09-27",
+          "Côté Droit",
+          "Westview",
+          1,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          5,
+          [
+            "Blyke",
+            "Isen",
+            "Arlo",
+            "Beta",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          3,
+          [
+            "Blyke",
+            "Isen",
+            "Beta",
+            "Arlo",
+            "Liam"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "rue",
+          "Wellston",
+          2,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "salle-de-recharge",
+          "Wellston",
+          14,
+          [
+            "Telemachus",
+            "Orrin",
+            "Kael",
+            "Keito",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "café-woaba-boba",
+          "Wellston",
+          14,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "centre-commercial",
+          "Westview",
+          4,
+          [
+            "Isaure",
+            "Beta",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "rue",
+          "Wellston",
+          3,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "rue",
+          "Westview",
+          6,
+          [
+            "Isaure",
+            "Beta",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Machus _3 _-_ Ma Circe _3",
+          "Autres",
+          1,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "centre-commercial",
+          "Westview",
+          14,
+          [
+            "Beta",
+            "Telemachus",
+            "Isaure"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "bibliotèque",
+          "Westview",
+          48,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "limite-de-la-ville",
+          "Westview",
+          11,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "limite-de-la-ville",
+          "Westview",
+          55,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "centre-ville",
+          "Westview",
+          14,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "limite-de-la-ville",
+          "Westview",
+          12,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "centre-ville",
+          "Westview",
+          21,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "colline-de-rowden",
+          "Rowden",
+          4,
+          [
+            "Beta",
+            "Isaure",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Louis",
+            "Julia",
+            "Kaito Vance",
+            "Hizo Vertini",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "centre-ville",
+          "Westview",
+          1,
+          [
+            "Ice"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "centre-ville",
+          "Westview",
+          10,
+          [
+            "Ice"
+          ]
+        ]
+      ]
+    },
+    "Laura": {
+      "msgs": 52,
+      "first": "2026-09-22",
+      "last": "2026-11-08",
+      "days": {
+        "2026-09-22": 5,
+        "2026-09-23": 2,
+        "2026-09-28": 2,
+        "2026-09-29": 11,
+        "2026-10-01": 4,
+        "2026-10-05": 1,
+        "2026-10-13": 2,
+        "2026-10-20": 3,
+        "2026-10-21": 5,
+        "2026-10-22": 1,
+        "2026-10-23": 1,
+        "2026-10-26": 1,
+        "2026-10-27": 2,
+        "2026-10-28": 1,
+        "2026-11-03": 1,
+        "2026-11-06": 7,
+        "2026-11-07": 2,
+        "2026-11-08": 1
+      },
+      "places": [
+        [
+          "centre-ville",
+          15
+        ],
+        [
+          "plage",
+          12
+        ],
+        [
+          "rue",
+          11
+        ],
+        [
+          "gare-rowden",
+          5
+        ],
+        [
+          "bibliothèque",
+          2
+        ],
+        [
+          "gare",
+          2
+        ],
+        [
+          "hopital-de-westview",
+          2
+        ],
+        [
+          "station-de-metro-d-agwin",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Kael",
+          21
+        ],
+        [
+          "Louis",
+          14
+        ],
+        [
+          "Kaïra",
+          9
+        ],
+        [
+          "Mitsu",
+          9
+        ],
+        [
+          "John",
+          8
+        ],
+        [
+          "Soren",
+          6
+        ],
+        [
+          "Keito",
+          5
+        ],
+        [
+          "Julia",
+          4
+        ],
+        [
+          "Leonie",
+          4
+        ],
+        [
+          "Hizo Vertini",
+          3
+        ]
+      ],
+      "levels": [
+        [
+          "2026-09-22",
+          "3.5"
+        ],
+        [
+          "2026-10-23",
+          "3.6"
+        ]
+      ],
+      "pe": {
+        "total": 2,
+        "fight": 2,
+        "n": 1
+      },
+      "scenes": [
+        [
+          "2026-09-22",
+          "centre-ville",
+          "Agwin",
+          5,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-09-23",
+          "bibliothèque",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-23",
+          "centre-ville",
+          "Agwin",
+          1,
+          [
+            "Soren"
+          ]
+        ],
+        [
+          "2026-09-28",
+          "bibliothèque",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-28",
+          "gare",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-29",
+          "centre-ville",
+          "Rowden",
+          2,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-29",
+          "gare",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-29",
+          "gare-rowden",
+          "Rowden",
+          5,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-09-29",
+          "gare-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-09-29",
+          "station-de-metro-d-agwin",
+          "Agwin",
+          1,
+          []
+        ],
+        [
+          "2026-09-29",
+          "station-de-metro-de-wellston",
+          "Wellston",
+          1,
+          []
+        ],
+        [
+          "2026-10-01",
+          "centre-ville",
+          "Rowden",
+          4,
+          [
+            "Keito",
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-05",
+          "centre-ville",
+          "Rowden",
+          1,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "centre-ville",
+          "Rowden",
+          2,
+          [
+            "Louis"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "rue",
+          "Westview",
+          2,
+          [
+            "John",
+            "Kaïra",
+            "Terrence",
+            "Leonie",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "rue",
+          "Westview",
+          5,
+          [
+            "Mitsu",
+            "John",
+            "Kael",
+            "Kaïra",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Kaito Vance",
+            "Louis",
+            "John",
+            "Mitsu"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Kaito Vance"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "rue",
+          "Westview",
+          1,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "rue",
+          "Westview",
+          2,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "rue",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Kael",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "plage",
+          "Westview",
+          7,
+          [
+            "Kael",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-11-07",
+          "plage",
+          "Westview",
+          2,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "plage",
+          "Westview",
+          1,
+          []
+        ]
+      ]
+    },
+    "Tobias": {
+      "msgs": 15,
+      "first": "2026-10-10",
+      "last": "2026-10-12",
+      "days": {
+        "2026-10-10": 4,
+        "2026-10-12": 11
+      },
+      "places": [
+        [
+          "grasshill",
+          15
+        ]
+      ],
+      "partners": [
+        [
+          "Volcan",
+          15
+        ],
+        [
+          "Ilya",
+          15
+        ],
+        [
+          "Garance",
+          15
+        ],
+        [
+          "Vitalis",
+          9
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-10",
+          "grasshill",
+          "Quartiers & zones",
+          4,
+          [
+            "Volcan",
+            "Ilya",
+            "Garance"
+          ]
+        ],
+        [
+          "2026-10-12",
+          "grasshill",
+          "Quartiers & zones",
+          11,
+          [
+            "Ilya",
+            "Volcan",
+            "Garance",
+            "Vitalis"
+          ]
+        ]
+      ]
+    },
+    "Ilya": {
+      "msgs": 25,
+      "first": "2026-10-10",
+      "last": "2026-10-13",
+      "days": {
+        "2026-10-10": 4,
+        "2026-10-12": 17,
+        "2026-10-13": 4
+      },
+      "places": [
+        [
+          "grasshill",
+          25
+        ]
+      ],
+      "partners": [
+        [
+          "Volcan",
+          24
+        ],
+        [
+          "Garance",
+          19
+        ],
+        [
+          "Tobias",
+          15
+        ],
+        [
+          "Vitalis",
+          12
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-10",
+          "grasshill",
+          "Quartiers & zones",
+          4,
+          [
+            "Volcan",
+            "Tobias",
+            "Garance"
+          ]
+        ],
+        [
+          "2026-10-12",
+          "grasshill",
+          "Quartiers & zones",
+          17,
+          [
+            "Volcan",
+            "Garance",
+            "Tobias",
+            "Vitalis"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "grasshill",
+          "Quartiers & zones",
+          4,
+          [
+            "Volcan",
+            "Vitalis",
+            "Garance"
+          ]
+        ]
+      ]
+    },
+    "Garance": {
+      "msgs": 19,
+      "first": "2026-10-10",
+      "last": "2026-10-13",
+      "days": {
+        "2026-10-10": 4,
+        "2026-10-12": 12,
+        "2026-10-13": 3
+      },
+      "places": [
+        [
+          "grasshill",
+          19
+        ]
+      ],
+      "partners": [
+        [
+          "Volcan",
+          19
+        ],
+        [
+          "Ilya",
+          19
+        ],
+        [
+          "Tobias",
+          15
+        ],
+        [
+          "Vitalis",
+          12
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-10",
+          "grasshill",
+          "Quartiers & zones",
+          4,
+          [
+            "Volcan",
+            "Tobias",
+            "Ilya"
+          ]
+        ],
+        [
+          "2026-10-12",
+          "grasshill",
+          "Quartiers & zones",
+          12,
+          [
+            "Ilya",
+            "Volcan",
+            "Tobias",
+            "Vitalis"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "grasshill",
+          "Quartiers & zones",
+          3,
+          [
+            "Volcan",
+            "Ilya",
+            "Vitalis"
+          ]
+        ]
+      ]
+    },
+    "Vitalis": {
+      "msgs": 59,
+      "first": "2026-10-12",
+      "last": "2026-11-03",
+      "days": {
+        "2026-10-12": 9,
+        "2026-10-13": 3,
+        "2026-10-23": 3,
+        "2026-10-24": 22,
+        "2026-10-25": 8,
+        "2026-11-01": 6,
+        "2026-11-02": 6,
+        "2026-11-03": 2
+      },
+      "places": [
+        [
+          "branish",
+          33
+        ],
+        [
+          "quartier-low-tier",
+          14
+        ],
+        [
+          "grasshill",
+          12
+        ]
+      ],
+      "partners": [
+        [
+          "Volcan",
+          20
+        ],
+        [
+          "Arlequin",
+          20
+        ],
+        [
+          "Garance",
+          12
+        ],
+        [
+          "Ilya",
+          12
+        ],
+        [
+          "Fury",
+          12
+        ],
+        [
+          "Sibyl",
+          12
+        ],
+        [
+          "Tiago",
+          10
+        ],
+        [
+          "Tobias",
+          9
+        ],
+        [
+          "Thomas",
+          7
+        ],
+        [
+          "Odile",
+          7
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 5,
+        "fight": 5,
+        "n": 3
+      },
+      "scenes": [
+        [
+          "2026-10-12",
+          "grasshill",
+          "Quartiers & zones",
+          9,
+          [
+            "Ilya",
+            "Volcan",
+            "Garance",
+            "Tobias"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "grasshill",
+          "Quartiers & zones",
+          3,
+          [
+            "Volcan",
+            "Ilya",
+            "Garance"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "branish",
+          "Quartiers & zones",
+          3,
+          [
+            "Cynthia",
+            "Thomas",
+            "Arin",
+            "Harris",
+            "Silas"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          22,
+          [
+            "Thomas",
+            "Fury",
+            "Magalie",
+            "Silas",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "branish",
+          "Quartiers & zones",
+          8,
+          [
+            "Arlequin",
+            "Fury"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          6,
+          [
+            "Odile",
+            "Tiago",
+            "Marek",
+            "Sibyl",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          6,
+          [
+            "Volcan",
+            "Sibyl",
+            "Arlequin",
+            "Tiago",
+            "Marek"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Volcan",
+            "Arlequin",
+            "Telemachus",
+            "Sibyl"
+          ]
+        ]
+      ]
+    },
+    "Silvio": {
+      "msgs": 37,
+      "first": "2026-10-12",
+      "last": "2026-10-20",
+      "days": {
+        "2026-10-12": 8,
+        "2026-10-13": 19,
+        "2026-10-15": 5,
+        "2026-10-16": 2,
+        "2026-10-20": 3
+      },
+      "places": [
+        [
+          "lovun",
+          37
+        ]
+      ],
+      "partners": [
+        [
+          "Rocco",
+          26
+        ],
+        [
+          "Mara",
+          25
+        ],
+        [
+          "Void",
+          10
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-12",
+          "lovun",
+          "Quartiers & zones",
+          8,
+          [
+            "Rocco",
+            "Mara",
+            "Void"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "lovun",
+          "Quartiers & zones",
+          19,
+          [
+            "Rocco",
+            "Mara",
+            "Void"
+          ]
+        ],
+        [
+          "2026-10-15",
+          "lovun",
+          "Quartiers & zones",
+          5,
+          [
+            "Void",
+            "Mara",
+            "Rocco"
+          ]
+        ],
+        [
+          "2026-10-16",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Rocco",
+            "Mara"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Rocco",
+            "Mara",
+            "Void"
+          ]
+        ]
+      ]
+    },
+    "Rocco": {
+      "msgs": 27,
+      "first": "2026-10-12",
+      "last": "2026-10-20",
+      "days": {
+        "2026-10-12": 3,
+        "2026-10-13": 17,
+        "2026-10-15": 2,
+        "2026-10-16": 3,
+        "2026-10-20": 2
+      },
+      "places": [
+        [
+          "lovun",
+          27
+        ]
+      ],
+      "partners": [
+        [
+          "Silvio",
+          26
+        ],
+        [
+          "Mara",
+          23
+        ],
+        [
+          "Void",
+          8
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-12",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Silvio",
+            "Mara",
+            "Void"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "lovun",
+          "Quartiers & zones",
+          17,
+          [
+            "Silvio",
+            "Mara",
+            "Void"
+          ]
+        ],
+        [
+          "2026-10-15",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Silvio",
+            "Void",
+            "Mara"
+          ]
+        ],
+        [
+          "2026-10-16",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Mara",
+            "Silvio"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Silvio",
+            "Mara",
+            "Void"
+          ]
+        ]
+      ]
+    },
+    "Mara": {
+      "msgs": 25,
+      "first": "2026-10-12",
+      "last": "2026-10-20",
+      "days": {
+        "2026-10-12": 3,
+        "2026-10-13": 14,
+        "2026-10-15": 4,
+        "2026-10-16": 2,
+        "2026-10-20": 2
+      },
+      "places": [
+        [
+          "lovun",
+          25
+        ]
+      ],
+      "partners": [
+        [
+          "Silvio",
+          25
+        ],
+        [
+          "Rocco",
+          23
+        ],
+        [
+          "Void",
+          10
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-12",
+          "lovun",
+          "Quartiers & zones",
+          3,
+          [
+            "Silvio",
+            "Rocco",
+            "Void"
+          ]
+        ],
+        [
+          "2026-10-13",
+          "lovun",
+          "Quartiers & zones",
+          14,
+          [
+            "Silvio",
+            "Rocco",
+            "Void"
+          ]
+        ],
+        [
+          "2026-10-15",
+          "lovun",
+          "Quartiers & zones",
+          4,
+          [
+            "Silvio",
+            "Void",
+            "Rocco"
+          ]
+        ],
+        [
+          "2026-10-16",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Rocco",
+            "Silvio"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "lovun",
+          "Quartiers & zones",
+          2,
+          [
+            "Silvio",
+            "Rocco",
+            "Void"
+          ]
+        ]
+      ]
+    },
+    "Isaure": {
+      "msgs": 217,
+      "first": "2026-10-20",
+      "last": "2026-11-08",
+      "days": {
+        "2026-10-20": 14,
+        "2026-10-21": 6,
+        "2026-10-22": 4,
+        "2026-10-23": 30,
+        "2026-10-24": 28,
+        "2026-10-25": 2,
+        "2026-10-26": 7,
+        "2026-10-27": 18,
+        "2026-10-28": 11,
+        "2026-10-29": 7,
+        "2026-10-30": 13,
+        "2026-10-31": 14,
+        "2026-11-01": 27,
+        "2026-11-02": 5,
+        "2026-11-03": 3,
+        "2026-11-04": 3,
+        "2026-11-05": 12,
+        "2026-11-06": 2,
+        "2026-11-07": 6,
+        "2026-11-08": 5
+      },
+      "places": [
+        [
+          "appart-de-isaure",
+          71
+        ],
+        [
+          "colline-de-rowden",
+          39
+        ],
+        [
+          "parc",
+          35
+        ],
+        [
+          "centre-commercial",
+          27
+        ],
+        [
+          "plage",
+          20
+        ],
+        [
+          "rue",
+          16
+        ],
+        [
+          "Isaure _-_ Telemachus",
+          5
+        ],
+        [
+          "Isaure _-_ Beta",
+          3
+        ]
+      ],
+      "partners": [
+        [
+          "Beta",
+          179
+        ],
+        [
+          "Telemachus",
+          50
+        ],
+        [
+          "Lucina",
+          24
+        ],
+        [
+          "Louis",
+          20
+        ],
+        [
+          "Keito",
+          19
+        ],
+        [
+          "Remi",
+          7
+        ],
+        [
+          "Rein",
+          6
+        ],
+        [
+          "Blyke",
+          2
+        ],
+        [
+          "Kaïra",
+          1
+        ],
+        [
+          "Isen",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 22,
+        "fight": 16,
+        "n": 5,
+        "training": 6
+      },
+      "scenes": [
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          14,
+          [
+            "Louis",
+            "Telemachus",
+            "Keito",
+            "Remi",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "plage",
+          "Westview",
+          6,
+          [
+            "Louis",
+            "Keito",
+            "Telemachus",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "rue",
+          "Westview",
+          4,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "centre-commercial",
+          "Westview",
+          18,
+          [
+            "Beta",
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-23",
+          "rue",
+          "Westview",
+          12,
+          [
+            "Beta",
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Isaure _-_ Beta",
+          "Autres",
+          1,
+          [
+            "Telemachus",
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "Isaure _-_ Telemachus",
+          "Autres",
+          5,
+          [
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "appart-de-isaure",
+          "Autres",
+          1,
+          []
+        ],
+        [
+          "2026-10-24",
+          "centre-commercial",
+          "Westview",
+          9,
+          [
+            "Lucina",
+            "Beta",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "gare",
+          "Westview",
+          1,
+          []
+        ],
+        [
+          "2026-10-24",
+          "parc",
+          "Westview",
+          11,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "appart-de-isaure",
+          "Autres",
+          2,
+          []
+        ],
+        [
+          "2026-10-26",
+          "Isaure _-_ Beta",
+          "Autres",
+          2,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-26",
+          "appart-de-isaure",
+          "Autres",
+          5,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "appart-de-isaure",
+          "Autres",
+          10,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-27",
+          "colline-de-rowden",
+          "Rowden",
+          8,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-28",
+          "colline-de-rowden",
+          "Rowden",
+          11,
+          [
+            "Beta",
+            "Telemachus",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-29",
+          "colline-de-rowden",
+          "Rowden",
+          7,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-30",
+          "colline-de-rowden",
+          "Rowden",
+          13,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-10-31",
+          "appart-de-isaure",
+          "Autres",
+          14,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "appart-de-isaure",
+          "Autres",
+          27,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "appart-de-isaure",
+          "Autres",
+          5,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "appart-de-isaure",
+          "Autres",
+          3,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-04",
+          "appart-de-isaure",
+          "Autres",
+          3,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "appart-de-isaure",
+          "Autres",
+          1,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "parc",
+          "Rowden",
+          11,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-06",
+          "parc",
+          "Rowden",
+          2,
+          [
+            "Beta",
+            "Telemachus"
+          ]
+        ],
+        [
+          "2026-11-07",
+          "parc",
+          "Rowden",
+          6,
+          [
+            "Beta"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "parc",
+          "Rowden",
+          5,
+          [
+            "Beta"
+          ]
+        ]
+      ]
+    },
+    "Blyke": {
+      "msgs": 40,
+      "first": "2026-10-20",
+      "last": "2026-10-25",
+      "days": {
+        "2026-10-20": 17,
+        "2026-10-21": 13,
+        "2026-10-24": 9,
+        "2026-10-25": 1
+      },
+      "places": [
+        [
+          "limite-de-la-ville",
+          28
+        ],
+        [
+          "centre-ville",
+          9
+        ],
+        [
+          "plage",
+          2
+        ],
+        [
+          "chambre-isen-blyke",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Isen",
+          26
+        ],
+        [
+          "Beta",
+          15
+        ],
+        [
+          "Arlo",
+          14
+        ],
+        [
+          "Liam",
+          11
+        ],
+        [
+          "Kael",
+          10
+        ],
+        [
+          "Julia",
+          10
+        ],
+        [
+          "Lucina",
+          9
+        ],
+        [
+          "Hizo Vertini",
+          4
+        ],
+        [
+          "Telemachus",
+          2
+        ],
+        [
+          "Isaure",
+          2
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 10,
+        "fight": 6,
+        "n": 2,
+        "training": 4
+      },
+      "scenes": [
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          15,
+          [
+            "Isen",
+            "Arlo",
+            "Beta",
+            "Lucina",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          2,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          13,
+          [
+            "Isen",
+            "Beta",
+            "Arlo",
+            "Liam",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-24",
+          "centre-ville",
+          "Westview",
+          9,
+          [
+            "Kael"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "chambre-isen-blyke",
+          "Wellston",
+          1,
+          []
+        ]
+      ]
+    },
+    "Isen": {
+      "msgs": 26,
+      "first": "2026-10-20",
+      "last": "2026-10-21",
+      "days": {
+        "2026-10-20": 14,
+        "2026-10-21": 12
+      },
+      "places": [
+        [
+          "limite-de-la-ville",
+          25
+        ],
+        [
+          "plage",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Blyke",
+          26
+        ],
+        [
+          "Beta",
+          15
+        ],
+        [
+          "Arlo",
+          14
+        ],
+        [
+          "Liam",
+          11
+        ],
+        [
+          "Julia",
+          10
+        ],
+        [
+          "Lucina",
+          9
+        ],
+        [
+          "Hizo Vertini",
+          4
+        ],
+        [
+          "Telemachus",
+          1
+        ],
+        [
+          "Isaure",
+          1
+        ],
+        [
+          "Kaïra",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {
+        "total": 7,
+        "fight": 7,
+        "n": 1
+      },
+      "scenes": [
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          13,
+          [
+            "Blyke",
+            "Arlo",
+            "Beta",
+            "Lucina",
+            "Julia"
+          ]
+        ],
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          1,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Remi"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          12,
+          [
+            "Blyke",
+            "Beta",
+            "Arlo",
+            "Liam",
+            "Julia"
+          ]
+        ]
+      ]
+    },
+    "John": {
+      "msgs": 20,
+      "first": "2026-10-20",
+      "last": "2026-10-22",
+      "days": {
+        "2026-10-20": 9,
+        "2026-10-21": 8,
+        "2026-10-22": 3
+      },
+      "places": [
+        [
+          "rue",
+          17
+        ],
+        [
+          "hopital-de-westview",
+          3
+        ]
+      ],
+      "partners": [
+        [
+          "Mitsu",
+          13
+        ],
+        [
+          "Kaïra",
+          13
+        ],
+        [
+          "Laura",
+          8
+        ],
+        [
+          "Kael",
+          8
+        ],
+        [
+          "Terrence",
+          6
+        ],
+        [
+          "Leonie",
+          6
+        ],
+        [
+          "Louis",
+          3
+        ],
+        [
+          "Hizo Vertini",
+          3
+        ],
+        [
+          "Kaito Vance",
+          3
+        ],
+        [
+          "Remi",
+          1
+        ]
+      ],
+      "levels": [
+        [
+          "2026-10-20",
+          "7.5"
+        ]
+      ],
+      "pe": {
+        "total": 1,
+        "fight": 1,
+        "n": 1
+      },
+      "scenes": [
+        [
+          "2026-10-20",
+          "rue",
+          "Westview",
+          9,
+          [
+            "Kaïra",
+            "Terrence",
+            "Leonie",
+            "Mitsu",
+            "Laura"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "rue",
+          "Westview",
+          8,
+          [
+            "Mitsu",
+            "Kael",
+            "Kaïra",
+            "Laura",
+            "Leonie"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          3,
+          [
+            "Hizo Vertini",
+            "Kaito Vance",
+            "Louis",
+            "Mitsu",
+            "Kaïra"
+          ]
+        ]
+      ]
+    },
+    "Orrin": {
+      "msgs": 20,
+      "first": "2026-10-20",
+      "last": "2026-10-22",
+      "days": {
+        "2026-10-20": 2,
+        "2026-10-21": 3,
+        "2026-10-22": 15
+      },
+      "places": [
+        [
+          "salle-de-recharge",
+          18
+        ],
+        [
+          "messagerie-spectre",
+          2
+        ]
+      ],
+      "partners": [
+        [
+          "Telemachus",
+          18
+        ],
+        [
+          "Lucina",
+          14
+        ],
+        [
+          "Kael",
+          12
+        ],
+        [
+          "Keito",
+          11
+        ],
+        [
+          "Rein",
+          9
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-20",
+          "messagerie-spectre",
+          "Autres",
+          2,
+          [
+            "Messagerie"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "salle-de-recharge",
+          "Wellston",
+          3,
+          [
+            "Telemachus",
+            "Keito",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "salle-de-recharge",
+          "Wellston",
+          15,
+          [
+            "Telemachus",
+            "Lucina",
+            "Kael",
+            "Keito",
+            "Rein"
+          ]
+        ]
+      ]
+    },
+    "Remi": {
+      "msgs": 8,
+      "first": "2026-10-20",
+      "last": "2026-10-22",
+      "days": {
+        "2026-10-20": 7,
+        "2026-10-22": 1
+      },
+      "places": [
+        [
+          "plage",
+          7
+        ],
+        [
+          "hopital-de-westview",
+          1
+        ]
+      ],
+      "partners": [
+        [
+          "Louis",
+          8
+        ],
+        [
+          "Telemachus",
+          7
+        ],
+        [
+          "Isaure",
+          7
+        ],
+        [
+          "Keito",
+          7
+        ],
+        [
+          "Rein",
+          5
+        ],
+        [
+          "Kaïra",
+          2
+        ],
+        [
+          "Blyke",
+          2
+        ],
+        [
+          "Laura",
+          2
+        ],
+        [
+          "Hizo Vertini",
+          2
+        ],
+        [
+          "Mitsu",
+          2
+        ]
+      ],
+      "levels": [
+        [
+          "2026-10-20",
+          "5.4"
+        ]
+      ],
+      "pe": {
+        "total": 8,
+        "fight": 8,
+        "n": 2
+      },
+      "scenes": [
+        [
+          "2026-10-20",
+          "plage",
+          "Westview",
+          7,
+          [
+            "Louis",
+            "Telemachus",
+            "Isaure",
+            "Keito",
+            "Rein"
+          ]
+        ],
+        [
+          "2026-10-22",
+          "hopital-de-westview",
+          "Westview",
+          1,
+          [
+            "Hizo Vertini",
+            "Kaito Vance",
+            "Louis",
+            "John",
+            "Mitsu"
+          ]
+        ]
+      ]
+    },
+    "Liam": {
+      "msgs": 11,
+      "first": "2026-10-20",
+      "last": "2026-10-21",
+      "days": {
+        "2026-10-20": 4,
+        "2026-10-21": 7
+      },
+      "places": [
+        [
+          "limite-de-la-ville",
+          11
+        ]
+      ],
+      "partners": [
+        [
+          "Blyke",
+          11
+        ],
+        [
+          "Isen",
+          11
+        ],
+        [
+          "Beta",
+          11
+        ],
+        [
+          "Arlo",
+          11
+        ],
+        [
+          "Julia",
+          8
+        ],
+        [
+          "Lucina",
+          7
+        ],
+        [
+          "Hizo Vertini",
+          3
+        ]
+      ],
+      "levels": [
+        [
+          "2026-10-20",
+          "6.2"
+        ]
+      ],
+      "pe": {
+        "total": 2,
+        "fight": 2,
+        "n": 1
+      },
+      "scenes": [
+        [
+          "2026-10-20",
+          "limite-de-la-ville",
+          "Westview",
+          4,
+          [
+            "Blyke",
+            "Isen",
+            "Arlo",
+            "Beta",
+            "Lucina"
+          ]
+        ],
+        [
+          "2026-10-21",
+          "limite-de-la-ville",
+          "Westview",
+          7,
+          [
+            "Blyke",
+            "Isen",
+            "Beta",
+            "Arlo",
+            "Julia"
+          ]
+        ]
+      ]
+    },
+    "Fury": {
+      "msgs": 12,
+      "first": "2026-10-24",
+      "last": "2026-10-25",
+      "days": {
+        "2026-10-24": 6,
+        "2026-10-25": 6
+      },
+      "places": [
+        [
+          "branish",
+          12
+        ]
+      ],
+      "partners": [
+        [
+          "Vitalis",
+          12
+        ],
+        [
+          "Arlequin",
+          7
+        ],
+        [
+          "Thomas",
+          6
+        ],
+        [
+          "Magalie",
+          5
+        ],
+        [
+          "Silas",
+          4
+        ],
+        [
+          "Cynthia",
+          4
+        ],
+        [
+          "Arin",
+          3
+        ],
+        [
+          "Harris",
+          2
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-24",
+          "branish",
+          "Quartiers & zones",
+          6,
+          [
+            "Vitalis",
+            "Thomas",
+            "Magalie",
+            "Silas",
+            "Cynthia"
+          ]
+        ],
+        [
+          "2026-10-25",
+          "branish",
+          "Quartiers & zones",
+          6,
+          [
+            "Arlequin",
+            "Vitalis"
+          ]
+        ]
+      ]
+    },
+    "Marek": {
+      "msgs": 9,
+      "first": "2026-10-31",
+      "last": "2026-11-02",
+      "days": {
+        "2026-10-31": 2,
+        "2026-11-01": 5,
+        "2026-11-02": 2
+      },
+      "places": [
+        [
+          "quartier-low-tier",
+          9
+        ]
+      ],
+      "partners": [
+        [
+          "Sibyl",
+          9
+        ],
+        [
+          "Tiago",
+          9
+        ],
+        [
+          "Odile",
+          8
+        ],
+        [
+          "Vitalis",
+          7
+        ],
+        [
+          "Arlequin",
+          6
+        ],
+        [
+          "Volcan",
+          2
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-31",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Odile",
+            "Sibyl",
+            "Tiago",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          5,
+          [
+            "Odile",
+            "Tiago",
+            "Vitalis",
+            "Sibyl",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Volcan",
+            "Sibyl",
+            "Arlequin",
+            "Vitalis",
+            "Tiago"
+          ]
+        ]
+      ]
+    },
+    "Odile": {
+      "msgs": 10,
+      "first": "2026-10-31",
+      "last": "2026-11-02",
+      "days": {
+        "2026-10-31": 2,
+        "2026-11-01": 7,
+        "2026-11-02": 1
+      },
+      "places": [
+        [
+          "quartier-low-tier",
+          10
+        ]
+      ],
+      "partners": [
+        [
+          "Tiago",
+          10
+        ],
+        [
+          "Marek",
+          8
+        ],
+        [
+          "Sibyl",
+          8
+        ],
+        [
+          "Vitalis",
+          7
+        ],
+        [
+          "Arlequin",
+          5
+        ],
+        [
+          "Volcan",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-31",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Marek",
+            "Sibyl",
+            "Tiago",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          7,
+          [
+            "Tiago",
+            "Vitalis",
+            "Marek",
+            "Sibyl",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          1,
+          [
+            "Volcan",
+            "Sibyl",
+            "Arlequin",
+            "Vitalis",
+            "Tiago"
+          ]
+        ]
+      ]
+    },
+    "Sibyl": {
+      "msgs": 15,
+      "first": "2026-10-31",
+      "last": "2026-11-03",
+      "days": {
+        "2026-10-31": 2,
+        "2026-11-01": 5,
+        "2026-11-02": 7,
+        "2026-11-03": 1
+      },
+      "places": [
+        [
+          "quartier-low-tier",
+          15
+        ]
+      ],
+      "partners": [
+        [
+          "Vitalis",
+          12
+        ],
+        [
+          "Tiago",
+          11
+        ],
+        [
+          "Arlequin",
+          11
+        ],
+        [
+          "Marek",
+          9
+        ],
+        [
+          "Odile",
+          8
+        ],
+        [
+          "Volcan",
+          8
+        ],
+        [
+          "Telemachus",
+          1
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-31",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Marek",
+            "Odile",
+            "Tiago",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          5,
+          [
+            "Odile",
+            "Tiago",
+            "Vitalis",
+            "Marek",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          7,
+          [
+            "Volcan",
+            "Arlequin",
+            "Vitalis",
+            "Tiago",
+            "Marek"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          1,
+          [
+            "Volcan",
+            "Vitalis",
+            "Arlequin",
+            "Telemachus"
+          ]
+        ]
+      ]
+    },
+    "Tiago": {
+      "msgs": 13,
+      "first": "2026-10-31",
+      "last": "2026-11-02",
+      "days": {
+        "2026-10-31": 2,
+        "2026-11-01": 7,
+        "2026-11-02": 4
+      },
+      "places": [
+        [
+          "quartier-low-tier",
+          13
+        ]
+      ],
+      "partners": [
+        [
+          "Sibyl",
+          11
+        ],
+        [
+          "Odile",
+          10
+        ],
+        [
+          "Vitalis",
+          10
+        ],
+        [
+          "Marek",
+          9
+        ],
+        [
+          "Arlequin",
+          8
+        ],
+        [
+          "Volcan",
+          4
+        ]
+      ],
+      "levels": [],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-10-31",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          2,
+          [
+            "Marek",
+            "Odile",
+            "Sibyl",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-01",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          7,
+          [
+            "Odile",
+            "Vitalis",
+            "Marek",
+            "Sibyl",
+            "Arlequin"
+          ]
+        ],
+        [
+          "2026-11-02",
+          "quartier-low-tier",
+          "Quartiers & zones",
+          4,
+          [
+            "Volcan",
+            "Sibyl",
+            "Arlequin",
+            "Vitalis",
+            "Marek"
+          ]
+        ]
+      ]
+    },
+    "Marou": {
+      "msgs": 46,
+      "first": "2026-11-02",
+      "last": "2026-11-08",
+      "days": {
+        "2026-11-02": 22,
+        "2026-11-03": 19,
+        "2026-11-04": 2,
+        "2026-11-05": 2,
+        "2026-11-08": 1
+      },
+      "places": [
+        [
+          "entrée-du-lycée",
+          46
+        ]
+      ],
+      "partners": [
+        [
+          "Irene",
+          22
+        ]
+      ],
+      "levels": [
+        [
+          "2026-11-02",
+          "6.6"
+        ]
+      ],
+      "pe": {},
+      "scenes": [
+        [
+          "2026-11-02",
+          "entrée-du-lycée",
+          "Agwin",
+          22,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-11-03",
+          "entrée-du-lycée",
+          "Agwin",
+          19,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-11-04",
+          "entrée-du-lycée",
+          "Agwin",
+          2,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-11-05",
+          "entrée-du-lycée",
+          "Agwin",
+          2,
+          [
+            "Irene"
+          ]
+        ],
+        [
+          "2026-11-08",
+          "entrée-du-lycée",
+          "Agwin",
+          1,
+          []
+        ]
+      ]
+    }
+  },
+  "places": [
+    {
+      "name": "rue",
+      "town": "Westview",
+      "msgs": 291,
+      "first": "2026-08-12",
+      "last": "2026-11-07",
+      "chars": [
+        [
+          "Leonie",
+          48
+        ],
+        [
+          "Kael",
+          46
+        ],
+        [
+          "Julia",
+          41
+        ],
+        [
+          "Telemachus",
+          27
+        ],
+        [
+          "Marie",
+          19
+        ],
+        [
+          "Kaïra",
+          18
+        ]
+      ]
+    },
+    {
+      "name": "limite-de-la-ville",
+      "town": "Westview",
+      "msgs": 268,
+      "first": "2026-10-20",
+      "last": "2026-10-27",
+      "chars": [
+        [
+          "Lucina",
+          86
+        ],
+        [
+          "Ice",
+          78
+        ],
+        [
+          "Blyke",
+          28
+        ],
+        [
+          "Isen",
+          25
+        ],
+        [
+          "Beta",
+          14
+        ],
+        [
+          "Arlo",
+          14
+        ]
+      ]
+    },
+    {
+      "name": "lovun",
+      "town": "Quartiers & zones",
+      "msgs": 238,
+      "first": "2026-08-27",
+      "last": "2026-10-20",
+      "chars": [
+        [
+          "Void",
+          37
+        ],
+        [
+          "Silvio",
+          37
+        ],
+        [
+          "Rocco",
+          27
+        ],
+        [
+          "Mara",
+          25
+        ],
+        [
+          "Le Pinceau",
+          22
+        ],
+        [
+          "Arlequin",
+          17
+        ]
+      ]
+    },
+    {
+      "name": "Couloir hôpital",
+      "town": "Westview",
+      "msgs": 215,
+      "first": "2026-10-22",
+      "last": "2026-10-23",
+      "chars": [
+        [
+          "Louis",
+          108
+        ],
+        [
+          "Kaïra",
+          107
+        ]
+      ]
+    },
+    {
+      "name": "parc",
+      "town": "Rowden",
+      "msgs": 211,
+      "first": "2026-08-15",
+      "last": "2026-11-08",
+      "chars": [
+        [
+          "Beta",
+          47
+        ],
+        [
+          "Mitsu",
+          42
+        ],
+        [
+          "Isaure",
+          35
+        ],
+        [
+          "Kaïra",
+          29
+        ],
+        [
+          "Leonie",
+          25
+        ],
+        [
+          "Telemachus",
+          16
+        ]
+      ]
+    },
+    {
+      "name": "centre-ville",
+      "town": "Westview",
+      "msgs": 202,
+      "first": "2026-08-31",
+      "last": "2026-11-07",
+      "chars": [
+        [
+          "Ice",
+          48
+        ],
+        [
+          "Lucina",
+          46
+        ],
+        [
+          "Kaïra",
+          18
+        ],
+        [
+          "Telemachus",
+          17
+        ],
+        [
+          "Laura",
+          15
+        ],
+        [
+          "Kael",
+          11
+        ]
+      ]
+    },
+    {
+      "name": "plage",
+      "town": "Westview",
+      "msgs": 192,
+      "first": "2026-08-20",
+      "last": "2026-11-08",
+      "chars": [
+        [
+          "Telemachus",
+          30
+        ],
+        [
+          "Louis",
+          24
+        ],
+        [
+          "Mitsu",
+          23
+        ],
+        [
+          "Ice",
+          22
+        ],
+        [
+          "Isaure",
+          20
+        ],
+        [
+          "Keito",
+          19
+        ]
+      ]
+    },
+    {
+      "name": "colline-de-rowden",
+      "town": "Rowden",
+      "msgs": 187,
+      "first": "2026-09-05",
+      "last": "2026-10-30",
+      "chars": [
+        [
+          "Beta",
+          41
+        ],
+        [
+          "Isaure",
+          39
+        ],
+        [
+          "Soren",
+          32
+        ],
+        [
+          "Louis",
+          32
+        ],
+        [
+          "Silas",
+          29
+        ],
+        [
+          "Keito",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "centre-commercial",
+      "town": "Westview",
+      "msgs": 173,
+      "first": "2026-08-22",
+      "last": "2026-10-24",
+      "chars": [
+        [
+          "Irene",
+          37
+        ],
+        [
+          "Beta",
+          28
+        ],
+        [
+          "Isaure",
+          27
+        ],
+        [
+          "Elizabeth Shaw",
+          22
+        ],
+        [
+          "Lucina",
+          18
+        ],
+        [
+          "Marie",
+          17
+        ]
+      ]
+    },
+    {
+      "name": "zone-turf-wars",
+      "town": "Quartiers & zones",
+      "msgs": 164,
+      "first": "2026-08-23",
+      "last": "2026-08-26",
+      "chars": [
+        [
+          "Mitsu",
+          33
+        ],
+        [
+          "Telemachus",
+          30
+        ],
+        [
+          "Irene",
+          27
+        ],
+        [
+          "Ice",
+          24
+        ],
+        [
+          "Hizo Vertini",
+          19
+        ],
+        [
+          "Beta",
+          19
+        ]
+      ]
+    },
+    {
+      "name": "hopital-de-westview",
+      "town": "Westview",
+      "msgs": 155,
+      "first": "2026-08-20",
+      "last": "2026-11-08",
+      "chars": [
+        [
+          "Louis",
+          47
+        ],
+        [
+          "Julia",
+          33
+        ],
+        [
+          "Mitsu",
+          25
+        ],
+        [
+          "Hizo Vertini",
+          21
+        ],
+        [
+          "Kaito Vance",
+          15
+        ],
+        [
+          "Kaïra",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "appart-de-isaure",
+      "town": "Autres",
+      "msgs": 141,
+      "first": "2026-10-24",
+      "last": "2026-11-05",
+      "chars": [
+        [
+          "Isaure",
+          71
+        ],
+        [
+          "Beta",
+          70
+        ]
+      ]
+    },
+    {
+      "name": "toit",
+      "town": "Agwin",
+      "msgs": 139,
+      "first": "2026-08-27",
+      "last": "2026-10-28",
+      "chars": [
+        [
+          "Telemachus",
+          51
+        ],
+        [
+          "Beta",
+          27
+        ],
+        [
+          "Ice",
+          25
+        ],
+        [
+          "Lucina",
+          14
+        ],
+        [
+          "Power",
+          7
+        ],
+        [
+          "Hizo Vertini",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "entrée-du-lycée",
+      "town": "Agwin",
+      "msgs": 132,
+      "first": "2026-08-18",
+      "last": "2026-11-08",
+      "chars": [
+        [
+          "Marou",
+          46
+        ],
+        [
+          "Irene",
+          22
+        ],
+        [
+          "Beta",
+          17
+        ],
+        [
+          "Kael",
+          14
+        ],
+        [
+          "Julia",
+          12
+        ],
+        [
+          "Soren",
+          11
+        ]
+      ]
+    },
+    {
+      "name": "grasshill",
+      "town": "Quartiers & zones",
+      "msgs": 131,
+      "first": "2026-08-28",
+      "last": "2026-10-13",
+      "chars": [
+        [
+          "Volcan",
+          26
+        ],
+        [
+          "Ilya",
+          25
+        ],
+        [
+          "Garance",
+          19
+        ],
+        [
+          "Tobias",
+          15
+        ],
+        [
+          "Arlequin",
+          13
+        ],
+        [
+          "Vitalis",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "bureau-wellston",
+      "town": "Wellston",
+      "msgs": 118,
+      "first": "2026-09-04",
+      "last": "2026-10-31",
+      "chars": [
+        [
+          "Byron",
+          71
+        ],
+        [
+          "Telemachus",
+          26
+        ],
+        [
+          "Adrien",
+          10
+        ],
+        [
+          "Valerie",
+          9
+        ],
+        [
+          "Kassandra",
+          1
+        ],
+        [
+          "Arlo",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "quartier-low-tier",
+      "town": "Quartiers & zones",
+      "msgs": 109,
+      "first": "2026-09-01",
+      "last": "2026-11-03",
+      "chars": [
+        [
+          "Volcan",
+          28
+        ],
+        [
+          "Sibyl",
+          15
+        ],
+        [
+          "Vitalis",
+          14
+        ],
+        [
+          "Tiago",
+          13
+        ],
+        [
+          "Arlequin",
+          12
+        ],
+        [
+          "Odile",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "bibliotèque",
+      "town": "Westview",
+      "msgs": 96,
+      "first": "2026-10-25",
+      "last": "2026-10-25",
+      "chars": [
+        [
+          "Lucina",
+          48
+        ],
+        [
+          "Ice",
+          48
+        ]
+      ]
+    },
+    {
+      "name": "branish",
+      "town": "Quartiers & zones",
+      "msgs": 94,
+      "first": "2026-09-07",
+      "last": "2026-10-25",
+      "chars": [
+        [
+          "Vitalis",
+          33
+        ],
+        [
+          "Fury",
+          12
+        ],
+        [
+          "Arlequin",
+          11
+        ],
+        [
+          "Thomas",
+          8
+        ],
+        [
+          "Cynthia",
+          6
+        ],
+        [
+          "Magalie",
+          6
+        ]
+      ]
+    },
+    {
+      "name": "salle-de-recharge",
+      "town": "Wellston",
+      "msgs": 90,
+      "first": "2026-10-21",
+      "last": "2026-10-22",
+      "chars": [
+        [
+          "Telemachus",
+          26
+        ],
+        [
+          "Orrin",
+          18
+        ],
+        [
+          "Lucina",
+          14
+        ],
+        [
+          "Kael",
+          12
+        ],
+        [
+          "Keito",
+          11
+        ],
+        [
+          "Rein",
+          9
+        ]
+      ]
+    },
+    {
+      "name": "zone-sans-surveillance",
+      "town": "Quartiers & zones",
+      "msgs": 60,
+      "first": "2026-08-27",
+      "last": "2026-10-07",
+      "chars": [
+        [
+          "Arlequin",
+          40
+        ],
+        [
+          "Narta",
+          10
+        ],
+        [
+          "Fice",
+          5
+        ],
+        [
+          "Isen tu dis ?",
+          4
+        ],
+        [
+          "Arlequin឵",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "gymnase",
+      "town": "Wellston",
+      "msgs": 59,
+      "first": "2026-09-11",
+      "last": "2026-10-17",
+      "chars": [
+        [
+          "Beta",
+          10
+        ],
+        [
+          "Telemachus",
+          9
+        ],
+        [
+          "Mitsu",
+          6
+        ],
+        [
+          "Hizo Vertini",
+          6
+        ],
+        [
+          "Ice",
+          4
+        ],
+        [
+          "Kaïra",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "salle-de-classe",
+      "town": "Westview",
+      "msgs": 51,
+      "first": "2026-08-26",
+      "last": "2026-08-29",
+      "chars": [
+        [
+          "Beta",
+          19
+        ],
+        [
+          "Power",
+          17
+        ],
+        [
+          "Telemachus",
+          9
+        ],
+        [
+          "Mitsu",
+          6
+        ]
+      ]
+    },
+    {
+      "name": "starbucks",
+      "town": "Agwin",
+      "msgs": 43,
+      "first": "2026-08-23",
+      "last": "2026-08-28",
+      "chars": [
+        [
+          "Kaito Vance",
+          20
+        ],
+        [
+          "Hizo Vertini",
+          19
+        ],
+        [
+          "Leonie",
+          2
+        ],
+        [
+          "Elizabeth Shaw",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "Côté Droit",
+      "town": "Westview",
+      "msgs": 35,
+      "first": "2026-09-13",
+      "last": "2026-09-27",
+      "chars": [
+        [
+          "Telemachus",
+          11
+        ],
+        [
+          "Lucina",
+          8
+        ],
+        [
+          "Issei",
+          6
+        ],
+        [
+          "Ice",
+          4
+        ],
+        [
+          "Julia",
+          3
+        ],
+        [
+          "Marc",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "Côté Gauche",
+      "town": "Westview",
+      "msgs": 34,
+      "first": "2026-09-13",
+      "last": "2026-09-30",
+      "chars": [
+        [
+          "Hizo Vertini",
+          9
+        ],
+        [
+          "Kael",
+          7
+        ],
+        [
+          "Mitsu",
+          6
+        ],
+        [
+          "Leonie",
+          5
+        ],
+        [
+          "Ramlethal Valentine",
+          2
+        ],
+        [
+          "Lucian Hale",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "couloir-a",
+      "town": "Wellston",
+      "msgs": 33,
+      "first": "2026-08-22",
+      "last": "2026-09-05",
+      "chars": [
+        [
+          "Soren",
+          14
+        ],
+        [
+          "Julia",
+          14
+        ],
+        [
+          "゛🌑 〢 𝐄𝗏𝗂 𝐌𝖺𝗌𝖾𝗐𝗈𝗈𝖽",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "chez-telemachus",
+      "town": "Autres",
+      "msgs": 30,
+      "first": "2026-08-28",
+      "last": "2026-10-29",
+      "chars": [
+        [
+          "Telemachus",
+          30
+        ]
+      ]
+    },
+    {
+      "name": "cour",
+      "town": "Westview",
+      "msgs": 27,
+      "first": "2026-08-24",
+      "last": "2026-08-27",
+      "chars": [
+        [
+          "Beta",
+          13
+        ],
+        [
+          "Power",
+          12
+        ],
+        [
+          "Mitsu",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "café-woaba-boba",
+      "town": "Wellston",
+      "msgs": 27,
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "chars": [
+        [
+          "Lucina",
+          14
+        ],
+        [
+          "Telemachus",
+          13
+        ]
+      ]
+    },
+    {
+      "name": "vieille-maison",
+      "town": "Wellston",
+      "msgs": 26,
+      "first": "2026-09-08",
+      "last": "2026-09-12",
+      "chars": [
+        [
+          "Marc",
+          14
+        ],
+        [
+          "Kael",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "couloir-b",
+      "town": "Wellston",
+      "msgs": 25,
+      "first": "2026-09-02",
+      "last": "2026-09-05",
+      "chars": [
+        [
+          "Beta",
+          11
+        ],
+        [
+          "Marie",
+          8
+        ],
+        [
+          "Elias",
+          6
+        ]
+      ]
+    },
+    {
+      "name": "chez-hizo",
+      "town": "Autres",
+      "msgs": 21,
+      "first": "2026-08-29",
+      "last": "2026-11-02",
+      "chars": [
+        [
+          "Hizo Vertini",
+          16
+        ],
+        [
+          "Telemachus",
+          4
+        ],
+        [
+          "Narrateur឵",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "gare",
+      "town": "Westview",
+      "msgs": 21,
+      "first": "2026-09-01",
+      "last": "2026-10-24",
+      "chars": [
+        [
+          "Marie",
+          5
+        ],
+        [
+          "Mitsu",
+          5
+        ],
+        [
+          "Lucian Hale",
+          3
+        ],
+        [
+          "Beta",
+          2
+        ],
+        [
+          "Laura",
+          2
+        ],
+        [
+          "Marc",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "cantine",
+      "town": "Wellston",
+      "msgs": 20,
+      "first": "2026-08-25",
+      "last": "2026-08-27",
+      "chars": [
+        [
+          "Kael",
+          11
+        ],
+        [
+          "Issei",
+          9
+        ]
+      ]
+    },
+    {
+      "name": "cours-2eme-année",
+      "town": "Wellston",
+      "msgs": 20,
+      "first": "2026-09-02",
+      "last": "2026-09-03",
+      "chars": [
+        [
+          "Beta",
+          10
+        ],
+        [
+          "Elias",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "café-tranquille",
+      "town": "Rowden",
+      "msgs": 18,
+      "first": "2026-09-05",
+      "last": "2026-09-07",
+      "chars": [
+        [
+          "Telemachus",
+          9
+        ],
+        [
+          "Keito",
+          9
+        ]
+      ]
+    },
+    {
+      "name": "cours-arriere",
+      "town": "Wellston",
+      "msgs": 16,
+      "first": "2026-08-29",
+      "last": "2026-10-28",
+      "chars": [
+        [
+          "Issei",
+          9
+        ],
+        [
+          "Marie",
+          7
+        ]
+      ]
+    },
+    {
+      "name": "hall",
+      "town": "Westview",
+      "msgs": 15,
+      "first": "2026-08-18",
+      "last": "2026-08-20",
+      "chars": [
+        [
+          "Soren",
+          7
+        ],
+        [
+          "Julia",
+          7
+        ],
+        [
+          "Power",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Lighter _-_ Vulcain",
+      "town": "Autres",
+      "msgs": 15,
+      "first": "2026-08-27",
+      "last": "2026-10-28",
+      "chars": [
+        [
+          "Lighter",
+          7
+        ],
+        [
+          "Volcan",
+          5
+        ],
+        [
+          "Telemachus",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "Beta _-_ Elias",
+      "town": "Autres",
+      "msgs": 11,
+      "first": "2026-09-01",
+      "last": "2026-09-02",
+      "chars": [
+        [
+          "Beta",
+          6
+        ],
+        [
+          "Elias",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "gare-rowden",
+      "town": "Rowden",
+      "msgs": 11,
+      "first": "2026-09-22",
+      "last": "2026-09-29",
+      "chars": [
+        [
+          "Laura",
+          5
+        ],
+        [
+          "Louis",
+          5
+        ],
+        [
+          "Soren",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Isaure _-_ Telemachus",
+      "town": "Autres",
+      "msgs": 11,
+      "first": "2026-10-24",
+      "last": "2026-10-24",
+      "chars": [
+        [
+          "Telemachus",
+          6
+        ],
+        [
+          "Isaure",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "Milieu",
+      "town": "Westview",
+      "msgs": 10,
+      "first": "2026-09-13",
+      "last": "2026-09-24",
+      "chars": [
+        [
+          "Power",
+          5
+        ],
+        [
+          "Beta",
+          2
+        ],
+        [
+          "Irene",
+          2
+        ],
+        [
+          "Telemachus",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Isaure _-_ Beta",
+      "town": "Autres",
+      "msgs": 10,
+      "first": "2026-10-24",
+      "last": "2026-10-26",
+      "chars": [
+        [
+          "Beta",
+          5
+        ],
+        [
+          "Isaure",
+          3
+        ],
+        [
+          "Telemachus",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "station-de-metro-d-agwin",
+      "town": "Agwin",
+      "msgs": 7,
+      "first": "2026-08-12",
+      "last": "2026-10-02",
+      "chars": [
+        [
+          "Leonie",
+          3
+        ],
+        [
+          "Irene",
+          1
+        ],
+        [
+          "Hizo Vertini",
+          1
+        ],
+        [
+          "Laura",
+          1
+        ],
+        [
+          "Ramlethal Valentine",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "couloir",
+      "town": "Agwin",
+      "msgs": 7,
+      "first": "2026-08-29",
+      "last": "2026-09-07",
+      "chars": [
+        [
+          "Irene",
+          3
+        ],
+        [
+          "Ramlethal Valentine",
+          3
+        ],
+        [
+          "Telemachus",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "cours",
+      "town": "Agwin",
+      "msgs": 7,
+      "first": "2026-09-08",
+      "last": "2026-10-28",
+      "chars": [
+        [
+          "Ramlethal Valentine",
+          3
+        ],
+        [
+          "Joahness",
+          2
+        ],
+        [
+          "Leonie",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "station-de-metro-westview",
+      "town": "Westview",
+      "msgs": 6,
+      "first": "2026-08-18",
+      "last": "2026-08-23",
+      "chars": [
+        [
+          "Leonie",
+          2
+        ],
+        [
+          "Elizabeth Shaw",
+          1
+        ],
+        [
+          "Telemachus",
+          1
+        ],
+        [
+          "Mitsu",
+          1
+        ],
+        [
+          "Marc",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "station-de-metro-de-wellston",
+      "town": "Wellston",
+      "msgs": 5,
+      "first": "2026-08-12",
+      "last": "2026-09-29",
+      "chars": [
+        [
+          "Leonie",
+          2
+        ],
+        [
+          "Beta",
+          1
+        ],
+        [
+          "Lucian Hale",
+          1
+        ],
+        [
+          "Laura",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "mer",
+      "town": "Westview",
+      "msgs": 5,
+      "first": "2026-08-17",
+      "last": "2026-09-08",
+      "chars": [
+        [
+          "Marc",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "gare-wellston",
+      "town": "Wellston",
+      "msgs": 5,
+      "first": "2026-09-05",
+      "last": "2026-09-29",
+      "chars": [
+        [
+          "Soren",
+          2
+        ],
+        [
+          "Lucian Hale",
+          1
+        ],
+        [
+          "Marc",
+          1
+        ],
+        [
+          "Laura",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Telemachus _-_ Beta",
+      "town": "Autres",
+      "msgs": 4,
+      "first": "2026-08-27",
+      "last": "2026-10-24",
+      "chars": [
+        [
+          "Telemachus",
+          3
+        ],
+        [
+          "Beta",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Beta _-_ Mitsu",
+      "town": "Autres",
+      "msgs": 4,
+      "first": "2026-08-28",
+      "last": "2026-08-29",
+      "chars": [
+        [
+          "Beta",
+          2
+        ],
+        [
+          "Mitsu",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "réseaux-sociaux",
+      "town": "Autres",
+      "msgs": 4,
+      "first": "2026-08-29",
+      "last": "2026-08-29",
+      "chars": [
+        [
+          "Telemachus",
+          2
+        ],
+        [
+          "Hizo Vertini",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "messagerie-spectre",
+      "town": "Autres",
+      "msgs": 3,
+      "first": "2026-10-20",
+      "last": "2026-10-20",
+      "chars": [
+        [
+          "Orrin",
+          2
+        ],
+        [
+          "Messagerie",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Machus _3 _-_ Ma Circe _3",
+      "town": "Autres",
+      "msgs": 3,
+      "first": "2026-10-24",
+      "last": "2026-10-24",
+      "chars": [
+        [
+          "Telemachus",
+          2
+        ],
+        [
+          "Lucina",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "salle-de-sport",
+      "town": "Westview",
+      "msgs": 2,
+      "first": "2026-08-17",
+      "last": "2026-08-17",
+      "chars": [
+        [
+          "Telemachus",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "bibliothèque",
+      "town": "Agwin",
+      "msgs": 2,
+      "first": "2026-09-23",
+      "last": "2026-09-28",
+      "chars": [
+        [
+          "Laura",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "Marie fait des choses sur son tel",
+      "town": "Wellston",
+      "msgs": 1,
+      "first": "2026-08-31",
+      "last": "2026-08-31",
+      "chars": [
+        [
+          "Marie",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "messagerie-générale",
+      "town": "Autres",
+      "msgs": 1,
+      "first": "2026-09-01",
+      "last": "2026-09-01",
+      "chars": [
+        [
+          "Beta",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "villa-de-adrian",
+      "town": "Autres",
+      "msgs": 1,
+      "first": "2026-09-03",
+      "last": "2026-09-03",
+      "chars": [
+        [
+          "Adrien",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "bureau-de-la-direction",
+      "town": "Agwin",
+      "msgs": 1,
+      "first": "2026-09-08",
+      "last": "2026-09-08",
+      "chars": [
+        [
+          "Hizo Vertini",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "infirmerie",
+      "town": "Westview",
+      "msgs": 1,
+      "first": "2026-09-22",
+      "last": "2026-09-22",
+      "chars": [
+        [
+          "Issei",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "chambre-isen-blyke",
+      "town": "Wellston",
+      "msgs": 1,
+      "first": "2026-10-25",
+      "last": "2026-10-25",
+      "chars": [
+        [
+          "Blyke",
+          1
+        ]
+      ]
+    }
+  ],
+  "daily": [
+    [
+      "2026-08-12",
+      7
+    ],
+    [
+      "2026-08-13",
+      2
+    ],
+    [
+      "2026-08-14",
+      1
+    ],
+    [
+      "2026-08-15",
+      2
+    ],
+    [
+      "2026-08-16",
+      20
+    ],
+    [
+      "2026-08-17",
+      75
+    ],
+    [
+      "2026-08-18",
+      55
+    ],
+    [
+      "2026-08-19",
+      21
+    ],
+    [
+      "2026-08-20",
+      23
+    ],
+    [
+      "2026-08-21",
+      12
+    ],
+    [
+      "2026-08-22",
+      104
+    ],
+    [
+      "2026-08-23",
+      87
+    ],
+    [
+      "2026-08-24",
+      43
+    ],
+    [
+      "2026-08-25",
+      80
+    ],
+    [
+      "2026-08-26",
+      63
+    ],
+    [
+      "2026-08-27",
+      177
+    ],
+    [
+      "2026-08-28",
+      91
+    ],
+    [
+      "2026-08-29",
+      63
+    ],
+    [
+      "2026-08-30",
+      12
+    ],
+    [
+      "2026-08-31",
+      19
+    ],
+    [
+      "2026-09-01",
+      60
+    ],
+    [
+      "2026-09-02",
+      58
+    ],
+    [
+      "2026-09-03",
+      51
+    ],
+    [
+      "2026-09-04",
+      62
+    ],
+    [
+      "2026-09-05",
+      65
+    ],
+    [
+      "2026-09-06",
+      31
+    ],
+    [
+      "2026-09-07",
+      69
+    ],
+    [
+      "2026-09-08",
+      64
+    ],
+    [
+      "2026-09-09",
+      26
+    ],
+    [
+      "2026-09-10",
+      6
+    ],
+    [
+      "2026-09-11",
+      30
+    ],
+    [
+      "2026-09-12",
+      44
+    ],
+    [
+      "2026-09-13",
+      21
+    ],
+    [
+      "2026-09-14",
+      10
+    ],
+    [
+      "2026-09-15",
+      3
+    ],
+    [
+      "2026-09-17",
+      14
+    ],
+    [
+      "2026-09-18",
+      5
+    ],
+    [
+      "2026-09-19",
+      3
+    ],
+    [
+      "2026-09-20",
+      6
+    ],
+    [
+      "2026-09-21",
+      6
+    ],
+    [
+      "2026-09-22",
+      33
+    ],
+    [
+      "2026-09-23",
+      5
+    ],
+    [
+      "2026-09-24",
+      4
+    ],
+    [
+      "2026-09-25",
+      5
+    ],
+    [
+      "2026-09-26",
+      8
+    ],
+    [
+      "2026-09-27",
+      2
+    ],
+    [
+      "2026-09-28",
+      2
+    ],
+    [
+      "2026-09-29",
+      19
+    ],
+    [
+      "2026-09-30",
+      1
+    ],
+    [
+      "2026-10-01",
+      10
+    ],
+    [
+      "2026-10-02",
+      2
+    ],
+    [
+      "2026-10-04",
+      1
+    ],
+    [
+      "2026-10-05",
+      3
+    ],
+    [
+      "2026-10-06",
+      3
+    ],
+    [
+      "2026-10-07",
+      14
+    ],
+    [
+      "2026-10-09",
+      5
+    ],
+    [
+      "2026-10-10",
+      18
+    ],
+    [
+      "2026-10-11",
+      1
+    ],
+    [
+      "2026-10-12",
+      101
+    ],
+    [
+      "2026-10-13",
+      110
+    ],
+    [
+      "2026-10-14",
+      5
+    ],
+    [
+      "2026-10-15",
+      15
+    ],
+    [
+      "2026-10-16",
+      8
+    ],
+    [
+      "2026-10-17",
+      4
+    ],
+    [
+      "2026-10-18",
+      24
+    ],
+    [
+      "2026-10-20",
+      181
+    ],
+    [
+      "2026-10-21",
+      131
+    ],
+    [
+      "2026-10-22",
+      202
+    ],
+    [
+      "2026-10-23",
+      245
+    ],
+    [
+      "2026-10-24",
+      189
+    ],
+    [
+      "2026-10-25",
+      168
+    ],
+    [
+      "2026-10-26",
+      137
+    ],
+    [
+      "2026-10-27",
+      98
+    ],
+    [
+      "2026-10-28",
+      112
+    ],
+    [
+      "2026-10-29",
+      90
+    ],
+    [
+      "2026-10-30",
+      69
+    ],
+    [
+      "2026-10-31",
+      46
+    ],
+    [
+      "2026-11-01",
+      101
+    ],
+    [
+      "2026-11-02",
+      114
+    ],
+    [
+      "2026-11-03",
+      53
+    ],
+    [
+      "2026-11-04",
+      11
+    ],
+    [
+      "2026-11-05",
+      52
+    ],
+    [
+      "2026-11-06",
+      31
+    ],
+    [
+      "2026-11-07",
+      20
+    ],
+    [
+      "2026-11-08",
+      21
+    ]
+  ],
+  "total": 4065
+};

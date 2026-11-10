@@ -298,7 +298,7 @@ ARCS: {
 
 // Fiches (unodex-rp). rows : [niveau, [Power, Defense, Recovery, Trick, Speed]]
 FICHES: {
- "Telemachus":{ecole:"Westview (Roi)",taille:"170 cm (H)",type:"Meta",ability:"Aura Deity",nature:"—",rows:[[1.0,[1,1,1,1,1]],[1.6,[1,1,1,4,1]],[4.1,[5.4,3.2,5.4,10.6,3.6]],[5.8,[1,1,1,14,1]],[6.1,[1,1,1,14.7,1]],[6.2,[1,1,1,15,1]]],note:"Copieur : les ~60 lignes 5.8–6.2 sont des combinaisons de capacités copiées (ex. Graviton de Power, Sanity Control de Beta). Niveau effectif estimé 4.9, potentiel 9.5, maîtrise 6.6."},
+ "Telemachus":{ecole:"Westview (Roi)",taille:"170 cm (H)",type:"Meta",ability:"Aura Deity",nature:"—",rows:[[1.0,[1,1,1,1,1]],[1.6,[1,1,1,4,1]],[4.1,[1,1,1,10.6,1]],[5.8,[1,1,1,14,1]],[6.1,[1,1,1,14.7,1]],[6.2,[1,1,1,15,1]]],note:"Copieur : les ~60 lignes 5.8–6.2 sont des combinaisons de capacités copiées (ex. Graviton de Power, Sanity Control de Beta). Niveau effectif estimé 4.9, potentiel 9.5, maîtrise 6.6."},
  "Lucina":{ecole:"Westview",taille:"145 cm (F)",type:"Mental",ability:"God's Mind",nature:"—",rows:[[1.0,[1,1,1,1,1]],[5.2,[4,3,6,9,3]],[5.3,[4,3,6,9,3]]]},
  "Hizo Vertini":{ecole:"Agwin (Roi)",taille:"185 cm (H)",type:"Quantum",ability:"Ghost (Spectre)",nature:"—",rows:[[1.0,[1,1,1,1,1]],[4.8,[3,3,5,7,6]],[4.9,[3,3,5,7,6]]],note:"Intangibilité totale limitée à 5 minutes ; désactivée dans un obstacle solide, elle le propulse. Statut : vigilantisme."},
  "Kael":{ecole:"Wellston",taille:"179 cm (H)",type:"Creation",ability:"Dark Blades",nature:"—",rows:[[1.0,[1,1,1,1,1]],[5.2,[8,4,5,5,3]],[5.3,[8,4,5,5,3]]]},
