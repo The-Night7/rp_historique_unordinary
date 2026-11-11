@@ -626,7 +626,7 @@ function boardTout() {
   let deco = "";
   [["2026-08-12", "Août"], ["2026-09-01", "Septembre"], ["2026-10-01", "Octobre"], ["2026-11-01", "Novembre"]].forEach(([d, l]) => { deco += `<div class="bd-month" style="left:${tx(d)}px"><span>${l}</span></div>`; });
   ACTS.forEach(a => { deco += `<div class="bd-actlab" style="left:${tx(a.from)}px;width:${tx(a.to) - tx(a.from)}px;border-color:${a.color}"><b style="color:${a.color}">${esc(a.name)}</b></div>`; });
-  const B = { nodes, edges: [], h: H, w: W, deco, free: true };
+  const B = { nodes, edges: [], h: H, w: W, deco, free: true, actX: ACTS.map(a => [a.name, tx(a.from), a.color]) };
   B.mystEdges = id => {
     const out = [];
     MYST.filter(m => !id || m.id === id).forEach(m => { const l = EV.filter(e => mystOf(e).includes(m)).sort((a, b) => a.d < b.d ? -1 : 1); l.forEach((e, i) => { if (i) out.push(["e" + evId(l[i - 1]), "e" + evId(e), m.short || m.t]); }); });
@@ -638,9 +638,13 @@ function boardTout() {
 function viewTableau() {
   const ppl = {}; EV.forEach(e => (e.c || []).forEach(c => ppl[c] = (ppl[c] || 0) + 1));
   const names = Object.entries(ppl).filter(([n, v]) => v >= 3).sort((a, b) => b[1] - a[1]).map(x => x[0]);
-  return `<h1>Le tableau des événements</h1><p class="lead">Les ${EV.length} événements, du 12 août au 6 novembre, épinglés par date et classés par type. Les fils relient, dans l'ordre, les événements de chaque mystère ; choisissez un mystère ou un personnage pour ne suivre que son fil. Faites glisser la souris ou la barre de défilement pour parcourir le tableau.</p>
-  <div class="legend" style="margin:0 0 10px">${[...new Set(EV.map(e => e.k))].map(k => `<span><i style="background:${ccolK(k)}"></i>${esc(klab(k))}</span>`).join("")}</div>
-  <div class="filters"><label>Suivre le fil de&nbsp;<select id="tfil"><option value="">Tous les mystères</option>${MYST.map(m => `<option value="m:${m.id}">Mystère · ${esc(m.t)}</option>`).join("")}<optgroup label="Personnages">${names.map(n => `<option value="p:${esc(n)}">${esc(n)} (${ppl[n]})</option>`).join("")}</optgroup></select></label></div>
+  return `<h1 style="margin-bottom:4px">Le tableau des événements</h1><p class="sub" style="margin:0 0 10px">${EV.length} événements du 12 août au 6 novembre. Glissez le fond pour vous déplacer, Ctrl + molette pour zoomer, cliquez une carte pour ses détails. Les fils relient les événements de chaque mystère.</p>
+  <div class="tb-bar" id="tbar">
+   <span class="sub">Aller à</span><span id="tacts"></span><span class="tb-sep"></span>
+   <span class="sub">Zoom</span><button data-z="-" title="Réduire" aria-label="Réduire">−</button><b id="tzv">100 %</b><button data-z="+" title="Agrandir" aria-label="Agrandir">+</button><button data-z="1">100 %</button><button data-z="fit">Vue d'ensemble</button><span class="tb-sep"></span>
+   <label class="sub">Fil <select id="tfil"><option value="">Tous les mystères</option>${MYST.map(m => `<option value="m:${m.id}">Mystère · ${esc(m.t)}</option>`).join("")}<optgroup label="Personnages">${names.map(n => `<option value="p:${esc(n)}">${esc(n)} (${ppl[n]})</option>`).join("")}</optgroup></select></label>
+   <span class="legend" style="margin:0">${[...new Set(EV.map(e => e.k))].map(k => `<span><i style="background:${ccolK(k)}"></i>${esc(klab(k))}</span>`).join("")}</span>
+  </div>
   <div id="tboard">${bdHTML("bd-tout", boardTout())}</div>`;
 }
 function afterTableau() {
@@ -656,6 +660,34 @@ function afterTableau() {
     const first = S.hl && [...S.hl][0], c = first && $("#bd-tout").querySelector(`[data-id="${first}"]`); if (c && c.scrollIntoView) c.scrollIntoView({ inline: "center", block: "nearest" });
   };
   bdMount("bd-tout");
+  // zoom, aller à un acte, déplacement au glissé
+  const bd = $("#bd-tout"), sc = bd && bd.closest(".bd-scroll"); if (!bd || !sc) return;
+  const B = S.B; S.zoom = 1;
+  const setZoom = (z, keepCenter) => {
+    const old = S.zoom, cx = (sc.scrollLeft + sc.clientWidth / 2) / old, cy = (sc.scrollTop + sc.clientHeight / 2) / old;
+    S.zoom = Math.max(0.15, Math.min(1.6, z));
+    bd.style.transformOrigin = "0 0"; bd.style.transform = `scale(${S.zoom})`;
+    bd.style.marginRight = (B.w * (S.zoom - 1)) + "px"; bd.style.marginBottom = (B.h * (S.zoom - 1)) + "px";
+    $("#tzv").textContent = Math.round(S.zoom * 100) + " %";
+    const avail = innerHeight - 210; sc.style.height = (B.h * S.zoom + 40 < avail) ? (B.h * S.zoom + 40) + "px" : "";
+    if (keepCenter) { sc.scrollLeft = cx * S.zoom - sc.clientWidth / 2; sc.scrollTop = cy * S.zoom - sc.clientHeight / 2; }
+  };
+  $("#tacts").innerHTML = B.actX.map(([n, x, c], i) => `<button data-x="${x}" style="border-color:${c}">${esc(n.replace(/ —.*/, ""))}</button>`).join("");
+  $("#tacts").querySelectorAll("button").forEach(b => b.onclick = () => { sc.scrollTo({ left: Math.max(0, +b.dataset.x * S.zoom - 30), behavior: "smooth" }); });
+  $("#tbar").querySelectorAll("button[data-z]").forEach(b => b.onclick = () => {
+    const z = b.dataset.z; if (z === "+") setZoom(S.zoom * 1.25, true); else if (z === "-") setZoom(S.zoom / 1.25, true);
+    else if (z === "1") setZoom(1, true); else { setZoom(Math.min(1, sc.clientWidth / B.w), false); sc.scrollLeft = 0; sc.scrollTop = 0; }
+  });
+  sc.addEventListener("wheel", e => { if (e.ctrlKey) { e.preventDefault(); setZoom(S.zoom * (e.deltaY < 0 ? 1.1 : 1 / 1.1), true); } }, { passive: false });
+  bd.addEventListener("pointerdown", e => {
+    if (e.target.closest(".bd-card") || e.button) return;
+    const sx = e.clientX, sy = e.clientY, l0 = sc.scrollLeft, t0 = sc.scrollTop; let moved = false;
+    sc.classList.add("panning");
+    const mv = ev => { if (Math.hypot(ev.clientX - sx, ev.clientY - sy) > 4) moved = true; sc.scrollLeft = l0 - (ev.clientX - sx); sc.scrollTop = t0 - (ev.clientY - sy); };
+    const up = () => { removeEventListener("pointermove", mv); removeEventListener("pointerup", up); sc.classList.remove("panning"); };
+    addEventListener("pointermove", mv); addEventListener("pointerup", up);
+  });
+  setZoom(1, false);
 }
 
 let BDI = 0;
