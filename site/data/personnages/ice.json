@@ -1,0 +1,36 @@
+{
+  "nom": "Ice",
+  "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4678a32-f7c1-4100-adf8-5c1c00585403/dhjj8m9-99a28ca2-abc4-4376-a353-53fe4017379c.jpg/v1/fit/w_414,h_414,q_70,strp/blue_girl_by_mrrvah_dhjj8m9-414w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiIvZi9kNDY3OGEzMi1mN2MxLTQxMDAtYWRmOC01YzFjMDA1ODU0MDMvZGhqajhtOS05OWEyOGNhMi1hYmM0LTQzNzYtYTM1My01M2ZlNDAxNzM3OWMuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Iqx9KrRVyIpbeDhmZfmeB0lYbbgIT1d-VSJJ1wdsvpc",
+  "fiche_unodex": {
+    "ecole": "Westview (Reine)",
+    "taille": "162 cm (F)",
+    "type": "Quantum",
+    "capacite": "Icicle",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 5.5, "Power": 5, "Defense": 7, "Recovery": 6, "Trick": 4, "Speed": 3},
+      {"niveau": 5.6, "Power": 5, "Defense": 7, "Recovery": 6, "Trick": 4, "Speed": 3}
+    ]
+  },
+  "parcours": {
+    "titre": "La reine qui refuse d'abandonner",
+    "tag": "Westview · Reine · Quantum 5.5 → 5.6",
+    "resume": "Ice crée glace et pics. Son arc est celui d'une combattante qui perd — contre Mitsu, contre Irene — mais refuse de lâcher.",
+    "reperes": [
+      {"date": "2026-08-22", "type": "fight", "texte": "Plante un pic de glace dans l'épaule de Mitsu."},
+      {
+        "date": "2026-08-24",
+        "type": "fight",
+        "texte": "Prise en sandwich par la pression d'Irene, elle refuse d'abandonner."
+      },
+      {"date": "2026-08-26", "type": "bond", "texte": "Duel puis hôpital avec Mitsu : ils s'entraident."},
+      {
+        "date": "2026-09-07",
+        "type": "plot",
+        "texte": "Sous le nom de Glacia, elle patrouille à Branish (alerte patrouille)."
+      },
+      {"date": "2026-10-18", "type": "evo", "texte": "Passe 5.6 après avoir digéré sa défaite sur le toit."},
+      {"date": "2026-10-30", "type": "bond", "texte": "Complicité totale avec Lucina."}
+    ]
+  }
+}

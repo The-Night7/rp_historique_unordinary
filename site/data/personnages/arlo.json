@@ -1,0 +1,9 @@
+{
+  "nom": "Arlo",
+  "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ52sDRox9iEd3oNWqj4cAEmuOi72iz4-IM87673F35b4pI_Q",
+  "apres_attaque": {
+    "effet": "Barrière affaiblie",
+    "statut": "complète",
+    "recuperation": "Non désactivée : capacité revenue avec l'atténuateur (21 oct.)"
+  }
+}

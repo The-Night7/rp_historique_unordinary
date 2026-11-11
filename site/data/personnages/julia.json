@@ -1,0 +1,32 @@
+{
+  "nom": "Julia",
+  "image": "https://lh3.googleusercontent.com/d/1UvV_JlFNHAiz_kVSLA5Yrwbj0pnO8qwP=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Wellston",
+    "taille": "162 cm (F)",
+    "type": "Mental",
+    "capacite": "Telepathy",
+    "nature": "Stratège",
+    "stats_par_niveau": [
+      {"niveau": 4.4, "Power": 5, "Defense": 6, "Recovery": 3, "Trick": 7, "Speed": 1},
+      {"niveau": 4.5, "Power": 5, "Defense": 6, "Recovery": 3, "Trick": 7, "Speed": 1}
+    ]
+  },
+  "parcours": {
+    "titre": "Télépathe discrète",
+    "tag": "Wellston · Mental · Telepathy 4.4 → 4.5",
+    "resume": "Julia protège plus qu'elle ne combat. Durant la randonnée, elle est presque noyée par Liam.",
+    "reperes": [
+      {"date": "2026-08-12", "type": "bond", "texte": "Sauve Leonie."},
+      {"date": "2026-09-13", "type": "plot", "texte": "Zone de droite au gymnase, yeux bandés."},
+      {
+        "date": "2026-10-20",
+        "type": "arc",
+        "texte": "Piégée dans une bulle d'eau, appelle à l'aide par télépathie ; Isen l'aide à sortir : « Bordel je ne sers à rien… »."
+      },
+      {"date": "2026-10-24", "type": "plot", "texte": "À l'hôpital : « Notre niveau a été divisé par deux. »"},
+      {"date": "2026-11-02", "type": "bond", "texte": "Échange son numéro avec Louis."}
+    ]
+  },
+  "apres_attaque": {"effet": "Niveau divisé", "statut": "complète", "recuperation": "Non désactivée : capacité retrouvée"}
+}

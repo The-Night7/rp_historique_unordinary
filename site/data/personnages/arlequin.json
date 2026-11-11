@@ -1,0 +1,53 @@
+{
+  "nom": "Arlequin",
+  "image": [
+    "https://cdn.tupperbox.app/pfp/484850911622070284/3pqyKj1WiFubpFIJ.webp",
+    "https://cdn.tupperbox.app/pfp/484850911622070284/dg8EB-E7Elp31OOl.webp"
+  ],
+  "images_supplementaires": {
+    "Arlequin (garçon)": "https://cdn.tupperbox.app/pfp/484850911622070284/3pqyKj1WiFubpFIJ.webp",
+    "Arlequin (inconnu)": "",
+    "Arlequin (fille)": "https://cdn.tupperbox.app/pfp/484850911622070284/dg8EB-E7Elp31OOl.webp"
+  },
+  "fiche_unodex": {
+    "ecole": "Vigilante",
+    "taille": "170 cm (H)",
+    "type": "Meta",
+    "capacite": "Aura Deity / Debt",
+    "nature": "Stratège",
+    "note": "Arlequin est une identité partagée (« Nous sommes Arlequin »). La ligne Debt 6.7 est Isaure sous le masque : sa capacité Debt transforme les coups reçus en dettes qui grossissent avec des intérêts et qu'elle rend en entier au contact.",
+    "stats_par_niveau": [
+      {"niveau": 6, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 15, "Speed": 1},
+      {"niveau": 6.2, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 15, "Speed": 1},
+      {"niveau": 6.7, "Power": 6, "Defense": 10, "Recovery": 3, "Trick": 6, "Speed": 5}
+    ]
+  },
+  "parcours": {
+    "titre": "« Nous sommes Arlequin »",
+    "tag": "Identité partagée · Meta 6.0 – 6.7",
+    "resume": "Arlequin n'est pas un seul personnage : c'est un masque que Telemachus a voulu multiple (un faux Arlequin « féminin » pour brouiller les pistes) et qu'Isaure rejoint le 24 octobre. Les logs gardent le pseudo « Arlequin » sans dire qui porte le casque.",
+    "reperes": [
+      {
+        "date": "2026-08-27",
+        "type": "fight",
+        "texte": "Premier combat : Fice, ses fioles, la question « qui t'a donné ça ? »."
+      },
+      {
+        "date": "2026-09-05",
+        "type": "plot",
+        "texte": "Arlequin « féminin » à Lovun ; la Grape Vine : « combien de personnes se cachent sous le casque ? »"
+      },
+      {
+        "date": "2026-10-07",
+        "type": "fight",
+        "texte": "Ruelle : Dorso, Vesna, Brann, Jax, Nell ; la piste de l'homme aux cheveux bleus."
+      },
+      {"date": "2026-10-24", "type": "plot", "texte": "Isaure demande à rejoindre ; elle recevra « le nécessaire »."},
+      {
+        "date": "2026-11-01",
+        "type": "fight",
+        "texte": "Impasse du quartier low-tier : se glisse derrière Marek, Odile, Sibyl et Tiago pendant que Vitalis les affronte."
+      }
+    ]
+  }
+}

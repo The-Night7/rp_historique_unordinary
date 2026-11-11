@@ -1,0 +1,19 @@
+{
+  "nom": "Isen",
+  "image": "https://lh3.googleusercontent.com/d/1JK9GbherdJVrfuJwRL_nDxegsqu4h-qQ=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Wellston (Jack)",
+    "taille": "183 cm (H)",
+    "type": "Enhancement",
+    "capacite": "Hunter",
+    "nature": "Attaque",
+    "stats_par_niveau": [
+      {"niveau": 4.8, "Power": 6, "Defense": 5, "Recovery": 3, "Trick": 6, "Speed": 3}
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Vision de prédateur brouillée",
+    "statut": "complète",
+    "recuperation": "Non désactivé : capacité retrouvée"
+  }
+}

@@ -1,8 +1,8 @@
+// Génère personnages/*.md (lecture seule) à partir de site/data/. Usage : node tools/export_md.js
 const fs=require('fs'),path=require('path');
 const root=path.join(__dirname,'..'),site=path.join(root,'site'),out=path.join(root,'personnages');
-global.window={};
-for(const f of ['data.js','curated.js','curated2.js','curated3.js','curated4.js','curated5.js','curated6.js','curated7.js'])eval(fs.readFileSync(path.join(site,f),'utf8'));
-const S=window.STATS,C=window.CURATED;
+const {loadAll}=require('./lib');
+const {STATS:S,CURATED:C}=loadAll();
 const fd=d=>{const [y,m,j]=d.split('-');return `${+j}/${m}`};
 const fdr=(a,b)=>b&&b!==a?`${fd(a)} → ${fd(b)}`:fd(a);
 const slug=n=>n.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');

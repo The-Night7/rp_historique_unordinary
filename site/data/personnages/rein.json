@@ -1,0 +1,37 @@
+{
+  "nom": "Rein",
+  "image": "https://lh3.googleusercontent.com/d/1P2xsfEKblAoiMgyfcnkey4WKGL6JR2Qq=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Agwin",
+    "taille": "~178 cm (F)",
+    "type": "Creation",
+    "capacite": "Arachnid",
+    "nature": "Défense",
+    "stats_par_niveau": [
+      {"niveau": 4.9, "Power": 4, "Defense": 6, "Recovery": 2, "Trick": 4, "Speed": 4}
+    ]
+  },
+  "parcours": {
+    "titre": "Dominée par Orrin",
+    "tag": "Agwin · Creation · Arachnid 4.9",
+    "resume": "Rein, aux pattes d'araignée, attaque Keito dans le dos, est poignardée au cou, piquée, enlevée, puis manipulée comme une marionnette par Orrin.",
+    "reperes": [
+      {
+        "date": "2026-10-20",
+        "type": "fight",
+        "texte": "Se place devant Keito : « personne ne perdra sa capacité aujourd'hui »."
+      },
+      {"date": "2026-10-21", "type": "arc", "texte": "Poignardée dans le cou, injectée dans la nuque."},
+      {
+        "date": "2026-10-22",
+        "type": "arc",
+        "texte": "Capacité impossible à activer ; contrôlée par Orrin, elle étrangle Telemachus sans s'en souvenir."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Piquée à la nuque, enlevée, dominée par Orrin",
+    "statut": "perdue",
+    "recuperation": "Capacité inactivable le 21–22 oct. ; sort non documenté ensuite"
+  }
+}

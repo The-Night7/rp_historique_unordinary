@@ -1,0 +1,36 @@
+{
+  "nom": "Ramlethal Valentine",
+  "image": "https://lh3.googleusercontent.com/d/1papqkkPZjgKaaZ0Vx03Qx8fLZfMBDBvM=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Agwin",
+    "taille": "167 cm (F)",
+    "type": "Detection",
+    "capacite": "Scanner",
+    "nature": "Stratège",
+    "stats_par_niveau": [
+      {"niveau": 1.4, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 2, "Speed": 1},
+      {"niveau": 1.6, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 2, "Speed": 1}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/1QV4m1LeM2aSghTOULf_ZJdHnEI-w07SO80T_KR-aWK8/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Ramlethal Valentine, 16 ans, Agwin. Niveau 1.4 (Low Tier), potentiel 5.7, aura vert jade."
+      },
+      {
+        "titre": "Capacité : Scanner",
+        "texte": "Elle scanne la structure énergétique d'une personne : nom et catégorie de la capacité au niveau actuel, puis niveau, statistiques et faiblesses à mesure qu'elle monte. En version médicale : radiographie vivante des blessures, qu'elle transmet au médecin de l'école. Elle ne soigne pas. Passif : conscience spatiale à 360°, à travers les murs sur 10 m."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Apathie sévère, mécanisme de défense : elle ne ressent ni colère ni tristesse, hormis une obsession pour les burgers."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Dernière d'une fratrie de Mid Tiers, bloquée à 1.4, rabaissée par ses parents et harcelée par ses frères et sœurs. À Agwin, elle passe son temps à l'infirmerie, où le médecin utilise son Scanner."
+      }
+    ]
+  }
+}

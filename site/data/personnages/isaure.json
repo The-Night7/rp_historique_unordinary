@@ -1,0 +1,134 @@
+{
+  "nom": "Isaure",
+  "image": "https://isaure-lazare.vercel.app/assets/ville-Bg6Zc44m.webp",
+  "fiche_unodex": {
+    "ecole": "—",
+    "taille": "—",
+    "type": "Status",
+    "capacite": "Debt",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 6.7, "Power": 6, "Defense": 10, "Recovery": 3, "Trick": 6, "Speed": 5}
+    ]
+  },
+  "parcours": {
+    "titre": "La fille de la dette",
+    "tag": "Debt 6.7 · Status",
+    "resume": "Isaure se bat blessée à la jambe pendant l'attaque et en sort avec un « certain objet ». Elle découvre qui est Arlequin, rejoint le groupe et tombe amoureuse de Beta.",
+    "reperes": [
+      {
+        "date": "2026-10-20",
+        "type": "fight",
+        "texte": "Sur la plage, immobilise des cagoulés et frappe, malgré une fatigue soudaine."
+      },
+      {
+        "date": "2026-10-21",
+        "type": "arc",
+        "texte": "Touchée à la jambe, voit des seringues dans la nuque de ses agresseurs ; part avec « un certain objet »."
+      },
+      {
+        "date": "2026-10-24",
+        "type": "arc",
+        "texte": "Clone le téléphone de Telemachus, voit ses photos et demande à intégrer Arlequin."
+      },
+      {"date": "2026-10-23", "type": "bond", "texte": "Premier rendez-vous avec Beta."},
+      {"date": "2026-10-25", "type": "evo", "texte": "Ses points d'évolution mentionnent un bonus EMBER."},
+      {
+        "date": "2026-10-28",
+        "type": "arc",
+        "texte": "« J'ai dû jouer le sac à frappe à cause de quelqu'un qui se pensait assez forte pour se frotter à EMBER. »"
+      },
+      {
+        "date": "2026-11-06",
+        "type": "arc",
+        "texte": "Avoue ses sentiments ; le 7 : « sortir avec une potentielle criminelle ? »."
+      },
+      {"date": "2026-11-08", "type": "bond", "texte": "« Je t'aime » dit à Beta."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://isaure-lazare.vercel.app/",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Isaure Lazare, 17 ans, Rowden, God Tier 6.7, potentiel Exo-god 9.9. Devise : « Elle rend toujours ce qu'on lui donne. »"
+      },
+      {
+        "titre": "Comportement",
+        "texte": "Calme, polie, presque trop. Elle tient des comptes sur tout (un service, une insulte, un coup) et ne supporte pas de devoir quoi que ce soit à personne. En combat elle ne frappe jamais la première et laisse l'autre s'engager. Elle prévient avant d'agir. Forte en biochimie : elle étudie les capacités et ce qu'elles demandent au corps."
+      },
+      {
+        "titre": "Pouvoir : Dette",
+        "texte": "Elle transforme les coups reçus en dettes. Le coup est mis en suspens dans son aura, grossit avec des intérêts (écart de niveau × 0,5 par tour, +0,5 toutes les 9 h hors combat) puis elle le rend en entier au contact, avec pour Power le montant de la dette. 16 comptes ouverts en même temps au God Tier, plafond de 25 par créancier. Une dette ne se rembourse qu'à son créancier."
+      },
+      {
+        "titre": "Stats",
+        "texte": "Power 6 · Defense 10 · Recovery 3 (+1,5 avec 3 créanciers) · Trick 6 · Speed 5. Passif (niv. 5.0) : elle récupère plus vite selon le nombre de créanciers."
+      },
+      {
+        "titre": "Registre en direct",
+        "texte": "Sa fiche affiche trois créanciers : Random (niv. 3,7, ouverte le 20 oct.), Farrah (6,5, le 25 oct. à 1 h, la nuit de Branish) et Valérie (7,5, le 3 nov., la nuit du quartier low-tier)."
+      },
+      {
+        "titre": "Aura et physique",
+        "texte": "Ambre sombre presque cuivre : à chaque coup emprunté, de fines lignes lumineuses « écrites dans un registre » s'inscrivent sur sa peau et s'effacent au remboursement. Cheveux noirs courts à reflets bleutés, yeux noirs reflet cuivre, un livre à la main où elle note ses comptes."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Père ruiné au jeu : toute son enfance, des gens sont venus réclamer ce qu'on leur devait, et c'est souvent elle qui ouvrait. Sa capacité s'est éveillée le soir où l'un d'eux a levé la main sur elle : le coup n'a rien fait, et l'homme l'a repris en pleine figure. Elle rembourse encore les dettes de son père. Son niveau lui a ouvert Rowden avec une bourse, où elle découvre qu'une God Tier n'a en théorie de comptes à rendre à personne, ce qu'elle n'aime pas."
+      }
+    ]
+  },
+  "chronologie_fiche": [
+    {
+      "titre": "La plage de Westview",
+      "quand": "jour de la sortie",
+      "texte": "Isaure reste sur le sable avec Telemachus, Remi, Morgane, Rein, Louis et Keito. Elle va voir Louis, qui dessinait le groupe et la supplie de ne pas le frapper : « Je ne compte pas te frapper. Je suis juste curieuse. » Une onde divise les capacités par deux, Keito (8,8) se lève et les trahit, un cercle de flammes bleues enferme le groupe et une impulsion coupe les téléphones."
+    },
+    {
+      "titre": "Isaure tient les tireurs",
+      "quand": "jour de la sortie",
+      "texte": "Telemachus lui confie les plus faibles. Elle immobilise un agresseur mais son toucher l'endort. Réveillée, oubliée de tous, elle met les tireurs hors d'état un par un. Keito plante une seringue dans le cou de Rein, Telemachus se rend pour épargner les autres, Isaure prend une balle dans la jambe en courant vers Rein. Quand la police arrive, elle est partie, « un certain objet » au fond de la poche."
+    },
+    {
+      "titre": "Le téléphone qui n'était pas le sien",
+      "quand": "le lendemain",
+      "texte": "Elle percute Beta dans une rue de Westview. Son téléphone ne s'ouvre plus : c'est celui de Telemachus, échangé pendant le combat (il sonne sous le nom « Ma Circe », Lucina). Au centre commercial, Beta la guide ; elles parlent de Power, que Beta refuse qu'Isaure « occupe ». Elles échangent leurs numéros."
+    },
+    {
+      "titre": "Le roi des fées",
+      "quand": "le même jour",
+      "texte": "Elle écrit à Telemachus : « Je sais pour ton petit passe-temps. Le roi des fées, c'est toi. » Elle a cloné son téléphone et vu les photos, elle veut en être. Il demande son adresse : « Tu recevras le nécessaire. Ne parle jamais sous le casque. Supprime cet échange. » Le soir, elle déballe un colis et sourit."
+    },
+    {
+      "titre": "Arlequin à Branish",
+      "quand": "le lendemain soir",
+      "texte": "Vitalis vient de chasser des amplifiés quand Fury, agente d'EMBER, la lacère. Arlequin, une dague dans le dos de Fury, se met entre elles, prend les coups à la place de Vitalis « dette après dette », puis rembourse d'un poing de Power 20,2 que Fury esquive. Elle se présente sur une ardoise : membre des Arlequins, qui portent tous la même tenue pour brouiller les pistes."
+    },
+    {
+      "titre": "Le sac lourd",
+      "quand": "les jours suivants",
+      "texte": "Elle s'entraîne à encaisser plutôt qu'à frapper : « Speed 5. Je ne gagnerai jamais à la course. Alors je n'ai pas besoin de courir. »"
+    },
+    {
+      "titre": "Beta à l'appartement",
+      "quand": "quelques jours plus tard",
+      "texte": "Beta la soigne et sent toutes les blessures de Branish. Isaure parle d'une mauvaise rencontre. À l'occasion du thé, elle propose les collines puis la patinoire « pour un prochain date »."
+    },
+    {
+      "titre": "La colline de Rowden",
+      "quand": "le même jour",
+      "texte": "Elle avoue à Beta ce qu'elle fait la nuit : aider les plus démunis dans des quartiers comme Branish, avec les Arlequins, sans jamais montrer sa capacité. Beta promet le secret. Elles regardent le coucher du soleil, tête contre tête."
+    },
+    {
+      "titre": "Un troisième date",
+      "quand": "le même soir",
+      "texte": "Chez Isaure : repas préparé ensemble, vaisselle, carnet où elle consigne ses journées. « Comment pourrais-je te demander un troisième date si tu es en train de dormir ? »"
+    },
+    {
+      "titre": "Sur le toit, Arlequin attend",
+      "quand": "une nuit, quartier low-tier",
+      "texte": "Marek, Odile, Sibyl et Tiago occupent une ruelle. Sur un autre toit, Arlequin attend, « prête à descendre au premier mouvement ». Vitalis leur propose de se rendre ; Arlequin atterrit derrière le groupe. Le combat ne fait que commencer."
+    }
+  ]
+}

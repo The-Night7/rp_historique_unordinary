@@ -1,0 +1,35 @@
+{
+  "nom": "Vitalis",
+  "image": "https://cdn.tupperbox.app/pfp/558346805339750400/MTR5_tiEEGDf8uGO.webp",
+  "fiche_unodex": {
+    "ecole": "Vigilante",
+    "taille": "—",
+    "type": "Cure",
+    "capacite": "Life Steal",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 6.3, "Power": 6, "Defense": 4, "Recovery": 11, "Trick": 5, "Speed": 2}
+    ]
+  },
+  "parcours": {
+    "titre": "Life Steal, ennemie d'Ember",
+    "tag": "Vigilante · Cure 6.3",
+    "resume": "Haute de 2 m, Vitalis récupère en frappant. Sur la plage (sous le pseudo « Morgane », même fiche Life Steal 6.3), elle est divisée par deux et blessée. Elle poursuit ensuite les amplificateurs d'Ember.",
+    "reperes": [
+      {"date": "2026-10-12", "type": "fight", "texte": "Lance un couteau dans une fiole à Grasshill."},
+      {"date": "2026-10-20", "type": "fight", "texte": "Sur la plage : encaisse Keito, guérit plus lentement."},
+      {"date": "2026-10-22", "type": "arc", "texte": "Toujours hospitalisée avec la plupart de ses blessures."},
+      {
+        "date": "2026-10-23",
+        "type": "fight",
+        "texte": "Attaque des amplifiés à Branish ; dit qu'il n'y avait plus d'atténuateur cette fois."
+      },
+      {"date": "2026-11-02", "type": "fight", "texte": "Brûlée par Volcan : les flammes ralentissent sa guérison."}
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Niveau divisé, guérison ralentie",
+    "statut": "complète",
+    "recuperation": "Se soigne totalement le 25 oct. (onde curative) ; plus d'atténuateur le 23"
+  }
+}

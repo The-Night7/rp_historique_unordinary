@@ -1,0 +1,14 @@
+{
+  "nom": "Volcan",
+  "parcours": {
+    "titre": "Agent exécutif d'Ember",
+    "tag": "Ember · Vigilante · Barrier+ 7.5",
+    "resume": "Volcan vend les fioles, teste leurs effets sur les clients, puis les exécute pour avoir été « trop gourmands » ; elle est aussi partie au complot visant à contrôler les justiciers.",
+    "reperes": [
+      {"date": "2026-08-27", "type": "plot", "texte": "Complot avec Lighter."},
+      {"date": "2026-10-12", "type": "fight", "texte": "Vend les fioles de Grasshill et combat Vitalis."},
+      {"date": "2026-10-28", "type": "plot", "texte": "Lighter l'interroge sur une drogue qui supprime les capacités."},
+      {"date": "2026-11-02", "type": "fight", "texte": "Écrase quatre amplifiés, brûle Vitalis."}
+    ]
+  }
+}

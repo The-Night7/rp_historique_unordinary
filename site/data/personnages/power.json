@@ -1,0 +1,49 @@
+{
+  "nom": "Power",
+  "image": "https://lh3.googleusercontent.com/d/1d0AwZaKthgp2M9MFUbQX038AO1DwZ-C9=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview",
+    "taille": "173 cm (F)",
+    "type": "Quantum",
+    "capacite": "Graviton",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 4.8, "Power": 6, "Defense": 5, "Recovery": 2, "Trick": 7, "Speed": 3},
+      {"niveau": 4.9, "Power": 6, "Defense": 5, "Recovery": 2, "Trick": 7, "Speed": 3}
+    ]
+  },
+  "parcours": {
+    "titre": "La grande terreur de Westview",
+    "tag": "Westview · Graviton 4.8 → 4.9",
+    "resume": "Elle frappe tout ce qui est sous 4.5. Son arc : de la brute à une élève qui écoute Beta, jusqu'à la chute face à Telemachus.",
+    "reperes": [
+      {"date": "2026-08-16", "type": "fight", "texte": "Tabasse Kaïra (1.8)."},
+      {"date": "2026-08-25", "type": "fight", "texte": "Rate Beta, finit à l'hôpital."},
+      {"date": "2026-08-27", "type": "arc", "texte": "Apprend à viser avec Beta : « Toi, je ne te toucherai plus »."},
+      {"date": "2026-08-31", "type": "fight", "texte": "Combat sur le toit contre Telemachus."},
+      {"date": "2026-09-06", "type": "fight", "texte": "S'effondre KO."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/1S2Dol6hi5fX252Oklghjm67KPcBjUeIkaDPJjyvReTI/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Power Chisio, 16 ans, Westview, niveau 4.8, potentiel 10.0 (Exo God Tier), aura jaune dorée."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Charismatique, redoutée, tyrannique. Elle méprise les Impotents et croit véritablement au droit naturel des puissants à gouverner les faibles : pour elle ce n'est pas de la cruauté gratuite mais l'ordre naturel des choses."
+      },
+      {
+        "titre": "Capacité : Graviton",
+        "texte": "Manipulation de la gravité locale sur environ huit mètres : alourdir un adversaire, alléger son propre poids pour bondir, champs gravitationnels pour détourner un projectile. Elle exige ligne de vue, précision mentale et endurance nerveuse. Passif : sensibilité gravitationnelle accrue."
+      },
+      {"titre": "Stats", "texte": "Power 6 · Défense 5 · Recovery 2 · Trick 7 · Speed 3."},
+      {
+        "titre": "Histoire",
+        "texte": "Lignée High Tier : père CEO God Tier (6.6), mère maîtresse d'un pouvoir de destruction (5.8). Enfance rythmée par des duels organisés par ses parents contre d'autres enfants de la haute société. Cette pression et les humiliations des échecs font naître sa rage et son mépris des plus faibles. À Westview, elle reproduit la hiérarchie familiale."
+      }
+    ]
+  }
+}

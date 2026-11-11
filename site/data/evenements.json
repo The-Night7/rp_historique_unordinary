@@ -1,0 +1,535 @@
+[
+  {
+    "date": "2026-08-12",
+    "fin": "2026-08-17",
+    "titre": "Julia vole au secours de Leonie",
+    "type": "rencontre",
+    "lieu": "Rue de Wellston",
+    "personnages": ["Julia","Leonie"],
+    "texte": "Leonie (Agwin, 2.2) se fait bousculer par deux élèves de niveau ~3. Julia intervient par télépathie depuis un banc, puis les met à terre. Premier contact, Leonie confie son rêve de devenir « aussi puissante que toi »."
+  },
+  {
+    "date": "2026-08-15",
+    "fin": "2026-08-18",
+    "titre": "Power tabasse Kaïra (1.8)",
+    "type": "combat",
+    "lieu": "Parc de Westview",
+    "personnages": ["Power","Kaïra","Mitsu"],
+    "texte": "Power, qui frappe tout ce qui est sous 4.5, humilie Kaïra. Mitsu la relève et l'aide à remarcher. Début de la réputation de « grande terreur » de Westview."
+  },
+  {
+    "date": "2026-08-18",
+    "fin": "2026-08-22",
+    "titre": "Premier jour : Soren et Julia",
+    "type": "rencontre",
+    "lieu": "Lycée de Wellston",
+    "personnages": ["Soren","Julia"],
+    "texte": "Deux nouveaux au lycée, tous deux mal à l'aise dans la foule. Ils s'apprivoisent dans les couloirs (échange de numéros le 29 août)."
+  },
+  {
+    "date": "2026-08-19",
+    "fin": "2026-08-22",
+    "titre": "L'entraînement qui tourne mal : Leonie possède Kaïra",
+    "type": "rencontre",
+    "lieu": "Parc de Westview → Hôpital",
+    "personnages": ["Leonie","Kaïra","Mitsu"],
+    "texte": "Pour s'entraîner, Leonie prend possession de Kaïra. Mitsu garde le corps inconscient sur le banc, Kaïra se rend à l'hôpital dans le corps possédé. Leonie rencontre ensuite Mitsu, un des rares hauts niveaux à lui parler sans mépris."
+  },
+  {
+    "date": "2026-08-22",
+    "titre": "Ice contre Mitsu sur la plage",
+    "type": "combat",
+    "lieu": "Plage de Westview",
+    "personnages": ["Ice","Mitsu","Marc","Telemachus"],
+    "texte": "Ice plante un pic de glace dans l'épaule de Mitsu. Marc et Telemachus assistent à la scène ; Marc analyse déjà tout le monde avec son Passif."
+  },
+  {
+    "date": "2026-08-22",
+    "fin": "2026-08-23",
+    "titre": "Irene et Elizabeth Shaw débattent du « potentiel »",
+    "type": "rencontre",
+    "lieu": "Centre commercial d'Agwin",
+    "personnages": ["Irene","Elizabeth Shaw"],
+    "texte": "L'As d'Agwin (7.4) et une royale de Westview (4.4) discutent de ce que veut dire être fort, sous la pluie, au centre commercial."
+  },
+  {
+    "date": "2026-08-23",
+    "fin": "2026-08-26",
+    "titre": "★ Affrontement inter-écoles Agwin vs Westview",
+    "type": "tournant",
+    "lieu": "Zone Turf Wars",
+    "personnages": ["Hizo Vertini","Mitsu","Irene","Ice","Telemachus","Beta","Rein","Marc"],
+    "texte": "Le grand événement de la rentrée. Hizo (roi d'Agwin) tient tête à Mitsu mais repart blessé, sur une canne artisanale ; Irene écrase Ice avec une sphère de pression, sans que celle-ci n'abandonne ; Beta soigne jusqu'à l'épuisement. L'item « FIN AFFRONTEMENT » est consommé le 26."
+  },
+  {
+    "date": "2026-08-24",
+    "fin": "2026-08-29",
+    "titre": "Beta tient tête à Power",
+    "type": "rencontre",
+    "lieu": "Cour & salle de classe de Westview",
+    "personnages": ["Beta","Power"],
+    "texte": "Power voit en Beta un « nouveau jouet ». La soigneuse (3.2) la bat par la ruse, puis lui apprend à mieux viser. Power décide de ne plus la toucher mais continuera avec les autres bas niveaux."
+  },
+  {
+    "date": "2026-08-25",
+    "fin": "2026-08-26",
+    "titre": "Kael renverse son plateau sur Issei",
+    "type": "combat",
+    "lieu": "Cantine du lycée de Wellston",
+    "personnages": ["Kael","Issei"],
+    "texte": "Un accident (la sauce) dégénère. Kael sort ses Dark Blades ; Issei finit à l'infirmerie. Kael, nouveau depuis deux semaines, fait ses premiers points de combat."
+  },
+  {
+    "date": "2026-08-25",
+    "fin": "2026-08-28",
+    "titre": "Hizo et Kaito Vance : la justice en question",
+    "type": "plot",
+    "lieu": "Starbucks d'Agwin",
+    "personnages": ["Hizo Vertini","Kaito Vance"],
+    "texte": "L'avocat-justicier Kaito laisse sa carte à Hizo après un débat sur les justiciers qui corrompent ou contournent la justice. Hizo lui évoque une « vieille affaire » personnelle."
+  },
+  {
+    "date": "2026-08-27",
+    "titre": "Lighter × Volcan : contrôler les justiciers",
+    "type": "plot",
+    "lieu": "Messagerie privée",
+    "personnages": ["Volcan"],
+    "texte": "Lighter propose à Volcan (« Madame », en DM) de se faire passer pour un niveau 5.8 afin de contrôler le mouvement des justiciers ; le 28 il évoque une technologie capable de priver quelqu'un de ses capacités. Le 28 octobre, Lighter demandera si elle connaît l'existence d'une drogue qui supprime les capacités — premier lien explicite avec les injections de l'attaque."
+  },
+  {
+    "date": "2026-08-27",
+    "fin": "2026-08-28",
+    "titre": "Void, Kuyo et Le Pinceau contre des amplifiés",
+    "type": "vigilante",
+    "lieu": "Lovun",
+    "personnages": ["Void","Kuyo","Le Pinceau","Parish","Arin","Thomas","Cynthia"],
+    "texte": "Une patrouille nocturne affronte six « soldats » dopés aux amplificateurs : Parish (niveau 4.8 poussé à ~5.9, 12 de Speed) domine un moment. Kuyo exige qu'on lui rende les amplificateurs, les détruit, et veut laisser les adversaires en vie par peur d'Ember. Void abat Parish, inconsciente, d'une balle ; il explique que ses balles contiennent une drogue artisanale censée faire passer la mort pour une overdose à l'autopsie. Le Pinceau lui demande s'il travaille pour Ember : « trop laxistes à mes yeux »."
+  },
+  {
+    "date": "2026-08-27",
+    "fin": "2026-09-05",
+    "titre": "Arlequin : une identité qui se partage",
+    "type": "vigilante",
+    "lieu": "Zone sans surveillance, Grasshill, Lovun",
+    "personnages": ["Arlequin","Telemachus"],
+    "texte": "Casque intégral, jamais un mot sous le casque. Telemachus (qui copie les capacités de ses adversaires) assomme Fice, vend les fioles « à 250 $, vendues par des types masqués en noir », puis pose la question qui le hante : qui est l'homme aux cheveux bleus ? À Grasshill il copie les capacités de cinq adversaires. Pour qu'« un seul Arlequin » devienne « un brouillard », il fabrique un faux buste : l'Arlequin qui arrive à Lovun « avait de la poitrine » ; la Grape Vine titre « Combien de personnes se cachent sous le casque ? »"
+  },
+  {
+    "date": "2026-08-29",
+    "titre": "« Des justiciers ou des meurtriers ! »",
+    "type": "plot",
+    "lieu": "Réseaux sociaux",
+    "personnages": [],
+    "texte": "Le Creek West Daily News s'indigne des justiciers masqués. Il accuse notamment l'un d'eux, présenté comme capable de répliquer plusieurs pouvoirs par la technologie, de créer des drogues et de droguer des citoyens pour justifier ses meurtres. La Grape Vine reprend les exploits d'Arlequin (29 août, 5 septembre)."
+  },
+  {
+    "date": "2026-08-29",
+    "fin": "2026-09-06",
+    "titre": "★ Duel Telemachus × Power : un pacte sur le toit",
+    "type": "tournant",
+    "lieu": "Toit du lycée de Westview",
+    "personnages": ["Telemachus","Power","Beta","Mitsu"],
+    "texte": "Dans une salle de classe, Beta apprend à Power à mieux utiliser sa gravité en échange d'une paix pour les bas niveaux ; Power réclame un cobaye et désigne le roi et le valet. Telemachus accepte à la place de Mitsu, à une condition : si elle attaque encore un élève non consentant, c'est fini. Sur le toit, il soigne d'abord l'entaille que Beta cachait sous un pansement et la jambe de Power. Il amplifie la gravité autour de lui à 10 G, lui inflige la douleur de la « moitié sombre » de Sanity Control, régénère sa main broyée et lui arrache le deuxième tendon ; Power s'effondre KO le 6 septembre, il la soigne."
+  },
+  {
+    "date": "2026-08-31",
+    "fin": "2026-09-07",
+    "titre": "La lettre de Kaito à Hizo",
+    "type": "plot",
+    "lieu": "Chez Hizo",
+    "personnages": ["Hizo Vertini","Kaito Vance"],
+    "texte": "Une enveloppe poussiéreuse : une clé USB avec les photos de trois personnes responsables de la mort des proches de Hizo. Il lance un appel le 4 septembre ; quelqu'un répond le 7 (bruit de moteur)."
+  },
+  {
+    "date": "2026-09-01",
+    "fin": "2026-09-02",
+    "titre": "Hizo croise Irene : « tu es trop faible »",
+    "type": "rencontre",
+    "lieu": "Centre-ville d'Agwin",
+    "personnages": ["Hizo Vertini","Irene"],
+    "texte": "Hizo reconnaît avoir perdu face au « valet » de Westview. Irene lui rappelle qu'il reste roi tant qu'il ne rend pas son titre à Broven. Il redoute Void, capable lui aussi d'intangibilité."
+  },
+  {
+    "date": "2026-09-01",
+    "fin": "2026-09-02",
+    "titre": "Ablaze vend des amplificateurs « pour les tests d'Ember »",
+    "type": "plot",
+    "lieu": "Quartiers de Wellston",
+    "personnages": ["Ablaze","Lucian Hale","Le Pinceau"],
+    "texte": "Ablaze (fiche Ember) écoule des drogues amplificatrices à des gens « dans le besoin » pour les tests d'Ember et met en garde Le Pinceau. Lucian Hale rejoint Wellston avec un stock acheté au marché noir pour le revendre."
+  },
+  {
+    "date": "2026-09-01",
+    "fin": "2026-09-03",
+    "titre": "Beta consulte le professeur Elias",
+    "type": "rencontre",
+    "lieu": "Lycée de Wellston",
+    "personnages": ["Beta","Elias"],
+    "texte": "Beta a des soucis de capacité (pertes temporaires). Le professeur Elias lui conseille de pratiquer, de se reposer, et de revenir en cas de problème."
+  },
+  {
+    "date": "2026-09-03",
+    "fin": "2026-09-05",
+    "titre": "Arlequin démantèle un gang à Lovun",
+    "type": "vigilante",
+    "lieu": "Lovun",
+    "personnages": ["Arlequin","Virginia","Hugo","Raddix","Lennon","Magalie","Mei"],
+    "texte": "Six adversaires, Arlequin les met un à un hors-jeu, ligote Hugo et Virginia et prend une photo. La Grape Vine le surnomme le « Justicier de l'ombre »."
+  },
+  {
+    "date": "2026-09-04",
+    "fin": "2026-09-05",
+    "titre": "Dossier fédéral contre les justiciers",
+    "type": "plot",
+    "lieu": "Bureau de Wellston",
+    "personnages": ["Valerie","Adrien"],
+    "texte": "Valérie confirme l'identité de deux jeunes justiciers et cherche à destituer le directeur Vaughn, peu coopératif avec le bureau. Adrian reste prudent."
+  },
+  {
+    "date": "2026-09-05",
+    "fin": "2026-09-07",
+    "titre": "Telemachus retrouve son frère adoptif Keito",
+    "type": "lien",
+    "lieu": "Café tranquille de Rowden",
+    "personnages": ["Telemachus","Keito"],
+    "texte": "Café entre frères : taquineries sur sa vie sentimentale, les cours, la moto. Keito paye."
+  },
+  {
+    "date": "2026-09-05",
+    "fin": "2026-09-11",
+    "titre": "Soren à Rowden : Silas, Louis, Keito",
+    "type": "rencontre",
+    "lieu": "Colline de Rowden",
+    "personnages": ["Soren","Silas","Louis","Keito"],
+    "texte": "Soren part en balade et rencontre Silas (muet, calepin) et Louis (suspicieux, craint le « bureau »). Keito, roi de Rowden, domine la colline."
+  },
+  {
+    "date": "2026-09-06",
+    "fin": "2026-09-08",
+    "titre": "Telemachus et Lucina se rapprochent",
+    "type": "lien",
+    "lieu": "Toit de Westview",
+    "personnages": ["Telemachus","Lucina"],
+    "texte": "Telemachus la rattrape quand elle glisse, ils s'accordent sur un dîner. Leur duo reviendra les 23-24 octobre."
+  },
+  {
+    "date": "2026-09-07",
+    "fin": "2026-09-08",
+    "titre": "Les royaux d'Agwin se réunissent",
+    "type": "plot",
+    "lieu": "Lycée d'Agwin",
+    "personnages": ["Irene","Ramlethal Valentine","Hizo Vertini"],
+    "texte": "Irene demande à Ramlethal d'aller chercher Hizo et Johaness. Hizo dort sur le toit, puis traverse le sol vers le bureau du proviseur."
+  },
+  {
+    "date": "2026-09-08",
+    "titre": "Marc défie Kael à la vieille maison",
+    "type": "combat",
+    "lieu": "Vieille maison, Wellston",
+    "personnages": ["Marc","Kael"],
+    "texte": "Marc cherche des 1v1 pour étoffer ses « données » ; Kael accepte à contrecœur. Marc enregistre : invocation de lames d'ombres, défense basse."
+  },
+  {
+    "date": "2026-09-11",
+    "fin": "2026-09-22",
+    "titre": "★ Rassemblement inter-écoles",
+    "type": "tournant",
+    "lieu": "Gymnase de Westview",
+    "personnages": ["Telemachus","Beta","Mitsu","Ice","Irene","Hizo Vertini","Julia","Leonie","Lucina","Marc"],
+    "texte": "Les quatre proviseurs réunissent les élèves : trois zones d'entraînement (combat, théorie, soutien), yeux bandés pour certains. Cours de théorie le 17, exercices en binômes le 22 (Telemachus × Marc, Lucina × Ice). Issei est emmené à l'infirmerie."
+  },
+  {
+    "date": "2026-09-22",
+    "fin": "2026-09-29",
+    "titre": "Laura croise Soren puis Louis",
+    "type": "rencontre",
+    "lieu": "Agwin → Rowden",
+    "personnages": ["Laura","Soren","Louis"],
+    "texte": "Laura (3.5, Agwin) se promène en uniforme, aide Soren, puis Louis lui montre le chemin de la bibliothèque à Rowden."
+  },
+  {
+    "date": "2026-10-06",
+    "fin": "2026-10-07",
+    "titre": "Arlequin « elle » contre Dorso, Vesna, Brann, Jax et Nell",
+    "type": "vigilante",
+    "lieu": "Zone sans surveillance",
+    "personnages": ["Arlequin"],
+    "texte": "Les cinq attendaient une livraison. Arlequin, cette fois en femme pour les brouiller, renvoie en cône l'onde de choc de Dorso, copie la peau de pierre de Brann (« C'est le mien »), puis interroge Vesna par écrit : le fournisseur est un homme en long manteau noir, chapeau et masque, aux cheveux bleus, qui fixe jour et lieu, donne les doses, prend l'argent et repart à pied. Arlequin laisse un papier : « Nous sommes Arlequin. »"
+  },
+  {
+    "date": "2026-10-10",
+    "fin": "2026-10-13",
+    "titre": "Grasshill : Volcan vend les fioles, Vitalis les brise",
+    "type": "combat",
+    "lieu": "Grasshill",
+    "personnages": ["Volcan","Vitalis","Ilya","Garance","Tobias"],
+    "texte": "Volcan, agent exécutif d'Ember (griffes de flammes), vend douze fioles au gang (effet : environ 40 minutes, tremblements). Vitalis lance un couteau qui brise une fiole. Ilya avale la sienne par panique ; Garance boit celle de Tobias, tombé ; Volcan teste « ce que valent mes fioles ». Vitalis s'enfuit avec la mallette d'amplificateurs, et Garance touche Volcan avant la débâcle."
+  },
+  {
+    "date": "2026-10-12",
+    "fin": "2026-10-15",
+    "titre": "Void contre Silvio, Rocco et Mara",
+    "type": "vigilante",
+    "lieu": "Lovun",
+    "personnages": ["Void","Silvio","Rocco","Mara"],
+    "texte": "Void, justicier radical, fait le ménage chez les voleurs. Silvio surgit en applaudissant : « Tout le quartier te cherche ». Négociation puis combat ; Void s'enfonce dans le sol pour surprendre Rocco."
+  },
+  {
+    "date": "2026-10-18",
+    "titre": "Ice digère sa défaite",
+    "type": "lien",
+    "lieu": "Toit de Westview",
+    "personnages": ["Ice","Telemachus"],
+    "texte": "Au déjeuner, Telemachus la rassure : elle n'a manqué que d'observation face à Irene. Ice vient de passer 5.6."
+  },
+  {
+    "date": "2026-10-20",
+    "titre": "Sortie scolaire : trois groupes (plage, randonnée, ville)",
+    "type": "plot",
+    "lieu": "Plage / Limite de la ville / Rue",
+    "personnages": [
+      "Blyke",
+      "Telemachus",
+      "Keito",
+      "Isaure",
+      "Louis",
+      "Lucina",
+      "Beta",
+      "Hizo Vertini",
+      "Julia",
+      "Kael",
+      "Mitsu",
+      "Kaïra",
+      "Laura",
+      "Leonie",
+      "Isen",
+      "Arlo",
+      "John"
+    ],
+    "texte": "Blyke répartit les élèves : plage (Telemachus, Isaure, Lucina en « Remi », Louis, Keito, la 2 m « Morgane » et Rein), randonnée (Beta en « Arlo », Blyke, Isen, Julia, Hizo, Lucina) et ville (Kaïra, Kael, Laura, Leonie, Mitsu, John, « Terrence »). À l'écran, certains joueurs incarnent un autre personnage : Beta joue Arlo, Telemachus joue Isen et Terrence, Lucina joue Remi."
+  },
+  {
+    "date": "2026-10-20",
+    "fin": "2026-10-21",
+    "titre": "★ L'atténuateur : niveaux divisés par deux",
+    "type": "tournant",
+    "lieu": "Les trois groupes",
+    "personnages": [
+      "Keito",
+      "Telemachus",
+      "Blyke",
+      "Isen",
+      "Lucina",
+      "Arlo",
+      "Beta",
+      "Remi",
+      "Kaïra",
+      "Laura",
+      "John",
+      "Kael",
+      "Mitsu",
+      "Louis"
+    ],
+    "texte": "Un frisson, puis une IEM coupe tous les téléphones. Les capacités chutent : « nos niveaux viennent d'être divisés par deux » (John, qui a déjà croisé ces hommes) ; Blyke ne produit qu'un filet d'énergie, la vision d'Isen se brouille, Lucina ne peut plus manipuler les autres et ne relie plus que quelques esprits, Arlo sent sa barrière faiblir, Kael et Kaïra produisent des lames plus petites, Mitsu une faux qui dégage moins d'aura, Laura ne peut plus protéger personne, Leonie ne peut plus posséder. Kaïra estime l'effet à environ 1 h. Keito, lui, y est bien moins sensible."
+  },
+  {
+    "date": "2026-10-20",
+    "fin": "2026-10-21",
+    "titre": "Plage : Keito trahit le groupe",
+    "type": "combat",
+    "lieu": "Plage de Westview",
+    "personnages": ["Keito","Telemachus","Remi","Rein","Morgane","Isaure","Louis"],
+    "texte": "Keito (8.8) se révèle du côté des masqués, cercle de flammes bleues autour du groupe. Telemachus refuse d'y croire (« tu ne peux pas être Keito »). Morgane (2 m) encaisse et riposte mais, divisée par deux, guérit moins vite ; Remi et Telemachus combinent la foudre. Son niveau, divisé par deux par l'atténuateur (~4.4), est revenu à 8.8 une fois l'effet dissipé. Rein le prend à revers, puis se vide de son sang (coup dans le cou)."
+  },
+  {
+    "date": "2026-10-21",
+    "titre": "Randonnée : l'encerclement par Liam et les masqués",
+    "type": "combat",
+    "lieu": "Limite de la ville",
+    "personnages": ["Arlo","Blyke","Isen","Beta","Lucina","Julia","Hizo Vertini","Liam"],
+    "texte": "Arlo tient la barrière, Blyke et Isen guident vers l'endroit où l'arc des masqués est le moins serré, Lucina relie ses compagnons par télépathie. Liam, flaque d'eau devenue silhouette, noie presque Julia dans une bulle. Hizo, caché, force sa vibration pour faire passer certains à travers le sol, mais moins longtemps que d'habitude. Beta, dont la capacité revient vers 21:30, retourne à l'attaque avec des douleurs plus rapides."
+  },
+  {
+    "date": "2026-10-21",
+    "titre": "Ville : John, Kael et Mitsu pris pour cibles",
+    "type": "combat",
+    "lieu": "Rue de Westview",
+    "personnages": ["John","Kael","Mitsu","Kaïra","Laura","Leonie","Terrence"],
+    "texte": "Des tirs de laser (environ niveau 6) visent John et Kael, un tireur à frappe sismique martèle Kael, un « bastion » bloque la lame lancée par Mitsu, qui reçoit trois tirs et perd l'usage de sa jambe droite. John a compris que Terrence était dans le coup (« traître »). Laura, blessée, rampe à couvert. À 21:04 une silhouette immobilise John et lui injecte une solution ; il copie quand même les capacités de Laura et Mitsu avant de s'évanouir."
+  },
+  {
+    "date": "2026-10-21",
+    "titre": "★ Injections dans la nuque et enlèvements",
+    "type": "tournant",
+    "lieu": "Plage / Limite / Rue",
+    "personnages": ["Telemachus","Keito","Rein","Lucina","Kael","John","Hizo Vertini","Isaure"],
+    "texte": "Rein reçoit un produit dans la nuque (sur la plage) ; Keito injecte lui-même Telemachus (« fais un petit dodo ») et l'emporte sur l'épaule ; un téléporteur pique Lucina puis l'enlève, et emmène aussi Kael ; Liam injecte Hizo ; John est piqué dans la rue. Isaure, touchée à la jambe, voit des seringues plantées dans la nuque de ses agresseurs et éprouve une fatigue soudaine. Des sbires préviennent : « l'atténuateur va cesser son effet ». La police arrive 5, 15 et 20 minutes plus tard selon le groupe."
+  },
+  {
+    "date": "2026-10-21",
+    "fin": "2026-10-22",
+    "titre": "★ Le marché d'Orrin : 25 % de capacité en échange de services",
+    "type": "tournant",
+    "lieu": "Salle de recharge, base Spectre de Wellston",
+    "personnages": ["Telemachus","Lucina","Kael","Rein","Orrin","Keito"],
+    "texte": "Réveil 24 h plus tard : nausée, vomissements. Keito, recruté par Orrin, tient une barrière de feu entre Telemachus et Lucina. Les capacités ne s'activent plus. Orrin impose le marché (capacités contre services, sinon impotents à vie), fait étrangler Telemachus par Rein dominée, puis règle sa machine à 25 % : Lucina d'abord (dix minutes de sommeil), Kael, Rein, Telemachus. La machine « retire » aussi, par une sensation précise que Telemachus reconnaît. Il impose aussi un verrou : impossible de parler d'Orrin ou du lieu. Recharge d'environ une semaine. Lucina récupère de quoi lire les pensées mais plus rien pour les contrôler ; elle et Telemachus tombent sous le niveau 2."
+  },
+  {
+    "date": "2026-10-22",
+    "fin": "2026-10-24",
+    "titre": "« Un quart » : Telemachus et Lucina sous le niveau 2",
+    "type": "lien",
+    "lieu": "Wellston, café Woaba Boba, centre commercial de Westview",
+    "personnages": ["Telemachus","Lucina","Isaure"],
+    "texte": "Ils font le compte à Wellston : tous deux sous le niveau 2, aura bouchée, fourmillements constants chez lui. Pour récupérer le portable de Telemachus, Lucina et lui roulent une heure jusqu'au centre commercial ; elle a les jambes engourdies et renverse deux pots de plantes en entrant."
+  },
+  {
+    "date": "2026-10-22",
+    "fin": "2026-10-28",
+    "titre": "Hôpital : John et Hizo ne retrouvent pas leur capacité",
+    "type": "plot",
+    "lieu": "Hôpital de Westview",
+    "personnages": ["John","Hizo Vertini","Kaito Vance","Mitsu","Louis","Julia","Kaïra","Laura"],
+    "texte": "24 h après l'attaque, 4 élèves sont portés disparus ; John et Hizo, inconscients, se réveillent le 22 : vomissements, capacité impossible à activer. Kaito Vance prélève le sang d'Hizo, cherche un remède et note que plusieurs étudiants ont disparu avant d'être « retrouvés » ; Hizo se demande s'il est lié à Void. Mitsu sort le 24, Laura le 23 ; Louis, Julia, Mitsu et Kaïra s'y croisent et se lient."
+  },
+  {
+    "date": "2026-10-22",
+    "fin": "2026-10-29",
+    "titre": "Récupérations partielles : Lucina, Telemachus, Beta",
+    "type": "lien",
+    "lieu": "Westview",
+    "personnages": ["Lucina","Telemachus","Beta","Kael"],
+    "texte": "22 oct. : Beta a récupéré sa capacité ; Lucina, elle, « n'a quasiment plus rien » (ni sorts offensifs ni de soutien). 24–29 oct. : Telemachus médite pour élargir le « mince filet » d'aura laissé par la seringue et qui bute sur un « bouchon » ; chaque séance le fissure un peu plus. 28 oct. : Lucina confie à Ice sa capacité « affaiblie voire disparue »."
+  },
+  {
+    "date": "2026-10-23",
+    "fin": "2026-10-24",
+    "titre": "Le téléphone d'Isaure",
+    "type": "lien",
+    "lieu": "Rue, café, centre commercial de Westview",
+    "personnages": ["Isaure","Beta","Telemachus","Lucina"],
+    "texte": "Isaure, qui a perdu son portable lors de l'attaque, a récupéré celui de Lucina par erreur ; Beta l'accompagne, Telemachus et Lucina viennent l'échanger. Début de leur rapprochement."
+  },
+  {
+    "date": "2026-10-23",
+    "fin": "2026-10-25",
+    "titre": "Branish : Vitalis contre des amplifiés et Fury",
+    "type": "vigilante",
+    "lieu": "Branish",
+    "personnages": ["Vitalis","Fury","Arlequin","Thomas","Cynthia","Silas","Magalie","Harris"],
+    "texte": "23 oct. : 5 amplifiés et un membre d'Ember ; Vitalis, sans atténuateur cette fois, saute sur eux. 24 oct. : elle assomme ou fait se rendre quatre d'entre eux et leur dit de détruire leurs amplificateurs ; Fury, agent d'Ember aux griffes enflammées, lui entaille le dos et ralentit sa régénération. Vitalis la soupçonne, avec Ember, d'être derrière l'attaque de Westview (« qu'avez-vous fait de Kael et des autres ? »). 25 oct. : duel de vitesse contre récupération, Arlequin observe."
+  },
+  {
+    "date": "2026-10-24",
+    "titre": "★ Isaure clone le téléphone de Telemachus et rejoint Arlequin",
+    "type": "tournant",
+    "lieu": "Messagerie privée",
+    "personnages": ["Isaure","Telemachus","Arlequin"],
+    "texte": "Isaure, qui a pris son téléphone pour le sien sur la plage, l'a cloné et a vu les photos : « Le roi des fées, c'est toi. Je veux in. » Il fait l'idiot, puis lui demande où elle habite, la prévient qu'elle recevra « le nécessaire », de ne jamais parler sous le casque et de supprimer l'échange. « Les Arlequins venaient de devenir un peu plus qu'un mensonge. »"
+  },
+  {
+    "date": "2026-10-24",
+    "fin": "2026-10-31",
+    "titre": "★ Le déblocage de Telemachus",
+    "type": "tournant",
+    "lieu": "Chez Telemachus",
+    "personnages": ["Telemachus"],
+    "texte": "Il médite pour suivre le mince filet d'aura jusqu'au « bouchon » laissé par la seringue. 24 oct. : en forçant, il n'obtient que des bras qui tremblent. 25 oct. : de petites pulsations régulières, une par expiration, au même endroit : une vibration, puis une fissure. 28 oct. : la fissure s'élargit ; il sent passer, par sa propre poussée, entre 10 et 20 % de sa capacité en plus du quart d'Orrin (estimation du personnage). 29–31 oct. : le bouchon reste, plus fragile ; il observe avant de forcer. Il lui faut encore « une ou deux séances »."
+  },
+  {
+    "date": "2026-10-25",
+    "titre": "Morgane (Vitalis) se soigne en solitaire",
+    "type": "lien",
+    "lieu": "Chambre de Morgane",
+    "personnages": ["Vitalis"],
+    "texte": "Revenue de patrouille avec des cicatrices qui n'ont pas eu le temps de se refermer, elle déploie toute son aura en une onde curative et referme toutes ses blessures, brûlures comprises ; le 28 elle s'entraîne pour augmenter ses ondes qui soignent et blessent, après avoir manqué de puissance face à Keito."
+  },
+  {
+    "date": "2026-10-25",
+    "fin": "2026-10-28",
+    "titre": "Keito et Telemachus au parc : « protège-moi autrement »",
+    "type": "lien",
+    "lieu": "Parc",
+    "personnages": ["Keito","Telemachus"],
+    "texte": "Keito, masqué, lui parle d'égalité et de technologie : ramener tous les High Tier et au-dessus au niveau des Low Tier, « pour te protéger », c'est Orrin qui décide. Il propose de « traumatiser » Power à sa place et se moque de Lucina. Telemachus, en larmes, refuse : « punition collective ». Il lui demande de l'aider à tenir debout face aux plus forts, au lieu de rabaisser tous les autres. Keito répète le même discours mot pour mot."
+  },
+  {
+    "date": "2026-10-25",
+    "fin": "2026-10-30",
+    "titre": "Lucina et Ice s'entraînent",
+    "type": "lien",
+    "lieu": "Bibliothèque → limite de la ville → centre-ville",
+    "personnages": ["Lucina","Ice"],
+    "texte": "Plus de 400 messages. Lucina explique que sa capacité agit sur tous les aspects de l'esprit, pas seulement lire les pensées ; migraine de surmenage ; défi, rires, et rivalité amicale (« reine des glaces »)."
+  },
+  {
+    "date": "2026-10-27",
+    "fin": "2026-11-01",
+    "titre": "Isaure et Beta : la colline de Rowden",
+    "type": "lien",
+    "lieu": "Appartement d'Isaure, colline de Rowden",
+    "personnages": ["Isaure","Beta"],
+    "texte": "Beta, épuisée, soigne Isaure. Balade jusqu'au coucher de soleil, veste partagée, Isaure la porte jusque chez elle. Dîner à deux, cauchemar de Beta."
+  },
+  {
+    "date": "2026-10-29",
+    "fin": "2026-10-30",
+    "titre": "Telemachus au bureau de Wellston : les injections inexpliquées",
+    "type": "plot",
+    "lieu": "Bureau de Wellston",
+    "personnages": ["Telemachus","Byron"],
+    "texte": "La réceptionniste s'alarme dès qu'il parle d'injection à la nuque : « un trou de mémoire juste après une injection, ce n'est pas anodin ». Byron lui dit que le bureau a quelques cas d'injection à Westview, sans substance ni source identifiées, très peu de témoins. Examen le 30 : marque minuscule et rougie sur la nuque, tissu plus froid d'un peu plus d'un degré, prise de sang et frottis envoyés au laboratoire sous numéro de dossier."
+  },
+  {
+    "date": "2026-11-01",
+    "fin": "2026-11-03",
+    "titre": "Quartier low-tier : Volcan (Ember) contre quatre boostés",
+    "type": "combat",
+    "lieu": "Quartier low-tier",
+    "personnages": ["Volcan","Vitalis","Arlequin","Tiago","Marek","Odile","Sibyl"],
+    "texte": "Vitalis bat quatre amplifiés (Tiago, Marek, Odile, Sibyl). Volcan, masquée, les exécute pour avoir acheté les amplificateurs (« ils vont en payer chaque gramme »). Vitalis la reconnaît à ses griffes de feu comme « Ember encore » mais pas la même femme qu'avant ; brûlée et ralentie, elle encaisse. Arlequin intervient et dérape sur plusieurs mètres, tenue noircie."
+  },
+  {
+    "date": "2026-11-02",
+    "titre": "Hizo cherche à récupérer sa capacité",
+    "type": "plot",
+    "lieu": "Chez Hizo",
+    "personnages": ["Hizo Vertini"],
+    "texte": "Épuisé et hanté par les hallucinations de son frère, il pense à toutes les façons de retrouver sa capacité ; il tente de joindre Kaito Vance (sans numéro, il passe par les réseaux sociaux)."
+  },
+  {
+    "date": "2026-11-02",
+    "fin": "2026-11-03",
+    "titre": "Marou face à Irene",
+    "type": "rencontre",
+    "lieu": "Entrée du lycée d'Agwin",
+    "personnages": ["Marou","Irene"],
+    "texte": "Marou (6.6) arrive à 6 h devant le lycée d'Agwin. Irene perçoit un niveau divin et le teste sous une forte pression ; il se rend sans se battre. Sa capacité, « sournoise », affaiblit et use (il le décrit comme un adversaire qu'on use plutôt que l'on bat) ; l'hors-RP de Marou rapproche sa capacité des atténuateurs."
+  },
+  {
+    "date": "2026-11-05",
+    "fin": "2026-11-05",
+    "titre": "Louis dévoile son niveau",
+    "type": "rencontre",
+    "lieu": "Hôpital de Westview",
+    "personnages": ["Louis","Mitsu","Julia"],
+    "texte": "« Je suis 1.7 », dit Louis, crispé comme s'il s'attendait à être maltraité. Mitsu répond 5.5 en espérant ne pas passer pour un de « ces hauts niveaux »."
+  },
+  {
+    "date": "2026-11-06",
+    "titre": "Laura et Kael sur la plage",
+    "type": "combat",
+    "lieu": "Plage de Westview",
+    "personnages": ["Laura","Kael"],
+    "texte": "Entraînement à 3.6 contre Kael, Laura augmente trop la pression de l'eau ; Kael saigne du nez, refuse l'hôpital."
+  },
+  {
+    "date": "2026-11-06",
+    "fin": "2026-11-08",
+    "titre": "★ Beta et Isaure se déclarent",
+    "type": "tournant",
+    "lieu": "Parc de Westview",
+    "personnages": ["Beta","Isaure"],
+    "texte": "6 nov : Isaure avoue avoir compris sa propre attirance. 7 nov : « tu serais d'accord de sortir avec une potentielle criminelle ? », premier baiser. 8 nov : « je t'aime », pique-nique ravagé par les fourmis."
+  }
+]

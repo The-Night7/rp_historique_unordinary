@@ -1,0 +1,32 @@
+{
+  "nom": "Kaito Vance",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfV1LJnpYVETqwZtWQvq1ML9kWKTHAyMd7WSRFs5Cqh7iHPuOXZB891Y&s=10",
+  "parcours": {
+    "titre": "L'avocat-justicier",
+    "tag": "Justice",
+    "resume": "Avocat, il envoie la lettre à Hizo, enquête sur les victimes de l'attaque et cherche un remède à la perte de capacité.",
+    "reperes": [
+      {"date": "2026-08-25", "type": "plot", "texte": "Rencontre Hizo."},
+      {"date": "2026-09-02", "type": "plot", "texte": "Lettre et clé USB."},
+      {"date": "2026-10-24", "type": "plot", "texte": "Prélève le sang d'Hizo, cherche un remède via ses contacts."},
+      {"date": "2026-10-28", "type": "plot", "texte": "Relève que des étudiants disparus ont été « retrouvés »."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://the-night7.github.io/digital-bugs-uno/index.html",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Kaito Vance, 21 ans, avocat dirigeant le cabinet Vance & Associés, High Tier 5.8 (potentiel de contrôle 58 %), QI mesuré à 400, 1 m 75."
+      },
+      {
+        "titre": "Capacité : Digital Hive",
+        "texte": "Il matérialise un deck de cartes (Programmes, Archives Noires, Scripts, Protocoles) qui se débloquent par palier de niveau, invoque des créatures et structures, se régénère par scripts de réparation et pirate les systèmes connectés. Fusion d'insectes pour des formes évoluées. Passif : Network Sense, il perçoit les appareils électroniques actifs dans un rayon de 50 m. Stats : Power 8, Defense 6, Speed 6, Recovery 3, Trick 10."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Avocat charismatique et brillant, il garde un amour de jeunesse pour la magie de scène et utilise des métaphores d'illusionniste au tribunal. Icthyophobie (peur extrême des poissons)."
+      }
+    ]
+  }
+}

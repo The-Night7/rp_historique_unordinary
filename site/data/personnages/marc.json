@@ -1,0 +1,46 @@
+{
+  "nom": "Marc",
+  "image": "https://lh3.googleusercontent.com/d/1TSZ38kjFKuBbhVSujA17zSCewykQEXPF=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview",
+    "taille": "175 cm (H)",
+    "type": "Enhancement",
+    "capacite": "Modes (Bal/Atk/Def/Spd/Dst)",
+    "nature": "—",
+    "note": "Cinq modes : Atk [12,3,3,14,8], Def [3,12,8,14,3], Spd [3,3,3,14,14], Dst [14,3,3,14,3].",
+    "stats_par_niveau": [
+      {"niveau": 8.6, "Power": 8, "Defense": 8, "Recovery": 8, "Trick": 14, "Speed": 8}
+    ]
+  },
+  "parcours": {
+    "titre": "Le chasseur de données",
+    "tag": "Westview · Modes 8.6",
+    "resume": "Marc analyse tout, s'entraîne dans les vagues et défie les forts pour enregistrer leurs données.",
+    "reperes": [
+      {"date": "2026-08-17", "type": "arc", "texte": "Analyse la fréquence stochastique des vagues sur la plage."},
+      {"date": "2026-09-08", "type": "fight", "texte": "Duel contre Kael."},
+      {"date": "2026-09-22", "type": "fight", "texte": "Face à Telemachus au gymnase."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://marcmarquez.vercel.app/",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Marc Marquez, 17 ans, Westview, niveau 8.6, potentiel 10.0, aura blanche. Capacité : Phase_Shift (modes Équilibré, Offensif, Défensif, Vélocité, Destructeur). Passif Scanner : détecte les deux meilleures statistiques d'une cible."
+      },
+      {
+        "titre": "Stats",
+        "texte": "Power 8 · Defense 8 · Speed 8 · Recovery 8 · Trick 14. Toute statistique au-delà de 14 provoque une instabilité psychomotrice : il cherche à reprogrammer ce verrou (« la clé »)."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Discret, humour sec, intensément protecteur en confiance. L'injustice ou le rabaissement d'un camarade le fait basculer en mode offensif par réflexe. Il se surmène."
+      },
+      {
+        "titre": "Chronique",
+        "texte": "Éveil à 7 ans (un drone recyclé qui l'aurait percuté), il découvre à 9 ans que ses modes sont une interface paramétrable, installe un labo clandestin au sous-sol de Westview, survit à un effondrement de plafond en enchaînant quatre modes en moins de 3 secondes, et travaille à un langage de programmation personnel pour coder de nouvelles formes sans crash. Carnet #15 : le métal liquide stocke 65 % de son aura."
+      }
+    ]
+  }
+}

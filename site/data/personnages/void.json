@@ -1,0 +1,24 @@
+{
+  "nom": "Void",
+  "image": "https://cdn.tupperbox.app/pfp/1027664862320525373/lKYHZqKQs0E8myEx.webp",
+  "fiche_unodex": {
+    "ecole": "Vigilante",
+    "taille": "185 cm (H)",
+    "type": "Quantum",
+    "capacite": "Ghost",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 4.9, "Power": 3, "Defense": 3, "Recovery": 5, "Trick": 7, "Speed": 6}
+    ]
+  },
+  "parcours": {
+    "titre": "Justicier radical",
+    "tag": "Vigilante · Ghost 4.9",
+    "resume": "Void tue les « assassins » mais épargne voleurs et dealers. Il se dit ancienne victime et se méfie d'Ember. Hizo se demande s'il lui est lié.",
+    "reperes": [
+      {"date": "2026-08-27", "type": "fight", "texte": "Abat Parish (amplifiée) ; expose ses balles à fausse overdose."},
+      {"date": "2026-10-12", "type": "fight", "texte": "Affronte Silvio, Rocco et Mara."},
+      {"date": "2026-10-23", "type": "plot", "texte": "Hizo soupçonne qu'il est lié à Void « de manière plus proche »."}
+    ]
+  }
+}

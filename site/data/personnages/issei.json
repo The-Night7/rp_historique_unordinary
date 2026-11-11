@@ -1,0 +1,26 @@
+{
+  "nom": "Issei",
+  "image": "https://lh3.googleusercontent.com/d/1PpI9t_O_jN-BM_AD1PugUBpb8ydfb3-q=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Wellston",
+    "taille": "175 cm (H)",
+    "type": "Creation",
+    "capacite": "Claws",
+    "nature": "Attaque",
+    "stats_par_niveau": [
+      {"niveau": 1.5, "Power": 2, "Defense": 2, "Recovery": 1, "Trick": 1, "Speed": 2},
+      {"niveau": 1.6, "Power": 2, "Defense": 2, "Recovery": 1, "Trick": 1, "Speed": 2}
+    ]
+  },
+  "parcours": {
+    "titre": "Le petit brutal",
+    "tag": "Wellston · Claws 1.4 → 1.6",
+    "resume": "Issei cherche des cibles plus faibles, perd contre Kael, s'entraîne, recommence.",
+    "reperes": [
+      {"date": "2026-08-25", "type": "fight", "texte": "Sa cantine tourne au combat contre Kael."},
+      {"date": "2026-09-03", "type": "fight", "texte": "Corrige Marie."},
+      {"date": "2026-09-22", "type": "fight", "texte": "Se fait emmener à l'infirmerie."},
+      {"date": "2026-10-25", "type": "evo", "texte": "Passe 1.6."}
+    ]
+  }
+}

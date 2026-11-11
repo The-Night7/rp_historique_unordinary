@@ -1,0 +1,32 @@
+{
+  "nom": "Louis",
+  "image": "https://lh3.googleusercontent.com/d/1m0fYJEcm6xQvuHg3XMAyD3K3ikr4p-fk=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Rowden",
+    "taille": "175 cm (H)",
+    "type": "Enhancement",
+    "capacite": "Knuckles",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 1.5, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 1.6, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 1.7, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1}
+    ]
+  },
+  "parcours": {
+    "titre": "L'observateur au calepin",
+    "tag": "Rowden · Enhancement 1.5 → 1.7",
+    "resume": "Faible mais lucide, Louis note tout dans son calepin, craint le « bureau » et se lie progressivement avec des hauts niveaux.",
+    "reperes": [
+      {
+        "date": "2026-09-05",
+        "type": "bond",
+        "texte": "Rencontre Soren et Silas sur la colline de Rowden, prend des notes en cachette."
+      },
+      {"date": "2026-09-29", "type": "bond", "texte": "Guide Laura à la bibliothèque de Rowden."},
+      {"date": "2026-10-20", "type": "fight", "texte": "Prend un laser dans la jambe pendant l'attaque de la plage."},
+      {"date": "2026-10-22", "type": "arc", "texte": "Plus de 200 messages avec Kaïra à l'hôpital : une amitié se noue."},
+      {"date": "2026-11-05", "type": "evo", "texte": "Annonce « Je suis 1.7 » à Julia et Mitsu."}
+    ]
+  }
+}

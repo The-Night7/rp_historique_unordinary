@@ -1,0 +1,27 @@
+{
+  "nom": "Leonie",
+  "image": "https://lh3.googleusercontent.com/d/1SQPJWq246Fzyq8TFlqfa04QxwtOpwYVH=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Agwin",
+    "taille": "166 cm (F)",
+    "type": "Mental",
+    "capacite": "Possession",
+    "nature": "Stratège",
+    "stats_par_niveau": [
+      {"niveau": 2.4, "Power": 1, "Defense": 3, "Recovery": 1, "Trick": 4, "Speed": 2},
+      {"niveau": 2.5, "Power": 1, "Defense": 3, "Recovery": 1, "Trick": 4, "Speed": 2}
+    ]
+  },
+  "parcours": {
+    "titre": "La possédée de 2.2",
+    "tag": "Agwin · Possession 2.2 → 2.5",
+    "resume": "Leonie ne peut posséder que plus faible qu'elle. Elle rêve de progresser mais enchaîne les situations où elle est le maillon faible.",
+    "reperes": [
+      {"date": "2026-08-12", "type": "bond", "texte": "Est sauvée par Julia à Wellston."},
+      {"date": "2026-08-19", "type": "evo", "texte": "Possède Kaïra pour s'entraîner."},
+      {"date": "2026-09-06", "type": "evo", "texte": "Passe 2.3 ; rencontre Lawrence au centre commercial."},
+      {"date": "2026-10-20", "type": "evo", "texte": "Passe 2.4 puis 2.5."}
+    ]
+  },
+  "apres_attaque": {"effet": "Possession impossible", "statut": "complète", "recuperation": "Non désactivée : capacité retrouvée"}
+}

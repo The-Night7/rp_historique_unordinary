@@ -1,0 +1,31 @@
+{
+  "nom": "Adrien",
+  "image": "https://lh3.googleusercontent.com/d/1ZRfxRFV9CW2G3AUfhCsFd01tpAEt4x_v=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Agwin (ancien élève)",
+    "taille": "183 cm (H)",
+    "type": "Quantum",
+    "capacite": "Alchimie",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 5.5, "Power": 7, "Defense": 4, "Recovery": 3, "Trick": 9, "Speed": 3}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/1gPF-rW8nZ39wzODpDmCRE6eDqNFh3N8rtQqgESbsXsI/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Adrien, 25 ans, 1 m 83, affilié à EMBER, homme d'affaires et chercheur. Niveau 5.5, potentiel 6.8, aura dorée orangée."
+      },
+      {
+        "titre": "Capacité : Alchimie",
+        "texte": "Il transforme la matière à partir d'une matière de base avec son aura. Passif : analyse de matière au toucher. Il a reçu artificiellement de nouvelles capacités lors d'expériences secrètes, connues des seuls membres d'EMBER. Stats : Power 7, Defense 4, Recovery 3, Trick 9, Speed 3."
+      },
+      {
+        "titre": "Rôle dans EMBER",
+        "texte": "Héritier d'une immense fortune, il finance secrètement les laboratoires et les recherches d'EMBER. Membre expérimenté de l'unité anti-terroriste depuis ses 21 ans, il sert officiellement d'homme d'affaires et investisseur. Objectif : permettre à EMBER de devenir assez puissant pour contrôler l'évolution de la société."
+      }
+    ]
+  }
+}

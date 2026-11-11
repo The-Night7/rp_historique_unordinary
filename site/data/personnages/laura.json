@@ -1,0 +1,53 @@
+{
+  "nom": "Laura",
+  "image": "https://lh3.googleusercontent.com/d/1LaONj7EW0uySo7BdEdAjeeowZTQYBb_A=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Agwin",
+    "taille": "160 cm (F)",
+    "type": "Quantum",
+    "capacite": "Liquids Manipulation",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 3.5, "Power": 5, "Defense": 2, "Recovery": 1, "Trick": 6, "Speed": 2},
+      {"niveau": 3.6, "Power": 5, "Defense": 2, "Recovery": 1, "Trick": 6, "Speed": 2}
+    ]
+  },
+  "parcours": {
+    "titre": "Eau et études",
+    "tag": "Agwin · Liquids Manipulation 3.5 → 3.6",
+    "resume": "Laura, 3.5-3.6, est blessée par des lasers lors de l'attaque, car elle n'avait pas anticipé la baisse de niveau.",
+    "reperes": [
+      {"date": "2026-09-22", "type": "bond", "texte": "Aide Soren."},
+      {
+        "date": "2026-10-21",
+        "type": "fight",
+        "texte": "Niveau divisé par deux, plusieurs lasers la touchent ; elle rampe à couvert."
+      },
+      {"date": "2026-10-23", "type": "evo", "texte": "Sort de l'hôpital, 3.6, décidée à se renforcer."},
+      {"date": "2026-11-06", "type": "fight", "texte": "Blesse Kael sans le vouloir."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/1poJ9DIJHwp6E4cqxgez8ErLyBKkEGN8Z7WO67Soz7N4/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Laura Arsaut, 16 ans, 1 m 60, Agwin. Niveau 3.5, potentiel 9.5, aura de la couleur bleue de ses yeux."
+      },
+      {
+        "titre": "Capacité : Manipulation des liquides",
+        "texte": "Dans un rayon de 30 m, mais elle ne crée rien : elle utilise un liquide à portée (toujours une bouteille d'eau). À plus haut niveau, le sang et l'humidité de l'air, et à son maximum la maîtrise des fluides. Passif non débloqué : sentir les corps (composés d'eau) autour d'elle."
+      },
+      {"titre": "Stats", "texte": "Power 5 · Defense 2 · Recovery 1 · Trick 6 · Speed 2."},
+      {
+        "titre": "Histoire",
+        "texte": "Famille modeste de la campagne. Opposée au système des tiers : son grand frère en a été victime, harcelé, il vit reclus. Elle baisse la tête devant les tiers les plus hauts mais ne participe pas aux brimades."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Niveau divisé, blessée par lasers",
+    "statut": "complète",
+    "recuperation": "Non désactivée : capacité retrouvée ; sort de l'hôpital le 23 oct."
+  }
+}

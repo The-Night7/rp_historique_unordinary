@@ -1,0 +1,34 @@
+[
+  {
+    "id": "a1",
+    "nom": "Acte I — La rentrée",
+    "debut": "2026-08-12",
+    "fin": "2026-08-31",
+    "couleur": "#5b8def",
+    "resume": "Premières rencontres, hiérarchie des niveaux, affrontement inter-écoles Agwin vs Westview, apparition des justiciers masqués."
+  },
+  {
+    "id": "a2",
+    "nom": "Acte II — Rivalités & enquêtes",
+    "debut": "2026-09-01",
+    "fin": "2026-10-19",
+    "couleur": "#c78bff",
+    "resume": "Duel Telemachus/Power, dossier fédéral contre les justiciers, rassemblement inter-écoles, trafics et gangs dans les quartiers."
+  },
+  {
+    "id": "a3",
+    "nom": "Acte III — L'attaque & Spectre",
+    "debut": "2026-10-20",
+    "fin": "2026-10-31",
+    "couleur": "#ff6b6b",
+    "resume": "Sortie scolaire attaquée par Spectre : atténuateur (niveaux divisés par deux), injections qui retirent la capacité, enlèvements, marché d'Orrin à 25 %, récupérations partielles, enquête médicale."
+  },
+  {
+    "id": "a4",
+    "nom": "Acte IV — Après la tempête",
+    "debut": "2026-11-01",
+    "fin": "2026-11-08",
+    "couleur": "#4cc9a4",
+    "resume": "Nouveaux arrivants à Agwin, combats de rue à Wellston, l'histoire d'amour Beta × Isaure se scelle."
+  }
+]

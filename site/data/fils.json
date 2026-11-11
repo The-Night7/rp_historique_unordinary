@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ember",
+    "titre": "Ember, les amplificateurs et les « boostés »",
+    "couleur": "#d6453d",
+    "intro": "Les amplificateurs sont des fioles (environ 250 $ pièce, environ 40 minutes d'effet, tremblements) qui poussent un niveau vers le haut ; les embeds du bot comptent les adversaires « boostés » (×1,10 à ×5,50) puis « amplifiés » avec un bonus « EMBER ». Ember est une organisation qui les teste, les vend et exécute ses clients ; elle est distincte de Spectre, qui mène l'attaque de Westview.",
+    "etapes": [
+      {
+        "date": "2026-08-24",
+        "texte": "Observation d'Hizo : la faux de Mitsu semble porter une « drogue » qui a désorienté Rein ; il se demande si elle s'attaque à la capacité (simple hypothèse de combat)."
+      },
+      {
+        "date": "2026-08-28",
+        "texte": "Telemachus (sous le casque) affronte cinq mid tiers à Grasshill et se demande qui est « celui aux cheveux bleus »."
+      },
+      {
+        "date": "2026-08-27",
+        "texte": "Lovun : Void, Kuyo et Le Pinceau affrontent six amplifiés (Parish à 5.9, 12 de Speed). Kuyo détruit les amplificateurs. Zone sans surveillance : Arlequin saisit des fioles sur Fice, qui dit les acheter 250 $ à des vendeurs masqués de noir."
+      },
+      {
+        "date": "2026-08-29",
+        "texte": "Le Creek West Daily News accuse un justicier de créer des drogues et de droguer les citoyens."
+      },
+      {
+        "date": "2026-09-01",
+        "texte": "Ablaze (fiche Ember) vend des amplificateurs « pour les tests d'Ember » ; Lucian Hale revend de la drogue du marché noir à Wellston."
+      },
+      {
+        "date": "2026-10-07",
+        "texte": "Vesna décrit l'homme aux cheveux bleus : long manteau noir, chapeau, masque ; il fixe jour et lieu, donne les doses, prend l'argent et repart à pied."
+      },
+      {
+        "date": "2026-09-04",
+        "texte": "Bureau de Wellston : Adrien s'intéresse aux individus qui pourraient gêner « les intérêts d'EMBER »."
+      },
+      {
+        "date": "2026-10-10",
+        "texte": "Grasshill : Volcan, agent exécutif d'Ember, vend douze fioles au gang de Tobias, Garance et Ilya. Vitalis brise une fiole puis s'empare de la mallette."
+      },
+      {
+        "date": "2026-10-23",
+        "texte": "Branish : cinq amplifiés et un membre d'Ember ; Vitalis les met en fuite ou KO et leur dit de détruire leurs amplificateurs. Fury, aux griffes enflammées, la blesse."
+      },
+      {
+        "date": "2026-10-28",
+        "texte": "Isaure : « EMBER qui les assassine » ; Lighter demande à Volcan si une drogue supprime les capacités."
+      },
+      {
+        "date": "2026-11-01",
+        "texte": "Quartier low-tier : Vitalis bat quatre amplifiés, Volcan les exécute (« ils vont en payer chaque gramme »)."
+      }
+    ]
+  },
+  {
+    "id": "attenuateur",
+    "titre": "L'atténuateur et les injections (Spectre)",
+    "couleur": "#8b52d6",
+    "intro": "Deux procédés distincts : un atténuateur, qui divise temporairement les niveaux par deux dans la zone (environ une heure), et un produit injecté dans la nuque qui retire la capacité (nausée, sommeil, vomissements au réveil). Orrin peut rendre 25 % de la capacité par recharge d'environ une semaine.",
+    "etapes": [
+      {
+        "date": "2026-10-20",
+        "texte": "21:00 environ : frisson, IEM, niveaux divisés par deux ; Kaïra estime l'effet à environ 1 h. Les sbires préviennent à 21:17 que l'atténuateur va cesser."
+      },
+      {
+        "date": "2026-10-21",
+        "texte": "Les injections : Rein (plage), Telemachus (par Keito), Lucina (téléporteur), Hizo (par Liam), John (silhouette dans la rue). Kael est emporté par le même téléporteur."
+      },
+      {
+        "date": "2026-10-22",
+        "texte": "Réveil des enlevés dans la base de Spectre : nausées. Marché d'Orrin : 25 % de capacité contre services. John et Hizo se réveillent à l'hôpital sans capacité."
+      },
+      {"date": "2026-10-24", "texte": "Kaito Vance prélève le sang d'Hizo et cherche un remède."},
+      {
+        "date": "2026-10-24",
+        "texte": "Telemachus travaille son « bouchon » par méditation ; la fissure s'élargit le 28."
+      },
+      {
+        "date": "2026-10-29",
+        "texte": "Bureau de Wellston : dossiers d'injections sans substance identifiée ; examen le 30 (marque froide, prise de sang, frottis)."
+      },
+      {"date": "2026-11-02", "texte": "Hizo n'a toujours pas retrouvé sa capacité."},
+      {
+        "date": "2026-11-03",
+        "texte": "Marou, nouveau, décrit une capacité qui « affaiblit, use » ; son joueur la rapproche des atténuateurs."
+      },
+      {
+        "date": "2026-10-25",
+        "texte": "Au parc, Keito explique le but : ramener tous les High Tier et au-dessus au niveau des Low Tier par la technologie, sur ordre d'Orrin."
+      }
+    ]
+  }
+]

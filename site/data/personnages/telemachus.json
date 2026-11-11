@@ -1,0 +1,134 @@
+{
+  "nom": "Telemachus",
+  "image": "https://lh3.googleusercontent.com/d/1_7Sde-87uL5qMyoP5WlETrucQOoxGBE1=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview (Roi)",
+    "taille": "170 cm (H)",
+    "type": "Meta",
+    "capacite": "Aura Deity",
+    "nature": "—",
+    "note": "Aura Deity (aura jaune). Niveau actuel 6.3 = (potentiel 9.5 × maîtrise 6.6) / 10. Il copie une capacité au toucher et la nourrit de sa propre aura ; ses statistiques physiques restent à 1.0 tant qu'il n'a rien copié, son Trick est de niveau × 2,414. Au niveau 6.0 il découvre qu'il a « sauvegardé » toutes les capacités copiées. Beaucoup de lignes de l'unodex sont des combinaisons copiées (Graviton de Power, Sanity Control de Beta, Icicle et Faucheuse Fantôme, Shockwave…), et celles « (Arlequin) » sont les mêmes avec le masque.",
+    "stats_par_niveau": [
+      {"niveau": 1, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 1.6, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 4, "Speed": 1},
+      {"niveau": 4.1, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 10.6, "Speed": 1},
+      {"niveau": 5.8, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 14, "Speed": 1},
+      {"niveau": 6.1, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 14.7, "Speed": 1},
+      {"niveau": 6.2, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 15, "Speed": 1},
+      {"niveau": 6.3, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 15.2, "Speed": 1}
+    ]
+  },
+  "parcours": {
+    "titre": "Le roi copieur, piqué par son frère",
+    "tag": "Westview · Roi · Meta",
+    "resume": "Roi de Westview et copieur (Aura Deity), Telemachus est aussi sous le casque d'Arlequin. Le 21 octobre, son frère adoptif Keito l'injecte et le livre à Spectre ; il reconquiert ensuite sa capacité séance après séance.",
+    "reperes": [
+      {
+        "date": "2026-08-17",
+        "type": "evo",
+        "texte": "Entraînements quotidiens : le plus gros total de points d'évolution du RP."
+      },
+      {
+        "date": "2026-08-23",
+        "type": "fight",
+        "texte": "Turf War : face à Irene, il gèle ses jambes avec des aiguilles de glace mais abandonne en sachant qu'il ne peut pas passer sa défense."
+      },
+      {
+        "date": "2026-08-27",
+        "type": "arc",
+        "texte": "Révèle à Beta que, en copiant Sanity Control, il a senti sa « moitié sombre »."
+      },
+      {"date": "2026-08-27", "type": "plot", "texte": "Premier soir sous le casque d'Arlequin."},
+      {"date": "2026-08-29", "type": "fight", "texte": "Pacte avec Power, puis duel sur le toit."},
+      {"date": "2026-09-05", "type": "bond", "texte": "Café avec Keito, frère adoptif."},
+      {"date": "2026-09-07", "type": "bond", "texte": "Rattrape Lucina quand elle glisse."},
+      {"date": "2026-10-07", "type": "evo", "texte": "Médite 32 minutes en silence : « apprendre le silence »."},
+      {"date": "2026-10-20", "type": "arc", "texte": "Sur la plage : « Tu ne peux pas être Keito. »"},
+      {"date": "2026-10-21", "type": "arc", "texte": "Injecté dans la nuque par Keito, emporté à Spectre."},
+      {
+        "date": "2026-10-22",
+        "type": "evo",
+        "texte": "Orrin lui rend un quart ; sous le niveau 2 avec un fourmillement constant."
+      },
+      {"date": "2026-10-24", "type": "plot", "texte": "Isaure le démasque et veut entrer dans les Arlequins."},
+      {"date": "2026-10-25", "type": "evo", "texte": "Séances de médiation : vibration, puis fissure dans le bouchon."},
+      {"date": "2026-10-28", "type": "evo", "texte": "Force 10 à 20 % de capacité de plus à travers la fissure."},
+      {
+        "date": "2026-10-29",
+        "type": "plot",
+        "texte": "Témoigne au bureau de Wellston (Byron) : marque froide, prise de sang."
+      }
+    ]
+  },
+  "chronologie_fiche": [
+    {
+      "titre": "I. L'avantage de l'information",
+      "quand": "mi-août",
+      "texte": "Présentation, passif d'aura, premier duel perdu contre Marc sur la plage."
+    },
+    {
+      "titre": "II. La guerre des territoires",
+      "quand": "23–25 août",
+      "texte": "Turf War : Mitsu et Hizo, Ice écrasée par Irene, il abandonne face à elle puis soigne avec Sanity Control copié."
+    },
+    {
+      "titre": "III. L'autre moitié",
+      "quand": "27 août",
+      "texte": "Avoue à Beta qu'il a senti la moitié sombre de sa capacité."
+    },
+    {
+      "titre": "IV. Le masque",
+      "quand": "27–29 août",
+      "texte": "Premier soir d'Arlequin : Fice, les fioles, Grasshill, la question des cheveux bleus."
+    },
+    {"titre": "V. Power", "quand": "29 août – 7 sept.", "texte": "Pacte avec Power, duel sur le toit."},
+    {
+      "titre": "VI. Nous sommes Arlequin",
+      "quand": "1–5 sept.",
+      "texte": "Zone sans surveillance, faux Arlequin « féminin » à Lovun, la Grape Vine."
+    },
+    {"titre": "VII. Le frère", "quand": "5–7 sept.", "texte": "Café avec Keito, frère adoptif."},
+    {"titre": "VIII. Lucina", "quand": "septembre", "texte": "Rapprochement, jeux inter-écoles."},
+    {"titre": "IX. Apprendre le silence", "quand": "octobre", "texte": "Premières méditations, Kaïra, Ice."},
+    {
+      "titre": "X. La ruelle",
+      "quand": "6–7 oct.",
+      "texte": "Dorso, Vesna, Brann, Jax, Nell ; l'homme aux cheveux bleus."
+    },
+    {"titre": "XI. La plage", "quand": "20–21 oct.", "texte": "Trahison de Keito, atténuateur, injection."},
+    {
+      "titre": "XII. Un quart",
+      "quand": "22–25 oct.",
+      "texte": "Orrin, 25 % de capacité, Isaure clone son téléphone, premières pulsations."
+    },
+    {
+      "titre": "XIII. Des grosses flèches",
+      "quand": "25–28 oct.",
+      "texte": "Keito au parc ; la fissure s'élargit, 10 à 20 % forcés."
+    },
+    {
+      "titre": "XIV. Ce qui se mesure",
+      "quand": "29–31 oct.",
+      "texte": "Bureau de Wellston, Byron, examen de la nuque."
+    },
+    {
+      "titre": "XV. À l'autre bout de la ruelle",
+      "quand": "31 oct. – 1er nov.",
+      "texte": "Quartier low-tier : Vitalis contre quatre amplifiés, Arlequin derrière eux."
+    }
+  ],
+  "apres_attaque": {
+    "effet": "Injecté par Keito, enlevé",
+    "statut": "partielle",
+    "recuperation": "Injecté le 21 oct. ; 25 % rendus par Orrin le 22 (sous le niveau 2) ; fissure du « bouchon » le 25, puis 10–20 % de plus forcés vers le 28 (estimation du personnage) ; recharge hebdomadaire à renouveler à la base."
+  },
+  "recuperation_capacite": [
+    {"date": "2026-10-19", "min": 100, "max": 100, "texte": "Pleine capacité"},
+    {"date": "2026-10-20", "min": 50, "max": 50, "texte": "L'atténuateur divise par deux"},
+    {"date": "2026-10-21", "min": 0, "max": 0, "texte": "Seringue de Keito, plus de capacité"},
+    {"date": "2026-10-22", "min": 25, "max": 25, "texte": "Orrin rend un quart"},
+    {"date": "2026-10-25", "min": 25, "max": 25, "texte": "Premières pulsations, fissure"},
+    {"date": "2026-10-28", "min": 35, "max": 45, "texte": "10–20 % forcés en plus du quart"},
+    {"date": "2026-10-31", "min": 35, "max": 45, "texte": "Bouchon toujours là, plus fragile"}
+  ]
+}

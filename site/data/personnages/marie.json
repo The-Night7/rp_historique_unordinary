@@ -1,0 +1,34 @@
+{
+  "nom": "Marie",
+  "parcours": {
+    "titre": "« Une moins que rien »",
+    "tag": "Wellston · niveau bas",
+    "resume": "Marie se rabaisse et fuit les regards, mais lit la Grape Vine et connaît les infos publiques.",
+    "reperes": [
+      {"date": "2026-08-27", "type": "bond", "texte": "Rencontre Kael dans la rue."},
+      {"date": "2026-09-03", "type": "fight", "texte": "Passée à tabac par Issei au pire moment."},
+      {
+        "date": "2026-10-12",
+        "type": "bond",
+        "texte": "Parle avec Irene : « la plupart des hauts niveaux m'ont méprisée »."
+      }
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://marie-une.vercel.app/",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Marie Sue, 15 ans, Westview puis Agwin puis Wellston. Atteinte d'insensibilité congénitale à la douleur (CIPA)."
+      },
+      {
+        "titre": "Capacité",
+        "texte": "Aura de Vérité, pas encore débloquée : en sa présence, impossible de mentir. Passif (5.0) : ses yeux s'éclairent quand une aura puissante est proche. Stats à 1 partout."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Discrète, observatrice, fort complexe d'infériorité face aux élèves de badge plus haut, mais une fierté têtue et une vraie perspicacité."
+      }
+    ]
+  }
+}

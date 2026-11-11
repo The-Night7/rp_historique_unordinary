@@ -1,0 +1,52 @@
+{
+  "nom": "Kael",
+  "image": "https://lh3.googleusercontent.com/d/1ZC3lFR20T4mAMwk5VOmRTfKWjG6MVjNN=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Wellston",
+    "taille": "179 cm (H)",
+    "type": "Creation",
+    "capacite": "Dark Blades",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 1, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 5.2, "Power": 8, "Defense": 4, "Recovery": 5, "Trick": 5, "Speed": 3},
+      {"niveau": 5.3, "Power": 8, "Defense": 4, "Recovery": 5, "Trick": 5, "Speed": 3}
+    ]
+  },
+  "parcours": {
+    "titre": "Le neutre aux lames sombres, enlevé",
+    "tag": "Wellston · Creation · Dark Blades 5.2 → 5.3",
+    "resume": "Nouveau au lycée de Wellston, Kael veut rester neutre. Pendant l'attaque, il est la cible prioritaire, puis kidnappé, vomissant et privé de sa capacité.",
+    "reperes": [
+      {"date": "2026-08-25", "type": "fight", "texte": "Premier combat contre Issei."},
+      {"date": "2026-09-08", "type": "fight", "texte": "Duel contre Marc."},
+      {
+        "date": "2026-10-20",
+        "type": "evo",
+        "texte": "Avec l'atténuateur, ses lames sont plus petites, sa vitesse baisse."
+      },
+      {
+        "date": "2026-10-21",
+        "type": "arc",
+        "texte": "Martelé par un tireur sismique, puis téléporté ailleurs par un sbire."
+      },
+      {
+        "date": "2026-10-22",
+        "type": "evo",
+        "texte": "Vomit, se rendort : sa capacité revient après environ dix minutes, à 25 %. Il accepte les conditions d'Orrin."
+      },
+      {"date": "2026-11-06", "type": "fight", "texte": "S'entraîne contre Laura et saigne du nez."}
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Enlevé (téléporteur), nausée",
+    "statut": "partielle",
+    "recuperation": "Capacité revenue après un petit sommeil et ~10 min (25 %)"
+  },
+  "recuperation_capacite": [
+    {"date": "2026-10-19", "min": 100, "max": 100, "texte": "Pleine capacité"},
+    {"date": "2026-10-20", "min": 50, "max": 50, "texte": "Lames plus petites"},
+    {"date": "2026-10-21", "min": 0, "max": 0, "texte": "Enlevé, injecté"},
+    {"date": "2026-10-22", "min": 25, "max": 25, "texte": "Revenue à 25 % après un sommeil"}
+  ]
+}

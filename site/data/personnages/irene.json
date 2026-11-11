@@ -1,0 +1,30 @@
+{
+  "nom": "Irene",
+  "image": "https://lh3.googleusercontent.com/d/12RMdpVEzdEDbDIOqBP2hzVo8_NRSsfHt=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Agwin (Reine)",
+    "taille": "168 cm (F)",
+    "type": "Emission",
+    "capacite": "White Hole",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 7.4, "Power": 7, "Defense": 12, "Recovery": 4, "Trick": 9, "Speed": 3}
+    ]
+  },
+  "parcours": {
+    "titre": "L'As d'Agwin",
+    "tag": "Agwin · Reine · White Hole 7.4",
+    "resume": "Reine d'Agwin, niveau divin 7.4, Irene domine physiquement et diplomatiquement. Elle écrase Ice, chaperonne Hizo, accueille Marou.",
+    "reperes": [
+      {"date": "2026-08-23", "type": "fight", "texte": "Écrase Ice dans l'affrontement inter-écoles."},
+      {
+        "date": "2026-09-01",
+        "type": "arc",
+        "texte": "Face à Hizo : il est roi tant qu'il ne rend pas son titre à Broven."
+      },
+      {"date": "2026-09-07", "type": "plot", "texte": "Envoie Ramlethal chercher Hizo et Johaness."},
+      {"date": "2026-10-12", "type": "bond", "texte": "Discute avec Marie au centre commercial."},
+      {"date": "2026-11-03", "type": "fight", "texte": "Teste la pression sur Marou."}
+    ]
+  }
+}

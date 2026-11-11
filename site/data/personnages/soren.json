@@ -1,0 +1,26 @@
+{
+  "nom": "Soren",
+  "image": "https://lh3.googleusercontent.com/d/1neFiOEyipdjzhDgeRQQtN1bhmCm29xB8=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Wellston",
+    "taille": "175 cm (H)",
+    "type": "Creation",
+    "capacite": "Crimson Thread",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 4.8, "Power": 5, "Defense": 3, "Recovery": 2, "Trick": 7, "Speed": 5},
+      {"niveau": 4.9, "Power": 5, "Defense": 3, "Recovery": 2, "Trick": 7, "Speed": 5}
+    ]
+  },
+  "parcours": {
+    "titre": "Le timide qui explore",
+    "tag": "Wellston · Creation · Crimson Thread 4.8 → 4.9",
+    "resume": "Soren n'aime pas les foules mais explore : Wellston, Rowden, Agwin.",
+    "reperes": [
+      {"date": "2026-08-18", "type": "bond", "texte": "Premier jour avec Julia."},
+      {"date": "2026-08-29", "type": "bond", "texte": "Échange de numéros avec Julia."},
+      {"date": "2026-09-05", "type": "bond", "texte": "Rencontre Silas et Louis à Rowden."},
+      {"date": "2026-09-07", "type": "evo", "texte": "Passe 4.9."}
+    ]
+  }
+}

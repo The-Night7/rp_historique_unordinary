@@ -1,0 +1,20 @@
+{
+  "nom": "Blyke",
+  "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7pFKQD4K9V49R_6jis4BFXcDcIJnqW_8oZb-FFGZmhlb3qw",
+  "fiche_unodex": {
+    "ecole": "Wellston (Roi)",
+    "taille": "178 cm (H)",
+    "type": "Emission",
+    "capacite": "Energy Discharge",
+    "nature": "Attaque",
+    "note": "Statuts : vigilantisme, distribution de substances illégales.",
+    "stats_par_niveau": [
+      {"niveau": 5, "Power": 8, "Defense": 4, "Recovery": 4, "Trick": 5, "Speed": 4}
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Filet d'énergie à la place des salves",
+    "statut": "complète",
+    "recuperation": "Non désactivé : la lueur rouge réapparaît (21 oct.), capacité retrouvée"
+  }
+}

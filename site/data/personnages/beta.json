@@ -1,0 +1,70 @@
+{
+  "nom": "Beta",
+  "image": "https://lh3.googleusercontent.com/d/1CK9NYGDmXvPt-gPVEF3M-IZKhimHcsVe=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview (Soigneur)",
+    "taille": "162 cm (F)",
+    "type": "Status",
+    "capacite": "Sanity Control (Heal/Hurt/Bal)",
+    "nature": "Soutien / Attaque",
+    "note": "Trois modes : Heal [2,3,4,3,3], Hurt [4,2,2,3,4], Balance [3,3,3,3,4]. Taux d'efficacité 96,8 % → 88,2 % de 3.1 à 3.4. Ligne affichée = mode Balance.",
+    "stats_par_niveau": [
+      {"niveau": 3.1, "Power": 3, "Defense": 3, "Recovery": 3, "Trick": 3, "Speed": 4},
+      {"niveau": 3.2, "Power": 3, "Defense": 3, "Recovery": 3, "Trick": 3, "Speed": 4},
+      {"niveau": 3.3, "Power": 3, "Defense": 3, "Recovery": 3, "Trick": 3, "Speed": 4},
+      {"niveau": 3.4, "Power": 3, "Defense": 3, "Recovery": 3, "Trick": 3, "Speed": 4}
+    ]
+  },
+  "parcours": {
+    "titre": "La soigneuse qui s'épuise",
+    "tag": "Westview · Soigneur · Status 3.1 → 3.4",
+    "resume": "Sanity Control (Heal / Hurt / Balance). Depuis un événement qu'elle n'évoque pas, sa capacité est coupée en deux, comme sa personnalité : elle n'a plus accès qu'à la moitié qui soigne (les professionnels disent qu'elle guérira sa capacité le jour où elle guérira sa bipolarité). Telemachus a copié l'autre moitié. Elle sert de soutien à toute la randonnée du 20 octobre et s'attache à Isaure.",
+    "reperes": [
+      {"date": "2026-08-25", "type": "fight", "texte": "Tient tête à Power."},
+      {"date": "2026-08-26", "type": "arc", "texte": "Soigne jusqu'à l'épuisement pendant l'affrontement inter-écoles."},
+      {"date": "2026-09-02", "type": "arc", "texte": "Consulte Elias à Wellston pour des pertes de capacité."},
+      {
+        "date": "2026-10-20",
+        "type": "evo",
+        "texte": "Capacité affaiblie (3.3) : soins et dégâts diminués ; elle ne peut qu'amplifier une douleur."
+      },
+      {
+        "date": "2026-10-21",
+        "type": "evo",
+        "texte": "Sa capacité revient vers 21:30 : elle crée une douleur à l'épaule de Liam, qui croît plus vite."
+      },
+      {"date": "2026-10-22", "type": "evo", "texte": "Dit avoir récupéré sa capacité, aide Isaure à Rowden le 27."},
+      {"date": "2026-11-07", "type": "bond", "texte": "Premier baiser avec Isaure."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/1lH5-XMqGgYgcNM1Qyq2O22JhzxeK3YAO3RrBzN0HufE/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Beta, 16 ans et 7 mois, Westview. Niveau 3.1 (Mid), potentiel 5.8, aura bleu violet."
+      },
+      {
+        "titre": "Double personnalité",
+        "texte": "Bipolarité qui se décrit mieux comme une double personnalité. 1re : amicale, enfantine, douce, taquine, naïve (bleue). 2e : voix plus profonde, agressive, arrogante, sérieuse, prête à blesser (violette)."
+      },
+      {
+        "titre": "Capacité : Sanity Control",
+        "texte": "Elle régule ou perturbe l'équilibre psychophysique d'une personne à travers son aura. Soin sous la 1re personnalité (petites blessures sans problème, grosses blessures lentement), blessures internes à 5 m sous la 2e. Les deux facettes, normalement réunies, sont séparées sur ses deux personnalités. Passif (5.0) : sentir les auras des personnes blessées."
+      },
+      {
+        "titre": "Stats",
+        "texte": "1re personnalité : Speed 3, Power 2, Defense 3, Recovery 4, Trick 3. 2e : Speed 4, Power 4, Defense 2, Recovery 2, Trick 3."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Attaque terroriste sur son collège : elle a tenté en vain de soigner un blessé et a attiré un agresseur, sauvée de justesse par Rin. 3 semaines d'hôpital, vide d'émotions, 6 mois pour se remettre en apparence, puis un diagnostic de bipolarité. Son traumatisme a aussi bloqué sa capacité : sa personnalité douce fuit son trauma et ne peut que soigner, sa personnalité agressive le combat et ne peut que blesser. Tant qu'elle n'aura pas surmonté son traumatisme, elle ne pourra pas réutiliser sa capacité comme à l'origine."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Niveau divisé (3.3)",
+    "statut": "complète",
+    "recuperation": "Revient vers 21:30 le 21 ; « récupéré » le 22 oct."
+  }
+}

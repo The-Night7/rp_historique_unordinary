@@ -1,0 +1,22 @@
+{
+  "nom": "Rin",
+  "image": "https://lh3.googleusercontent.com/d/1GTy3vp1cwHYjOId55MulN2vRJPeDoKrM=w400-h400-p",
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/192k-K5RskpKYFBuIQ9mChcaJXD4g_vck4JydeWOlj0Y/edit",
+    "blocs": [
+      {"titre": "Identité", "texte": "Rin Tohsaka, 16 ans et 8 mois, Westview, niveau Élite Tier."},
+      {
+        "titre": "Capacité : Éclipse d'ombre",
+        "texte": "Se cacher et créer des illusions dans l'ombre, se déplacer d'ombre en ombre sur environ 10 m, former de petits objets inanimés. Passif (5.0) : Ombres Sentinelles, elle perçoit les émotions et intentions des autres à travers leurs ombres, ce qui peut être un fardeau émotionnel."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Réservée, prudente, protectrice et loyale avec ses proches, parfois imprévisible : ses ombres s'activent quand elle est stressée."
+      },
+      {
+        "titre": "Beta",
+        "texte": "Amie d'enfance de Beta, avec qui elle a fait le collège. Elle l'a sauvée de l'attaque terroriste, et fait partie des rares personnes capables de la calmer pendant ses crises."
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "nom": "Remi",
+  "image": "https://lh3.googleusercontent.com/d/1tsfJ3vBdSDwCd3IFs6gDvB9VfwXAXdV8=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Wellston (Reine)",
+    "taille": "165 cm (F)",
+    "type": "Quantum",
+    "capacite": "Lightning",
+    "nature": "Attaque",
+    "stats_par_niveau": [
+      {"niveau": 5.4, "Power": 7, "Defense": 3, "Recovery": 4, "Trick": 4, "Speed": 6}
+    ]
+  }
+}

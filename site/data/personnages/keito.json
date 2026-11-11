@@ -1,0 +1,49 @@
+{
+  "nom": "Keito",
+  "image": "https://lh3.googleusercontent.com/d/115z7fGU-Czwm529AhGaeX_VUKaJZSmoo=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Rowden (Roi, ancien)",
+    "taille": "180 cm (H)",
+    "type": "Quantum",
+    "capacite": "Death Fire",
+    "nature": "—",
+    "note": "Statuts : terrorisme, association avec Spectre.",
+    "stats_par_niveau": [
+      {"niveau": 8.8, "Power": 16, "Defense": 6, "Recovery": 7, "Trick": 12, "Speed": 5}
+    ]
+  },
+  "parcours": {
+    "titre": "Death Fire, du côté de Spectre",
+    "tag": "Rowden (ancien Roi) · Quantum 8.8",
+    "resume": "Frère adoptif de Telemachus, 8.8, présenté dans la salle de recharge comme recruté par Orrin. Sa fiche mentionne un statut de terrorisme et une association avec Spectre.",
+    "reperes": [
+      {"date": "2026-09-05", "type": "bond", "texte": "Café avec Telemachus, complice et taquin."},
+      {
+        "date": "2026-10-20",
+        "type": "arc",
+        "texte": "Libère son aura sur la plage : il est bien moins affecté par l'atténuateur. Cercle de flammes bleues."
+      },
+      {
+        "date": "2026-10-20",
+        "type": "fight",
+        "texte": "Domine Remi, Telemachus, Morgane et Rein malgré l'atténuateur ; l'effet passé, il retrouve son 8.8 complet."
+      },
+      {"date": "2026-10-21", "type": "arc", "texte": "Injecte Telemachus et le porte jusqu'aux sbires de Spectre."},
+      {
+        "date": "2026-10-22",
+        "type": "plot",
+        "texte": "Demande à Orrin de recruter les prisonniers, menace de brûler le QG si on touche à Telemachus."
+      },
+      {
+        "date": "2026-10-25",
+        "type": "arc",
+        "texte": "Au parc, masqué : veut ramener tous les High Tier au niveau des Low Tier, « pour te protéger »."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Niveau divisé par deux pendant l'atténuateur (~1 h)",
+    "statut": "complète",
+    "recuperation": "Retrouve son 8.8 complet après l'événement"
+  }
+}

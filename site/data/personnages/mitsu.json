@@ -1,0 +1,57 @@
+{
+  "nom": "Mitsu",
+  "image": "https://pbs.twimg.com/profile_images/2066611759318798336/hq6uLkfK_400x400.jpg",
+  "fiche_unodex": {
+    "ecole": "Westview (Valet)",
+    "taille": "175 cm (H)",
+    "type": "Emission",
+    "capacite": "Faucheuse Fantôme",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 5.3, "Power": 6, "Defense": 3, "Recovery": 3, "Trick": 8, "Speed": 4},
+      {"niveau": 5.4, "Power": 6, "Defense": 3, "Recovery": 3, "Trick": 8, "Speed": 4}
+    ]
+  },
+  "parcours": {
+    "titre": "Le valet qui ne veut pas frapper",
+    "tag": "Westview · Valet · Faucheuse Fantôme 5.3 → 5.5",
+    "resume": "Mitsu protège les plus faibles. Dans l'attaque, sa faux perd de l'aura et trois tirs lui brisent la jambe droite ; il sort le 24.",
+    "reperes": [
+      {"date": "2026-08-17", "type": "bond", "texte": "Aide Kaïra."},
+      {"date": "2026-08-24", "type": "fight", "texte": "Combat serré face à Hizo."},
+      {"date": "2026-10-20", "type": "evo", "texte": "5.4."},
+      {
+        "date": "2026-10-21",
+        "type": "fight",
+        "texte": "Jambe droite, épaule gauche et ventre touchés, il lance sa faux pour sauver Kael."
+      },
+      {"date": "2026-11-05", "type": "evo", "texte": "5.5."}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/14ocLUb2X5F3VQ1bhcpNlDGCgAOS88HEKp2xP45ptqWo/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Mitsu, 15 ans, Westview (1re année). Niveau 5.5, potentiel 7.0, aura d'un blanc presque pur avec une fumée spectrale."
+      },
+      {
+        "titre": "Capacité : Faucheur Fantomatique",
+        "texte": "Une faux qui peut être intangible ou tangible. Si elle touche quelqu'un dont la capacité est active, la « marque hantée » déstabilise la capacité de l'adversaire (plus difficile à contrôler ou moins efficace), utile contre les hauts niveaux. Passif : rapidité accrue et présence discrète."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Calme, rationnel, gentil, peu bavard ; déterminé à monter dans la hiérarchie mais n'aime pas se battre et s'interpose face à l'injustice."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Faux héritée de son père, Fantôme de sa mère. Entraîné par ses parents depuis l'éveil au collège. Hospitalisé avant son arrivée au lycée : cette maladie l'a traumatisé et rendu plus distant."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Faux affaiblie, jambe transpercée",
+    "statut": "complète",
+    "recuperation": "Non désactivée : capacité retrouvée ; sort de l'hôpital le 24 oct."
+  }
+}

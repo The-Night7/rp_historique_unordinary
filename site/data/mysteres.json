@@ -1,0 +1,46 @@
+[
+  {
+    "id": "bleu",
+    "court": "L'homme aux cheveux bleus",
+    "titre": "Qui est l'homme aux cheveux bleus ?",
+    "statut": "Ouvert",
+    "regex": "cheveux bleus|fioles|amplificat|vendeurs masqu",
+    "personnes": ["Arlequin","Telemachus","Vitalis","Volcan","Fury"],
+    "resume": "Le fournisseur des fioles : long manteau noir, chapeau, masque, cheveux bleus. Il fixe le jour et le lieu, donne les doses, prend l'argent. Décrit par Vesna le 7 octobre, jamais identifié. Le lien avec Ember n'est pas prouvé."
+  },
+  {
+    "id": "casque",
+    "court": "Sous le casque d'Arlequin",
+    "titre": "Qui se cache sous le casque d'Arlequin ?",
+    "statut": "Partiellement résolu",
+    "regex": "Arlequin",
+    "personnes": ["Telemachus","Isaure","Arlequin"],
+    "resume": "Un masque partagé : Telemachus l'a voulu multiple (un faux Arlequin « féminin »), Isaure l'a rejoint le 24 octobre. Les logs ne disent pas qui le porte à Branish ni au quartier low-tier."
+  },
+  {
+    "id": "ember",
+    "titre": "Ember est-elle derrière l'attaque de Westview ?",
+    "statut": "Ouvert",
+    "regex": "Ember|EMBER",
+    "personnes": ["Vitalis","Volcan","Fury","Isaure","Lighter"],
+    "resume": "Vitalis le soupçonne. Les logs montrent deux mécanismes distincts : fioles (Ember) et atténuateur / injection (Spectre). Aucune preuve d'un lien."
+  },
+  {
+    "id": "orrin",
+    "court": "Que veut Orrin ?",
+    "titre": "Que veut Orrin ?",
+    "statut": "En partie révélé",
+    "regex": "Orrin|Spectre|atténuateur",
+    "personnes": ["Orrin","Keito","Liam","Telemachus","Lucina","Kael","Rein"],
+    "resume": "Keito en donne le but le 25 octobre : ramener tous les High Tier au niveau des Low Tier par la technologie. Le lieu, l'organisation et le reste de ses plans restent verrouillés."
+  },
+  {
+    "id": "remede",
+    "court": "Rendre la capacité ?",
+    "titre": "Peut-on rendre la capacité injectée ?",
+    "statut": "Ouvert",
+    "regex": "injection|injecté|récupération partielle|bouchon|déblocage|remède",
+    "personnes": ["Hizo Vertini","John","Rein","Telemachus","Lucina","Kael","Kaito Vance"],
+    "resume": "Rein, John et Hizo n'ont rien retrouvé. Telemachus, Lucina et Kael récupèrent un quart, Telemachus tente de forcer son « bouchon ». Kaito Vance cherche un remède dans le sang d'Hizo."
+  }
+]

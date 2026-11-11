@@ -1,0 +1,38 @@
+{
+  "nom": "Kaïra",
+  "image": "https://lh3.googleusercontent.com/d/1syFRXd-bA8skyxuUD1RvdbjvH7oMFNoT=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview",
+    "taille": "162 cm (F)",
+    "type": "Creation",
+    "capacite": "Blade",
+    "nature": "Attaque",
+    "stats_par_niveau": [
+      {"niveau": 1.8, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 1.9, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 2, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 2.1, "Power": 2, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1}
+    ]
+  },
+  "parcours": {
+    "titre": "De souffre-douleur à 2.1",
+    "tag": "Westview · Blade 1.8 → 2.1",
+    "resume": "Frappée, possédée, puis blessée au flanc dans l'attaque : Kaïra passe de 1.8 à 2.1 et trouve en Louis un ami.",
+    "reperes": [
+      {"date": "2026-08-16", "type": "fight", "texte": "Battue par Power."},
+      {"date": "2026-09-12", "type": "evo", "texte": "1.9."},
+      {"date": "2026-10-13", "type": "evo", "texte": "2.0."},
+      {
+        "date": "2026-10-21",
+        "type": "evo",
+        "texte": "Niveau divisé par deux ; touchée au flanc par un tir ; sa puissance revient en fin de combat."
+      },
+      {"date": "2026-10-22", "type": "evo", "texte": "2.1 ; hospitalisée, rencontre Louis."}
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Niveau divisé, tir au flanc",
+    "statut": "complète",
+    "recuperation": "« Peu de puissance revenir » à 21:29 le 21 oct."
+  }
+}

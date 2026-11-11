@@ -1,0 +1,42 @@
+{
+  "nom": "John",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xOvQydPw1PRV1whXpzc9k2iBM9Kaz92HSuvWCU7KCgdNgg",
+  "fiche_unodex": {
+    "ecole": "—",
+    "taille": "—",
+    "type": "Detection",
+    "capacite": "Aura Manipulation",
+    "nature": "Stratège",
+    "stats_par_niveau": [
+      {"niveau": 7.5, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 16, "Speed": 1}
+    ]
+  },
+  "parcours": {
+    "titre": "Le copieur qui a vu venir",
+    "tag": "Détection · Aura Manipulation 7.5",
+    "resume": "John connaissait les masqués (ils avaient déjà tenté d'enlever Sera) et sait que Terrence les a trahis. Piqué, il perd conscience en copiant les capacités de Laura et Mitsu.",
+    "reperes": [
+      {
+        "date": "2026-10-20",
+        "type": "plot",
+        "texte": "Annonce que les niveaux sont divisés par deux et que Terrence est dans le coup."
+      },
+      {"date": "2026-10-21", "type": "fight", "texte": "Redirige des tirs vers Kael et Mitsu ; touché au flanc."},
+      {
+        "date": "2026-10-21",
+        "type": "arc",
+        "texte": "Injecté par une silhouette dans la rue ; copie Laura et Mitsu avant de s'évanouir."
+      },
+      {
+        "date": "2026-10-22",
+        "type": "arc",
+        "texte": "Se réveille, vomit, capacité inactivable : « c'est pour le mieux, je suppose »."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Injecté dans la rue, inconscient ~24 h",
+    "statut": "perdue",
+    "recuperation": "Capacité inactivable le 22 oct. (« pour le mieux »)"
+  }
+}

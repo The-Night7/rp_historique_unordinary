@@ -1,0 +1,113 @@
+{
+  "nom": "Lucina",
+  "image": "https://lh3.googleusercontent.com/d/1pvDVIvdrMsXHVlhP_3o2lLWanVOnP76a=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview",
+    "taille": "145 cm (F)",
+    "type": "Mental",
+    "capacite": "God's Mind",
+    "nature": "—",
+    "stats_par_niveau": [
+      {"niveau": 1, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 5.2, "Power": 4, "Defense": 3, "Recovery": 6, "Trick": 9, "Speed": 3},
+      {"niveau": 5.3, "Power": 4, "Defense": 3, "Recovery": 6, "Trick": 9, "Speed": 3}
+    ]
+  },
+  "parcours": {
+    "titre": "God's Mind, réduite au silence",
+    "tag": "Westview · Mental · 5.2 → 5.3",
+    "resume": "Télépathe de haut niveau, Lucina perd presque tout dans l'attaque. Rechargée à 25 % temporairement par Orrin, elle cache sa faiblesse tout en s'entraînant avec Ice.",
+    "reperes": [
+      {"date": "2026-09-07", "type": "bond", "texte": "Lien naissant avec Telemachus."},
+      {
+        "date": "2026-10-20",
+        "type": "evo",
+        "texte": "Sur la randonnée, perd la faculté de manipuler et ne relie plus qu'un petit nombre d'esprits."
+      },
+      {"date": "2026-10-21", "type": "arc", "texte": "Piquée à la nuque par un téléporteur qui l'enlève."},
+      {
+        "date": "2026-10-22",
+        "type": "evo",
+        "texte": "Rechargée en dix minutes par Orrin (partiellement et temporairement) ; accepte le marché mais sans le remercier."
+      },
+      {
+        "date": "2026-10-25",
+        "type": "arc",
+        "texte": "Cherche à la bibliothèque des cas semblables au sien ; migraine de surmenage."
+      },
+      {
+        "date": "2026-10-28",
+        "type": "arc",
+        "texte": "Confie à Ice sa capacité « affaiblie voire disparue » ; ressent ce que vivent les plus faibles."
+      }
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/19va5De-jDkUA-LKT9YRGGOm9Cvcvpg4t0Uenk4XnXHo/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Lucina Arneb, 16 ans, « la manipulatrice », Westview (première), née à Wellston, anniversaire le 27/10, 1 m 45. Niveau 5.2, potentiel 7.8."
+      },
+      {
+        "titre": "Capacité : God's Mind",
+        "texte": "Elle lit, manipule et perturbe l'esprit d'un adversaire qu'elle voit : pression mentale, lecture des pensées et de la mémoire, liaison de pensées, hallucinations (Imaginary control), isolation mentale, parasite, Void spirit (5.0+), Capacity Eraser (6.5). Passif : immunité aux capacités mentales (5.0), détection de leur usage (5.5), des personnes sous influence (6.0). Stats : Puissance 4, Speed 3, Ruse 9, Régénération 5, Défense 3."
+      },
+      {
+        "titre": "Caractère",
+        "texte": "Pragmatique et stratège, froide avec l'extérieur, loyale et protectrice envers un cercle restreint. Respect institutionnel pour le système royal de Westview, mépris des royaux des autres écoles, opposée par principe aux vigilantes."
+      },
+      {
+        "titre": "Relations",
+        "texte": "Telemachus (« Machus », ami d'enfance, peut-être plus : elle ignore ses sentiments) et Ice, la reine, qu'elle estime sincèrement depuis leur entraînement."
+      },
+      {
+        "titre": "Arc après l'attaque",
+        "texte": "Depuis la perte de sa capacité et face au dévouement des royaux de Wellston pour protéger les plus démunis de l'attaque de Spectre, sa vision change : la hiérarchie n'est plus un système infaillible, et les plus faibles deviennent de « véritables personnes », plus des êtres bons à manipuler. Elle ne veut plus utiliser le peu de capacité qui lui reste pour son propre intérêt mais pour aider ceux qui risquent le même sort, et s'en veut d'avoir cru que seuls les plus forts valaient la peine d'exister."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Fille unique de deux agents du gouvernement, élevée dans la doctrine des Autorités. Capacité de sa mère manifestée à 4 ans. Destinée à Wellston High, elle a refusé son admission pour suivre ses parents mutés et s'est retrouvée à Westview."
+      }
+    ]
+  },
+  "chronologie_fiche": [
+    {
+      "titre": "L'entraînement inter-écoles",
+      "quand": "août",
+      "texte": "Lucina peine à trouver le lieu, Telemachus le lui rappelle. Elle se range avec lui au corps à corps. Il affronte Issei ; elle affronte Ice, la reine, sans utiliser sa capacité (time skip, pas de résultat)."
+    },
+    {
+      "titre": "Le week-end du Coin Tranquille",
+      "quand": "20 octobre",
+      "texte": "Invitée avec Telemachus à un week-end organisé par le Coin Tranquille de Wellston. Camarade de chambre : Kiara. Le lendemain, trois groupes : le sien fait la randonnée avec Hizo, Arlo, Blyke, Isen, Beta et Julia."
+    },
+    {
+      "titre": "L'attaque de la randonnée",
+      "quand": "20-21 octobre",
+      "texte": "Des ravisseurs connaissent leur trajet et les attaquent, affaiblis par un frisson qui réduit leur capacité de moitié (la sienne tombe à 2.7). Elle connecte ses pensées à celles de Blyke et d'Arlo pour qu'ils communiquent, ce qui lui donne une forte migraine. Un ravisseur téléporteur lui injecte un produit inconnu."
+    },
+    {
+      "titre": "Le réveil chez Spectre",
+      "quand": "21-22 octobre",
+      "texte": "Réveil nauséeux, elle vomit. Avec elle : Telemachus, Rein et Kael. Sa capacité ne répond plus à sa volonté. Orrin propose de la rendre contre un service."
+    },
+    {
+      "titre": "La bibliothèque et Ice",
+      "quand": "après l'attaque",
+      "texte": "Elle cherche des cas similaires. Elle y rencontre Ice, inquiète, et lui propose un entraînement pour lui montrer qu'elle n'a rien : elle esquive facilement, son vrai but est de rendre Ice imprévisible. Elles terminent en amies et sortent boire au centre-ville."
+    }
+  ],
+  "apres_attaque": {
+    "effet": "Injectée par un téléporteur, enlevée",
+    "statut": "partielle",
+    "recuperation": "Recharge de ~10 min, partielle et temporaire ; « quasiment rien » le 22, « affaiblie voire disparue » le 28"
+  },
+  "recuperation_capacite": [
+    {"date": "2026-10-19", "min": 100, "max": 100, "texte": "Pleine capacité"},
+    {"date": "2026-10-20", "min": 50, "max": 50, "texte": "L'atténuateur : n'arrive plus à manipuler"},
+    {"date": "2026-10-21", "min": 0, "max": 0, "texte": "Piquée par le téléporteur"},
+    {"date": "2026-10-22", "min": 25, "max": 25, "texte": "Un quart : peut lire les pensées, plus les contrôler"},
+    {"date": "2026-10-28", "min": 10, "max": 25, "texte": "« Affaiblie voire disparue »"}
+  ]
+}

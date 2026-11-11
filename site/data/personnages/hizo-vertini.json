@@ -1,0 +1,73 @@
+{
+  "nom": "Hizo Vertini",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-r7wyQpRdxUwQXRv44x732uhBbwfp4nvTNXkhTWvR1qKASe_zSfb7xLBdB33Tg1WOnGd2bmV_HkqHdrzII8D1gtxuYTd0xKT0PQPoIQy7A&s=10",
+  "fiche_unodex": {
+    "ecole": "Agwin (Roi)",
+    "taille": "185 cm (H)",
+    "type": "Quantum",
+    "capacite": "Ghost (Spectre)",
+    "nature": "—",
+    "note": "Intangibilité totale limitée à 5 minutes ; désactivée dans un obstacle solide, elle le propulse. Statut : vigilantisme.",
+    "stats_par_niveau": [
+      {"niveau": 1, "Power": 1, "Defense": 1, "Recovery": 1, "Trick": 1, "Speed": 1},
+      {"niveau": 4.8, "Power": 3, "Defense": 3, "Recovery": 5, "Trick": 7, "Speed": 6},
+      {"niveau": 4.9, "Power": 3, "Defense": 3, "Recovery": 5, "Trick": 7, "Speed": 6}
+    ]
+  },
+  "parcours": {
+    "titre": "Le roi qui a perdu son pouvoir",
+    "tag": "Agwin · Roi · Ghost 4.8 → 4.9",
+    "resume": "Roi d'Agwin, Hizo s'infiltre dans la randonnée, est noyé puis injecté par Liam, et se réveille sans capacité. Il ne l'a toujours pas retrouvée début novembre.",
+    "reperes": [
+      {"date": "2026-08-24", "type": "fight", "texte": "Combat serré contre Mitsu ; repart avec une canne."},
+      {
+        "date": "2026-09-02",
+        "type": "plot",
+        "texte": "Lettre et clé USB de Kaito Vance : trois responsables de la mort de ses proches."
+      },
+      {
+        "date": "2026-10-21",
+        "type": "evo",
+        "texte": "Dans la rando, sa vibration marche encore mais moins longtemps ; il propose de faire traverser le sol à certains."
+      },
+      {"date": "2026-10-21", "type": "arc", "texte": "Piqué par Liam alors qu'il se noie."},
+      {"date": "2026-10-22", "type": "arc", "texte": "Se réveille, vomit, ne peut plus activer sa capacité."},
+      {"date": "2026-10-24", "type": "plot", "texte": "Kaito prend son sang et cherche un remède."},
+      {
+        "date": "2026-11-02",
+        "type": "arc",
+        "texte": "Hanté par les voix de son frère, cherche tous les moyens de la récupérer."
+      }
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/1NfbaffOxFh9Fiv8q2vHpSmHP2mLkAhzYQKfXWAJrxf4/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Hizo Vertini, 17 ans, élève d'Agwin, niveau 4.8, capacité Spectre, nom de justicier Void (« Le Fantôme des USA »)."
+      },
+      {
+        "titre": "Rêve",
+        "texte": "Devenir un symbole d'espoir, celui dont la présence rassure : « bâtir un monde où personne n'aura à souffrir comme lui a souffert ». Très discipliné, entraînements avant l'aube."
+      },
+      {
+        "titre": "Capacité : Spectre",
+        "texte": "Intangibilité par altération extrême de la fréquence vibratoire de son corps : rien ne l'atteint, mais il ne voit, n'entend ni ne respire plus (5 minutes maximum). Désactiver Spectre à l'intérieur d'un solide l'expulse à grande vitesse, il s'en sert pour se déplacer et attaquer."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Né à New York dans une branche des Vertini en guerre interne. À huit ans, des membres de la branche rivale tuent son père et son grand frère Damian pendant que sa mère Emily protège les deux plus jeunes. Une enfance de deuil et de lutte qui forge sa volonté."
+      },
+      {
+        "titre": "Physique",
+        "texte": "1 m 85, cheveux et yeux vert sombre, quatre taches de rousseur en losange, corps couvert de cicatrices dont deux sur le visage."
+      }
+    ]
+  },
+  "apres_attaque": {
+    "effet": "Injecté par Liam, inconscient ~24 h",
+    "statut": "perdue",
+    "recuperation": "Inactivable le 22 oct. ; Kaito cherche un remède ; toujours rien le 2 nov."
+  }
+}

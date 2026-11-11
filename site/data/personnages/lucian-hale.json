@@ -1,0 +1,36 @@
+{
+  "nom": "Lucian Hale",
+  "image": "https://lh3.googleusercontent.com/d/1LHcy39gFpCW9m2_w-G1B2oUyMsBTVaWr=w400-h400-p",
+  "fiche_unodex": {
+    "ecole": "Westview",
+    "taille": "175 cm (H)",
+    "type": "Enhancement",
+    "capacite": "Pride",
+    "nature": "Attaque",
+    "stats_par_niveau": [
+      {"niveau": 4.6, "Power": 6, "Defense": 3, "Recovery": 5, "Trick": 7, "Speed": 1},
+      {"niveau": 4.7, "Power": 6, "Defense": 3, "Recovery": 5, "Trick": 7, "Speed": 1}
+    ]
+  },
+  "fiche_rp": {
+    "source": "https://docs.google.com/document/d/13dXO2_CJHjxc6leu1R9ct9RAO3A_3BTA1TBPi08Q0A8/edit",
+    "blocs": [
+      {
+        "titre": "Identité",
+        "texte": "Lucian Hale, alias Red Hood, 18 ans, Westview. Niveau 4.6, potentiel 5.8, aura d'or incandescent."
+      },
+      {
+        "titre": "Capacité : Orgueil (Pride Manifestation)",
+        "texte": "Sa puissance grandit avec son ego : défi, combat ou provocation renforcent Power, Speed et Recovery, mais il perd le contrôle émotionnel et met ses alliés en danger. Forme « Orgueil absolu » limitée à 2 tours. Passif « Refus de soumission »."
+      },
+      {
+        "titre": "Rôle",
+        "texte": "Stratège des justiciers de Wellston, il déteste l'injustice et méprise ceux qui abusent de leur pouvoir. Sa fierté l'empêche de fuir un combat."
+      },
+      {
+        "titre": "Histoire",
+        "texte": "Né dans une famille de haut rang dont il a rejeté les idéaux. Il joue d'abord la hiérarchie à Westview avant d'en voir la corruption. Quand un ami faible est hospitalisé pour avoir défié un High Tier, il jure de ne plus se taire et fonde un petit groupe de justiciers clandestins. Derrière l'arrogance : un cœur brisé par la trahison et la culpabilité."
+      }
+    ]
+  }
+}
