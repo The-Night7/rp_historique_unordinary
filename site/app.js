@@ -26,7 +26,8 @@ const imgsOf = n => { const v = (CU.IMAGES || {})[n]; return !v ? [] : Array.isA
 const imgOf = n => imgsOf(n)[0] || "";
 const imgTags = (n, cls) => imgsOf(n).map(u => `<img${cls ? ` class="${cls}"` : ""} src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`).join("");
 const avImg = n => imgTags(n);
-const av = (n, lg) => `<span class="av${lg ? " lg" : ""}${imgsOf(n).length > 1 ? " two" : ""}" style="background:${ccol(n)}" aria-hidden="true">${esc(initial(n))}${avImg(n)}</span>`;
+const av1 = (n, lg, u) => `<span class="av${lg ? " lg" : ""}" style="background:${ccol(n)}" aria-hidden="true">${esc(initial(n))}${u ? `<img src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}</span>`;
+const av = (n, lg) => imgsOf(n).length > 1 ? `<span class="av-pair">${imgsOf(n).map(u => av1(n, lg, u)).join("")}</span>` : av1(n, lg, imgOf(n));
 const clink = n => CH[n] ? `<a class="cl" href="#/perso/${slug(n)}">${esc(n)}</a>` : `<span class="cl" style="background:var(--surface2);color:var(--muted)">${esc(n)}</span>`;
 const tierOf = l => l < 2 ? (l <= 1 ? "Cripple" : "Low Tier") : l < 3.5 ? "Mid Tier" : l < 5 ? "Elite Tier" : l < 6 ? "High Tier" : "God Tier";
 const actOf = d => ACTS.find(a => d >= a.from && d <= a.to) || ACTS[0];
@@ -274,6 +275,7 @@ function viewPerso(name) {
   const peParts = [["training", "Entraînement"], ["fight", "Combat"]].filter(([k]) => pe[k]);
   const sc = [...c.scenes].sort((x, y) => x[0] < y[0] ? 1 : -1);
   const weeks = {};
+  if (name === "Arlequin") return arlequinPage({ c, a, f, journey, sc, full, markers });
   return `<p><a href="#/personnages">← Tous les personnages</a></p>
   <div class="hero">${av(name, true)}<div><h1>${esc(name)}</h1><p class="sub">${esc(a ? a.tag : f ? f.ecole : "")} · ${c.msgs} messages · vu du ${fd(c.first)} au ${fd(c.last)}</p></div></div>
   ${a ? `<p class="lead"><b>${esc(a.title)}.</b> ${esc(a.summary)}</p>` : ""}
@@ -287,6 +289,7 @@ function viewPerso(name) {
   <div class="legend"><span><i style="background:var(--tournant)"></i>Tournant</span><span><i style="background:var(--fight)"></i>Combat</span><span><i style="background:var(--bond)"></i>Lien / rencontre</span><span><i style="background:var(--plot)"></i>Arc / intrigue</span><span><i style="background:var(--evo)"></i>Évolution</span></div></div>
   ${lv.length > 1 ? `<h2>Niveau dans le temps</h2><div class="card">${lvChart}<p class="sub">Niveaux relevés dans les pseudos Discord du personnage (les libellés « 1.0 », qui désignent le compte joueur, sont ignorés).</p></div>` : ""}
   ${CU.DEBLOCAGE && CU.DEBLOCAGE[name] ? `<h2>Récupération de la capacité</h2><div class="card">${debChart(CU.DEBLOCAGE[name])}<p class="sub">Part de capacité disponible après l'attaque du 20 octobre ; estimation tirée des logs et de la fiche du personnage.</p></div>` : ""}
+  ${CU.FICHE_RP && CU.FICHE_RP[name] ? `<h2>Sa fiche RP</h2><div class="card">${CU.FICHE_RP[name].blocs.map(b => `<div class="beat"><time>${esc(b[0])}</time><div>${esc(b[1])}</div></div>`).join("")}<p class="sub" style="margin:10px 0 0">Source : <a href="${esc(CU.FICHE_RP[name].src)}" target="_blank" rel="noopener">sa fiche</a> (lien de l'unodex)</p></div>` : ""}
   ${CU.FICHE_CHRONO && CU.FICHE_CHRONO[name] ? `<h2>Chronologie de sa fiche</h2><div class="card">${CU.FICHE_CHRONO[name].map(c => `<div class="beat"><time>${esc(c[1])}</time><div><b>${esc(c[0])}</b><br>${esc(c[2])}</div></div>`).join("")}</div>` : ""}
   <h2>Son tableau d'enquête</h2><p class="sub" style="margin:0 0 10px">Ses partenaires, ses événements clés, les pistes où il est mêlé et les moments d'évolution ou d'arc de sa fiche.</p><div id="bdperso">${bdHTML("bd-pe", boardForPerso(name))}</div>
   <h2>Parcours</h2>
@@ -297,6 +300,49 @@ function viewPerso(name) {
   <h2>Toutes les scènes (${sc.length})</h2>
   <div class="card scroll"><details><summary>Afficher la liste complète</summary><table><thead><tr><th>Date</th><th>Lieu</th><th>Ville</th><th>Msgs</th><th>Avec</th></tr></thead><tbody>${sc.map(s => `<tr><td>${fd(s[0])}</td><td>${esc(s[1])}</td><td>${esc(s[2])}</td><td>${s[3]}</td><td>${s[4].map(n => esc(n)).join(", ")}</td></tr>`).join("")}</tbody></table></details></div>`;
 }
+// Arlequin est une identité partagée : la page sépare ce qui revient à Telemachus, à Isaure et ce que les logs ne tranchent pas.
+function arlequinPage({ c, a, f, journey, sc, full, markers }) {
+  const CUT = "2026-10-24", ATT = "2026-10-20", LT = "2026-10-31"; // LT : quartier low-tier (Telemachus « il » et Isaure « elle » y sont ensemble) ; Isaure rejoint le 24 octobre ; l'attaque de Spectre commence le 20 (Telemachus est enlevé le 21)
+  const imgs = imgsOf("Arlequin");
+  const photo = (u, who) => u ? `<img class="arl-img" src="${esc(u)}" alt="Arlequin porté par ${esc(who)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+  const rowsT = f.rows.filter(r => r[0] < 6.5), rowsI = f.rows.filter(r => r[0] >= 6.5);
+  const isJoin = j => j.d === CUT && /Isaure/.test(j.t);
+  const jT = journey.filter(j => j.d < ATT || j.d >= LT), jI = journey.filter(j => j.d >= CUT - 0 && true ? (isJoin(j) || (j.d >= ATT && j.d < LT) || j.d >= LT) : false);
+  const scT = sc.filter(x => x[0] < ATT || x[0] >= LT), scI = sc.filter(x => x[0] >= ATT);
+  const msgs = (list) => list.reduce((t, x) => t + x[3], 0);
+  const topOf = (list, f2) => { const m = {}; list.forEach(x => f2(x).forEach(k => m[k] = (m[k] || 0) + 1)); return Object.entries(m).sort((p, q) => q[1] - p[1]).slice(0, 6); };
+  const jhtml = l => l.length ? l.map(j => `<div class="beat"><time>${fdr(j.d, j.e)}</time><div><span class="tag k-${j.k}">${j.src === "ev" ? "Événement · " : ""}${klab(j.k)}</span><br>${j.src === "ev" ? `<b>${esc(j.t)}</b> — ${esc(j.s)}` : esc(j.t)}</div></div>`).join("") : "<p class='sub'>Rien de documenté.</p>";
+  const stats = rows => rows.length ? `<div class="grid g2" style="margin-top:12px"><div>${rows.length > 1 ? palierChart(rows) : ""}<div class="sub" style="margin-top:6px">${rows.map(r => `niv. ${r[0].toFixed(1)}`).join(" → ")}</div></div><div>${radar(rows[rows.length - 1][1], ccol("Arlequin"))}</div></div>` : "";
+  const scenesBlock = (list, title) => list.length ? `<div class="grid g2" style="margin-top:12px">
+    <div class="card"><h3>Lieux <span class="sub">(scènes)</span></h3>${bars(topOf(list, x => [x[1]]))}</div>
+    <div class="card"><h3>Partenaires <span class="sub">(scènes en commun)</span></h3>${bars(topOf(list, x => x[4].filter(n => n !== "Arlequin")), { href: n => CH[n] ? "#/perso/" + slug(n) : "", color: "var(--lien)" })}</div></div>
+    <details style="margin-top:8px"><summary>${list.length} scène${list.length > 1 ? "s" : ""}, ${msgs(list)} messages</summary><div class="card scroll"><table><thead><tr><th>Date</th><th>Lieu</th><th>Msgs</th><th>Avec</th></tr></thead><tbody>${list.map(x => `<tr><td>${fd(x[0])}</td><td>${esc(x[1])}</td><td>${x[3]}</td><td>${x[4].map(esc).join(", ")}</td></tr>`).join("")}</tbody></table></div></details>` : "";
+  const fiche = (txt) => `<div class="fiche"><dl><dt>École</dt><dd>${esc(f.ecole)}</dd><dt>Taille</dt><dd>${esc(f.taille)}</dd><dt>Type</dt><dd>${esc(f.type)}</dd></dl></div><p class="note">${txt}</p>`;
+  return `<p><a href="#/personnages">← Tous les personnages</a></p>
+  <div class="hero">${av("Arlequin", true)}<div><h1>Arlequin</h1><p class="sub">Identité partagée · ${c.msgs} messages · vu du ${fd(c.first)} au ${fd(c.last)}</p></div></div>
+  <p class="lead"><b>${esc(a.title)}.</b> ${esc(a.summary)}</p>
+  <p class="note" style="max-width:68ch">Les logs gardent le pseudo « Arlequin » sans dire qui porte le casque. Cette page sépare ce qui revient à <b>Telemachus</b> (le porteur d'origine) et à <b>Isaure</b> (qui rejoint le 24 octobre, avec sa capacité Debt). Les pronoms du récit et la capacité utilisée permettent de les distinguer : « il » et les copies de capacités pour Telemachus, « elle » et les dettes pour Isaure.</p>
+  <h2>Activité & moments clés</h2>
+  <div class="card">${activityChart({ series: full, markers, acts: true, h: 230, color: ccol("Arlequin") })}</div>
+
+  <h2>Le tableau d'enquête d'Arlequin</h2><p class="sub" style="margin:0 0 10px">Un seul tableau, deux Arlequin : Telemachus (« il », Aura Deity) et Isaure (« elle », Debt), chacun avec ses événements, ses partenaires et ses pistes. Le quartier low-tier les réunit.</p>${bdHTML("bd-pe", boardForArlequin())}
+
+  <h2>Sous le masque : Telemachus <span class="sub">· 27 août → 7 octobre, puis le 2 novembre</span></h2>
+  <div class="card"><div class="arl-head">${photo(imgs[0], "Telemachus")}<div><h3 style="margin:0">Arlequin garçon</h3><p class="sub" style="margin:2px 0 0">${scT.length} scènes, ${msgs(scT)} messages · capacité <b>Aura Deity</b> (copie)</p></div></div>
+   ${fiche("Aura Deity : Telemachus copie une capacité au toucher et la nourrit de sa propre aura. Ses statistiques physiques restent à 1 tant qu'il n'a rien copié ; seul son Trick est élevé. Les lignes de ce palier sont des combinaisons de capacités copiées (« Arlequin » dans l'unodex = les mêmes avec le masque). Il fabrique aussi un faux Arlequin « féminin » pour brouiller les pistes. Au quartier low-tier (2 novembre), c'est lui, au masculin : « il encaisse et ne tombe pas ».")}
+   ${stats(rowsT)}</div>
+  <h3 style="margin:16px 0 8px">Ce qu'Arlequin fait avec Telemachus dessous</h3><div class="card">${jhtml(jT)}</div>
+  ${scenesBlock(scT)}
+
+  <h2>Sous le masque : Isaure <span class="sub">· 24 octobre → 3 novembre</span></h2>
+  <div class="card"><div class="arl-head">${photo(imgs[1], "Isaure")}<div><h3 style="margin:0">Arlequin fille</h3><p class="sub" style="margin:2px 0 0">${scI.length} scènes, ${msgs(scI)} messages · capacité <b>Debt</b> · niveau 6.7</p></div></div>
+   ${fiche("Debt (6.7) = Isaure : elle transforme les coups qu'elle reçoit en dettes. Le coup d'un adversaire est mis en suspens dans son aura, grossit avec des intérêts, puis elle le rend en entier au contact. À Branish, c'est elle : « J'ai accumulé suffisamment de dette… Dette remboursée » (« elle » dans le récit). Au quartier low-tier, elle est là aussi (3 novembre, « elle souffle un peu sous le coup »). La ligne « Arlequin 6.7 » de l'unodex est Isaure sous le masque, identique à sa propre fiche")}
+   ${stats(rowsI)}
+   <p class="sub" style="margin:10px 0 0">Fiche complète : <a href="#/perso/Isaure">Isaure →</a></p></div>
+  <h3 style="margin:16px 0 8px">Ce qu'Arlequin fait avec Isaure dessous</h3><div class="card">${jhtml(jI)}</div>
+  ${scenesBlock(scI)}`;
+}
+
 function afterPerso(name) {
   bdMount("bd-pe");
   const f = FICHES[name]; if (!f || !f.rows.length) return;
@@ -442,14 +488,20 @@ function bdLayout(center, inner, outer) {
   ring(inner, 24, 25, Math.PI / (inner.length || 1)); ring(outer, 41, 41, 0);
   return out;
 }
-const personNode = (n, extra = {}) => ({ id: "p:" + n, k: "perso", p: CH[n] ? n : null, n, s: CH[n] ? "" : "", d: CH[n] ? "" : "Personnage secondaire, sans page propre.", ...extra });
+const personNode = (n, extra = {}) => ({ id: "p:" + n, base: n, k: "perso", p: CH[n] ? n : null, n, s: CH[n] ? "" : "", d: CH[n] ? "" : "Personnage secondaire, sans page propre.", ...extra });
 function eventNode(e, extra = {}) { return { id: "e" + evId(e), k: "event", col: ccolK(e.k), lab: klab(e.k).toUpperCase(), n: e.t.replace("★ ", ""), s: e.p || "", dt: fdr(e.d, e.e), d: e.s, href: "#/evenement/" + evId(e), ...extra }; }
 function ccolK(k) { return ({ combat: "#d6453d", rencontre: "#3a74d8", plot: "#8b52d6", vigilante: "#c27a00", lien: "#1f9c7a", tournant: "#b58900", ecole: "#6a6675" })[k] || "#6a6675"; }
 const mystNode = (m, extra = {}) => ({ id: "m:" + m.id, k: "inconnu", n: m.short || m.t, s: "", st: m.st, d: m.sum, href: "#/mystere/" + m.id, ...extra });
 
+// Arlequin est un masque partagé : sur tout tableau, il devient « Arlequin (Telemachus) » et/ou « Arlequin (Isaure) » selon la date.
+// Telemachus avant l'attaque (20 oct.), Isaure du 24 oct. (Branish, « elle », Debt), les deux au quartier low-tier (31 oct. →).
+const arlWho = e => e.d < "2026-10-20" ? ["T"] : e.d < "2026-10-31" ? ["I"] : ["T", "I"];
+const arlNodes = (who, extra = {}) => who.map(w => ({ id: "p:Arlequin:" + w, base: "Arlequin", who: w, k: "perso", p: "Arlequin", ik: w === "T" ? "Arlequin (garçon)" : "Arlequin (fille)", n: w === "T" ? "Arlequin (Telemachus)" : "Arlequin (Isaure)", s: w === "T" ? "Aura Deity · « il »" : "Debt · « elle »", d: ARCS["Arlequin"].summary, ...extra }));
+const peopleFor = (chars, e) => chars.flatMap(c => c === "Arlequin" ? arlNodes(arlWho(e)) : [personNode(c)]);
+const idsOf = (list, c) => list.filter(p => (p.base || p.n) === c).map(p => p.id);
 function boardForEvent(e) {
   const i = evId(e), chars = (e.c || []).filter(c => c);
-  const peopleAll = chars.map(c => personNode(c));
+  const peopleAll = peopleFor(chars, e);
   const inner = peopleAll.slice(0, 6);
   const outer = [...peopleAll.slice(6, 10)];
   if (e.p) outer.push({ id: "pl", k: "lieu", n: e.p, s: "", d: "Lieu de l'événement." });
@@ -462,59 +514,91 @@ function boardForEvent(e) {
   const edges = [];
   peopleAll.slice(0, 10).forEach(p => edges.push([nodes[0].id, p.id, "présent"]));
   if (e.p) edges.push([nodes[0].id, "pl", "se passe à"]);
-  ms.forEach(m => { edges.push([nodes[0].id, "m:" + m.id, "alimente la piste", true]); (m.pp || []).filter(c => chars.includes(c)).slice(0, 2).forEach(c => edges.push(["m:" + m.id, "p:" + c, "impliqué"])); });
+  ms.forEach(m => { edges.push([nodes[0].id, "m:" + m.id, "alimente la piste", true]); (m.pp || []).filter(c => chars.includes(c)).slice(0, 2).forEach(c => idsOf(peopleAll, c).forEach(id => edges.push(["m:" + m.id, id, "impliqué"]))); });
   rel.forEach(x => {
     const sh = (x.c || []).filter(c => chars.includes(c));
     edges.push([nodes[0].id, "e" + evId(x), (x.d < e.d ? "avant · " : x.d > e.d ? "après · " : "") + sh.slice(0, 2).join(", ")]);
-    sh.slice(0, 2).forEach(c => { if (peopleAll.slice(0, 10).some(p => p.n === c)) edges.push(["p:" + c, "e" + evId(x), ""]); });
+    sh.slice(0, 2).forEach(c => idsOf(peopleAll.slice(0, 10), c).forEach(id => edges.push([id, "e" + evId(x), ""])));
   });
   return { nodes, edges, h: nodes.length > 10 ? 880 : nodes.length > 6 ? 700 : 600 };
 }
 function boardForMyst(m) {
   const evs = evsOfMyst(m).map(e => ({ e, n: (new RegExp(m.rx, "g").exec(e.t + " " + e.s) ? 1 : 0) + (e.t.startsWith("★") ? 2 : 0) + (e.c || []).filter(c => (m.pp || []).includes(c)).length })).sort((a, b) => b.n - a.n).slice(0, 8).map(x => x.e).sort((a, b) => a.d < b.d ? -1 : 1);
-  const inner = (m.pp || []).slice(0, 7).map(n => personNode(n));
+  const inner = (m.pp || []).slice(0, 7).flatMap(n => n === "Arlequin" ? arlNodes(["T", "I"]) : [personNode(n)]);
   const outer = evs.map(e => eventNode(e));
   const nodes = bdLayout(mystNode(m, { href: null }), inner, outer);
   const edges = [];
   inner.forEach(p => edges.push([nodes[0].id, p.id, "impliqué"]));
   outer.forEach((o, i) => { edges.push([nodes[0].id, o.id, "indice"]); if (i) edges.push([outer[i - 1].id, o.id, "puis"]); });
-  evs.forEach(e => (e.c || []).filter(c => inner.some(p => p.n === c)).slice(0, 2).forEach(c => edges.push(["p:" + c, "e" + evId(e), ""])));
+  evs.forEach(e => (e.c || []).filter(c => inner.some(p => (p.base || p.n) === c)).slice(0, 2).forEach(c => idsOf(inner, c).filter(id => !/Arlequin:/.test(id) || arlWho(e).includes(id.slice(-1))).forEach(id => edges.push([id, "e" + evId(e), ""]))));
   return { nodes, edges, h: nodes.length > 10 ? 900 : 720 };
 }
-function boardForPerso(name) {
-  const c = CH[name], A = ARCS[name];
-  const evs = EV.filter(e => (e.c || []).includes(name)).sort((a, b) => (b.t.startsWith("★") ? 1 : 0) - (a.t.startsWith("★") ? 1 : 0) || (b.s.length - a.s.length)).slice(0, 7).sort((a, b) => a.d < b.d ? -1 : 1);
-  const partners = c.partners.filter(x => CH[x[0]] && x[0] !== name).slice(0, 4);
-  const ms = MYST.filter(m => (m.pp || []).includes(name)).slice(0, 2);
-  const beats = A ? A.beats.filter(b => b[1] === "evo" || b[1] === "arc").slice(0, 3) : [];
-  const nodes = [{ id: "me", k: "perso", p: name, n: name, s: A ? A.title : "", d: A ? A.summary : "", x: 11, y: 50, focus: true }];
+function buildPersoBoard(spec) {
+  const { name, ik, title, summary, evs, partners, ms, beats } = spec;
+  const nodes = [{ id: "me", k: "perso", p: name, ik, n: spec.label || name, s: title || "", d: summary || "", x: 11, y: 50, focus: true }];
   const edges = [];
-  // frise des événements, en quinconce, de gauche à droite
   const X0 = 31, X1 = 91, n = evs.length;
   const evx = i => n < 2 ? 60 : X0 + i * (X1 - X0) / (n - 1);
   evs.forEach((e, i) => { const nd = eventNode(e, { x: +evx(i).toFixed(1), y: i % 2 ? 62 : 38 }); nodes.push(nd); edges.push([i ? "e" + evId(evs[i - 1]) : "me", nd.id, i ? "puis" : "premier événement"]); });
-  // évolutions / arcs : accrochés à l'événement le plus proche dans le temps
   beats.forEach((b, i) => {
     let bi = 0; evs.forEach((e, k) => { if (Math.abs(+new Date(e.d) - +new Date(b[0])) < Math.abs(+new Date(evs[bi].d) - +new Date(b[0]))) bi = k; });
     const id = "b" + i;
-    nodes.push({ id, k: b[1], n: b[1] === "evo" ? "Évolution" : "Arc", s: b[2].length > 90 ? b[2].slice(0, 88) + "…" : b[2], dt: fd(b[0]), d: b[2], x: +Math.min(92, Math.max(30, evx(bi) + (i - 1) * 4)).toFixed(1), y: 13 });
+    nodes.push({ id, k: b[1], n: b[1] === "evo" ? "Évolution" : "Arc", s: b[2].length > 90 ? b[2].slice(0, 88) + "…" : b[2], dt: fd(b[0]), d: b[2], x: +Math.min(92, Math.max(30, (evs.length ? evx(bi) : 50) + (i - 1) * 4)).toFixed(1), y: 13 });
     if (evs.length) edges.push([id, "e" + evId(evs[bi]), "à ce moment"]); edges.push(["me", id, b[1] === "evo" ? "évolution" : "arc"]);
   });
-  // partenaires en bas, reliés aux événements qu'ils partagent
-  partners.forEach(([pn, v], i) => {
-    const nd = personNode(pn, { s: v + " messages échangés", x: +(46 + i * (46 / Math.max(1, partners.length - 1))).toFixed(1), y: 88 });
-    if (partners.length === 1) nd.x = 60;
+  const plist = partners.flatMap(([pn, v, unit]) => pn === "Arlequin" ? arlNodes([...new Set(evs.filter(e => (e.c || []).includes(pn)).flatMap(arlWho))].concat(evs.some(e => (e.c || []).includes(pn)) ? [] : ["T", "I"])).map(nd => ({ nd, v, unit })) : [{ nd: personNode(pn), v, unit }]);
+  plist.forEach(({ nd, v, unit }, i) => {
+    nd.s = v ? v + " " + (unit || "messages échangés") : nd.s; nd.x = plist.length === 1 ? 60 : +(46 + i * (46 / Math.max(1, plist.length - 1))).toFixed(1); nd.y = 88;
     nodes.push(nd);
-    const sh = evs.filter(e => (e.c || []).includes(pn)).slice(0, 3);
-    if (!sh.length) edges.push(["me", nd.id, "échanges en scène"]);
+    const sh = evs.filter(e => (e.c || []).includes(nd.base) && (!nd.who || arlWho(e).includes(nd.who))).slice(0, 3);
+    if (!sh.length) edges.push(["me", nd.id, "présent"]);
     sh.forEach(e => edges.push([nd.id, "e" + evId(e), "présent"]));
   });
-  // mystères en bas à gauche, reliés aux événements qui les alimentent
   ms.forEach((m, i) => {
     nodes.push(mystNode(m, { x: 9 + i * 15, y: 87 })); edges.push(["me", "m:" + m.id, "mêlé à la piste", true]);
     evs.filter(e => mystOf(e).includes(m)).slice(0, 2).forEach(e => edges.push(["m:" + m.id, "e" + evId(e), "alimente", true]));
   });
   return { nodes, edges, h: 880, free: true };
+}
+function boardForPerso(name) {
+  const c = CH[name], A = ARCS[name];
+  const evs = EV.filter(e => (e.c || []).includes(name)).sort((a, b) => (b.t.startsWith("★") ? 1 : 0) - (a.t.startsWith("★") ? 1 : 0) || (b.s.length - a.s.length)).slice(0, 7).sort((a, b) => a.d < b.d ? -1 : 1);
+  return buildPersoBoard({ name, title: A ? A.title : "", summary: A ? A.summary : "", evs,
+    partners: c.partners.filter(x => CH[x[0]] && x[0] !== name).slice(0, 4),
+    ms: MYST.filter(m => (m.pp || []).includes(name)).slice(0, 2),
+    beats: A ? A.beats.filter(b => b[1] === "evo" || b[1] === "arc").slice(0, 3) : [] });
+}
+// Arlequin : un tableau par porteur (Telemachus avant l'attaque, Isaure, porteur non précisé)
+const ARL_ATT = "2026-10-20", ARL_JOIN = "2026-10-24";
+function boardForArlequin() {
+  const c = CH["Arlequin"], A = ARCS["Arlequin"];
+  const LTD = "2026-10-31";
+  const isJoin = e => e.d === ARL_JOIN && /Isaure/.test(e.t);
+  const all = EV.filter(e => (e.c || []).includes("Arlequin")).sort((a, b) => a.d < b.d ? -1 : 1);
+  const eT = all.filter(e => e.d < ARL_ATT).slice(0, 5), eJ = all.filter(isJoin), eB = all.filter(e => e.d >= ARL_ATT && e.d < LTD && !isJoin(e)), eL = all.filter(e => e.d >= LTD);
+  const partnersOf = (pred, k) => { const pm = {}; c.scenes.filter(x => pred(x[0])).forEach(x => x[4].forEach(n => { if (n !== "Arlequin") pm[n] = (pm[n] || 0) + 1; })); return Object.entries(pm).sort((a, b) => b[1] - a[1]).filter(x => CH[x[0]]).slice(0, k); };
+  const nodes = [], edges = [];
+  nodes.push({ id: "aT", k: "perso", p: "Arlequin", ik: "Arlequin (garçon)", n: "Arlequin (Telemachus)", s: "Aura Deity · « il »", d: A.summary, x: 9, y: 22, focus: true });
+  nodes.push({ id: "aI", k: "perso", p: "Arlequin", ik: "Arlequin (fille)", n: "Arlequin (Isaure)", s: "Debt · « elle »", d: A.summary, x: 9, y: 66 });
+  edges.push(["aT", "aI", "rejoint le 24 oct."]);
+  const chain = (evs, first, y1, y2, x0, x1) => evs.forEach((e, i) => { const nd = eventNode(e, { x: +(evs.length < 2 ? x0 : x0 + i * (x1 - x0) / (evs.length - 1)).toFixed(1), y: i % 2 ? y2 : y1 }); nodes.push(nd); edges.push([i ? "e" + evId(evs[i - 1]) : first, nd.id, i ? "puis" : "premier événement"]); });
+  chain(eT, "aT", 8, 24, 26, 92);
+  const partners = (arl, list, evs, y, x0, step) => list.forEach(([pn, v], i) => {
+    const nd = personNode(pn, { s: v ? v + (v > 1 ? " scènes en commun" : " scène en commun") : "", x: x0 + i * step, y }); nodes.push(nd);
+    const sh = evs.filter(e => (e.c || []).includes(pn)).slice(0, 2);
+    if (!sh.length) edges.push([arl, nd.id, "présent"]); sh.forEach(e => edges.push([nd.id, "e" + evId(e), "présent"]));
+  });
+  partners("aT", partnersOf(d => d < ARL_ATT, 3), eT, 40, 26, 16);
+  // Isaure : l'événement de son arrivée, Branish (dettes, « elle »), puis le quartier low-tier (partagé avec Telemachus)
+  const iEvs = [...eJ, ...eB];
+  chain(iEvs, "aI", 62, 62, 26, 26 + 18 * Math.max(0, iEvs.length - 1));
+  eL.forEach((e, i) => { const nd = eventNode(e, { x: 64 + i * 16, y: 62 }); nodes.push(nd); edges.push([iEvs.length ? "e" + evId(iEvs[iEvs.length - 1]) : "aI", nd.id, "puis"], ["aI", nd.id, "« elle » (3 nov.)"], ["aT", nd.id, "« il » (2 nov.)"]); });
+  partners("aI", ["Telemachus", "Beta"].map(n => [n, 0]), eJ, 84, 26, 16);
+  partners("aI", partnersOf(d => d >= ARL_ATT, 4), [...eB, ...eL], 84, 60, 12);
+  const mc = MYST.find(m => m.id === "casque"), mb = MYST.find(m => m.id === "bleu");
+  nodes.push(mystNode(mb, { x: 86, y: 40 })); nodes.push(mystNode(mc, { x: 90, y: 62 }));
+  edges.push(["aT", "m:bleu", "cherche", true], ["aT", "m:casque", "mêlé à la piste", true], ["aI", "m:casque", "mêlé à la piste", true]);
+  return { nodes, edges, h: 1100, free: true };
 }
 function viewEvenement(i) {
   const e = EV[+i]; if (!e) return `<h1>Introuvable</h1>`;

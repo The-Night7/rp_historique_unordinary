@@ -177,5 +177,9 @@ a.bd-open{background:#fff2c9;color:#8a2a22}
 .bd-photo.has .bd-st{z-index:2}
 .bd-svg.bd-top{z-index:5}
 
-.av.two img{width:50%}.av.two img+img{left:50%}
-.bd-img.two{width:50%}.bd-img.two+.bd-img.two{left:50%}
+
+.arl-head{display:flex;gap:14px;align-items:center;margin-bottom:12px}
+.arl-img{width:84px;height:84px;object-fit:cover;object-position:center 20%;border-radius:18px;box-shadow:var(--shadow)}
+.av-pair{display:inline-flex;gap:6px;vertical-align:middle}
+.pc .av-pair{gap:0}.pc .av-pair .av+.av{margin-left:-14px;box-shadow:0 0 0 2px var(--surface)}
+.bd-img.two{width:calc(50% - 3px)}.bd-img.two+.bd-img.two{left:calc(50% + 3px)}

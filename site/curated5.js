@@ -14,7 +14,8 @@ C.BOARDS = [
   { id: "lovun", k: "lieu", n: "Lovun", s: "Six amplifiés", dt: "27 août", x: 28, y: 44, d: "Void, Kuyo et Le Pinceau affrontent six amplifiés (Parish à 5.9, 12 de Speed). Kuyo détruit les amplificateurs." },
   { id: "volcan", k: "perso", p: "Volcan", n: "Volcan", s: "Agent exécutif", dt: "10 oct. → 1 nov.", x: 56, y: 44, d: "Agent exécutif d'Ember : vend douze fioles à Grasshill, exécute les acheteurs du quartier low-tier (« ils vont en payer chaque gramme »)." },
   { id: "ablaze", k: "perso", n: "Ablaze", s: "Vend « pour les tests »", dt: "1 sept.", x: 77, y: 38, d: "Fiche Ember : vend des amplificateurs « pour les tests d'Ember »." },
-  { id: "arlequin", k: "perso", p: "Arlequin", n: "Arlequin", s: "Saisit des fioles", dt: "27 août", x: 9, y: 66, d: "Identité partagée. Il saisit des fioles sur Fice et se demande qui est l'homme aux cheveux bleus. Plus tard, à Branish et au quartier low-tier, le logs ne disent pas qui porte le casque." },
+  { id: "arlequin", k: "perso", p: "Arlequin", ik: "Arlequin (garçon)", n: "Arlequin (Telemachus)", s: "Saisit des fioles", dt: "27 août", x: 9, y: 66, d: "Telemachus sous le masque. Il saisit des fioles sur Fice et se demande qui est l'homme aux cheveux bleus." },
+  { id: "arlequinI", k: "perso", p: "Arlequin", ik: "Arlequin (fille)", n: "Arlequin (Isaure)", s: "Dettes contre Fury", dt: "24–25 oct.", x: 9, y: 90, d: "Isaure sous le masque (« elle », Debt) : à Branish elle observe le duel Vitalis–Fury, accumule des dettes et les rembourse sur Fury ; elle est aussi au quartier low-tier." },
   { id: "vitalis", k: "perso", p: "Vitalis", n: "Vitalis", s: "Brise les fioles", dt: "10 oct. → 1 nov.", x: 33, y: 66, d: "Brise une fiole à Grasshill et s'empare de la mallette ; fait fuir ou assomme des amplifiés à Branish ; bat quatre amplifiés au quartier low-tier." },
   { id: "fury", k: "perso", p: "Fury", n: "Fury", s: "Griffes enflammées", dt: "24 oct.", x: 55, y: 66, d: "Agent d'Ember aux griffes enflammées. À Branish, elle entaille le dos de Vitalis et ralentit sa régénération." },
   { id: "grasshill", k: "lieu", n: "Grasshill", s: "12 fioles vendues", dt: "10 oct.", x: 76, y: 66, d: "Volcan vend douze fioles au gang de Tobias, Garance et Ilya. Vitalis brise une fiole puis s'empare de la mallette." },
@@ -30,7 +31,7 @@ C.BOARDS = [
   ["ember", "adrien", "« les intérêts d'EMBER »"], ["ember", "volcan", "agent exécutif"], ["ember", "fury", "agent"],
   ["volcan", "grasshill", "vend 12 fioles"], ["grasshill", "vitalis", "fiole brisée"],
   ["vitalis", "fury", "blessée, ralentie"], ["fury", "branish", "présente"], ["vitalis", "branish", "5 amplifiés"],
-  ["arlequin", "branish", "observe"], ["volcan", "lowtier", "exécute"], ["vitalis", "lowtier", "4 boostés"],
+  ["arlequinI", "branish", "dettes · « elle »"], ["volcan", "lowtier", "exécute"], ["vitalis", "lowtier", "4 boostés"], ["arlequin", "lowtier", "« il » (2 nov.)"], ["arlequinI", "lowtier", "« elle » (3 nov.)"],
   ["lighter", "volcan", "« une drogue ? »"], ["vitalis", "attaque", "soupçon", "?"], ["ember", "attaque", "?", "?"]
  ] },
 
@@ -66,14 +67,15 @@ C.BOARDS = [
   ["marou", "att", "parallèle de joueur", "?"]
  ] },
 
-{ id: "arlequin", t: "Arlequin", intro: "Arlequin n'est pas une personne : c'est un masque partagé. Les logs gardent le pseudo sans dire qui est dessous. Les pointillés marquent les apparitions dont le porteur n'est pas précisé.",
+{ id: "arlequin", t: "Arlequin", intro: "Arlequin n'est pas une personne : c'est un masque partagé. Les logs gardent le pseudo sans dire qui est dessous. Le pronom du récit et la capacité utilisée (copies pour Telemachus, dettes pour Isaure) disent qui est dessous.",
  nodes: [
-  { id: "arl", k: "perso", p: "Arlequin", n: "ARLEQUIN", s: "« Nous sommes Arlequin »", x: 50, y: 40, d: "Casque intégral, jamais un mot sous le casque. Telemachus l'a voulu multiple : pour qu'« un seul Arlequin » devienne « un brouillard »." },
+  { id: "arlT", k: "perso", p: "Arlequin", ik: "Arlequin (garçon)", n: "Arlequin (Telemachus)", s: "Aura Deity · « il »", x: 40, y: 40, d: "Casque intégral, jamais un mot sous le casque. Telemachus l'a voulu multiple : pour qu'« un seul Arlequin » devienne « un brouillard »." },
+  { id: "arlI", k: "perso", p: "Arlequin", ik: "Arlequin (fille)", n: "Arlequin (Isaure)", s: "Debt · « elle »", x: 57, y: 40, d: "Isaure sous le masque depuis le 24 octobre : sa capacité Debt (6.7) transforme les coups reçus en dettes, rendues au contact." },
   { id: "tele", k: "perso", p: "Telemachus", n: "Telemachus", s: "Porteur d'origine", dt: "dès le 27 août", x: 22, y: 14, d: "Copie les capacités de ses adversaires au toucher. Premier soir sous le casque le 27 août, Fice et ses fioles. Les lignes « (Arlequin) » de sa fiche sont les mêmes capacités avec le masque." },
-  { id: "faux", k: "perso", ik: "Arlequin (féminin)", n: "Le faux Arlequin « féminin »", s: "Un leurre", dt: "5 sept. · 7 oct.", x: 50, y: 12, d: "Telemachus fabrique un faux buste : l'Arlequin qui arrive à Lovun « avait de la poitrine ». Il réapparaît en « elle » face à Dorso, Vesna, Brann, Jax et Nell. Ce n'est pas Isaure : elle n'a rejoint que le 24 octobre." },
+  { id: "faux", k: "note", n: "Le faux Arlequin « féminin »", s: "Un leurre", dt: "5 sept. · 7 oct.", x: 50, y: 12, d: "Telemachus fabrique un faux buste : l'Arlequin qui arrive à Lovun « avait de la poitrine ». Il réapparaît en « elle » face à Dorso, Vesna, Brann, Jax et Nell. Ce n'est pas Isaure : elle n'a rejoint que le 24 octobre." },
   { id: "isaure", k: "perso", p: "Isaure", n: "Isaure", s: "Rejoint le 24 oct.", dt: "24 oct.", x: 80, y: 14, d: "Clone le téléphone de Telemachus, voit les photos, demande à intégrer Arlequin. Il lui annonce qu'elle recevra « le nécessaire »." },
   { id: "phone", k: "objet", n: "Le téléphone cloné", s: "« Le roi des fées, c'est toi »", dt: "24 oct.", x: 80, y: 40, d: "Isaure avait pris le téléphone de Telemachus pour le sien sur la plage. « Les Arlequins venaient de devenir un peu plus qu'un mensonge. »" },
-  { id: "debt", k: "objet", n: "Fiche Debt 6.7", s: "Capacité d'Isaure", x: 80, y: 68, d: "Transforme les coups reçus en dettes qui grossissent avec des intérêts et qu'elle rend en entier au contact. C'est la capacité d'Isaure, copiée par Telemachus sous le masque : la fiche « Arlequin » est identique à la sienne." },
+  { id: "debt", k: "objet", n: "Fiche Debt 6.7", s: "Capacité d'Isaure", x: 80, y: 68, d: "Transforme les coups reçus en dettes qui grossissent avec des intérêts et qu'elle rend en entier au contact. Debt = Isaure : la ligne « Arlequin 6.7 » de l'unodex est Isaure sous le masque, identique à sa propre fiche." },
   { id: "copie", k: "objet", n: "Copie · Aura Deity", s: "Lignes « (Arlequin) »", x: 22, y: 42, d: "Telemachus copie une capacité au toucher et la nourrit de sa propre aura. Beaucoup de lignes de l'unodex sont des capacités copiées." },
   { id: "beta", k: "perso", p: "Beta", n: "Beta", s: "Sanity Control", dt: "27 août", x: 6, y: 68, d: "En copiant Sanity Control, Telemachus a senti sa « moitié sombre » : la capacité de Beta est coupée en deux, il a copié la moitié sombre." },
   { id: "power", k: "perso", p: "Power", n: "Power", s: "Graviton · pacte", dt: "29 août", x: 24, y: 70, d: "Pacte avec Telemachus (Beta lui apprend à viser en échange d'une paix pour les bas niveaux), puis duel sur le toit. Graviton copié." },
@@ -82,17 +84,17 @@ C.BOARDS = [
   { id: "grape", k: "note", n: "La Grape Vine", s: "« Combien sous le casque ? »", dt: "29 août · 5 sept.", x: 8, y: 88, d: "Le journal titre « Combien de personnes se cachent sous le casque ? » après Lovun." },
   { id: "gang", k: "lieu", n: "Zone sans surveillance", s: "Dorso · Vesna · Brann…", dt: "6–7 oct.", x: 40, y: 88, d: "Dorso, Vesna, Brann, Jax et Nell attendaient une livraison. Arlequin « en femme » renvoie l'onde de choc de Dorso, copie la peau de pierre de Brann, interroge Vesna par écrit. Il laisse un papier : « Nous sommes Arlequin. »" },
   { id: "bleu", k: "inconnu", n: "L'homme aux cheveux bleus", s: "Le fournisseur", dt: "7 oct.", x: 62, y: 88, d: "Décrit par Vesna : long manteau noir, chapeau, masque, cheveux bleus. Voir le tableau Ember." },
-  { id: "branish", k: "lieu", n: "Branish", s: "Porteur non précisé", dt: "24–25 oct.", x: 92, y: 88, d: "Arlequin observe le duel Vitalis–Fury, étonné de ne pas être attaqué. Les logs ne disent pas qui porte alors le casque." },
-  { id: "lowtier", k: "lieu", n: "Quartier low-tier", s: "Porteur non précisé", dt: "1er nov.", x: 66, y: 40, d: "Se glisse derrière Marek, Odile, Sibyl et Tiago pendant que Vitalis les affronte. Les logs ne disent pas qui porte le casque." }
+  { id: "branish", k: "lieu", n: "Branish", s: "Isaure (dettes)", dt: "24–25 oct.", x: 92, y: 88, d: "Arlequin observe le duel Vitalis–Fury, puis accumule des dettes et les rembourse d'un coup de poing sur Fury : « J'ai accumulé suffisamment de dette… Dette remboursée ». C'est Isaure sous le masque (« elle » dans le récit)." },
+  { id: "lowtier", k: "lieu", n: "Quartier low-tier", s: "Telemachus et Isaure", dt: "1–3 nov.", x: 93, y: 27, d: "Se glisse derrière Marek, Odile, Sibyl et Tiago pendant que Vitalis les affronte, puis face à Volcan : le 2 novembre c'est un « il » (Telemachus), le 3 novembre une « elle » (Isaure)." }
  ],
  edges: [
-  ["tele", "arl", "porteur d'origine"], ["tele", "faux", "fabrique"], ["faux", "arl", "brouille les pistes"],
-  ["isaure", "arl", "rejoint le 24 oct."], ["isaure", "phone", "clone"], ["phone", "tele", "photos"],
-  ["isaure", "debt", "sa capacité"], ["tele", "debt", "copiée sous le masque"],
+  ["tele", "arlT", "porteur d'origine"], ["tele", "faux", "fabrique"], ["faux", "arlT", "brouille les pistes"],
+  ["isaure", "arlI", "porteur depuis le 24 oct."], ["isaure", "phone", "clone"], ["phone", "tele", "photos"],
+  ["isaure", "debt", "sa capacité"],
   ["tele", "copie", "copie au toucher"], ["copie", "beta", "Sanity Control"], ["copie", "power", "Graviton"],
-  ["arl", "fice", "27 août"], ["faux", "lovun", "5 sept."], ["lovun", "grape", "titré"], ["faux", "gang", "7 oct."],
-  ["gang", "bleu", "Vesna le décrit"], ["arl", "bleu", "« qui est-ce ? »"],
-  ["arl", "branish", "porteur ?", "?"], ["arl", "lowtier", "porteur ?", "?"]
+  ["arlT", "fice", "27 août"], ["faux", "lovun", "5 sept."], ["lovun", "grape", "titré"], ["faux", "gang", "7 oct."],
+  ["gang", "bleu", "Vesna le décrit"], ["arlT", "bleu", "« qui est-ce ? »"],
+  ["arlI", "branish", "dettes · « elle »"], ["arlT", "lowtier", "« il » (2 nov.)"], ["arlI", "lowtier", "« elle » (3 nov.)"]
  ] }
 ];
 })();

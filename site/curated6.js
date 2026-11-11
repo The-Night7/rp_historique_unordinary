@@ -32,9 +32,11 @@ window.CURATED.IMAGES = {
  "Ablaze": g("1Ohgp7DIt1p1dYe9Sj39A_VDHXGS1jMxm"),
  "Kaito Vance": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfV1LJnpYVETqwZtWQvq1ML9kWKTHAyMd7WSRFs5Cqh7iHPuOXZB891Y&s=10",
  "Le Pinceau": T("484850911622070284", "zOeyeKO6gypmGJ2V.webp"),
- // Arlequin : seule image de l'unodex (silhouette féminine). L'image garçon est à fournir (aucune autre trouvée).
- "Arlequin": T("484850911622070284", "dg8EB-E7Elp31OOl.webp"),
- "Arlequin (féminin)": T("484850911622070284", "dg8EB-E7Elp31OOl.webp"),
+ // Arlequin = identité partagée : garçon = Telemachus, fille = Isaure (dans cet ordre)
+ "Arlequin (garçon)": T("484850911622070284", "3pqyKj1WiFubpFIJ.webp"),
+ "Arlequin (inconnu)": "",
+ "Arlequin (fille)": T("484850911622070284", "dg8EB-E7Elp31OOl.webp"),
+ "Arlequin": [T("484850911622070284", "3pqyKj1WiFubpFIJ.webp"), T("484850911622070284", "dg8EB-E7Elp31OOl.webp")],
  "Joahness": "https://static.wixstatic.com/media/f6d284_b35f30f5106b4849aa75a6e78a688f55~mv2.png",
  "Vitalis": T("558346805339750400", "MTR5_tiEEGDf8uGO.webp"),
  "Morgane": g("12nJHG9SvL6l4Cl7qpN9LSbuDmJiDRo0J"),

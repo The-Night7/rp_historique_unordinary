@@ -28,7 +28,7 @@ C.EVENTS.push(
 const F = C.FICHES["Telemachus"];
 F.rows = [[1.0,[1,1,1,1,1]],[1.6,[1,1,1,4,1]],[4.1,[1,1,1,10.6,1]],[5.8,[1,1,1,14,1]],[6.1,[1,1,1,14.7,1]],[6.2,[1,1,1,15,1]],[6.3,[1,1,1,15.2,1]]];
 F.note = "Aura Deity (aura jaune). Niveau actuel 6.3 = (potentiel 9.5 × maîtrise 6.6) / 10. Il copie une capacité au toucher et la nourrit de sa propre aura ; ses statistiques physiques restent à 1.0 tant qu'il n'a rien copié, son Trick est de niveau × 2,414. Au niveau 6.0 il découvre qu'il a « sauvegardé » toutes les capacités copiées. Beaucoup de lignes de l'unodex sont des combinaisons copiées (Graviton de Power, Sanity Control de Beta, Icicle et Faucheuse Fantôme, Shockwave…), et celles « (Arlequin) » sont les mêmes avec le masque.";
-C.FICHES["Arlequin"].note = "Arlequin est une identité partagée (« Nous sommes Arlequin »). La fiche Debt 6.7 est la capacité d'Isaure copiée par Telemachus sous le masque : elle transforme les coups reçus en dettes qui grossissent avec des intérêts et qu'elle rend en entier au contact.";
+C.FICHES["Arlequin"].note = "Arlequin est une identité partagée (« Nous sommes Arlequin »). La ligne Debt 6.7 est Isaure sous le masque : sa capacité Debt transforme les coups reçus en dettes qui grossissent avec des intérêts et qu'elle rend en entier au contact.";
 
 // --- arcs corrigés ---
 const A = C.ARCS;
