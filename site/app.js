@@ -402,11 +402,11 @@ function bdCard(nd, idx) {
   else if (nd.k === "event") body = `<em style="color:${nd.col}">${esc(nd.lab || "")}</em><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
   else body = `${nd.k === "objet" ? `<em>PIÈCE</em>` : nd.k === "lieu" ? `<em>LIEU</em>` : nd.k === "evo" ? `<em style="color:var(--evo)">ÉVOLUTION</em>` : nd.k === "arc" ? `<em style="color:var(--arc)">ARC</em>` : ""}<b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
   const tape = nd.k === "note" || nd.k === "event" || nd.k === "evo" || nd.k === "arc" ? `<span class="bd-tape"></span>` : `<span class="bd-pin"></span>`;
-  return `<div class="bd-card k-${nd.k}${nd.focus ? " focus" : ""}" data-id="${nd.id}" style="left:${nd.x}%;top:${nd.y}%;--r:${r}deg;${nd.col ? `--kc:${nd.col}` : ""}" tabindex="0" role="button" aria-label="${esc(nd.n)}">${tape}${body}${nd.dt ? `<time>${esc(nd.dt)}</time>` : ""}</div>`;
+  return `<div class="bd-card k-${nd.k}${nd.focus ? " focus" : ""}" data-id="${nd.id}" style="left:${nd.x}%;top:${nd.y}%;--r:${r}deg;${nd.col ? `--kc:${nd.col}` : ""}" tabindex="0" role="button" aria-label="${esc(nd.n)}" title="${esc(nd.n + (nd.dt ? " · " + nd.dt : ""))}">${tape}${body}${nd.dt ? `<time>${esc(nd.dt)}</time>` : ""}</div>`;
 }
 function bdHTML(id, B) {
   BDS[id] = { B, sel: B.nodes.find(n => n.focus && !B.free) ? B.nodes.find(n => n.focus).id : null };
-  return `<div class="bd-scroll"><div class="board" id="${id}" style="height:${B.h || 820}px${B.w ? `;width:${B.w}px` : ""}">${B.deco || ""}${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg><svg class="bd-svg bd-top" aria-hidden="true"></svg></div></div>
+  return `<div class="bd-scroll"><div class="board${B.compact ? " compact" : ""}" id="${id}" style="height:${B.h || 820}px${B.w ? `;width:${B.w}px` : ""}">${B.deco || ""}${B.nodes.map(bdCard).join("")}<svg class="bd-svg" aria-hidden="true"></svg><svg class="bd-svg bd-top" aria-hidden="true"></svg></div></div>
   <div class="card bd-info" id="${id}-info"></div>
   <div class="legend"><span><i style="background:var(--string)"></i>fil établi</span><span><i style="background:transparent;border:1.5px dashed #c8281e"></i>hypothèse / inconnu</span><span><i style="background:${BSTAT.perdue}"></i>capacité perdue</span><span><i style="background:${BSTAT.partielle}"></i>partielle</span><span><i style="background:${BSTAT.complète}"></i>retrouvée</span></div>`;
 }
@@ -612,21 +612,22 @@ function viewMystere(id) {
 }
 // ---------- le grand tableau de tous les événements ----------
 function boardTout() {
-  // échelle « à colonnes » : une colonne par date, élargie quand le calendrier saute des jours ; les événements d'un même jour s'empilent
-  const ROW = 172, TOP = 70;
-  const dates = [...new Set(EV.map(e => e.d))].sort();
-  const X = {}; let cx = 110;
-  dates.forEach((d, i) => { if (i) cx += 150 + Math.min(10, Math.max(0, Math.round((+new Date(d) - +new Date(dates[i - 1])) / 864e5) - 1)) * 14; X[d] = cx; });
-  const W = cx + 150;
-  const tx = d => { const dd = dates.find(x => x >= d); return dd ? X[dd] - 78 : cx + 78; };
-  const cnt = {}, pos = {};
-  [...EV].sort((a, b) => a.d < b.d ? -1 : 1).forEach(e => { const r = cnt[e.d] = (cnt[e.d] || 0) + 1; pos[evId(e)] = { r: r - 1, x: X[e.d] }; });
-  const nr = Math.max(...Object.values(cnt)), H = TOP + nr * ROW + 60;
-  const nodes = EV.map(e => { const p = pos[evId(e)]; return eventNode(e, { x: +(p.x / W * 100).toFixed(3), y: +((TOP + p.r * ROW + ROW / 2 + (dates.indexOf(e.d) % 2 ? 24 : 0)) / H * 100).toFixed(3) }); });
-  let deco = "";
-  [["2026-08-12", "Août"], ["2026-09-01", "Septembre"], ["2026-10-01", "Octobre"], ["2026-11-01", "Novembre"]].forEach(([d, l]) => { deco += `<div class="bd-month" style="left:${tx(d)}px"><span>${l}</span></div>`; });
-  ACTS.forEach(a => { deco += `<div class="bd-actlab" style="left:${tx(a.from)}px;width:${tx(a.to) - tx(a.from)}px;border-color:${a.color}"><b style="color:${a.color}">${esc(a.name)}</b></div>`; });
-  const B = { nodes, edges: [], h: H, w: W, deco, free: true, actX: ACTS.map(a => [a.name, tx(a.from), a.color]) };
+  // Tout tient dans une seule vue : un bandeau par acte, les événements rangés dans l'ordre chronologique, cartes compactes.
+  const W = 1130, CW = 100, CH = 52, GX = 7, GY = 6, HEAD = 30, PAD = 10;
+  const cols = Math.floor((W - 2 * PAD + GX) / (CW + GX));
+  const nodes = [], deco = []; let y = 6;
+  const byAct = ACTS.map(() => []);
+  [...EV].sort((a, b) => a.d < b.d ? -1 : 1).forEach(e => { let k = ACTS.findIndex(a => e.d <= a.to); if (k < 0) k = ACTS.length - 1; byAct[k].push(e); });
+  const pos = {};
+  ACTS.forEach((a, k) => {
+    const list = byAct[k], rows = Math.max(1, Math.ceil(list.length / cols)), h = HEAD + rows * (CH + GY) + 4;
+    deco.push(`<div class="bd-act" style="top:${y}px;height:${h}px;--ac:${a.color}"><b>${esc(a.name)}</b><span>${fdr(a.from, a.to)}</span></div>`);
+    list.forEach((e, i) => { const c = i % cols, r = Math.floor(i / cols); pos[evId(e)] = [PAD + c * (CW + GX) + CW / 2, y + HEAD + r * (CH + GY) + CH / 2 + 2]; });
+    y += h + 4;
+  });
+  const H = y + 4;
+  EV.forEach(e => { const p = pos[evId(e)]; nodes.push(eventNode(e, { dt: fd(e.d), x: +(p[0] / W * 100).toFixed(3), y: +(p[1] / H * 100).toFixed(3) })); });
+  const B = { nodes, edges: [], h: H, w: W, deco: deco.join(""), free: true, compact: true };
   B.mystEdges = id => {
     const out = [];
     MYST.filter(m => !id || m.id === id).forEach(m => { const l = EV.filter(e => mystOf(e).includes(m)).sort((a, b) => a.d < b.d ? -1 : 1); l.forEach((e, i) => { if (i) out.push(["e" + evId(l[i - 1]), "e" + evId(e), m.short || m.t]); }); });
@@ -638,10 +639,9 @@ function boardTout() {
 function viewTableau() {
   const ppl = {}; EV.forEach(e => (e.c || []).forEach(c => ppl[c] = (ppl[c] || 0) + 1));
   const names = Object.entries(ppl).filter(([n, v]) => v >= 3).sort((a, b) => b[1] - a[1]).map(x => x[0]);
-  return `<h1 style="margin-bottom:4px">Le tableau des événements</h1><p class="sub" style="margin:0 0 10px">${EV.length} événements du 12 août au 6 novembre. Glissez le fond pour vous déplacer, Ctrl + molette pour zoomer, cliquez une carte pour ses détails. Les fils relient les événements de chaque mystère.</p>
+  return `<h1 style="margin:0 0 2px;font-size:26px">Le tableau des événements</h1><p class="sub" style="margin:0 0 8px">${EV.length} événements, rangés par acte et par date. Cliquez une carte pour ses détails ; choisissez un mystère ou un personnage pour suivre son fil.</p>
   <div class="tb-bar" id="tbar">
-   <span class="sub">Aller à</span><span id="tacts"></span><span class="tb-sep"></span>
-   <span class="sub">Zoom</span><button data-z="-" title="Réduire" aria-label="Réduire">−</button><b id="tzv">100 %</b><button data-z="+" title="Agrandir" aria-label="Agrandir">+</button><button data-z="1">100 %</button><button data-z="fit">Vue d'ensemble</button><span class="tb-sep"></span>
+   <span class="sub">Zoom</span><button data-z="-" title="Réduire" aria-label="Réduire">−</button><b id="tzv">100 %</b><button data-z="+" title="Agrandir" aria-label="Agrandir">+</button><button data-z="fit">Tout afficher</button><button data-z="1">100 %</button><span class="tb-sep"></span>
    <label class="sub">Fil <select id="tfil"><option value="">Tous les mystères</option>${MYST.map(m => `<option value="m:${m.id}">Mystère · ${esc(m.t)}</option>`).join("")}<optgroup label="Personnages">${names.map(n => `<option value="p:${esc(n)}">${esc(n)} (${ppl[n]})</option>`).join("")}</optgroup></select></label>
    <span class="legend" style="margin:0">${[...new Set(EV.map(e => e.k))].map(k => `<span><i style="background:${ccolK(k)}"></i>${esc(klab(k))}</span>`).join("")}</span>
   </div>
@@ -663,20 +663,19 @@ function afterTableau() {
   // zoom, aller à un acte, déplacement au glissé
   const bd = $("#bd-tout"), sc = bd && bd.closest(".bd-scroll"); if (!bd || !sc) return;
   const B = S.B; S.zoom = 1;
+  const fitZoom = () => { sc.style.height = ""; const top = sc.getBoundingClientRect().top; return Math.max(0.55, Math.min(1.6, sc.clientWidth / B.w, (innerHeight - top - 14) / B.h)); };
   const setZoom = (z, keepCenter) => {
     const old = S.zoom, cx = (sc.scrollLeft + sc.clientWidth / 2) / old, cy = (sc.scrollTop + sc.clientHeight / 2) / old;
     S.zoom = Math.max(0.15, Math.min(1.6, z));
     bd.style.transformOrigin = "0 0"; bd.style.transform = `scale(${S.zoom})`;
     bd.style.marginRight = (B.w * (S.zoom - 1)) + "px"; bd.style.marginBottom = (B.h * (S.zoom - 1)) + "px";
     $("#tzv").textContent = Math.round(S.zoom * 100) + " %";
-    const avail = innerHeight - 210; sc.style.height = (B.h * S.zoom + 40 < avail) ? (B.h * S.zoom + 40) + "px" : "";
+    sc.style.height = (B.h * S.zoom + 6) + "px";
     if (keepCenter) { sc.scrollLeft = cx * S.zoom - sc.clientWidth / 2; sc.scrollTop = cy * S.zoom - sc.clientHeight / 2; }
   };
-  $("#tacts").innerHTML = B.actX.map(([n, x, c], i) => `<button data-x="${x}" style="border-color:${c}">${esc(n.replace(/ —.*/, ""))}</button>`).join("");
-  $("#tacts").querySelectorAll("button").forEach(b => b.onclick = () => { sc.scrollTo({ left: Math.max(0, +b.dataset.x * S.zoom - 30), behavior: "smooth" }); });
   $("#tbar").querySelectorAll("button[data-z]").forEach(b => b.onclick = () => {
     const z = b.dataset.z; if (z === "+") setZoom(S.zoom * 1.25, true); else if (z === "-") setZoom(S.zoom / 1.25, true);
-    else if (z === "1") setZoom(1, true); else { setZoom(Math.min(1, sc.clientWidth / B.w), false); sc.scrollLeft = 0; sc.scrollTop = 0; }
+    else if (z === "1") setZoom(1, true); else { setZoom(fitZoom(), false); sc.scrollLeft = 0; sc.scrollTop = 0; }
   });
   sc.addEventListener("wheel", e => { if (e.ctrlKey) { e.preventDefault(); setZoom(S.zoom * (e.deltaY < 0 ? 1.1 : 1 / 1.1), true); } }, { passive: false });
   bd.addEventListener("pointerdown", e => {
@@ -687,7 +686,7 @@ function afterTableau() {
     const up = () => { removeEventListener("pointermove", mv); removeEventListener("pointerup", up); sc.classList.remove("panning"); };
     addEventListener("pointermove", mv); addEventListener("pointerup", up);
   });
-  setZoom(1, false);
+  setZoom(fitZoom(), false);
 }
 
 let BDI = 0;

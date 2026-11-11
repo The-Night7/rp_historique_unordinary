@@ -168,7 +168,6 @@ a.bd-open{background:#fff2c9;color:#8a2a22}
 .bd-month span{position:absolute;top:34px;left:6px;font:800 15px/1 ui-monospace,monospace;color:#5a3b22;background:rgba(255,246,220,.85);padding:3px 8px;border-radius:3px}
 .bd-actlab{position:absolute;top:6px;height:22px;border-bottom:3px solid;pointer-events:none;padding-left:6px;overflow:hidden;white-space:nowrap}
 .bd-actlab b{font:800 12px/1.6 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,246,220,.85);padding:1px 6px;border-radius:3px}
-.bd-scroll:has(#bd-tout){max-height:84vh;overflow:auto}
 
 .av{position:relative;overflow:hidden}
 .av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;border-radius:inherit}
@@ -194,3 +193,23 @@ a.bd-open{background:#fff2c9;color:#8a2a22}
 .tb-sep{flex:0 0 1px;align-self:stretch;background:var(--line);margin:0 4px}
 .tb-bar select{font:inherit;font-size:13px;padding:5px 8px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface2);color:var(--ink);max-width:260px}
 .tb-bar .legend{margin-left:auto}
+
+.board.compact{min-width:0;border-width:8px}
+.bd-act{position:absolute;left:0;right:0;background:color-mix(in srgb,var(--ac) 16%,transparent);border-top:2px solid var(--ac);border-bottom:1px dashed color-mix(in srgb,var(--ac) 50%,transparent);pointer-events:none}
+.bd-act b{position:absolute;left:8px;top:3px;font:800 11px/1 ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:3px;background:rgba(255,246,220,.92);color:#3a2a14}
+.bd-act span{position:absolute;right:8px;top:3px;font:700 11px/1 ui-monospace,monospace;padding:2px 6px;border-radius:3px;background:rgba(255,246,220,.85);color:#5a3b22}
+.board.compact .bd-card{width:100px;padding:10px 5px 5px;box-shadow:0 2px 5px rgba(40,20,0,.4)}
+.board.compact .bd-card em,.board.compact .bd-card small{display:none}
+.board.compact .bd-card b{font-size:9.5px;line-height:1.15;-webkit-line-clamp:3}
+.board.compact .bd-card time{font-size:8.5px;margin-top:3px}
+.board.compact .bd-tape{width:34px;height:11px;margin-left:-17px;top:-6px}
+.board.compact .bd-tape::after{width:6px;height:6px;margin-left:-3px;top:3px}
+.board.compact .bd-card.k-event{border-top-width:4px}
+.bd-scroll:has(.board.compact){cursor:default;overflow:hidden}
+
+.board.compact .bd-card b{-webkit-line-clamp:2}
+.board.compact .bd-card{padding:9px 4px 4px}
+.bd-scroll:has(.board.compact){height:auto}
+.tb-bar{position:static;padding:6px 10px;margin-bottom:8px}
+.bd-scroll:has(#bd-tout){overflow:hidden;cursor:default;border:1px solid var(--line);border-radius:10px;min-height:0}
+.bd-act b,.bd-act span{z-index:3}
