@@ -675,9 +675,9 @@ function viewDossiers() {
   <div id="bdwrap">${bdHTML("bd-" + CU.BOARDS[BDI].id, CU.BOARDS[BDI])}</div><h2>Les pistes, date par date</h2>
   ${TH.map(t => `<section class="act" style="--c:${t.c}"><h2>${esc(t.t)}</h2><p>${esc(t.intro)}</p></section><div class="tl">${t.steps.map(([d, x]) => `<article class="ev" style="--c:${t.c}"><time>${fd(d)}</time><p style="margin:2px 0 0">${esc(x)}</p></article>`).join("")}</div>`).join("")}
   <h2>Suivi des capacités après l'attaque</h2>
-  <div class="grid g4" style="margin-bottom:14px">${["perdue", "partielle", "complète", "inconnue"].map(k => `<div class="card stat"><b style="color:${stc[k]}">${cnt(k)}</b><span>capacité ${k}</span></div>`).join("")}</div>
+  <div class="grid g4" style="margin-bottom:14px">${["perdue", "partielle", "complète", "inconnue"].filter(k => cnt(k) > 0).map(k => `<div class="card stat"><b style="color:${stc[k]}">${cnt(k)}</b><span>capacité ${k}</span></div>`).join("")}</div>
   <div class="card scroll"><table><thead><tr><th>Personnage</th><th>Effet subi</th><th>Statut</th><th>Récupération documentée</th></tr></thead><tbody>${TR.map(t => `<tr><td>${CH[t.n.trim()] ? `<a href="#/perso/${slug(t.n.trim())}">${esc(t.n)}</a>` : esc(t.n)}</td><td>${esc(t.eff)}</td><td><span class="chip" style="color:${stc[t.st]}"><i></i>${esc(t.st)}</span></td><td>${esc(t.rec)}</td></tr>`).join("")}</tbody></table></div>
-  <p class="sub" style="margin-top:10px">« Inconnue » signifie que les logs ne disent pas ce qui s'est passé ensuite, pas que la capacité n'est pas revenue.</p>`;
+  ${cnt("inconnue") ? `<p class="sub" style="margin-top:10px">« Inconnue » signifie que les logs ne disent pas ce qui s'est passé ensuite, pas que la capacité n'est pas revenue.</p>` : ""}`;
 }
 
 // ---------- router ----------
