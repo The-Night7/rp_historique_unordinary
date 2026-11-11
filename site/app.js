@@ -22,9 +22,11 @@ const hue = n => { let h = 0; for (const c of n) h = (h * 31 + c.charCodeAt(0)) 
 const ccol = n => `hsl(${hue(n)} 52% 46%)`;
 const initial = n => n.trim()[0].toUpperCase();
 const slug = n => encodeURIComponent(n);
-const imgOf = n => (CU.IMAGES || {})[n] || "";
-const avImg = n => imgOf(n) ? `<img src="${esc(imgOf(n))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
-const av = (n, lg) => `<span class="av${lg ? " lg" : ""}" style="background:${ccol(n)}" aria-hidden="true">${esc(initial(n))}${avImg(n)}</span>`;
+const imgsOf = n => { const v = (CU.IMAGES || {})[n]; return !v ? [] : Array.isArray(v) ? v : [v]; };
+const imgOf = n => imgsOf(n)[0] || "";
+const imgTags = (n, cls) => imgsOf(n).map(u => `<img${cls ? ` class="${cls}"` : ""} src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`).join("");
+const avImg = n => imgTags(n);
+const av = (n, lg) => `<span class="av${lg ? " lg" : ""}${imgsOf(n).length > 1 ? " two" : ""}" style="background:${ccol(n)}" aria-hidden="true">${esc(initial(n))}${avImg(n)}</span>`;
 const clink = n => CH[n] ? `<a class="cl" href="#/perso/${slug(n)}">${esc(n)}</a>` : `<span class="cl" style="background:var(--surface2);color:var(--muted)">${esc(n)}</span>`;
 const tierOf = l => l < 2 ? (l <= 1 ? "Cripple" : "Low Tier") : l < 3.5 ? "Mid Tier" : l < 5 ? "Elite Tier" : l < 6 ? "High Tier" : "God Tier";
 const actOf = d => ACTS.find(a => d >= a.from && d <= a.to) || ACTS[0];
@@ -349,7 +351,7 @@ function bdCard(nd, idx) {
   const st = nd.p ? bdStatus(nd.p) : null;
   const dot = st ? `<i class="bd-st" style="background:${BSTAT[st]}" title="capacité ${st}"></i>` : "";
   let body;
-  if (nd.k === "perso") body = `<div class="bd-photo${imgOf(nd.p || nd.n) ? " has" : ""}">${av(nd.p || nd.n, true)}${imgOf(nd.p || nd.n) ? `<img class="bd-img" src="${esc(imgOf(nd.p || nd.n))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}${dot}</div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
+  if (nd.k === "perso") body = `<div class="bd-photo${imgOf(nd.ik || nd.p || nd.n) ? " has" : ""}">${av(nd.p || nd.n, true)}${imgTags(nd.ik || nd.p || nd.n, "bd-img" + (imgsOf(nd.ik || nd.p || nd.n).length > 1 ? " two" : ""))}${dot}</div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
   else if (nd.k === "inconnu") body = `<div class="bd-photo dark"><span class="bd-q">?</span></div><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>${nd.st ? `<span class="bd-stamp">${esc(nd.st)}</span>` : ""}`;
   else if (nd.k === "event") body = `<em style="color:${nd.col}">${esc(nd.lab || "")}</em><b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;
   else body = `${nd.k === "objet" ? `<em>PIÈCE</em>` : nd.k === "lieu" ? `<em>LIEU</em>` : nd.k === "evo" ? `<em style="color:var(--evo)">ÉVOLUTION</em>` : nd.k === "arc" ? `<em style="color:var(--arc)">ARC</em>` : ""}<b>${esc(nd.n)}</b><small>${esc(nd.s || "")}</small>`;

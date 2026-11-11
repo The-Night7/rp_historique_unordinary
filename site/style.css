@@ -176,3 +176,6 @@ a.bd-open{background:#fff2c9;color:#8a2a22}
 .bd-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
 .bd-photo.has .bd-st{z-index:2}
 .bd-svg.bd-top{z-index:5}
+
+.av.two img{width:50%}.av.two img+img{left:50%}
+.bd-img.two{width:50%}.bd-img.two+.bd-img.two{left:50%}
