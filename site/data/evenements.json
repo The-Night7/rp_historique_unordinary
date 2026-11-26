@@ -59,7 +59,7 @@
     "type": "tournant",
     "lieu": "Zone Turf Wars",
     "personnages": ["Hizo Vertini","Mitsu","Irene","Ice","Telemachus","Beta","Rein","Marc"],
-    "texte": "C'est le grand événement de la rentrée. Hizo, roi d'Agwin, tient tête à Mitsu mais repart blessé, appuyé sur une canne artisanale. Irene écrase Ice sous une sphère de pression, sans qu'Ice n'abandonne. Beta, elle, soigne jusqu'à l'épuisement. Le 26, l'item « FIN AFFRONTEMENT » est consommé."
+    "texte": "Les deux écoles se font face à Zone Turf Wars, et la rentrée prend des allures de guerre. Hizo, roi d'Agwin, tient tête à Mitsu ; il quitte le terrain blessé, appuyé sur une canne artisanale, mais debout. Irene, elle, écrase Ice sous une sphère de pression, et Ice, malgré tout, refuse d'abandonner. Beta soigne sans relâche, jusqu'à s'effondrer d'épuisement. Le 26, l'item « FIN AFFRONTEMENT » est consommé : l'affrontement est terminé, mais les rangs ne seront plus les mêmes."
   },
   {
     "date": "2026-08-24",
@@ -129,7 +129,7 @@
     "type": "tournant",
     "lieu": "Toit du lycée de Westview",
     "personnages": ["Telemachus","Power","Beta","Mitsu"],
-    "texte": "Dans une salle de classe, Beta apprend à Power à mieux utiliser sa gravité, en échange d'une paix pour les bas niveaux. Power réclame un cobaye et désigne le roi et le valet. Telemachus accepte à la place de Mitsu, à une condition : si elle s'en prend encore à un élève qui n'a rien demandé, c'est fini. Sur le toit, il soigne d'abord l'entaille que Beta cachait sous un pansement, puis la jambe de Power. Il pousse la gravité autour de lui à 10 G, lui inflige la douleur de la « moitié sombre » de Sanity Control, régénère sa main broyée et lui arrache le deuxième tendon. Le 6 septembre, Power s'effondre, KO. Il la soigne."
+    "texte": "Tout commence dans une salle de classe, où Beta apprend à Power à mieux se servir de sa gravité, en échange d'une paix pour les bas niveaux. Power en veut plus : un cobaye. Elle désigne le roi et le valet. Telemachus accepte à la place de Mitsu, mais à une condition : si elle s'en prend encore à un élève qui n'a rien demandé, tout s'arrête là. Sur le toit, il commence par soigner l'entaille que Beta cachait sous un pansement, puis la jambe de Power. Il fait monter la gravité autour de lui jusqu'à 10 G, lui inflige la douleur de la « moitié sombre » de Sanity Control, régénère sa main broyée et lui arrache le deuxième tendon. Le 6 septembre, Power s'effondre, KO. Il la soigne."
   },
   {
     "date": "2026-08-31",
@@ -236,7 +236,7 @@
     "type": "tournant",
     "lieu": "Gymnase de Westview",
     "personnages": ["Telemachus","Beta","Mitsu","Ice","Irene","Hizo Vertini","Julia","Leonie","Lucina","Marc"],
-    "texte": "Les quatre proviseurs réunissent les élèves au gymnase : trois zones d'entraînement (combat, théorie, soutien), yeux bandés pour certains. Cours de théorie le 17, exercices en binômes le 22 : Telemachus avec Marc, Lucina avec Ice. Issei finit à l'infirmerie."
+    "texte": "Pour la première fois, les quatre proviseurs réunissent tous les élèves sous le même toit, au gymnase de Westview. Trois zones d'entraînement s'ouvrent : combat, théorie, soutien, certains les yeux bandés. Le 17, on s'assoit pour le cours de théorie ; le 22, on passe aux exercices en binômes : Telemachus avec Marc, Lucina avec Ice. Issei, lui, termine la journée à l'infirmerie."
   },
   {
     "date": "2026-09-22",
@@ -330,7 +330,7 @@
       "Mitsu",
       "Louis"
     ],
-    "texte": "Un frisson, puis une IEM coupe tous les téléphones. Les capacités chutent : « nos niveaux viennent d'être divisés par deux », dit John, qui a déjà croisé ces hommes. Blyke ne produit plus qu'un filet d'énergie. La vision d'Isen se brouille. Lucina ne peut plus manipuler les autres et ne relie plus que quelques esprits. La barrière d'Arlo faiblit, Kael et Kaïra produisent des lames plus petites, la faux de Mitsu dégage moins d'aura, Laura ne peut plus protéger personne et Leonie ne peut plus posséder. Kaïra estime l'effet à environ une heure. Keito, lui, y est bien moins sensible."
+    "texte": "D'abord un frisson. Puis une IEM coupe tous les téléphones, et les capacités s'effondrent : « nos niveaux viennent d'être divisés par deux », lâche John, qui a déjà croisé ces hommes. Blyke ne produit plus qu'un filet d'énergie. La vision d'Isen se brouille. Lucina ne peut plus manipuler personne et ne relie plus que quelques esprits. La barrière d'Arlo faiblit, les lames de Kael et de Kaïra rapetissent, la faux de Mitsu dégage moins d'aura. Laura ne peut plus protéger personne, Leonie ne peut plus posséder. Kaïra estime l'effet à environ une heure. Seul Keito, curieusement, y est bien moins sensible."
   },
   {
     "date": "2026-10-20",
@@ -363,7 +363,7 @@
     "type": "tournant",
     "lieu": "Plage / Limite / Rue",
     "personnages": ["Telemachus","Keito","Rein","Lucina","Kael","John","Hizo Vertini","Isaure"],
-    "texte": "Rein reçoit un produit dans la nuque, sur la plage. Keito injecte lui-même Telemachus (« fais un petit dodo ») et l'emporte sur l'épaule. Un téléporteur pique Lucina, l'enlève, et emmène aussi Kael. Liam injecte Hizo, et John est piqué dans la rue. Isaure, touchée à la jambe, voit des seringues plantées dans la nuque de ses agresseurs et ressent une fatigue soudaine. Des sbires préviennent : « l'atténuateur va cesser son effet ». La police arrive cinq, quinze ou vingt minutes plus tard, selon le groupe."
+    "texte": "Dans les trois groupes, les silhouettes surgissent en même temps. Sur la plage, Rein reçoit un produit dans la nuque ; Keito injecte lui-même Telemachus, d'un murmure : « fais un petit dodo », et l'emporte sur l'épaule. Un téléporteur pique Lucina, l'enlève, puis emmène aussi Kael. Liam injecte Hizo. Dans la rue, John est piqué à son tour. Touchée à la jambe, Isaure voit des seringues plantées dans la nuque de ses agresseurs et ressent une fatigue soudaine. Les sbires préviennent : « l'atténuateur va cesser son effet ». La police arrive cinq, quinze ou vingt minutes plus tard, selon le groupe. Trop tard."
   },
   {
     "date": "2026-10-21",
@@ -372,7 +372,7 @@
     "type": "tournant",
     "lieu": "Salle de recharge, base Spectre de Wellston",
     "personnages": ["Telemachus","Lucina","Kael","Rein","Orrin","Keito"],
-    "texte": "Vingt-quatre heures plus tard, ils se réveillent : nausée, vomissements. Keito, recruté par Orrin, tient une barrière de feu entre Telemachus et Lucina. Les capacités ne s'activent plus. Orrin impose son marché : des capacités contre des services, sinon impotents à vie. Il fait étrangler Telemachus par Rein dominée, puis règle sa machine à 25 % : Lucina d'abord (dix minutes de sommeil), puis Kael, Rein, Telemachus. La machine « retire » aussi, par une sensation précise que Telemachus reconnaît. Orrin pose aussi un verrou : impossible de parler de lui ou du lieu. La recharge dure environ une semaine. Lucina récupère de quoi lire les pensées mais plus rien pour les contrôler. Elle et Telemachus tombent sous le niveau 2."
+    "texte": "Ils se réveillent vingt-quatre heures plus tard, nauséeux, vomissant. Keito, recruté par Orrin, tient une barrière de feu entre Telemachus et Lucina. Plus aucune capacité ne répond. Orrin pose alors son marché : des capacités contre des services, sinon impotents à vie. Il fait étrangler Telemachus par Rein, dominée, puis règle sa machine à 25 % : Lucina d'abord, dix minutes de sommeil, puis Kael, Rein, Telemachus. La machine « retire » aussi, par une sensation précise que Telemachus reconnaît. Orrin ajoute un verrou : impossible de parler de lui ou du lieu. La recharge durera environ une semaine. Lucina garde de quoi lire les pensées, mais plus rien pour les contrôler. Elle et Telemachus tombent sous le niveau 2."
   },
   {
     "date": "2026-10-22",
@@ -425,7 +425,7 @@
     "type": "tournant",
     "lieu": "Messagerie privée",
     "personnages": ["Isaure","Telemachus","Arlequin"],
-    "texte": "Sur la plage, Isaure a pris le téléphone de Telemachus pour le sien. Elle l'a cloné et a vu les photos : « Le roi des fées, c'est toi. Je veux in. » Il fait l'idiot, puis lui demande où elle habite, la prévient qu'elle recevra « le nécessaire », qu'elle ne devra jamais parler sous le casque et qu'elle doit supprimer l'échange. « Les Arlequins venaient de devenir un peu plus qu'un mensonge. »"
+    "texte": "Sur la plage, Isaure a pris le téléphone de Telemachus pour le sien. Elle l'a cloné, et elle a vu les photos. « Le roi des fées, c'est toi. Je veux in. » Il fait d'abord l'idiot. Puis il lui demande où elle habite. Il la prévient qu'elle recevra « le nécessaire », qu'elle ne devra jamais parler sous le casque, et qu'elle doit supprimer l'échange. « Les Arlequins venaient de devenir un peu plus qu'un mensonge. »"
   },
   {
     "date": "2026-10-24",
@@ -434,7 +434,7 @@
     "type": "tournant",
     "lieu": "Chez Telemachus",
     "personnages": ["Telemachus"],
-    "texte": "Chez lui, Telemachus médite pour suivre le mince filet d'aura jusqu'au « bouchon » laissé par la seringue. Le 24 octobre, en forçant, il n'obtient que des bras qui tremblent. Le 25, de petites pulsations régulières, une par expiration, au même endroit : une vibration, puis une fissure. Le 28, la fissure s'élargit. Par sa propre poussée, il sent passer entre 10 et 20 % de sa capacité en plus du quart d'Orrin, selon son estimation. Du 29 au 31, le bouchon reste, plus fragile : il observe avant de forcer. Il lui faudra encore « une ou deux séances »."
+    "texte": "Chez lui, Telemachus s'assoit et suit, en méditant, le mince filet d'aura jusqu'au « bouchon » laissé par la seringue. Le 24 octobre, en forçant, il n'obtient que des bras qui tremblent. Le 25, il sent de petites pulsations, régulières, une par expiration, toujours au même endroit : une vibration, puis une fissure. Le 28, la fissure s'élargit. Par sa propre poussée, il sent passer entre 10 et 20 % de sa capacité en plus du quart d'Orrin, selon son estimation. Du 29 au 31, le bouchon tient encore, plus fragile : il observe avant de forcer. Il lui faudra « une ou deux séances » de plus."
   },
   {
     "date": "2026-10-25",
@@ -530,7 +530,7 @@
     "type": "tournant",
     "lieu": "Parc de Westview",
     "personnages": ["Beta","Isaure"],
-    "texte": "Le 6 novembre, Isaure avoue avoir compris sa propre attirance. Le 7 : « tu serais d'accord de sortir avec une potentielle criminelle ? » ; premier baiser. Le 8 : « je t'aime », sous un pique-nique ravagé par les fourmis."
+    "texte": "Le 6 novembre, Isaure avoue enfin avoir compris sa propre attirance. Le 7, elle ose : « tu serais d'accord de sortir avec une potentielle criminelle ? ». Premier baiser. Le 8, c'est le « je t'aime », sous un pique-nique ravagé par les fourmis."
   },
   {
     "date": "2026-11-08",
