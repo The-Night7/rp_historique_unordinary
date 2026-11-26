@@ -8,7 +8,10 @@ const DAY = 864e5;
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 const fd = d => { const x = new Date(T(d)); return `${x.getUTCDate()} ${MONTHS[x.getUTCMonth()]}`; };
 const fdr = (a, b) => (!b || b === a) ? fd(a) : `${fd(a)} → ${fd(b)}`;
-const START = "2026-08-12", END = "2026-11-08";
+const START = "2026-08-12";
+const END = [ST.daily[ST.daily.length - 1][0], ...CU.EVENTS.map(e => e.e || e.d), ...CU.ACTS.map(a => a.to)].reduce((a, b) => a > b ? a : b);
+const fdl = d => { const x = new Date(T(d)); return `${x.getUTCDate()} ${["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"][x.getUTCMonth()]} ${x.getUTCFullYear()}`; };
+{ const sm = document.querySelector(".brand small"); if (sm) sm.textContent = `Chroniques · ${fd(START)} → ${fdl(END)}`; }
 const KINDS = {
   combat: ["Combat", "var(--combat)"], rencontre: ["Rencontre", "var(--rencontre)"], plot: ["Intrigue", "var(--plot)"],
   vigilante: ["Justiciers", "var(--vigilante)"], lien: ["Lien / relation", "var(--lien)"], tournant: ["Tournant", "var(--tournant)"],
@@ -182,7 +185,7 @@ function viewHome() {
     <div class="card stat"><b>${ST.total.toLocaleString("fr-FR")}</b><span>messages RP analysés</span></div>
     <div class="card stat"><b>${nChars}</b><span>personnages (≥ 8 messages ou points d'évolution)</span></div>
     <div class="card stat"><b>${nPlaces}</b><span>salons & fils de discussion</span></div>
-    <div class="card stat"><b>${Math.round((T(END) - T(START)) / DAY)}</b><span>jours de RP (12 août → 8 nov.)</span></div>
+    <div class="card stat"><b>${Math.round((T(END) - T(START)) / DAY)}</b><span>jours de RP (${fd(START)} → ${fd(END)})</span></div>
   </div>
   <h2>Activité & événements</h2>
   <div class="card">${activityChart({ series: daily, markers: evMarkers(bigEvents), acts: true, h: 250 })}
