@@ -531,5 +531,95 @@
     "lieu": "Parc de Westview",
     "personnages": ["Beta","Isaure"],
     "texte": "6 nov : Isaure avoue avoir compris sa propre attirance. 7 nov : « tu serais d'accord de sortir avec une potentielle criminelle ? », premier baiser. 8 nov : « je t'aime », pique-nique ravagé par les fourmis."
+  },
+  {
+    "date": "2026-11-08",
+    "fin": "2026-11-18",
+    "titre": "Laura s'entraîne les yeux bandés contre Kael",
+    "type": "combat",
+    "lieu": "Plage de Westview",
+    "personnages": ["Laura","Kael"],
+    "texte": "Laura veut trouver les faiblesses de son pouvoir. Kael suggère de l'éloigner de l'eau, puis de lui bander les yeux : sans voir l'eau, sa maîtrise devient moins sûre. Du 12 au 14 nov, il fonce sur elle avec sa dague sombre ; elle riposte par des jets d'eau au hasard, puis, au contact de la lame, par un grand jet réflexe qui le projette. « Tu m'as eue… », concède-t-elle : s'il avait voulu la tuer, il aurait pu. Le 17 nov, elle lâche que les hauts niveaux s'en sortent toujours, quoi qu'ils fassent. Le 18, elle remercie Kael et rentre à Agwin."
+  },
+  {
+    "date": "2026-11-08",
+    "fin": "2026-11-10",
+    "titre": "Louis, Mitsu et Julia se quittent à l'hôpital",
+    "type": "lien",
+    "lieu": "Hôpital de Westview",
+    "personnages": ["Louis","Mitsu","Julia"],
+    "texte": "Mitsu souhaite un bon rétablissement et s'en va le 8 nov. Louis propose son aide à Julia pour ses bagages, qu'elle refuse. Le 10, Julia part vers la gare en le remerciant."
+  },
+  {
+    "date": "2026-11-08",
+    "fin": "2026-11-13",
+    "titre": "Irene laisse partir Marou",
+    "type": "rencontre",
+    "lieu": "Entrée du lycée d'Agwin",
+    "personnages": ["Irene","Marou"],
+    "texte": "Marou observe Irene activer sa capacité sans broncher, soupire et se dit trop surestimé. Le 13 nov, Irene désactive sa capacité et le laisse partir en jugeant qu'il gâche son potentiel."
+  },
+  {
+    "date": "2026-11-09",
+    "fin": "2026-11-15",
+    "titre": "Ice et Lucina sèchent l'histoire",
+    "type": "lien",
+    "lieu": "Centre-ville de Westview",
+    "personnages": ["Ice","Lucina"],
+    "texte": "Entre deux notes de maths (19 pour Lucina, 17 pour Ice), les deux filles se moquent de l'histoire. Ice la sèche sans scrupule ; Lucina la taquine : « Bientôt on verra Ice la reine bannie »."
+  },
+  {
+    "date": "2026-11-10",
+    "fin": "2026-11-10",
+    "titre": "Kaïra bouscule Leonie",
+    "type": "rencontre",
+    "lieu": "Rue de Westview",
+    "personnages": ["Kaïra","Leonie"],
+    "texte": "Leonie reproche à Kaïra de l'avoir bousculée. Kaïra s'excuse et promet que ça ne se reproduira plus."
+  },
+  {
+    "date": "2026-11-10",
+    "fin": "2026-11-24",
+    "titre": "Beta et Isaure : la suite du pique-nique",
+    "type": "lien",
+    "lieu": "Parc de Rowden",
+    "personnages": ["Beta","Isaure"],
+    "texte": "Beta se sent fautive d'une maladresse ; Isaure propose de n'en blâmer personne. Le 19 nov, elle lui tend sa part de nourriture, que Beta mange le 24 nov."
+  },
+  {
+    "date": "2026-11-13",
+    "fin": "2026-11-22",
+    "titre": "Orion, Wu Dao et Elina se rencontrent au parc de New Bostin",
+    "type": "rencontre",
+    "lieu": "Parc de New Bostin",
+    "personnages": ["Orion","Wu Dao","Elina"],
+    "texte": "Wu Dao (2.0), arrivé de Chine, croise Orion (2.9, moyen niveau) qui jauge tout le monde, puis Elina (5.6), timide et marquée par un ancien meilleur ami qui la harcelait. Elina révèle être la reine du lycée et ne veut pas de bagarres. Wu Dao, nécromancien, invoque un ours brun de l'Oussouri d'ombre ; son ours s'épuise quand il prend des coups. Orion se propose comme partenaire d'entraînement et le conseille sur les hauts niveaux. Wu Dao fait son premier jour de lycée le 22 nov."
+  },
+  {
+    "date": "2026-11-20",
+    "fin": "2026-11-25",
+    "titre": "Orrin recharge les capacités",
+    "type": "plot",
+    "lieu": "Base Spectre de Wellston",
+    "personnages": ["Orrin","Telemachus","Kael","Lucina","John"],
+    "texte": "Le 20 nov, Telemachus se réveille avec sa capacité presque éteinte et part en moto pour Wellston. Une semaine après, les capacités des membres ont cessé de fonctionner. Le 24 nov, Orrin ouvre la salle de recharge et propose de les recharger en échange de services. Telemachus s'enquiert de ces services, Kael craint le pire, Lucina rappelle qu'ils ont déjà accepté la dernière fois."
+  },
+  {
+    "date": "2026-11-20",
+    "fin": "2026-11-24",
+    "titre": "Louis bouscule Skaði",
+    "type": "rencontre",
+    "lieu": "Hall du lycée de Rowden",
+    "personnages": ["Louis","Skaði"],
+    "texte": "Louis, distrait, rentre dans Skaði devant les casiers. Elle le soupçonne d'être un bas niveau à cause de son comportement. Louis avoue qu'il doit choisir entre se faire tabasser pour son regard ou pour son bas niveau."
+  },
+  {
+    "date": "2026-11-26",
+    "fin": "2026-11-26",
+    "titre": "Byron rassure Telemachus au bureau de Wellston",
+    "type": "plot",
+    "lieu": "Bureau de Wellston",
+    "personnages": ["Byron","Telemachus"],
+    "texte": "Aucun signalement, plainte ou fiche de disparition au nom de Telemachus. La réceptionniste signale un appel anonyme la veille : une voix d'homme calme demandait si le bâtiment recevait des témoins de Westview. Byron fait vérifier l'origine de la ligne. Les résultats de la prise de sang sont attendus le lendemain."
   }
 ]
