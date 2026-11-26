@@ -90,20 +90,20 @@
   },
   {
     "date": "2026-08-27",
-    "titre": "Lighter × Volcan : contrôler les justiciers",
+    "titre": "Lighter (Keito) × Volcan : contrôler les justiciers",
     "type": "plot",
     "lieu": "Messagerie privée",
-    "personnages": ["Volcan"],
-    "texte": "En DM, Lighter propose à Volcan (« Madame ») de se faire passer pour un niveau 5.8 afin de contrôler le mouvement des justiciers. Le lendemain, il évoque une technologie capable de priver quelqu'un de ses capacités. Le 28 octobre, il lui demandera si elle connaît une drogue qui les supprime : le premier lien explicite avec les injections de l'attaque."
+    "personnages": ["Keito","Volcan"],
+    "texte": "En DM, Lighter, derrière qui se cache Keito, propose à Volcan (« Madame ») de se faire passer pour un niveau 5.8 afin de contrôler le mouvement des justiciers. Le lendemain, il évoque une technologie capable de priver quelqu'un de ses capacités. Le 28 octobre, il lui demandera si elle connaît une drogue qui les supprime : le premier lien explicite avec les injections de l'attaque."
   },
   {
     "date": "2026-08-27",
     "fin": "2026-08-28",
-    "titre": "Void, Kuyo et Le Pinceau contre des amplifiés",
+    "titre": "Void (Hizo), Kuyo et Le Pinceau contre des amplifiés",
     "type": "vigilante",
     "lieu": "Lovun",
-    "personnages": ["Void","Kuyo","Le Pinceau","Parish","Arin","Thomas","Cynthia"],
-    "texte": "Une patrouille de nuit affronte six « soldats » dopés aux amplificateurs. Parish, 4.8 poussée à environ 5.9 et 12 de Speed, domine un moment. Kuyo exige qu'on lui rende les amplificateurs, les détruit, et veut laisser les adversaires en vie par peur d'Ember. Void abat Parish d'une balle alors qu'elle est inconsciente : ses balles contiennent une drogue artisanale censée faire passer la mort pour une overdose à l'autopsie. Le Pinceau lui demande s'il travaille pour Ember. « Trop laxistes à mes yeux », répond-il."
+    "personnages": ["Void","Hizo Vertini","Kuyo","Le Pinceau","Parish","Arin","Thomas","Cynthia"],
+    "texte": "Une patrouille de nuit, avec Void (Hizo sous le masque), affronte six « soldats » dopés aux amplificateurs. Parish, 4.8 poussée à environ 5.9 et 12 de Speed, domine un moment. Kuyo exige qu'on lui rende les amplificateurs, les détruit, et veut laisser les adversaires en vie par peur d'Ember. Void abat Parish d'une balle alors qu'elle est inconsciente : ses balles contiennent une drogue artisanale censée faire passer la mort pour une overdose à l'autopsie. Le Pinceau lui demande s'il travaille pour Ember. « Trop laxistes à mes yeux », répond-il."
   },
   {
     "date": "2026-08-27",
@@ -147,7 +147,7 @@
     "type": "rencontre",
     "lieu": "Centre-ville d'Agwin",
     "personnages": ["Hizo Vertini","Irene"],
-    "texte": "Hizo reconnaît avoir perdu face au « valet » de Westview. Irene ne l'épargne pas : il reste roi tant qu'il ne rend pas son titre à Broven. Hizo, lui, redoute Void, capable lui aussi d'intangibilité."
+    "texte": "Hizo reconnaît avoir perdu face au « valet » de Westview. Irene ne l'épargne pas : il reste roi tant qu'il ne rend pas son titre à Broven. Hizo, lui, redoute Void, capable lui aussi d'intangibilité — ce Void qui, sous le masque, n'est autre que lui."
   },
   {
     "date": "2026-09-01",
@@ -268,10 +268,10 @@
   {
     "date": "2026-10-12",
     "fin": "2026-10-15",
-    "titre": "Void contre Silvio, Rocco et Mara",
+    "titre": "Void (Hizo) contre Silvio, Rocco et Mara",
     "type": "vigilante",
     "lieu": "Lovun",
-    "personnages": ["Void","Silvio","Rocco","Mara"],
+    "personnages": ["Void","Hizo Vertini","Silvio","Rocco","Mara"],
     "texte": "Void, justicier radical, fait le ménage chez les voleurs. Silvio surgit en applaudissant : « Tout le quartier te cherche. » Après la négociation, le combat. Void s'enfonce dans le sol pour surprendre Rocco."
   },
   {
@@ -390,7 +390,7 @@
     "type": "plot",
     "lieu": "Hôpital de Westview",
     "personnages": ["John","Hizo Vertini","Kaito Vance","Mitsu","Louis","Julia","Kaïra","Laura"],
-    "texte": "Vingt-quatre heures après l'attaque, quatre élèves sont portés disparus. John et Hizo, inconscients, se réveillent le 22 : vomissements, capacité impossible à activer. Kaito Vance prélève le sang d'Hizo, cherche un remède et remarque que plusieurs étudiants ont disparu avant d'être « retrouvés ». Hizo se demande s'il est lié à Void. Laura sort le 23, Mitsu le 24. Entre-temps, Louis, Julia, Mitsu et Kaïra s'y croisent et se lient."
+    "texte": "Vingt-quatre heures après l'attaque, quatre élèves sont portés disparus. John et Hizo, inconscients, se réveillent le 22 : vomissements, capacité impossible à activer. Kaito Vance prélève le sang d'Hizo, cherche un remède et remarque que plusieurs étudiants ont disparu avant d'être « retrouvés ». Hizo se demande s'il est lié à Void, qui n'est autre que lui sous le masque. Laura sort le 23, Mitsu le 24. Entre-temps, Louis, Julia, Mitsu et Kaïra s'y croisent et se lient."
   },
   {
     "date": "2026-10-22",

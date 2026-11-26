@@ -15,8 +15,9 @@
   "parcours": {
     "titre": "Death Fire, du côté de Spectre",
     "tag": "Rowden (ancien Roi) · Quantum 8.8",
-    "resume": "Frère adoptif de Telemachus, 8.8, présenté dans la salle de recharge comme recruté par Orrin. Sa fiche mentionne un statut de terrorisme et une association avec Spectre.",
+    "resume": "Frère adoptif de Telemachus, 8.8, caché derrière le pseudonyme de Lighter, présenté dans la salle de recharge comme recruté par Orrin. Sa fiche mentionne un statut de terrorisme et une association avec Spectre.",
     "reperes": [
+      {"date": "2026-08-27", "type": "plot", "texte": "Sous le nom de Lighter, propose à Volcan de se faire passer pour un niveau 5.8 afin de contrôler les justiciers."},
       {"date": "2026-09-05", "type": "bond", "texte": "Café avec Telemachus, complice et taquin."},
       {
         "date": "2026-10-20",

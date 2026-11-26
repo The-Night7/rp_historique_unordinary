@@ -14,11 +14,11 @@
   "parcours": {
     "titre": "Justicier radical",
     "tag": "Vigilante · Ghost 4.9",
-    "resume": "Void tue les « assassins » mais épargne voleurs et dealers. Il se dit ancienne victime et se méfie d'Ember. Hizo se demande s'il lui est lié.",
+    "resume": "Void est le nom de justicier de Hizo Vertini. Il tue les « assassins » mais épargne voleurs et dealers, se dit ancienne victime et se méfie d'Ember.",
     "reperes": [
       {"date": "2026-08-27", "type": "fight", "texte": "Abat Parish (amplifiée) ; expose ses balles à fausse overdose."},
       {"date": "2026-10-12", "type": "fight", "texte": "Affronte Silvio, Rocco et Mara."},
-      {"date": "2026-10-23", "type": "plot", "texte": "Hizo soupçonne qu'il est lié à Void « de manière plus proche »."}
+      {"date": "2026-10-23", "type": "plot", "texte": "Hizo se demande s'il est lié à Void « de manière plus proche » : c'est lui sous le masque."}
     ]
   }
 }

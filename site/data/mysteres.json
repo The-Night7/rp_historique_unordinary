@@ -22,7 +22,7 @@
     "titre": "Ember est-elle derrière l'attaque de Westview ?",
     "statut": "Ouvert",
     "regex": "Ember|EMBER",
-    "personnes": ["Vitalis","Volcan","Fury","Isaure","Lighter"],
+    "personnes": ["Vitalis","Volcan","Fury","Isaure","Keito"],
     "resume": "Vitalis le soupçonne. Les logs montrent deux mécanismes distincts : fioles (Ember) et atténuateur / injection (Spectre). Aucune preuve d'un lien."
   },
   {
